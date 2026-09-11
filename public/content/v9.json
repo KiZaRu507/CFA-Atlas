@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "v9-m1-c1",
+    "moduleId": "v9-m1",
+    "topicId": "v9",
+    "name": "Diversification and the efficient frontier",
+    "objective": "Explain and apply diversification and the efficient frontier.",
+    "explanation": "Combining less-than-perfectly correlated risky assets can reduce risk. The efficient frontier contains portfolios with the highest expected return at each risk level, or lowest risk at each return level.",
+    "why": "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it.",
+    "definition": "Combining less-than-perfectly correlated risky assets can reduce risk.",
+    "example": "Two portfolios have equal expected return, but one has lower volatility. A risk-averse mean–variance investor prefers the lower-volatility portfolio.",
+    "trap": "Diversification benefits depend on co-movement, not merely the number of holdings.",
+    "mnemonic": "Diversification and the efficient frontier → Diversification benefits depend on co-movement, not merely the number of holdings.",
+    "recall": "Without looking: explain diversification and the efficient frontier and one mistake to avoid.",
+    "recallAnswer": "Combining less-than-perfectly correlated risky assets can reduce risk. The efficient frontier contains portfolios with the highest expected return at each risk level, or lowest risk at each return level. Watch for: Diversification benefits depend on co-movement, not merely the number of holdings.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 13,
+      "endPdfPage": 70,
+      "section": "Portfolio Risk and Return: Part I"
+    },
+    "questions": [
+      {
+        "id": "v9-m1-c1-q1",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "Two portfolios have equal expected return. One has lower volatility. Under mean–variance analysis, the higher-volatility one is:",
+        "choices": [
+          "Dominated",
+          "Always preferred",
+          "Automatically on the efficient frontier"
+        ],
+        "answer": 0,
+        "explanation": "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it.",
+          "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      },
+      {
+        "id": "v9-m1-c1-recall",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "Without looking: explain diversification and the efficient frontier and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Combining less-than-perfectly correlated risky assets can reduce risk. The efficient frontier contains portfolios with the highest expected return at each risk level, or lowest risk at each return level. Watch for: Diversification benefits depend on co-movement, not merely the number of holdings.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      },
+      {
+        "id": "v9-m1-c1-depth1",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "Which statement most accurately describes diversification and the efficient frontier?",
+        "choices": [
+          "Combining less-than-perfectly correlated risky assets can reduce risk.",
+          "Diversification benefits depend on co-movement, not merely the number of holdings.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Combining less-than-perfectly correlated risky assets can reduce risk. The efficient frontier contains portfolios with the highest expected return at each risk level, or lowest risk at each return level. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      },
+      {
+        "id": "v9-m1-c1-depth2",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "A candidate applies this rule: “Diversification benefits depend on co-movement, not merely the number of holdings.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Combining less-than-perfectly correlated risky assets can reduce risk."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Combining less-than-perfectly correlated risky assets can reduce risk. The efficient frontier contains portfolios with the highest expected return at each risk level, or lowest risk at each return level.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      },
+      {
+        "id": "v9-m1-c1-depth3",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "Consider this case: Two portfolios have equal expected return, but one has lower volatility. A risk-averse mean–variance investor prefers the lower-volatility portfolio. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Diversification benefits depend on co-movement, not merely the number of holdings.",
+          "Apply diversification and the efficient frontier while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it. Watch for: Diversification benefits depend on co-movement, not merely the number of holdings.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      },
+      {
+        "id": "v9-m1-c1-depth4",
+        "conceptId": "v9-m1-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m1",
+        "prompt": "Why does diversification and the efficient frontier matter to an analyst or candidate?",
+        "choices": [
+          "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "It offers no extra expected reward for its extra risk, so the lower-risk alternative dominates it. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 70,
+          "section": "Portfolio Risk and Return: Part I"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v9-m2-c1",
+    "moduleId": "v9-m2",
+    "topicId": "v9",
+    "name": "CAPM and systematic risk",
+    "objective": "Explain and apply capm and systematic risk.",
+    "explanation": "CAPM relates required expected return to beta exposure to the market risk premium. Diversifiable firm-specific risk does not earn an additional premium in the model.",
+    "why": "3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion.",
+    "definition": "CAPM relates required expected return to beta exposure to the market risk premium.",
+    "example": "Risk-free 3%, market expected return 8%, beta 1.2: required return = 3% + 1.2×5% = 9%.",
+    "trap": "Use the market excess return, not the total market return, in the beta term.",
+    "mnemonic": "CAPM and systematic risk → Use the market excess return, not the total market return, in the beta term.",
+    "recall": "Without looking: explain capm and systematic risk and one mistake to avoid.",
+    "recallAnswer": "CAPM relates required expected return to beta exposure to the market risk premium. Diversifiable firm-specific risk does not earn an additional premium in the model. Watch for: Use the market excess return, not the total market return, in the beta term.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 71,
+      "endPdfPage": 130,
+      "section": "Portfolio Risk and Return: Part II"
+    },
+    "questions": [
+      {
+        "id": "v9-m2-c1-q1",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 1.2. CAPM return is:",
+        "choices": [
+          "9.0%",
+          "12.6%",
+          "6.0%"
+        ],
+        "answer": 0,
+        "explanation": "3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion.",
+          "3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-recall",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Without looking: explain capm and systematic risk and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "CAPM relates required expected return to beta exposure to the market risk premium. Diversifiable firm-specific risk does not earn an additional premium in the model. Watch for: Use the market excess return, not the total market return, in the beta term.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-formula",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Reconstruct the relationship for capm expected return. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "E(R_i) = R_f + β_i[E(R_m) − R_f]\nR_f: risk-free return; β_i: market sensitivity; E(R_m): expected market return",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-calc1",
+        "conceptId": "v9-m2-c1",
+        "moduleId": "v9-m2",
+        "topicId": "v9",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 0.9. CAPM required return is:",
+        "choices": [
+          "10.20%",
+          "4.50%",
+          "7.50%"
+        ],
+        "answer": 2,
+        "explanation": "Market premium is 8%−3%=5%. Required return = 3%+0.9×5%=7.50%. Use excess market return and then add risk-free return.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+0.9×5%=7.50%. Use excess market return and then add risk-free return.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+0.9×5%=7.50%. Use excess market return and then add risk-free return.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-calc2",
+        "conceptId": "v9-m2-c1",
+        "moduleId": "v9-m2",
+        "topicId": "v9",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 1.1. CAPM required return is:",
+        "choices": [
+          "5.50%",
+          "8.50%",
+          "11.80%"
+        ],
+        "answer": 1,
+        "explanation": "Market premium is 8%−3%=5%. Required return = 3%+1.1×5%=8.50%. Use excess market return and then add risk-free return.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.1×5%=8.50%. Use excess market return and then add risk-free return.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.1×5%=8.50%. Use excess market return and then add risk-free return."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-calc3",
+        "conceptId": "v9-m2-c1",
+        "moduleId": "v9-m2",
+        "topicId": "v9",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 1.3. CAPM required return is:",
+        "choices": [
+          "9.50%",
+          "13.40%",
+          "6.50%"
+        ],
+        "answer": 0,
+        "explanation": "Market premium is 8%−3%=5%. Required return = 3%+1.3×5%=9.50%. Use excess market return and then add risk-free return.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.3×5%=9.50%. Use excess market return and then add risk-free return.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.3×5%=9.50%. Use excess market return and then add risk-free return."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-calc4",
+        "conceptId": "v9-m2-c1",
+        "moduleId": "v9-m2",
+        "topicId": "v9",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 1.5. CAPM required return is:",
+        "choices": [
+          "15.00%",
+          "7.50%",
+          "10.50%"
+        ],
+        "answer": 2,
+        "explanation": "Market premium is 8%−3%=5%. Required return = 3%+1.5×5%=10.50%. Use excess market return and then add risk-free return.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.5×5%=10.50%. Use excess market return and then add risk-free return.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.5×5%=10.50%. Use excess market return and then add risk-free return.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-calc5",
+        "conceptId": "v9-m2-c1",
+        "moduleId": "v9-m2",
+        "topicId": "v9",
+        "prompt": "Risk-free return 3%, market expected return 8%, beta 1.7. CAPM required return is:",
+        "choices": [
+          "8.50%",
+          "11.50%",
+          "16.60%"
+        ],
+        "answer": 1,
+        "explanation": "Market premium is 8%−3%=5%. Required return = 3%+1.7×5%=11.50%. Use excess market return and then add risk-free return.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.7×5%=11.50%. Use excess market return and then add risk-free return.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Market premium is 8%−3%=5%. Required return = 3%+1.7×5%=11.50%. Use excess market return and then add risk-free return."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-depth1",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Which statement most accurately describes capm and systematic risk?",
+        "choices": [
+          "Use the market excess return, not the total market return, in the beta term.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "CAPM relates required expected return to beta exposure to the market risk premium."
+        ],
+        "answer": 2,
+        "explanation": "CAPM relates required expected return to beta exposure to the market risk premium. Diversifiable firm-specific risk does not earn an additional premium in the model. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-depth2",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "A candidate applies this rule: “Use the market excess return, not the total market return, in the beta term.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "CAPM relates required expected return to beta exposure to the market risk premium.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. CAPM relates required expected return to beta exposure to the market risk premium. Diversifiable firm-specific risk does not earn an additional premium in the model.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-depth3",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Consider this case: Risk-free 3%, market expected return 8%, beta 1.2: required return = 3% + 1.2×5% = 9%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply capm and systematic risk while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Use the market excess return, not the total market return, in the beta term."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. 3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion. Watch for: Use the market excess return, not the total market return, in the beta term.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      },
+      {
+        "id": "v9-m2-c1-depth4",
+        "conceptId": "v9-m2-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m2",
+        "prompt": "Why does capm and systematic risk matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "3% + 1.2(8%−3%) = 9%."
+        ],
+        "answer": 2,
+        "explanation": "3% + 1.2(8%−3%) = 9%. Multiplying beta by 8% fails to remove the risk-free portion. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 71,
+          "endPdfPage": 130,
+          "section": "Portfolio Risk and Return: Part II"
+        }
+      }
+    ],
+    "formula": {
+      "name": "CAPM expected return",
+      "expression": "E(R_i) = R_f + β_i[E(R_m) − R_f]",
+      "variables": "R_f: risk-free return; β_i: market sensitivity; E(R_m): expected market return",
+      "intuition": "Estimate a model-based required return for systematic risk.",
+      "when": "Estimate a model-based required return for systematic risk.",
+      "example": "3% + 1.2×5% = 9%.",
+      "mistake": "CAPM is a model with assumptions, not a promised return.",
+      "related": []
+    }
+  },
+  {
+    "id": "v9-m3-c1",
+    "moduleId": "v9-m3",
+    "topicId": "v9",
+    "name": "Portfolio management as a process",
+    "objective": "Explain and apply portfolio management as a process.",
+    "explanation": "Portfolio management moves from planning through execution to feedback. Monitoring checks whether objectives, constraints, market exposures or holdings have changed enough to require action.",
+    "why": "The changed liquidity need affects planning and portfolio suitability before execution choices.",
+    "definition": "Portfolio management moves from planning through execution to feedback.",
+    "example": "A client’s imminent house purchase changes liquidity needs, so the portfolio plan may need revision even if markets are unchanged.",
+    "trap": "The portfolio is managed against client needs, not only a market benchmark.",
+    "mnemonic": "Portfolio management as a process → The portfolio is managed against client needs, not only a market benchmark.",
+    "recall": "Without looking: explain portfolio management as a process and one mistake to avoid.",
+    "recallAnswer": "Portfolio management moves from planning through execution to feedback. Monitoring checks whether objectives, constraints, market exposures or holdings have changed enough to require action. Watch for: The portfolio is managed against client needs, not only a market benchmark.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 131,
+      "endPdfPage": 168,
+      "section": "Portfolio Management: An Overview"
+    },
+    "questions": [
+      {
+        "id": "v9-m3-c1-q1",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "A client unexpectedly needs a large cash payment next year. The manager should first:",
+        "choices": [
+          "Reassess objectives and constraints",
+          "Ignore it until annual performance reporting",
+          "Increase illiquid investments automatically"
+        ],
+        "answer": 0,
+        "explanation": "The changed liquidity need affects planning and portfolio suitability before execution choices.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The changed liquidity need affects planning and portfolio suitability before execution choices.",
+          "The changed liquidity need affects planning and portfolio suitability before execution choices."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      },
+      {
+        "id": "v9-m3-c1-recall",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "Without looking: explain portfolio management as a process and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Portfolio management moves from planning through execution to feedback. Monitoring checks whether objectives, constraints, market exposures or holdings have changed enough to require action. Watch for: The portfolio is managed against client needs, not only a market benchmark.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      },
+      {
+        "id": "v9-m3-c1-depth1",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "Which statement most accurately describes portfolio management as a process?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Portfolio management moves from planning through execution to feedback.",
+          "The portfolio is managed against client needs, not only a market benchmark."
+        ],
+        "answer": 1,
+        "explanation": "Portfolio management moves from planning through execution to feedback. Monitoring checks whether objectives, constraints, market exposures or holdings have changed enough to require action. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      },
+      {
+        "id": "v9-m3-c1-depth2",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "A candidate applies this rule: “The portfolio is managed against client needs, not only a market benchmark.” What is the best correction?",
+        "choices": [
+          "Portfolio management moves from planning through execution to feedback.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Portfolio management moves from planning through execution to feedback. Monitoring checks whether objectives, constraints, market exposures or holdings have changed enough to require action.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      },
+      {
+        "id": "v9-m3-c1-depth3",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "Consider this case: A client’s imminent house purchase changes liquidity needs, so the portfolio plan may need revision even if markets are unchanged. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "The portfolio is managed against client needs, not only a market benchmark.",
+          "Apply portfolio management as a process while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. The changed liquidity need affects planning and portfolio suitability before execution choices. Watch for: The portfolio is managed against client needs, not only a market benchmark.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      },
+      {
+        "id": "v9-m3-c1-depth4",
+        "conceptId": "v9-m3-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m3",
+        "prompt": "Why does portfolio management as a process matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "The changed liquidity need affects planning and portfolio suitability before execution choices.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "The changed liquidity need affects planning and portfolio suitability before execution choices. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 131,
+          "endPdfPage": 168,
+          "section": "Portfolio Management: An Overview"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v9-m4-c1",
+    "moduleId": "v9-m4",
+    "topicId": "v9",
+    "name": "Investment policy statement",
+    "objective": "Explain and apply investment policy statement.",
+    "explanation": "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances. Willingness and ability to take risk can differ.",
+    "why": "Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations.",
+    "definition": "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances.",
+    "example": "An investor enjoys speculation but must fund essential spending soon: willingness may be high while capacity is low.",
+    "trap": "Do not equate enthusiasm for risk with financial ability to bear loss.",
+    "mnemonic": "Investment policy statement → Do not equate enthusiasm for risk with financial ability to bear loss.",
+    "recall": "Without looking: explain investment policy statement and one mistake to avoid.",
+    "recallAnswer": "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances. Willingness and ability to take risk can differ. Watch for: Do not equate enthusiasm for risk with financial ability to bear loss.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 169,
+      "endPdfPage": 212,
+      "section": "Basics of Portfolio Planning and Construction"
+    },
+    "questions": [
+      {
+        "id": "v9-m4-c1-q1",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "An investor has high risk willingness but low capacity because of near-term essential spending. The portfolio should:",
+        "choices": [
+          "Be aggressive solely because willingness is high",
+          "Respect the lower capacity and clarify objectives",
+          "Ignore liquidity constraints"
+        ],
+        "answer": 1,
+        "explanation": "Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations.",
+        "distractors": [
+          "Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations.",
+          "This applies the principle correctly.",
+          "Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      },
+      {
+        "id": "v9-m4-c1-recall",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "Without looking: explain investment policy statement and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances. Willingness and ability to take risk can differ. Watch for: Do not equate enthusiasm for risk with financial ability to bear loss.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      },
+      {
+        "id": "v9-m4-c1-depth1",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "Which statement most accurately describes investment policy statement?",
+        "choices": [
+          "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances.",
+          "Do not equate enthusiasm for risk with financial ability to bear loss.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances. Willingness and ability to take risk can differ. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      },
+      {
+        "id": "v9-m4-c1-depth2",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "A candidate applies this rule: “Do not equate enthusiasm for risk with financial ability to bear loss.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. An IPS documents return and risk objectives alongside constraints such as liquidity, time horizon, taxes, legal limits and unique circumstances. Willingness and ability to take risk can differ.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      },
+      {
+        "id": "v9-m4-c1-depth3",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "Consider this case: An investor enjoys speculation but must fund essential spending soon: willingness may be high while capacity is low. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Do not equate enthusiasm for risk with financial ability to bear loss.",
+          "Apply investment policy statement while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations. Watch for: Do not equate enthusiasm for risk with financial ability to bear loss.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      },
+      {
+        "id": "v9-m4-c1-depth4",
+        "conceptId": "v9-m4-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m4",
+        "prompt": "Why does investment policy statement matter to an analyst or candidate?",
+        "choices": [
+          "Capacity constrains feasible risk.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Capacity constrains feasible risk. Discussion can reconcile preferences, but willingness cannot fund essential obligations. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 212,
+          "section": "Basics of Portfolio Planning and Construction"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v9-m5-c1",
+    "moduleId": "v9-m5",
+    "topicId": "v9",
+    "name": "Cognitive and emotional biases",
+    "objective": "Explain and apply cognitive and emotional biases.",
+    "explanation": "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses. Loss aversion can make investors hold losing positions to avoid realizing a loss.",
+    "why": "The decision is driven by the pain of recognizing loss, rather than updated risk and value.",
+    "definition": "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses.",
+    "example": "An investor refuses to sell a deteriorating holding because selling would make the loss feel real.",
+    "trap": "A purchase price is not a valuation argument for holding today.",
+    "mnemonic": "Cognitive and emotional biases → A purchase price is not a valuation argument for holding today.",
+    "recall": "Without looking: explain cognitive and emotional biases and one mistake to avoid.",
+    "recallAnswer": "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses. Loss aversion can make investors hold losing positions to avoid realizing a loss. Watch for: A purchase price is not a valuation argument for holding today.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 213,
+      "endPdfPage": 248,
+      "section": "The Behavioral Biases of Individuals"
+    },
+    "questions": [
+      {
+        "id": "v9-m5-c1-q1",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "An investor retains a deteriorating stock solely to avoid realizing a loss. This most closely illustrates:",
+        "choices": [
+          "Loss aversion",
+          "Perfect Bayesian updating",
+          "An absence of behavioral influence"
+        ],
+        "answer": 0,
+        "explanation": "The decision is driven by the pain of recognizing loss, rather than updated risk and value.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The decision is driven by the pain of recognizing loss, rather than updated risk and value.",
+          "The decision is driven by the pain of recognizing loss, rather than updated risk and value."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      },
+      {
+        "id": "v9-m5-c1-recall",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "Without looking: explain cognitive and emotional biases and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses. Loss aversion can make investors hold losing positions to avoid realizing a loss. Watch for: A purchase price is not a valuation argument for holding today.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      },
+      {
+        "id": "v9-m5-c1-depth1",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "Which statement most accurately describes cognitive and emotional biases?",
+        "choices": [
+          "A purchase price is not a valuation argument for holding today.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses."
+        ],
+        "answer": 2,
+        "explanation": "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses. Loss aversion can make investors hold losing positions to avoid realizing a loss. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      },
+      {
+        "id": "v9-m5-c1-depth2",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "A candidate applies this rule: “A purchase price is not a valuation argument for holding today.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Cognitive biases involve information processing or beliefs; emotional biases arise from feelings or impulses. Loss aversion can make investors hold losing positions to avoid realizing a loss.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      },
+      {
+        "id": "v9-m5-c1-depth3",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "Consider this case: An investor refuses to sell a deteriorating holding because selling would make the loss feel real. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply cognitive and emotional biases while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A purchase price is not a valuation argument for holding today."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. The decision is driven by the pain of recognizing loss, rather than updated risk and value. Watch for: A purchase price is not a valuation argument for holding today.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      },
+      {
+        "id": "v9-m5-c1-depth4",
+        "conceptId": "v9-m5-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m5",
+        "prompt": "Why does cognitive and emotional biases matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "The decision is driven by the pain of recognizing loss, rather than updated risk and value."
+        ],
+        "answer": 2,
+        "explanation": "The decision is driven by the pain of recognizing loss, rather than updated risk and value. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 213,
+          "endPdfPage": 248,
+          "section": "The Behavioral Biases of Individuals"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v9-m6-c1",
+    "moduleId": "v9-m6",
+    "topicId": "v9",
+    "name": "Risk governance and risk budgets",
+    "objective": "Explain and apply risk governance and risk budgets.",
+    "explanation": "Risk management identifies, measures and modifies exposures within a governance framework. A risk budget allocates permissible risk across activities instead of treating each position independently.",
+    "why": "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested.",
+    "definition": "Risk management identifies, measures and modifies exposures within a governance framework.",
+    "example": "A portfolio can reduce overall concentration by limiting the share of total risk contributed by one strategy, even if capital weights appear balanced.",
+    "trap": "Equal capital weights need not mean equal risk contributions.",
+    "mnemonic": "Risk governance and risk budgets → Equal capital weights need not mean equal risk contributions.",
+    "recall": "Without looking: explain risk governance and risk budgets and one mistake to avoid.",
+    "recallAnswer": "Risk management identifies, measures and modifies exposures within a governance framework. A risk budget allocates permissible risk across activities instead of treating each position independently. Watch for: Equal capital weights need not mean equal risk contributions.",
+    "source": {
+      "file": "cfa-program2026L1V9.pdf",
+      "pdfPage": 249,
+      "endPdfPage": 300,
+      "section": "Introduction to Risk Management"
+    },
+    "questions": [
+      {
+        "id": "v9-m6-c1-q1",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "Why can equal capital allocations produce unequal risk contributions?",
+        "choices": [
+          "Assets have different volatilities and correlations",
+          "Capital weight completely determines risk",
+          "Risk is unrelated to holdings"
+        ],
+        "answer": 0,
+        "explanation": "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested.",
+          "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      },
+      {
+        "id": "v9-m6-c1-recall",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "Without looking: explain risk governance and risk budgets and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Risk management identifies, measures and modifies exposures within a governance framework. A risk budget allocates permissible risk across activities instead of treating each position independently. Watch for: Equal capital weights need not mean equal risk contributions.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      },
+      {
+        "id": "v9-m6-c1-depth1",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "Which statement most accurately describes risk governance and risk budgets?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Risk management identifies, measures and modifies exposures within a governance framework.",
+          "Equal capital weights need not mean equal risk contributions."
+        ],
+        "answer": 1,
+        "explanation": "Risk management identifies, measures and modifies exposures within a governance framework. A risk budget allocates permissible risk across activities instead of treating each position independently. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      },
+      {
+        "id": "v9-m6-c1-depth2",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "A candidate applies this rule: “Equal capital weights need not mean equal risk contributions.” What is the best correction?",
+        "choices": [
+          "Risk management identifies, measures and modifies exposures within a governance framework.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Risk management identifies, measures and modifies exposures within a governance framework. A risk budget allocates permissible risk across activities instead of treating each position independently.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      },
+      {
+        "id": "v9-m6-c1-depth3",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "Consider this case: A portfolio can reduce overall concentration by limiting the share of total risk contributed by one strategy, even if capital weights appear balanced. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Equal capital weights need not mean equal risk contributions.",
+          "Apply risk governance and risk budgets while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested. Watch for: Equal capital weights need not mean equal risk contributions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      },
+      {
+        "id": "v9-m6-c1-depth4",
+        "conceptId": "v9-m6-c1",
+        "topicId": "v9",
+        "moduleId": "v9-m6",
+        "prompt": "Why does risk governance and risk budgets matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Risk depends on each exposure’s volatility and interaction with the rest of the portfolio, not only money invested. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V9.pdf",
+          "pdfPage": 249,
+          "endPdfPage": 300,
+          "section": "Introduction to Risk Management"
+        }
+      }
+    ]
+  }
+]

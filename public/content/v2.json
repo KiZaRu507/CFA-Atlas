@@ -1,0 +1,1582 @@
+[
+  {
+    "id": "v2-m1-c1",
+    "moduleId": "v2-m1",
+    "topicId": "v2",
+    "name": "Shutdown versus breakeven",
+    "objective": "Explain and apply shutdown versus breakeven.",
+    "explanation": "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost. Fixed costs still exist if it shuts down.",
+    "why": "Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output.",
+    "definition": "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost.",
+    "example": "Price 9, AVC 7 and ATC 11: each unit contributes 2 toward fixed costs, so production can minimize the short-run loss.",
+    "trap": "A loss does not automatically imply immediate shutdown.",
+    "mnemonic": "Shutdown versus breakeven → A loss does not automatically imply immediate shutdown.",
+    "recall": "Without looking: explain shutdown versus breakeven and one mistake to avoid.",
+    "recallAnswer": "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost. Fixed costs still exist if it shuts down. Watch for: A loss does not automatically imply immediate shutdown.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 11,
+      "endPdfPage": 56,
+      "section": "The Firm and Market Structures"
+    },
+    "questions": [
+      {
+        "id": "v2-m1-c1-q1",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "A competitive firm has price 9, AVC 7 and ATC 11 at its optimal output. In the short run it should:",
+        "choices": [
+          "Shut down because profit is negative",
+          "Continue because price exceeds AVC",
+          "Expand without regard to marginal cost"
+        ],
+        "answer": 1,
+        "explanation": "Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output.",
+        "distractors": [
+          "Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output.",
+          "This applies the principle correctly.",
+          "Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      },
+      {
+        "id": "v2-m1-c1-recall",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "Without looking: explain shutdown versus breakeven and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost. Fixed costs still exist if it shuts down. Watch for: A loss does not automatically imply immediate shutdown.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      },
+      {
+        "id": "v2-m1-c1-depth1",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "Which statement most accurately describes shutdown versus breakeven?",
+        "choices": [
+          "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost.",
+          "A loss does not automatically imply immediate shutdown.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost. Fixed costs still exist if it shuts down. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      },
+      {
+        "id": "v2-m1-c1-depth2",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "A candidate applies this rule: “A loss does not automatically imply immediate shutdown.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A price-taking firm can continue producing in the short run when price covers average variable cost, even if it does not cover total average cost. Fixed costs still exist if it shuts down.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      },
+      {
+        "id": "v2-m1-c1-depth3",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "Consider this case: Price 9, AVC 7 and ATC 11: each unit contributes 2 toward fixed costs, so production can minimize the short-run loss. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "A loss does not automatically imply immediate shutdown.",
+          "Apply shutdown versus breakeven while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output. Watch for: A loss does not automatically imply immediate shutdown.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      },
+      {
+        "id": "v2-m1-c1-depth4",
+        "conceptId": "v2-m1-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m1",
+        "prompt": "Why does shutdown versus breakeven matter to an analyst or candidate?",
+        "choices": [
+          "Production covers variable costs and part of fixed costs.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Production covers variable costs and part of fixed costs. Output still follows marginal conditions; continuation does not justify unlimited output. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 56,
+          "section": "The Firm and Market Structures"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m2-c1",
+    "moduleId": "v2-m2",
+    "topicId": "v2",
+    "name": "Business-cycle indicators",
+    "objective": "Explain and apply business-cycle indicators.",
+    "explanation": "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later. A single indicator is not a complete cycle diagnosis.",
+    "why": "Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive.",
+    "definition": "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later.",
+    "example": "A rise in new orders before production accelerates is a leading signal.",
+    "trap": "Indicator timing differs from the direction of its relationship.",
+    "mnemonic": "Business-cycle indicators → Indicator timing differs from the direction of its relationship.",
+    "recall": "Without looking: explain business-cycle indicators and one mistake to avoid.",
+    "recallAnswer": "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later. A single indicator is not a complete cycle diagnosis. Watch for: Indicator timing differs from the direction of its relationship.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 57,
+      "endPdfPage": 86,
+      "section": "Understanding Business Cycles"
+    },
+    "questions": [
+      {
+        "id": "v2-m2-c1-q1",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "Manufacturers’ new orders rise before actual production. In this description, new orders are:",
+        "choices": [
+          "Lagging",
+          "Coincident",
+          "Leading"
+        ],
+        "answer": 2,
+        "explanation": "Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive.",
+        "distractors": [
+          "Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive.",
+          "Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      },
+      {
+        "id": "v2-m2-c1-recall",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "Without looking: explain business-cycle indicators and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later. A single indicator is not a complete cycle diagnosis. Watch for: Indicator timing differs from the direction of its relationship.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      },
+      {
+        "id": "v2-m2-c1-depth1",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "Which statement most accurately describes business-cycle indicators?",
+        "choices": [
+          "Indicator timing differs from the direction of its relationship.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later."
+        ],
+        "answer": 2,
+        "explanation": "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later. A single indicator is not a complete cycle diagnosis. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      },
+      {
+        "id": "v2-m2-c1-depth2",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "A candidate applies this rule: “Indicator timing differs from the direction of its relationship.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Leading indicators tend to turn before the economy, coincident indicators move with it, and lagging indicators respond later. A single indicator is not a complete cycle diagnosis.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      },
+      {
+        "id": "v2-m2-c1-depth3",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "Consider this case: A rise in new orders before production accelerates is a leading signal. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply business-cycle indicators while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Indicator timing differs from the direction of its relationship."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive. Watch for: Indicator timing differs from the direction of its relationship.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      },
+      {
+        "id": "v2-m2-c1-depth4",
+        "conceptId": "v2-m2-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m2",
+        "prompt": "Why does business-cycle indicators matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Their change precedes production, making them leading in this scenario."
+        ],
+        "answer": 2,
+        "explanation": "Their change precedes production, making them leading in this scenario. Leading does not mean perfectly predictive. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 57,
+          "endPdfPage": 86,
+          "section": "Understanding Business Cycles"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m3-c1",
+    "moduleId": "v2-m3",
+    "topicId": "v2",
+    "name": "Fiscal stimulus and implementation lags",
+    "objective": "Explain and apply fiscal stimulus and implementation lags.",
+    "explanation": "Fiscal policy uses government spending and taxation to influence the economy. Discretionary changes face recognition, decision and implementation delays; automatic stabilizers respond without new legislation.",
+    "why": "The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments.",
+    "definition": "Fiscal policy uses government spending and taxation to influence the economy.",
+    "example": "During recession, tax collections fall and unemployment benefits rise under existing rules, supporting demand automatically.",
+    "trap": "A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+    "mnemonic": "Fiscal stimulus and implementation lags → A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+    "recall": "Without looking: explain fiscal stimulus and implementation lags and one mistake to avoid.",
+    "recallAnswer": "Fiscal policy uses government spending and taxation to influence the economy. Discretionary changes face recognition, decision and implementation delays; automatic stabilizers respond without new legislation. Watch for: A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 87,
+      "endPdfPage": 112,
+      "section": "Fiscal Policy"
+    },
+    "questions": [
+      {
+        "id": "v2-m3-c1-q1",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "Unemployment benefits rise in recession under unchanged legislation. This is best described as:",
+        "choices": [
+          "An automatic stabilizer",
+          "A new monetary-policy decision",
+          "Necessarily discretionary fiscal expansion"
+        ],
+        "answer": 0,
+        "explanation": "The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments.",
+          "The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      },
+      {
+        "id": "v2-m3-c1-recall",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "Without looking: explain fiscal stimulus and implementation lags and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Fiscal policy uses government spending and taxation to influence the economy. Discretionary changes face recognition, decision and implementation delays; automatic stabilizers respond without new legislation. Watch for: A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      },
+      {
+        "id": "v2-m3-c1-depth1",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "Which statement most accurately describes fiscal stimulus and implementation lags?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Fiscal policy uses government spending and taxation to influence the economy.",
+          "A wider deficit can reflect the cycle rather than a new discretionary stimulus."
+        ],
+        "answer": 1,
+        "explanation": "Fiscal policy uses government spending and taxation to influence the economy. Discretionary changes face recognition, decision and implementation delays; automatic stabilizers respond without new legislation. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      },
+      {
+        "id": "v2-m3-c1-depth2",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "A candidate applies this rule: “A wider deficit can reflect the cycle rather than a new discretionary stimulus.” What is the best correction?",
+        "choices": [
+          "Fiscal policy uses government spending and taxation to influence the economy.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Fiscal policy uses government spending and taxation to influence the economy. Discretionary changes face recognition, decision and implementation delays; automatic stabilizers respond without new legislation.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      },
+      {
+        "id": "v2-m3-c1-depth3",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "Consider this case: During recession, tax collections fall and unemployment benefits rise under existing rules, supporting demand automatically. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+          "Apply fiscal stimulus and implementation lags while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments. Watch for: A wider deficit can reflect the cycle rather than a new discretionary stimulus.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      },
+      {
+        "id": "v2-m3-c1-depth4",
+        "conceptId": "v2-m3-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m3",
+        "prompt": "Why does fiscal stimulus and implementation lags matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "The existing fiscal rules generate the response without a new policy vote.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "The existing fiscal rules generate the response without a new policy vote. Central banks do not determine these benefit payments. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 87,
+          "endPdfPage": 112,
+          "section": "Fiscal Policy"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m4-c1",
+    "moduleId": "v2-m4",
+    "topicId": "v2",
+    "name": "Monetary transmission",
+    "objective": "Explain and apply monetary transmission.",
+    "explanation": "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels. Effects take time and depend on credit conditions and expectations.",
+    "why": "Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one.",
+    "definition": "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels.",
+    "example": "A policy-rate increase can raise loan costs and reduce interest-sensitive investment.",
+    "trap": "Rate changes do not mechanically produce an immediate, equal change in inflation.",
+    "mnemonic": "Monetary transmission → Rate changes do not mechanically produce an immediate, equal change in inflation.",
+    "recall": "Without looking: explain monetary transmission and one mistake to avoid.",
+    "recallAnswer": "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels. Effects take time and depend on credit conditions and expectations. Watch for: Rate changes do not mechanically produce an immediate, equal change in inflation.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 113,
+      "endPdfPage": 148,
+      "section": "Monetary Policy"
+    },
+    "questions": [
+      {
+        "id": "v2-m4-c1-q1",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "Which is a conventional channel for tighter monetary policy?",
+        "choices": [
+          "Lower borrowing costs stimulate all spending",
+          "Higher borrowing costs restrain investment",
+          "Inflation instantly falls by the rate increase"
+        ],
+        "answer": 1,
+        "explanation": "Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one.",
+        "distractors": [
+          "Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one.",
+          "This applies the principle correctly.",
+          "Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      },
+      {
+        "id": "v2-m4-c1-recall",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "Without looking: explain monetary transmission and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels. Effects take time and depend on credit conditions and expectations. Watch for: Rate changes do not mechanically produce an immediate, equal change in inflation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      },
+      {
+        "id": "v2-m4-c1-depth1",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "Which statement most accurately describes monetary transmission?",
+        "choices": [
+          "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels.",
+          "Rate changes do not mechanically produce an immediate, equal change in inflation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels. Effects take time and depend on credit conditions and expectations. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      },
+      {
+        "id": "v2-m4-c1-depth2",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "A candidate applies this rule: “Rate changes do not mechanically produce an immediate, equal change in inflation.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Policy rates affect borrowing, spending, asset prices and exchange rates through several channels."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Policy rates affect borrowing, spending, asset prices and exchange rates through several channels. Effects take time and depend on credit conditions and expectations.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      },
+      {
+        "id": "v2-m4-c1-depth3",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "Consider this case: A policy-rate increase can raise loan costs and reduce interest-sensitive investment. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Rate changes do not mechanically produce an immediate, equal change in inflation.",
+          "Apply monetary transmission while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one. Watch for: Rate changes do not mechanically produce an immediate, equal change in inflation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      },
+      {
+        "id": "v2-m4-c1-depth4",
+        "conceptId": "v2-m4-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m4",
+        "prompt": "Why does monetary transmission matter to an analyst or candidate?",
+        "choices": [
+          "Higher financing costs can reduce investment and aggregate demand.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Higher financing costs can reduce investment and aggregate demand. The response is delayed and uncertain, not one-for-one. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 113,
+          "endPdfPage": 148,
+          "section": "Monetary Policy"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m5-c1",
+    "moduleId": "v2-m5",
+    "topicId": "v2",
+    "name": "Geopolitical transmission into investments",
+    "objective": "Explain and apply geopolitical transmission into investments.",
+    "explanation": "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence. Scenario analysis examines possible exposures rather than assigning certainty to political predictions.",
+    "why": "Production depends on the restricted input. Domestic customer location does not remove this operational exposure.",
+    "definition": "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence.",
+    "example": "Export restrictions on a key input can raise an importer’s costs even when its sales are entirely domestic.",
+    "trap": "Domestic sales do not eliminate international supply-chain risk.",
+    "mnemonic": "Geopolitical transmission into investments → Domestic sales do not eliminate international supply-chain risk.",
+    "recall": "Without looking: explain geopolitical transmission into investments and one mistake to avoid.",
+    "recallAnswer": "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence. Scenario analysis examines possible exposures rather than assigning certainty to political predictions. Watch for: Domestic sales do not eliminate international supply-chain risk.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 149,
+      "endPdfPage": 202,
+      "section": "Introduction to Geopolitics"
+    },
+    "questions": [
+      {
+        "id": "v2-m5-c1-q1",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "A domestic manufacturer imports a critical mineral from a sanctioned country. Its most direct exposure is:",
+        "choices": [
+          "Only foreign-currency translation of sales",
+          "Supply disruption and input-cost pressure",
+          "No geopolitical exposure"
+        ],
+        "answer": 1,
+        "explanation": "Production depends on the restricted input. Domestic customer location does not remove this operational exposure.",
+        "distractors": [
+          "Production depends on the restricted input. Domestic customer location does not remove this operational exposure.",
+          "This applies the principle correctly.",
+          "Production depends on the restricted input. Domestic customer location does not remove this operational exposure."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      },
+      {
+        "id": "v2-m5-c1-recall",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "Without looking: explain geopolitical transmission into investments and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence. Scenario analysis examines possible exposures rather than assigning certainty to political predictions. Watch for: Domestic sales do not eliminate international supply-chain risk.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      },
+      {
+        "id": "v2-m5-c1-depth1",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "Which statement most accurately describes geopolitical transmission into investments?",
+        "choices": [
+          "Domestic sales do not eliminate international supply-chain risk.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence."
+        ],
+        "answer": 2,
+        "explanation": "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence. Scenario analysis examines possible exposures rather than assigning certainty to political predictions. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      },
+      {
+        "id": "v2-m5-c1-depth2",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "A candidate applies this rule: “Domestic sales do not eliminate international supply-chain risk.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Geopolitical risks affect investment through trade, financial flows, supply chains and confidence.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Geopolitical risks affect investment through trade, financial flows, supply chains and confidence. Scenario analysis examines possible exposures rather than assigning certainty to political predictions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      },
+      {
+        "id": "v2-m5-c1-depth3",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "Consider this case: Export restrictions on a key input can raise an importer’s costs even when its sales are entirely domestic. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply geopolitical transmission into investments while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Domestic sales do not eliminate international supply-chain risk."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Production depends on the restricted input. Domestic customer location does not remove this operational exposure. Watch for: Domestic sales do not eliminate international supply-chain risk.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      },
+      {
+        "id": "v2-m5-c1-depth4",
+        "conceptId": "v2-m5-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m5",
+        "prompt": "Why does geopolitical transmission into investments matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Production depends on the restricted input."
+        ],
+        "answer": 2,
+        "explanation": "Production depends on the restricted input. Domestic customer location does not remove this operational exposure. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 149,
+          "endPdfPage": 202,
+          "section": "Introduction to Geopolitics"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m6-c1",
+    "moduleId": "v2-m6",
+    "topicId": "v2",
+    "name": "Tariffs and quotas",
+    "objective": "Explain and apply tariffs and quotas.",
+    "explanation": "Tariffs tax imports; quotas restrict quantities. Both can raise domestic prices and protect producers while hurting consumers. A tariff produces government revenue; quota rents depend on who receives import rights.",
+    "why": "Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices.",
+    "definition": "Tariffs tax imports; quotas restrict quantities.",
+    "example": "A tariff of 5 on 1,000 imported units collects 5,000, assuming those imports still occur.",
+    "trap": "A quota does not automatically deliver the equivalent revenue to government.",
+    "mnemonic": "Tariffs and quotas → A quota does not automatically deliver the equivalent revenue to government.",
+    "recall": "Without looking: explain tariffs and quotas and one mistake to avoid.",
+    "recallAnswer": "Tariffs tax imports; quotas restrict quantities. Both can raise domestic prices and protect producers while hurting consumers. A tariff produces government revenue; quota rents depend on who receives import rights. Watch for: A quota does not automatically deliver the equivalent revenue to government.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 203,
+      "endPdfPage": 222,
+      "section": "International Trade"
+    },
+    "questions": [
+      {
+        "id": "v2-m6-c1-q1",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "Compared with a quota given free to importers, a tariff directly generates:",
+        "choices": [
+          "Government tax revenue",
+          "No consumer costs",
+          "Unlimited imports at the original price"
+        ],
+        "answer": 0,
+        "explanation": "Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices.",
+          "Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      },
+      {
+        "id": "v2-m6-c1-recall",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "Without looking: explain tariffs and quotas and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Tariffs tax imports; quotas restrict quantities. Both can raise domestic prices and protect producers while hurting consumers. A tariff produces government revenue; quota rents depend on who receives import rights. Watch for: A quota does not automatically deliver the equivalent revenue to government.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      },
+      {
+        "id": "v2-m6-c1-depth1",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "Which statement most accurately describes tariffs and quotas?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Tariffs tax imports; quotas restrict quantities.",
+          "A quota does not automatically deliver the equivalent revenue to government."
+        ],
+        "answer": 1,
+        "explanation": "Tariffs tax imports; quotas restrict quantities. Both can raise domestic prices and protect producers while hurting consumers. A tariff produces government revenue; quota rents depend on who receives import rights. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      },
+      {
+        "id": "v2-m6-c1-depth2",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "A candidate applies this rule: “A quota does not automatically deliver the equivalent revenue to government.” What is the best correction?",
+        "choices": [
+          "Tariffs tax imports; quotas restrict quantities.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Tariffs tax imports; quotas restrict quantities. Both can raise domestic prices and protect producers while hurting consumers. A tariff produces government revenue; quota rents depend on who receives import rights.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      },
+      {
+        "id": "v2-m6-c1-depth3",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "Consider this case: A tariff of 5 on 1,000 imported units collects 5,000, assuming those imports still occur. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A quota does not automatically deliver the equivalent revenue to government.",
+          "Apply tariffs and quotas while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices. Watch for: A quota does not automatically deliver the equivalent revenue to government.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      },
+      {
+        "id": "v2-m6-c1-depth4",
+        "conceptId": "v2-m6-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m6",
+        "prompt": "Why does tariffs and quotas matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Tariff payments go to government.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Tariff payments go to government. Quota rents can instead accrue to license holders, while both restrictions can raise prices. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 203,
+          "endPdfPage": 222,
+          "section": "International Trade"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m7-c1",
+    "moduleId": "v2-m7",
+    "topicId": "v2",
+    "name": "Exchange-rate quotation",
+    "objective": "Explain and apply exchange-rate quotation.",
+    "explanation": "An exchange rate is a price: units of one currency per unit of another. A rising domestic-currency price of foreign currency means domestic depreciation. Reciprocal percentage changes differ.",
+    "why": "84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%.",
+    "definition": "An exchange rate is a price: units of one currency per unit of another.",
+    "example": "If INR per USD rises from 80 to 84, USD appreciates 5% in INR terms; INR loses 4.76% measured in USD.",
+    "trap": "State the quotation before describing appreciation.",
+    "mnemonic": "Exchange-rate quotation → State the quotation before describing appreciation.",
+    "recall": "Without looking: explain exchange-rate quotation and one mistake to avoid.",
+    "recallAnswer": "An exchange rate is a price: units of one currency per unit of another. A rising domestic-currency price of foreign currency means domestic depreciation. Reciprocal percentage changes differ. Watch for: State the quotation before describing appreciation.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 223,
+      "endPdfPage": 260,
+      "section": "Capital Flows and the FX Market"
+    },
+    "questions": [
+      {
+        "id": "v2-m7-c1-q1",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "The quote moves from INR 80/USD to INR 84/USD. The USD change measured in INR is:",
+        "choices": [
+          "5% appreciation",
+          "5% depreciation",
+          "4.76% appreciation"
+        ],
+        "answer": 0,
+        "explanation": "84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%.",
+          "84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      },
+      {
+        "id": "v2-m7-c1-recall",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "Without looking: explain exchange-rate quotation and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "An exchange rate is a price: units of one currency per unit of another. A rising domestic-currency price of foreign currency means domestic depreciation. Reciprocal percentage changes differ. Watch for: State the quotation before describing appreciation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      },
+      {
+        "id": "v2-m7-c1-depth1",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "Which statement most accurately describes exchange-rate quotation?",
+        "choices": [
+          "An exchange rate is a price: units of one currency per unit of another.",
+          "State the quotation before describing appreciation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "An exchange rate is a price: units of one currency per unit of another. A rising domestic-currency price of foreign currency means domestic depreciation. Reciprocal percentage changes differ. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      },
+      {
+        "id": "v2-m7-c1-depth2",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "A candidate applies this rule: “State the quotation before describing appreciation.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "An exchange rate is a price: units of one currency per unit of another."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. An exchange rate is a price: units of one currency per unit of another. A rising domestic-currency price of foreign currency means domestic depreciation. Reciprocal percentage changes differ.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      },
+      {
+        "id": "v2-m7-c1-depth3",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "Consider this case: If INR per USD rises from 80 to 84, USD appreciates 5% in INR terms; INR loses 4.76% measured in USD. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "State the quotation before describing appreciation.",
+          "Apply exchange-rate quotation while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. 84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%. Watch for: State the quotation before describing appreciation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      },
+      {
+        "id": "v2-m7-c1-depth4",
+        "conceptId": "v2-m7-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m7",
+        "prompt": "Why does exchange-rate quotation matter to an analyst or candidate?",
+        "choices": [
+          "84/80 − 1 = 5%.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "84/80 − 1 = 5%. The reciprocal INR depreciation is 80/84 − 1 = −4.76%. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 260,
+          "section": "Capital Flows and the FX Market"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v2-m8-c1",
+    "moduleId": "v2-m8",
+    "topicId": "v2",
+    "name": "Covered interest parity",
+    "objective": "Explain and apply covered interest parity.",
+    "explanation": "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions. The higher-interest-rate currency trades at a forward discount in reciprocal value terms.",
+    "why": "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign).",
+    "definition": "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions.",
+    "example": "For INR/USD spot 80, one-year INR rate 6% and USD rate 4%, forward is 80 × 1.06/1.04 = 81.5385 INR/USD.",
+    "trap": "Invert the interest-rate ratio if you invert the currency quote.",
+    "mnemonic": "Covered interest parity → Invert the interest-rate ratio if you invert the currency quote.",
+    "recall": "Without looking: explain covered interest parity and one mistake to avoid.",
+    "recallAnswer": "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions. The higher-interest-rate currency trades at a forward discount in reciprocal value terms. Watch for: Invert the interest-rate ratio if you invert the currency quote.",
+    "source": {
+      "file": "cfa-program2026L1V2.pdf",
+      "pdfPage": 261,
+      "endPdfPage": 280,
+      "section": "Exchange Rate Calculations"
+    },
+    "questions": [
+      {
+        "id": "v2-m8-c1-q1",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Spot is 80 domestic per foreign unit. Domestic rate 6%, foreign rate 4%. One-year forward is closest to:",
+        "choices": [
+          "78.49",
+          "81.54",
+          "80.00"
+        ],
+        "answer": 1,
+        "explanation": "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign).",
+        "distractors": [
+          "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign).",
+          "This applies the principle correctly.",
+          "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign)."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-recall",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Without looking: explain covered interest parity and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions. The higher-interest-rate currency trades at a forward discount in reciprocal value terms. Watch for: Invert the interest-rate ratio if you invert the currency quote.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-formula",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Reconstruct the relationship for covered forward fx rate. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "F_(d/f) = S_(d/f) × (1 + r_d T) / (1 + r_f T)\nd/f: domestic units per foreign unit; T: years under simple-rate convention",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-calc1",
+        "conceptId": "v2-m8-c1",
+        "moduleId": "v2-m8",
+        "topicId": "v2",
+        "prompt": "Spot is 72 domestic currency units per foreign unit. One-year domestic rate is 5.50% and foreign rate 3%. The covered forward is closest to:",
+        "choices": [
+          "70.29",
+          "72.00",
+          "73.75"
+        ],
+        "answer": 2,
+        "explanation": "For this quote, F=S(1+r_d)/(1+r_f) = 72×1.055/1.03 = 73.75. Inverting the interest ratio prices the opposite quote incorrectly.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 72×1.055/1.03 = 73.75. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 72×1.055/1.03 = 73.75. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-calc2",
+        "conceptId": "v2-m8-c1",
+        "moduleId": "v2-m8",
+        "topicId": "v2",
+        "prompt": "Spot is 74 domestic currency units per foreign unit. One-year domestic rate is 6.00% and foreign rate 3%. The covered forward is closest to:",
+        "choices": [
+          "74.00",
+          "76.16",
+          "71.91"
+        ],
+        "answer": 1,
+        "explanation": "For this quote, F=S(1+r_d)/(1+r_f) = 74×1.060/1.03 = 76.16. Inverting the interest ratio prices the opposite quote incorrectly.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 74×1.060/1.03 = 76.16. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 74×1.060/1.03 = 76.16. Inverting the interest ratio prices the opposite quote incorrectly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-calc3",
+        "conceptId": "v2-m8-c1",
+        "moduleId": "v2-m8",
+        "topicId": "v2",
+        "prompt": "Spot is 76 domestic currency units per foreign unit. One-year domestic rate is 6.50% and foreign rate 3%. The covered forward is closest to:",
+        "choices": [
+          "78.58",
+          "73.50",
+          "76.00"
+        ],
+        "answer": 0,
+        "explanation": "For this quote, F=S(1+r_d)/(1+r_f) = 76×1.065/1.03 = 78.58. Inverting the interest ratio prices the opposite quote incorrectly.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 76×1.065/1.03 = 78.58. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 76×1.065/1.03 = 78.58. Inverting the interest ratio prices the opposite quote incorrectly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-calc4",
+        "conceptId": "v2-m8-c1",
+        "moduleId": "v2-m8",
+        "topicId": "v2",
+        "prompt": "Spot is 78 domestic currency units per foreign unit. One-year domestic rate is 7.00% and foreign rate 3%. The covered forward is closest to:",
+        "choices": [
+          "75.08",
+          "78.00",
+          "81.03"
+        ],
+        "answer": 2,
+        "explanation": "For this quote, F=S(1+r_d)/(1+r_f) = 78×1.070/1.03 = 81.03. Inverting the interest ratio prices the opposite quote incorrectly.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 78×1.070/1.03 = 81.03. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 78×1.070/1.03 = 81.03. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-calc5",
+        "conceptId": "v2-m8-c1",
+        "moduleId": "v2-m8",
+        "topicId": "v2",
+        "prompt": "Spot is 80 domestic currency units per foreign unit. One-year domestic rate is 7.50% and foreign rate 3%. The covered forward is closest to:",
+        "choices": [
+          "80.00",
+          "83.50",
+          "76.65"
+        ],
+        "answer": 1,
+        "explanation": "For this quote, F=S(1+r_d)/(1+r_f) = 80×1.075/1.03 = 83.50. Inverting the interest ratio prices the opposite quote incorrectly.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 80×1.075/1.03 = 83.50. Inverting the interest ratio prices the opposite quote incorrectly.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. For this quote, F=S(1+r_d)/(1+r_f) = 80×1.075/1.03 = 83.50. Inverting the interest ratio prices the opposite quote incorrectly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-depth1",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Which statement most accurately describes covered interest parity?",
+        "choices": [
+          "Invert the interest-rate ratio if you invert the currency quote.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions."
+        ],
+        "answer": 2,
+        "explanation": "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions. The higher-interest-rate currency trades at a forward discount in reciprocal value terms. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-depth2",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "A candidate applies this rule: “Invert the interest-rate ratio if you invert the currency quote.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A currency forward reflects spot and the interest rates of both currencies under covered no-arbitrage assumptions. The higher-interest-rate currency trades at a forward discount in reciprocal value terms.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-depth3",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Consider this case: For INR/USD spot 80, one-year INR rate 6% and USD rate 4%, forward is 80 × 1.06/1.04 = 81.5385 INR/USD. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply covered interest parity while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Invert the interest-rate ratio if you invert the currency quote."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign). Watch for: Invert the interest-rate ratio if you invert the currency quote.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      },
+      {
+        "id": "v2-m8-c1-depth4",
+        "conceptId": "v2-m8-c1",
+        "topicId": "v2",
+        "moduleId": "v2-m8",
+        "prompt": "Why does covered interest parity matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign)."
+        ],
+        "answer": 2,
+        "explanation": "For domestic units per foreign unit, multiply spot by (1+r_domestic)/(1+r_foreign). It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V2.pdf",
+          "pdfPage": 261,
+          "endPdfPage": 280,
+          "section": "Exchange Rate Calculations"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Covered forward FX rate",
+      "expression": "F_(d/f) = S_(d/f) × (1 + r_d T) / (1 + r_f T)",
+      "variables": "d/f: domestic units per foreign unit; T: years under simple-rate convention",
+      "intuition": "Price covered currency delivery using matched interest conventions.",
+      "when": "Price covered currency delivery using matched interest conventions.",
+      "example": "80 × 1.06 / 1.04 = 81.5385.",
+      "mistake": "Do not swap the numerator and denominator.",
+      "related": []
+    }
+  }
+]

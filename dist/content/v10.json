@@ -1,0 +1,1949 @@
+[
+  {
+    "id": "v10-m1-c1",
+    "moduleId": "v10-m1",
+    "topicId": "v10",
+    "name": "Ethics beyond minimum legal compliance",
+    "objective": "Explain and apply ethics beyond minimum legal compliance.",
+    "explanation": "Ethical decision making considers stakeholders, duties, conflicts and consequences. Legal permission is not a complete ethical justification, and situational pressures can distort otherwise well-intentioned decisions.",
+    "why": "Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent.",
+    "definition": "Ethical decision making considers stakeholders, duties, conflicts and consequences.",
+    "example": "A technically permitted sales practice still hides a material downside from a client. An ethical review asks whether the client can make an informed choice.",
+    "trap": "Legal does not automatically mean ethical.",
+    "mnemonic": "Ethics beyond minimum legal compliance → Legal does not automatically mean ethical.",
+    "recall": "Without looking: explain ethics beyond minimum legal compliance and one mistake to avoid.",
+    "recallAnswer": "Ethical decision making considers stakeholders, duties, conflicts and consequences. Legal permission is not a complete ethical justification, and situational pressures can distort otherwise well-intentioned decisions. Watch for: Legal does not automatically mean ethical.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 17,
+      "endPdfPage": 46,
+      "section": "Ethics and Trust in the Investment Profession"
+    },
+    "questions": [
+      {
+        "id": "v10-m1-c1-q1",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "A salesperson says a misleading omission is acceptable because no local rule expressly bans it. The best response is:",
+        "choices": [
+          "Accept legality as the only test",
+          "Consider duties and fair disclosure beyond minimum law",
+          "Assume ethical standards never exceed law"
+        ],
+        "answer": 1,
+        "explanation": "Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent.",
+        "distractors": [
+          "Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent.",
+          "This applies the principle correctly.",
+          "Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      },
+      {
+        "id": "v10-m1-c1-recall",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "Without looking: explain ethics beyond minimum legal compliance and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Ethical decision making considers stakeholders, duties, conflicts and consequences. Legal permission is not a complete ethical justification, and situational pressures can distort otherwise well-intentioned decisions. Watch for: Legal does not automatically mean ethical.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      },
+      {
+        "id": "v10-m1-c1-depth1",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "Which statement most accurately describes ethics beyond minimum legal compliance?",
+        "choices": [
+          "Ethical decision making considers stakeholders, duties, conflicts and consequences.",
+          "Legal does not automatically mean ethical.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Ethical decision making considers stakeholders, duties, conflicts and consequences. Legal permission is not a complete ethical justification, and situational pressures can distort otherwise well-intentioned decisions. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      },
+      {
+        "id": "v10-m1-c1-depth2",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "A candidate applies this rule: “Legal does not automatically mean ethical.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Ethical decision making considers stakeholders, duties, conflicts and consequences."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Ethical decision making considers stakeholders, duties, conflicts and consequences. Legal permission is not a complete ethical justification, and situational pressures can distort otherwise well-intentioned decisions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      },
+      {
+        "id": "v10-m1-c1-depth3",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "Consider this case: A technically permitted sales practice still hides a material downside from a client. An ethical review asks whether the client can make an informed choice. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Legal does not automatically mean ethical.",
+          "Apply ethics beyond minimum legal compliance while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent. Watch for: Legal does not automatically mean ethical.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      },
+      {
+        "id": "v10-m1-c1-depth4",
+        "conceptId": "v10-m1-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m1",
+        "prompt": "Why does ethics beyond minimum legal compliance matter to an analyst or candidate?",
+        "choices": [
+          "Ethical responsibilities can exceed legal minima.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Ethical responsibilities can exceed legal minima. An omission can undermine informed client decisions even if a specific prohibition is absent. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 17,
+          "endPdfPage": 46,
+          "section": "Ethics and Trust in the Investment Profession"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m2-c1",
+    "moduleId": "v10-m2",
+    "topicId": "v10",
+    "name": "Applying the stricter requirement",
+    "objective": "Explain and apply applying the stricter requirement.",
+    "explanation": "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement. Knowing participation in violations is not excused by a supervisor’s instruction.",
+    "why": "The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility.",
+    "definition": "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement.",
+    "example": "A local rule permits conduct that the Standards prohibit. The member follows the stricter professional requirement.",
+    "trap": "A manager’s approval does not override a professional obligation.",
+    "mnemonic": "Applying the stricter requirement → A manager’s approval does not override a professional obligation.",
+    "recall": "Without looking: explain applying the stricter requirement and one mistake to avoid.",
+    "recallAnswer": "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement. Knowing participation in violations is not excused by a supervisor’s instruction. Watch for: A manager’s approval does not override a professional obligation.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 47,
+      "endPdfPage": 66,
+      "section": "Code of Ethics and Standards of Professional Conduct"
+    },
+    "questions": [
+      {
+        "id": "v10-m2-c1-q1",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "Local law allows a practice prohibited by the Standards. A candidate should:",
+        "choices": [
+          "Follow the stricter applicable requirement",
+          "Always follow the less restrictive local rule",
+          "Rely solely on supervisor approval"
+        ],
+        "answer": 0,
+        "explanation": "The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility.",
+          "The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      },
+      {
+        "id": "v10-m2-c1-recall",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "Without looking: explain applying the stricter requirement and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement. Knowing participation in violations is not excused by a supervisor’s instruction. Watch for: A manager’s approval does not override a professional obligation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      },
+      {
+        "id": "v10-m2-c1-depth1",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "Which statement most accurately describes applying the stricter requirement?",
+        "choices": [
+          "A manager’s approval does not override a professional obligation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement."
+        ],
+        "answer": 2,
+        "explanation": "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement. Knowing participation in violations is not excused by a supervisor’s instruction. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      },
+      {
+        "id": "v10-m2-c1-depth2",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "A candidate applies this rule: “A manager’s approval does not override a professional obligation.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. When applicable law and professional standards differ, members and candidates must follow the stricter applicable requirement. Knowing participation in violations is not excused by a supervisor’s instruction.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      },
+      {
+        "id": "v10-m2-c1-depth3",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "Consider this case: A local rule permits conduct that the Standards prohibit. The member follows the stricter professional requirement. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply applying the stricter requirement while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A manager’s approval does not override a professional obligation."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility. Watch for: A manager’s approval does not override a professional obligation.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      },
+      {
+        "id": "v10-m2-c1-depth4",
+        "conceptId": "v10-m2-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m2",
+        "prompt": "Why does applying the stricter requirement matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "The stricter applicable rule controls."
+        ],
+        "answer": 2,
+        "explanation": "The stricter applicable rule controls. Permission from a supervisor does not remove individual responsibility. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 47,
+          "endPdfPage": 66,
+          "section": "Code of Ethics and Standards of Professional Conduct"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c1",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Material nonpublic information",
+    "objective": "Explain and apply material nonpublic information.",
+    "explanation": "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market. Members must not act or cause others to act on material nonpublic information.",
+    "why": "Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here.",
+    "definition": "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market.",
+    "example": "A director privately discloses an unannounced takeover. An analyst must not trade or tip clients on that information.",
+    "trap": "A reliable private source can make information more material, not safer to trade.",
+    "mnemonic": "Material nonpublic information → A reliable private source can make information more material, not safer to trade.",
+    "recall": "Without looking: explain material nonpublic information and one mistake to avoid.",
+    "recallAnswer": "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market. Members must not act or cause others to act on material nonpublic information. Watch for: A reliable private source can make information more material, not safer to trade.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c1-q1",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A director privately reveals a likely unannounced takeover. The analyst should:",
+        "choices": [
+          "Buy before publication because the source is reliable",
+          "Refrain from trading or tipping on the information",
+          "Tell only the firm’s largest client"
+        ],
+        "answer": 1,
+        "explanation": "Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here.",
+        "distractors": [
+          "Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here.",
+          "This applies the principle correctly.",
+          "Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c1-recall",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain material nonpublic information and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market. Members must not act or cause others to act on material nonpublic information. Watch for: A reliable private source can make information more material, not safer to trade.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c1-depth1",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes material nonpublic information?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market.",
+          "A reliable private source can make information more material, not safer to trade."
+        ],
+        "answer": 1,
+        "explanation": "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market. Members must not act or cause others to act on material nonpublic information. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c1-depth2",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “A reliable private source can make information more material, not safer to trade.” What is the best correction?",
+        "choices": [
+          "Information is material when it could affect investment decisions or price; it is nonpublic until available to the market.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Information is material when it could affect investment decisions or price; it is nonpublic until available to the market. Members must not act or cause others to act on material nonpublic information.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c1-depth3",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: A director privately discloses an unannounced takeover. An analyst must not trade or tip clients on that information. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A reliable private source can make information more material, not safer to trade.",
+          "Apply material nonpublic information while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here. Watch for: A reliable private source can make information more material, not safer to trade.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c1-depth4",
+        "conceptId": "v10-m3-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does material nonpublic information matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Reliability strengthens the information’s significance.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Reliability strengthens the information’s significance. Both personal trading and causing clients to act are prohibited here. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c2",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Mosaic research",
+    "objective": "Explain and apply mosaic research.",
+    "explanation": "A research conclusion may combine public material information with nonmaterial nonpublic details. The mosaic principle does not permit using a material nonpublic input.",
+    "why": "The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input.",
+    "definition": "A research conclusion may combine public material information with nonmaterial nonpublic details.",
+    "example": "An analyst combines published filings with routine, nonmaterial supplier observations to estimate demand.",
+    "trap": "Calling a report a mosaic does not sanitize a confidential earnings leak.",
+    "mnemonic": "Mosaic research → Calling a report a mosaic does not sanitize a confidential earnings leak.",
+    "recall": "Without looking: explain mosaic research and one mistake to avoid.",
+    "recallAnswer": "A research conclusion may combine public material information with nonmaterial nonpublic details. The mosaic principle does not permit using a material nonpublic input. Watch for: Calling a report a mosaic does not sanitize a confidential earnings leak.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c2-q1",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which research process is most consistent with mosaic analysis?",
+        "choices": [
+          "Public filings plus nonmaterial private observations",
+          "A confidential material earnings number plus public prices",
+          "An unpublished takeover plan alone"
+        ],
+        "answer": 0,
+        "explanation": "The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input.",
+          "The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c2-recall",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain mosaic research and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A research conclusion may combine public material information with nonmaterial nonpublic details. The mosaic principle does not permit using a material nonpublic input. Watch for: Calling a report a mosaic does not sanitize a confidential earnings leak.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c2-depth1",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes mosaic research?",
+        "choices": [
+          "A research conclusion may combine public material information with nonmaterial nonpublic details.",
+          "Calling a report a mosaic does not sanitize a confidential earnings leak.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A research conclusion may combine public material information with nonmaterial nonpublic details. The mosaic principle does not permit using a material nonpublic input. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c2-depth2",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “Calling a report a mosaic does not sanitize a confidential earnings leak.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A research conclusion may combine public material information with nonmaterial nonpublic details."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A research conclusion may combine public material information with nonmaterial nonpublic details. The mosaic principle does not permit using a material nonpublic input.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c2-depth3",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: An analyst combines published filings with routine, nonmaterial supplier observations to estimate demand. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Calling a report a mosaic does not sanitize a confidential earnings leak.",
+          "Apply mosaic research while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input. Watch for: Calling a report a mosaic does not sanitize a confidential earnings leak.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c2-depth4",
+        "conceptId": "v10-m3-c2",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does mosaic research matter to an analyst or candidate?",
+        "choices": [
+          "The permitted combination excludes material nonpublic information.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The permitted combination excludes material nonpublic information. Public inputs do not neutralize a prohibited confidential input. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c3",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Fair dealing with clients",
+    "objective": "Explain and apply fair dealing with clients.",
+    "explanation": "Clients must be treated fairly when recommendations and investment actions are distributed. Fairness does not require identical service packages, but selective timing must not unfairly disadvantage clients.",
+    "why": "Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism.",
+    "definition": "Clients must be treated fairly when recommendations and investment actions are distributed.",
+    "example": "A new recommendation is sent through a fair distribution procedure rather than first being secretly given to a favored client.",
+    "trap": "Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+    "mnemonic": "Fair dealing with clients → Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+    "recall": "Without looking: explain fair dealing with clients and one mistake to avoid.",
+    "recallAnswer": "Clients must be treated fairly when recommendations and investment actions are distributed. Fairness does not require identical service packages, but selective timing must not unfairly disadvantage clients. Watch for: Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c3-q1",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "An analyst secretly gives an actionable new recommendation to a favored client before normal distribution. The main concern is:",
+        "choices": [
+          "Fair dealing",
+          "The client’s preferred email font",
+          "A requirement that all portfolios be identical"
+        ],
+        "answer": 0,
+        "explanation": "Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism.",
+          "Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c3-recall",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain fair dealing with clients and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Clients must be treated fairly when recommendations and investment actions are distributed. Fairness does not require identical service packages, but selective timing must not unfairly disadvantage clients. Watch for: Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c3-depth1",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes fair dealing with clients?",
+        "choices": [
+          "Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Clients must be treated fairly when recommendations and investment actions are distributed."
+        ],
+        "answer": 2,
+        "explanation": "Clients must be treated fairly when recommendations and investment actions are distributed. Fairness does not require identical service packages, but selective timing must not unfairly disadvantage clients. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c3-depth2",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “Fair does not necessarily mean identical service, but favoritism in access can violate duties.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Clients must be treated fairly when recommendations and investment actions are distributed.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Clients must be treated fairly when recommendations and investment actions are distributed. Fairness does not require identical service packages, but selective timing must not unfairly disadvantage clients.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c3-depth3",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: A new recommendation is sent through a fair distribution procedure rather than first being secretly given to a favored client. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply fair dealing with clients while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Fair does not necessarily mean identical service, but favoritism in access can violate duties."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism. Watch for: Fair does not necessarily mean identical service, but favoritism in access can violate duties.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c3-depth4",
+        "conceptId": "v10-m3-c3",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does fair dealing with clients matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Preferential early access can disadvantage other clients."
+        ],
+        "answer": 2,
+        "explanation": "Preferential early access can disadvantage other clients. Different mandates and disclosed service levels do not justify this favoritism. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c4",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Suitability in portfolio context",
+    "objective": "Explain and apply suitability in portfolio context.",
+    "explanation": "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio. A suitable asset for one investor may be unsuitable for another.",
+    "why": "The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints.",
+    "definition": "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio.",
+    "example": "A high-risk illiquid fund may be inappropriate for a client who needs the invested money for essential spending next month.",
+    "trap": "Past high returns cannot substitute for suitability analysis.",
+    "mnemonic": "Suitability in portfolio context → Past high returns cannot substitute for suitability analysis.",
+    "recall": "Without looking: explain suitability in portfolio context and one mistake to avoid.",
+    "recallAnswer": "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio. A suitable asset for one investor may be unsuitable for another. Watch for: Past high returns cannot substitute for suitability analysis.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c4-q1",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A client needs the principal next month for essential expenses. Recommending a locked-up speculative fund chiefly raises:",
+        "choices": [
+          "Suitability concerns",
+          "Only the fund’s naming convention",
+          "No concern if last year’s return was high"
+        ],
+        "answer": 0,
+        "explanation": "The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints.",
+          "The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c4-recall",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain suitability in portfolio context and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio. A suitable asset for one investor may be unsuitable for another. Watch for: Past high returns cannot substitute for suitability analysis.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c4-depth1",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes suitability in portfolio context?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio.",
+          "Past high returns cannot substitute for suitability analysis."
+        ],
+        "answer": 1,
+        "explanation": "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio. A suitable asset for one investor may be unsuitable for another. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c4-depth2",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “Past high returns cannot substitute for suitability analysis.” What is the best correction?",
+        "choices": [
+          "For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. For an advisory relationship, recommendations should fit the client’s objectives and constraints and be evaluated in the context of the overall portfolio. A suitable asset for one investor may be unsuitable for another.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c4-depth3",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: A high-risk illiquid fund may be inappropriate for a client who needs the invested money for essential spending next month. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Past high returns cannot substitute for suitability analysis.",
+          "Apply suitability in portfolio context while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints. Watch for: Past high returns cannot substitute for suitability analysis.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c4-depth4",
+        "conceptId": "v10-m3-c4",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does suitability in portfolio context matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "The liquidity and risk profile conflict with the client’s needs.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "The liquidity and risk profile conflict with the client’s needs. Prior returns do not resolve those constraints. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c5",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Research independence and gifts",
+    "objective": "Explain and apply research independence and gifts.",
+    "explanation": "Benefits that could reasonably compromise independence and objectivity must be refused. An issuer’s extravagant benefit tied to favorable coverage threatens unbiased research.",
+    "why": "The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion.",
+    "definition": "Benefits that could reasonably compromise independence and objectivity must be refused.",
+    "example": "An issuer offers an analyst a luxury vacation if coverage stays positive. The analyst refuses.",
+    "trap": "Disclosure alone does not make every compromising benefit acceptable.",
+    "mnemonic": "Research independence and gifts → Disclosure alone does not make every compromising benefit acceptable.",
+    "recall": "Without looking: explain research independence and gifts and one mistake to avoid.",
+    "recallAnswer": "Benefits that could reasonably compromise independence and objectivity must be refused. An issuer’s extravagant benefit tied to favorable coverage threatens unbiased research. Watch for: Disclosure alone does not make every compromising benefit acceptable.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c5-q1",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "An issuer offers a lavish trip conditional on favorable research. The analyst should:",
+        "choices": [
+          "Accept and merely mention it in small print",
+          "Decline the compromising benefit",
+          "Accept if the issuer pays rather than the client"
+        ],
+        "answer": 1,
+        "explanation": "The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion.",
+        "distractors": [
+          "The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion.",
+          "This applies the principle correctly.",
+          "The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c5-recall",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain research independence and gifts and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Benefits that could reasonably compromise independence and objectivity must be refused. An issuer’s extravagant benefit tied to favorable coverage threatens unbiased research. Watch for: Disclosure alone does not make every compromising benefit acceptable.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c5-depth1",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes research independence and gifts?",
+        "choices": [
+          "Benefits that could reasonably compromise independence and objectivity must be refused.",
+          "Disclosure alone does not make every compromising benefit acceptable.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Benefits that could reasonably compromise independence and objectivity must be refused. An issuer’s extravagant benefit tied to favorable coverage threatens unbiased research. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c5-depth2",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “Disclosure alone does not make every compromising benefit acceptable.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Benefits that could reasonably compromise independence and objectivity must be refused."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Benefits that could reasonably compromise independence and objectivity must be refused. An issuer’s extravagant benefit tied to favorable coverage threatens unbiased research.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c5-depth3",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: An issuer offers an analyst a luxury vacation if coverage stays positive. The analyst refuses. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Disclosure alone does not make every compromising benefit acceptable.",
+          "Apply research independence and gifts while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion. Watch for: Disclosure alone does not make every compromising benefit acceptable.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c5-depth4",
+        "conceptId": "v10-m3-c5",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does research independence and gifts matter to an analyst or candidate?",
+        "choices": [
+          "The condition directly compromises objectivity.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The condition directly compromises objectivity. Disclosure does not cure an explicitly purchased favorable opinion. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c6",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Priority of transactions",
+    "objective": "Explain and apply priority of transactions.",
+    "explanation": "Client and employer investment transactions take priority over beneficial personal transactions. Personal trading must not exploit advance knowledge of client activity.",
+    "why": "Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty.",
+    "definition": "Client and employer investment transactions take priority over beneficial personal transactions.",
+    "example": "An analyst learns a client order will buy a thinly traded security and buys personally first. That prioritizes personal benefit over the client.",
+    "trap": "A small personal trade can still be front-running.",
+    "mnemonic": "Priority of transactions → A small personal trade can still be front-running.",
+    "recall": "Without looking: explain priority of transactions and one mistake to avoid.",
+    "recallAnswer": "Client and employer investment transactions take priority over beneficial personal transactions. Personal trading must not exploit advance knowledge of client activity. Watch for: A small personal trade can still be front-running.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c6-q1",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "An analyst buys personally just before placing a known client purchase order. The key issue is:",
+        "choices": [
+          "Priority of transactions",
+          "Only whether the trade is profitable",
+          "No issue if the personal position is small"
+        ],
+        "answer": 0,
+        "explanation": "Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty.",
+          "Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c6-recall",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain priority of transactions and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Client and employer investment transactions take priority over beneficial personal transactions. Personal trading must not exploit advance knowledge of client activity. Watch for: A small personal trade can still be front-running.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c6-depth1",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes priority of transactions?",
+        "choices": [
+          "A small personal trade can still be front-running.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Client and employer investment transactions take priority over beneficial personal transactions."
+        ],
+        "answer": 2,
+        "explanation": "Client and employer investment transactions take priority over beneficial personal transactions. Personal trading must not exploit advance knowledge of client activity. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c6-depth2",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “A small personal trade can still be front-running.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Client and employer investment transactions take priority over beneficial personal transactions.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Client and employer investment transactions take priority over beneficial personal transactions. Personal trading must not exploit advance knowledge of client activity.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c6-depth3",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: An analyst learns a client order will buy a thinly traded security and buys personally first. That prioritizes personal benefit over the client. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply priority of transactions while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A small personal trade can still be front-running."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty. Watch for: A small personal trade can still be front-running.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c6-depth4",
+        "conceptId": "v10-m3-c6",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does priority of transactions matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Personal front-running uses advance knowledge and can disadvantage the client."
+        ],
+        "answer": 2,
+        "explanation": "Personal front-running uses advance knowledge and can disadvantage the client. Size and eventual profit do not remove the duty. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m3-c7",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "name": "Diligence and reasonable basis",
+    "objective": "Explain and apply diligence and reasonable basis.",
+    "explanation": "Recommendations require a reasonable and adequate research basis. Third-party work can be used after assessing its reliability; delegation does not eliminate the analyst’s responsibility.",
+    "why": "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation.",
+    "definition": "Recommendations require a reasonable and adequate research basis.",
+    "example": "A manager checks a vendor model’s assumptions, data quality and limitations before relying on its output.",
+    "trap": "A prestigious provider is not a substitute for due diligence.",
+    "mnemonic": "Diligence and reasonable basis → A prestigious provider is not a substitute for due diligence.",
+    "recall": "Without looking: explain diligence and reasonable basis and one mistake to avoid.",
+    "recallAnswer": "Recommendations require a reasonable and adequate research basis. Third-party work can be used after assessing its reliability; delegation does not eliminate the analyst’s responsibility. Watch for: A prestigious provider is not a substitute for due diligence.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 67,
+      "endPdfPage": 254,
+      "section": "Guidance for Standards I–VII"
+    },
+    "questions": [
+      {
+        "id": "v10-m3-c7-q1",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "An analyst uses a third-party model without checking its assumptions or reliability. The most direct concern is:",
+        "choices": [
+          "Diligence and reasonable basis",
+          "An absolute ban on outside research",
+          "Only portfolio diversification"
+        ],
+        "answer": 0,
+        "explanation": "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation.",
+          "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c7-recall",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Without looking: explain diligence and reasonable basis and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Recommendations require a reasonable and adequate research basis. Third-party work can be used after assessing its reliability; delegation does not eliminate the analyst’s responsibility. Watch for: A prestigious provider is not a substitute for due diligence.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c7-depth1",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Which statement most accurately describes diligence and reasonable basis?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Recommendations require a reasonable and adequate research basis.",
+          "A prestigious provider is not a substitute for due diligence."
+        ],
+        "answer": 1,
+        "explanation": "Recommendations require a reasonable and adequate research basis. Third-party work can be used after assessing its reliability; delegation does not eliminate the analyst’s responsibility. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c7-depth2",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "A candidate applies this rule: “A prestigious provider is not a substitute for due diligence.” What is the best correction?",
+        "choices": [
+          "Recommendations require a reasonable and adequate research basis.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Recommendations require a reasonable and adequate research basis. Third-party work can be used after assessing its reliability; delegation does not eliminate the analyst’s responsibility.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c7-depth3",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Consider this case: A manager checks a vendor model’s assumptions, data quality and limitations before relying on its output. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A prestigious provider is not a substitute for due diligence.",
+          "Apply diligence and reasonable basis while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation. Watch for: A prestigious provider is not a substitute for due diligence.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      },
+      {
+        "id": "v10-m3-c7-depth4",
+        "conceptId": "v10-m3-c7",
+        "topicId": "v10",
+        "moduleId": "v10-m3",
+        "prompt": "Why does diligence and reasonable basis matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "External research is not banned, but its reliability must be evaluated sufficiently to support the recommendation. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 67,
+          "endPdfPage": 254,
+          "section": "Guidance for Standards I–VII"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m4-c1",
+    "moduleId": "v10-m4",
+    "topicId": "v10",
+    "name": "GIPS compliance and verification",
+    "objective": "Explain and apply gips compliance and verification.",
+    "explanation": "GIPS supports comparable and fair performance presentation. Compliance is claimed by a defined firm, not by an isolated product. Verification assesses firm-wide processes; it does not guarantee a particular portfolio’s return.",
+    "why": "Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance.",
+    "definition": "GIPS supports comparable and fair performance presentation.",
+    "example": "A firm cannot represent a single outperforming fund as independently GIPS compliant while ignoring the rest of the defined firm.",
+    "trap": "Verification is not a guarantee of investment performance.",
+    "mnemonic": "GIPS compliance and verification → Verification is not a guarantee of investment performance.",
+    "recall": "Without looking: explain gips compliance and verification and one mistake to avoid.",
+    "recallAnswer": "GIPS supports comparable and fair performance presentation. Compliance is claimed by a defined firm, not by an isolated product. Verification assesses firm-wide processes; it does not guarantee a particular portfolio’s return. Watch for: Verification is not a guarantee of investment performance.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 255,
+      "endPdfPage": 264,
+      "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+    },
+    "questions": [
+      {
+        "id": "v10-m4-c1-q1",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "Which statement is most appropriate?",
+        "choices": [
+          "An individual fund alone claims firm-wide GIPS compliance",
+          "Verification guarantees future returns",
+          "A defined firm claims compliance; verification is not a return guarantee"
+        ],
+        "answer": 2,
+        "explanation": "Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance.",
+        "distractors": [
+          "Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance.",
+          "Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      },
+      {
+        "id": "v10-m4-c1-recall",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "Without looking: explain gips compliance and verification and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "GIPS supports comparable and fair performance presentation. Compliance is claimed by a defined firm, not by an isolated product. Verification assesses firm-wide processes; it does not guarantee a particular portfolio’s return. Watch for: Verification is not a guarantee of investment performance.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      },
+      {
+        "id": "v10-m4-c1-depth1",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "Which statement most accurately describes gips compliance and verification?",
+        "choices": [
+          "GIPS supports comparable and fair performance presentation.",
+          "Verification is not a guarantee of investment performance.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "GIPS supports comparable and fair performance presentation. Compliance is claimed by a defined firm, not by an isolated product. Verification assesses firm-wide processes; it does not guarantee a particular portfolio’s return. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      },
+      {
+        "id": "v10-m4-c1-depth2",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "A candidate applies this rule: “Verification is not a guarantee of investment performance.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "GIPS supports comparable and fair performance presentation."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. GIPS supports comparable and fair performance presentation. Compliance is claimed by a defined firm, not by an isolated product. Verification assesses firm-wide processes; it does not guarantee a particular portfolio’s return.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      },
+      {
+        "id": "v10-m4-c1-depth3",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "Consider this case: A firm cannot represent a single outperforming fund as independently GIPS compliant while ignoring the rest of the defined firm. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Verification is not a guarantee of investment performance.",
+          "Apply gips compliance and verification while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance. Watch for: Verification is not a guarantee of investment performance.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      },
+      {
+        "id": "v10-m4-c1-depth4",
+        "conceptId": "v10-m4-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m4",
+        "prompt": "Why does gips compliance and verification matter to an analyst or candidate?",
+        "choices": [
+          "Compliance attaches to the defined firm.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Compliance attaches to the defined firm. Independent verification has a process scope and does not insure performance. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 264,
+          "section": "Introduction to the Global Investment Performance Standards (GIPS)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v10-m5-c1",
+    "moduleId": "v10-m5",
+    "topicId": "v10",
+    "name": "Handling a discovered violation",
+    "objective": "Explain and apply handling a discovered violation.",
+    "explanation": "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate. Escalation and legal advice can help determine appropriate action; an instruction from management does not excuse continued participation.",
+    "why": "Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns.",
+    "definition": "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate.",
+    "example": "An employee learns that a performance presentation is knowingly falsified, raises the issue and refuses to distribute it while seeking an appropriate resolution.",
+    "trap": "Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+    "mnemonic": "Handling a discovered violation → Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+    "recall": "Without looking: explain handling a discovered violation and one mistake to avoid.",
+    "recallAnswer": "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate. Escalation and legal advice can help determine appropriate action; an instruction from management does not excuse continued participation. Watch for: Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+    "source": {
+      "file": "cfa-program2026L1V10.pdf",
+      "pdfPage": 265,
+      "endPdfPage": 302,
+      "section": "Ethics Application"
+    },
+    "questions": [
+      {
+        "id": "v10-m5-c1-q1",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "An employee knows a client presentation contains falsified returns. The best action is:",
+        "choices": [
+          "Distribute it because management approved it",
+          "Refuse participation and take appropriate escalation or dissociation steps",
+          "Add an unrelated disclaimer and distribute unchanged"
+        ],
+        "answer": 1,
+        "explanation": "Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns.",
+        "distractors": [
+          "Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns.",
+          "This applies the principle correctly.",
+          "Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns."
+        ],
+        "difficulty": 2,
+        "type": "scenario",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      },
+      {
+        "id": "v10-m5-c1-recall",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "Without looking: explain handling a discovered violation and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate. Escalation and legal advice can help determine appropriate action; an instruction from management does not excuse continued participation. Watch for: Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      },
+      {
+        "id": "v10-m5-c1-depth1",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "Which statement most accurately describes handling a discovered violation?",
+        "choices": [
+          "Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate."
+        ],
+        "answer": 2,
+        "explanation": "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate. Escalation and legal advice can help determine appropriate action; an instruction from management does not excuse continued participation. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      },
+      {
+        "id": "v10-m5-c1-depth2",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "A candidate applies this rule: “Continuing misconduct while waiting indefinitely is not adequate dissociation.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. When becoming aware of a violation, a professional must not knowingly participate and may need to dissociate. Escalation and legal advice can help determine appropriate action; an instruction from management does not excuse continued participation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      },
+      {
+        "id": "v10-m5-c1-depth3",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "Consider this case: An employee learns that a performance presentation is knowingly falsified, raises the issue and refuses to distribute it while seeking an appropriate resolution. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply handling a discovered violation while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Continuing misconduct while waiting indefinitely is not adequate dissociation."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns. Watch for: Continuing misconduct while waiting indefinitely is not adequate dissociation.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      },
+      {
+        "id": "v10-m5-c1-depth4",
+        "conceptId": "v10-m5-c1",
+        "topicId": "v10",
+        "moduleId": "v10-m5",
+        "prompt": "Why does handling a discovered violation matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Knowing distribution continues the violation."
+        ],
+        "answer": 2,
+        "explanation": "Knowing distribution continues the violation. Appropriate escalation and dissociation address the misconduct; a generic disclaimer does not cure false returns. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V10.pdf",
+          "pdfPage": 265,
+          "endPdfPage": 302,
+          "section": "Ethics Application"
+        }
+      }
+    ]
+  }
+]

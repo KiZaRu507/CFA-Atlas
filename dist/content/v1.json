@@ -1,0 +1,2933 @@
+[
+  {
+    "id": "v1-m1-c1",
+    "moduleId": "v1-m1",
+    "topicId": "v1",
+    "name": "Compounding versus averaging",
+    "objective": "Explain and apply compounding versus averaging.",
+    "explanation": "Arithmetic return describes the average single-period outcome. Geometric return describes the constant compounded rate that links initial and final wealth. Money-weighted return also responds to the timing and size of external cash flows.",
+    "why": "Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return.",
+    "definition": "Arithmetic return describes the average single-period outcome.",
+    "example": "An investment rises 20% and then falls 20%: 100 becomes 120 then 96. Arithmetic mean is 0%; geometric mean is √0.96 − 1 = −2.02%.",
+    "trap": "Equal percentage gains and losses do not cancel in wealth.",
+    "mnemonic": "Compounding versus averaging → Equal percentage gains and losses do not cancel in wealth.",
+    "recall": "Without looking: explain compounding versus averaging and one mistake to avoid.",
+    "recallAnswer": "Arithmetic return describes the average single-period outcome. Geometric return describes the constant compounded rate that links initial and final wealth. Money-weighted return also responds to the timing and size of external cash flows. Watch for: Equal percentage gains and losses do not cancel in wealth.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 11,
+      "endPdfPage": 52,
+      "section": "Rates and Returns"
+    },
+    "questions": [
+      {
+        "id": "v1-m1-c1-q1",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "A fund returns +20% and −20% over two years, with no flows. Its annual compound return is closest to:",
+        "choices": [
+          "0.00%",
+          "−2.02%",
+          "−4.00%"
+        ],
+        "answer": 1,
+        "explanation": "Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return.",
+        "distractors": [
+          "Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return.",
+          "This applies the principle correctly.",
+          "Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-recall",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "Without looking: explain compounding versus averaging and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Arithmetic return describes the average single-period outcome. Geometric return describes the constant compounded rate that links initial and final wealth. Money-weighted return also responds to the timing and size of external cash flows. Watch for: Equal percentage gains and losses do not cancel in wealth.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-formula",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "Reconstruct the relationship for geometric mean return. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "R_g = [Π(1 + R_t)]^(1/n) − 1\nR_t: each period return; n: number of equal-length periods",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-calc1",
+        "conceptId": "v1-m1-c1",
+        "moduleId": "v1-m1",
+        "topicId": "v1",
+        "prompt": "With no external cash flows, annual returns are 12.00% and -5.00%. Annualized geometric return is closest to:",
+        "choices": [
+          "3.50%",
+          "6.40%",
+          "3.15%"
+        ],
+        "answer": 2,
+        "explanation": "Compound wealth factors, then annualize: √[(1+0.12)(1-0.05)] − 1 = 3.15%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.12)(1-0.05)] − 1 = 3.15%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.12)(1-0.05)] − 1 = 3.15%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-calc2",
+        "conceptId": "v1-m1-c1",
+        "moduleId": "v1-m1",
+        "topicId": "v1",
+        "prompt": "With no external cash flows, annual returns are 14.00% and -6.00%. Annualized geometric return is closest to:",
+        "choices": [
+          "7.16%",
+          "3.52%",
+          "4.00%"
+        ],
+        "answer": 1,
+        "explanation": "Compound wealth factors, then annualize: √[(1+0.14)(1-0.06)] − 1 = 3.52%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.14)(1-0.06)] − 1 = 3.52%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.14)(1-0.06)] − 1 = 3.52%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-calc3",
+        "conceptId": "v1-m1-c1",
+        "moduleId": "v1-m1",
+        "topicId": "v1",
+        "prompt": "With no external cash flows, annual returns are 16.00% and -7.00%. Annualized geometric return is closest to:",
+        "choices": [
+          "3.87%",
+          "4.50%",
+          "7.88%"
+        ],
+        "answer": 0,
+        "explanation": "Compound wealth factors, then annualize: √[(1+0.16)(1-0.07)] − 1 = 3.87%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.16)(1-0.07)] − 1 = 3.87%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.16)(1-0.07)] − 1 = 3.87%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-calc4",
+        "conceptId": "v1-m1-c1",
+        "moduleId": "v1-m1",
+        "topicId": "v1",
+        "prompt": "With no external cash flows, annual returns are 18.00% and -8.00%. Annualized geometric return is closest to:",
+        "choices": [
+          "5.00%",
+          "8.56%",
+          "4.19%"
+        ],
+        "answer": 2,
+        "explanation": "Compound wealth factors, then annualize: √[(1+0.18)(1-0.08)] − 1 = 4.19%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.18)(1-0.08)] − 1 = 4.19%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.18)(1-0.08)] − 1 = 4.19%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-calc5",
+        "conceptId": "v1-m1-c1",
+        "moduleId": "v1-m1",
+        "topicId": "v1",
+        "prompt": "With no external cash flows, annual returns are 20.00% and -9.00%. Annualized geometric return is closest to:",
+        "choices": [
+          "9.20%",
+          "4.50%",
+          "5.50%"
+        ],
+        "answer": 1,
+        "explanation": "Compound wealth factors, then annualize: √[(1+0.20)(1-0.09)] − 1 = 4.50%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.20)(1-0.09)] − 1 = 4.50%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Compound wealth factors, then annualize: √[(1+0.20)(1-0.09)] − 1 = 4.50%. The arithmetic mean ignores volatility drag; the cumulative return is not annualized."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-depth1",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "Which statement most accurately describes compounding versus averaging?",
+        "choices": [
+          "Arithmetic return describes the average single-period outcome.",
+          "Equal percentage gains and losses do not cancel in wealth.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Arithmetic return describes the average single-period outcome. Geometric return describes the constant compounded rate that links initial and final wealth. Money-weighted return also responds to the timing and size of external cash flows. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-depth2",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "A candidate applies this rule: “Equal percentage gains and losses do not cancel in wealth.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Arithmetic return describes the average single-period outcome."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Arithmetic return describes the average single-period outcome. Geometric return describes the constant compounded rate that links initial and final wealth. Money-weighted return also responds to the timing and size of external cash flows.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-depth3",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "Consider this case: An investment rises 20% and then falls 20%: 100 becomes 120 then 96. Arithmetic mean is 0%; geometric mean is √0.96 − 1 = −2.02%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Equal percentage gains and losses do not cancel in wealth.",
+          "Apply compounding versus averaging while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return. Watch for: Equal percentage gains and losses do not cancel in wealth.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      },
+      {
+        "id": "v1-m1-c1-depth4",
+        "conceptId": "v1-m1-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m1",
+        "prompt": "Why does compounding versus averaging matter to an analyst or candidate?",
+        "choices": [
+          "Multiply 1.20 by 0.80, then take the square root and subtract one.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Multiply 1.20 by 0.80, then take the square root and subtract one. −4% is the cumulative, not annualized, return. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 52,
+          "section": "Rates and Returns"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Geometric mean return",
+      "expression": "R_g = [Π(1 + R_t)]^(1/n) − 1",
+      "variables": "R_t: each period return; n: number of equal-length periods",
+      "intuition": "Use to link wealth through multiple periods.",
+      "when": "Use to link wealth through multiple periods.",
+      "example": "1.20 × 0.80 = 0.96; √0.96 − 1 = −2.02%.",
+      "mistake": "Do not average the percentage returns arithmetically.",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m2-c1",
+    "moduleId": "v1-m2",
+    "topicId": "v1",
+    "name": "Discounting future cash",
+    "objective": "Explain and apply discounting future cash.",
+    "explanation": "Present value converts a future payment into its equivalent value today at the required return. Cash flows must be placed on a timeline and discounted for their own number of periods.",
+    "why": "Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead.",
+    "definition": "Present value converts a future payment into its equivalent value today at the required return.",
+    "example": "A payment of 1,210 in two years at 10% is worth 1,210 / 1.10² = 1,000 today.",
+    "trap": "Match the rate period to the cash-flow period.",
+    "mnemonic": "Discounting future cash → Match the rate period to the cash-flow period.",
+    "recall": "Without looking: explain discounting future cash and one mistake to avoid.",
+    "recallAnswer": "Present value converts a future payment into its equivalent value today at the required return. Cash flows must be placed on a timeline and discounted for their own number of periods. Watch for: Match the rate period to the cash-flow period.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 53,
+      "endPdfPage": 94,
+      "section": "Time Value of Money in Finance"
+    },
+    "questions": [
+      {
+        "id": "v1-m2-c1-q1",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "You will receive 1,210 in two years. At an annual required return of 10%, present value is:",
+        "choices": [
+          "1,000",
+          "1,100",
+          "1,464.10"
+        ],
+        "answer": 0,
+        "explanation": "Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead.",
+          "Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-recall",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "Without looking: explain discounting future cash and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Present value converts a future payment into its equivalent value today at the required return. Cash flows must be placed on a timeline and discounted for their own number of periods. Watch for: Match the rate period to the cash-flow period.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-formula",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "Reconstruct the relationship for present value. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "PV = FV / (1 + r)^n\nFV: future cash; r: rate per period; n: number of periods",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-calc1",
+        "conceptId": "v1-m2-c1",
+        "moduleId": "v1-m2",
+        "topicId": "v1",
+        "prompt": "A single payment of 1,700 arrives in 3 years. The annual effective required return is 4.00%. Present value is closest to:",
+        "choices": [
+          "1,634.62",
+          "1,912.27",
+          "1,511.29"
+        ],
+        "answer": 2,
+        "explanation": "Draw the timeline, then discount each of the 3 periods: 1700/(1+0.04)^3 = 1,511.29. Dividing once ignores time; multiplying compounds in the wrong direction.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 3 periods: 1700/(1+0.04)^3 = 1,511.29. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 3 periods: 1700/(1+0.04)^3 = 1,511.29. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-calc2",
+        "conceptId": "v1-m2-c1",
+        "moduleId": "v1-m2",
+        "topicId": "v1",
+        "prompt": "A single payment of 1,900 arrives in 4 years. The annual effective required return is 5.00%. Present value is closest to:",
+        "choices": [
+          "2,309.46",
+          "1,563.13",
+          "1,809.52"
+        ],
+        "answer": 1,
+        "explanation": "Draw the timeline, then discount each of the 4 periods: 1900/(1+0.05)^4 = 1,563.13. Dividing once ignores time; multiplying compounds in the wrong direction.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 4 periods: 1900/(1+0.05)^4 = 1,563.13. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 4 periods: 1900/(1+0.05)^4 = 1,563.13. Dividing once ignores time; multiplying compounds in the wrong direction."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-calc3",
+        "conceptId": "v1-m2-c1",
+        "moduleId": "v1-m2",
+        "topicId": "v1",
+        "prompt": "A single payment of 2,100 arrives in 2 years. The annual effective required return is 6.00%. Present value is closest to:",
+        "choices": [
+          "1,868.99",
+          "1,981.13",
+          "2,359.56"
+        ],
+        "answer": 0,
+        "explanation": "Draw the timeline, then discount each of the 2 periods: 2100/(1+0.06)^2 = 1,868.99. Dividing once ignores time; multiplying compounds in the wrong direction.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 2 periods: 2100/(1+0.06)^2 = 1,868.99. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 2 periods: 2100/(1+0.06)^2 = 1,868.99. Dividing once ignores time; multiplying compounds in the wrong direction."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-calc4",
+        "conceptId": "v1-m2-c1",
+        "moduleId": "v1-m2",
+        "topicId": "v1",
+        "prompt": "A single payment of 2,300 arrives in 3 years. The annual effective required return is 7.00%. Present value is closest to:",
+        "choices": [
+          "2,149.53",
+          "2,817.60",
+          "1,877.49"
+        ],
+        "answer": 2,
+        "explanation": "Draw the timeline, then discount each of the 3 periods: 2300/(1+0.07)^3 = 1,877.49. Dividing once ignores time; multiplying compounds in the wrong direction.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 3 periods: 2300/(1+0.07)^3 = 1,877.49. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 3 periods: 2300/(1+0.07)^3 = 1,877.49. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-calc5",
+        "conceptId": "v1-m2-c1",
+        "moduleId": "v1-m2",
+        "topicId": "v1",
+        "prompt": "A single payment of 2,500 arrives in 4 years. The annual effective required return is 8.00%. Present value is closest to:",
+        "choices": [
+          "3,401.22",
+          "1,837.57",
+          "2,314.81"
+        ],
+        "answer": 1,
+        "explanation": "Draw the timeline, then discount each of the 4 periods: 2500/(1+0.08)^4 = 1,837.57. Dividing once ignores time; multiplying compounds in the wrong direction.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 4 periods: 2500/(1+0.08)^4 = 1,837.57. Dividing once ignores time; multiplying compounds in the wrong direction.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Draw the timeline, then discount each of the 4 periods: 2500/(1+0.08)^4 = 1,837.57. Dividing once ignores time; multiplying compounds in the wrong direction."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-depth1",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "Which statement most accurately describes discounting future cash?",
+        "choices": [
+          "Match the rate period to the cash-flow period.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Present value converts a future payment into its equivalent value today at the required return."
+        ],
+        "answer": 2,
+        "explanation": "Present value converts a future payment into its equivalent value today at the required return. Cash flows must be placed on a timeline and discounted for their own number of periods. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-depth2",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "A candidate applies this rule: “Match the rate period to the cash-flow period.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Present value converts a future payment into its equivalent value today at the required return.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Present value converts a future payment into its equivalent value today at the required return. Cash flows must be placed on a timeline and discounted for their own number of periods.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-depth3",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "Consider this case: A payment of 1,210 in two years at 10% is worth 1,210 / 1.10² = 1,000 today. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply discounting future cash while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Match the rate period to the cash-flow period."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead. Watch for: Match the rate period to the cash-flow period.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      },
+      {
+        "id": "v1-m2-c1-depth4",
+        "conceptId": "v1-m2-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m2",
+        "prompt": "Why does discounting future cash matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Discount twice: 1,210 / 1.21 = 1,000."
+        ],
+        "answer": 2,
+        "explanation": "Discount twice: 1,210 / 1.21 = 1,000. 1,100 discounts only one period; 1,464.10 compounds instead. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 53,
+          "endPdfPage": 94,
+          "section": "Time Value of Money in Finance"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Present value",
+      "expression": "PV = FV / (1 + r)^n",
+      "variables": "FV: future cash; r: rate per period; n: number of periods",
+      "intuition": "Discount an isolated future cash flow.",
+      "when": "Discount an isolated future cash flow.",
+      "example": "1,210 / 1.10² = 1,000.",
+      "mistake": "A higher discount rate lowers present value.",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m3-c1",
+    "moduleId": "v1-m3",
+    "topicId": "v1",
+    "name": "Correlation and causation",
+    "objective": "Explain and apply correlation and causation.",
+    "explanation": "Correlation measures linear co-movement on a scale from −1 to +1. Zero correlation rules out linear association, not every possible relationship. Outliers can distort the measure.",
+    "why": "Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence.",
+    "definition": "Correlation measures linear co-movement on a scale from −1 to +1.",
+    "example": "If Y = X² and X is symmetrically distributed around zero, the relationship is deterministic but linear correlation can be zero.",
+    "trap": "Correlation alone does not establish causation.",
+    "mnemonic": "Correlation and causation → Correlation alone does not establish causation.",
+    "recall": "Without looking: explain correlation and causation and one mistake to avoid.",
+    "recallAnswer": "Correlation measures linear co-movement on a scale from −1 to +1. Zero correlation rules out linear association, not every possible relationship. Outliers can distort the measure. Watch for: Correlation alone does not establish causation.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 95,
+      "endPdfPage": 138,
+      "section": "Statistical Measures of Asset Returns"
+    },
+    "questions": [
+      {
+        "id": "v1-m3-c1-q1",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "An analyst finds zero correlation between two variables. Which conclusion is justified?",
+        "choices": [
+          "No relationship of any kind exists",
+          "There is no measured linear association",
+          "One variable cannot help explain the other"
+        ],
+        "answer": 1,
+        "explanation": "Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence.",
+        "distractors": [
+          "Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence.",
+          "This applies the principle correctly.",
+          "Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      },
+      {
+        "id": "v1-m3-c1-recall",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "Without looking: explain correlation and causation and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Correlation measures linear co-movement on a scale from −1 to +1. Zero correlation rules out linear association, not every possible relationship. Outliers can distort the measure. Watch for: Correlation alone does not establish causation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      },
+      {
+        "id": "v1-m3-c1-depth1",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "Which statement most accurately describes correlation and causation?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Correlation measures linear co-movement on a scale from −1 to +1.",
+          "Correlation alone does not establish causation."
+        ],
+        "answer": 1,
+        "explanation": "Correlation measures linear co-movement on a scale from −1 to +1. Zero correlation rules out linear association, not every possible relationship. Outliers can distort the measure. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      },
+      {
+        "id": "v1-m3-c1-depth2",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "A candidate applies this rule: “Correlation alone does not establish causation.” What is the best correction?",
+        "choices": [
+          "Correlation measures linear co-movement on a scale from −1 to +1.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Correlation measures linear co-movement on a scale from −1 to +1. Zero correlation rules out linear association, not every possible relationship. Outliers can distort the measure.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      },
+      {
+        "id": "v1-m3-c1-depth3",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "Consider this case: If Y = X² and X is symmetrically distributed around zero, the relationship is deterministic but linear correlation can be zero. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Correlation alone does not establish causation.",
+          "Apply correlation and causation while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence. Watch for: Correlation alone does not establish causation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      },
+      {
+        "id": "v1-m3-c1-depth4",
+        "conceptId": "v1-m3-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m3",
+        "prompt": "Why does correlation and causation matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Zero correlation is about linear association.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Zero correlation is about linear association. Nonlinear relationships may remain, and causal conclusions require other evidence. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 95,
+          "endPdfPage": 138,
+          "section": "Statistical Measures of Asset Returns"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v1-m4-c1",
+    "moduleId": "v1-m4",
+    "topicId": "v1",
+    "name": "Updating probabilities with evidence",
+    "objective": "Explain and apply updating probabilities with evidence.",
+    "explanation": "Bayes’ rule combines a prior probability with the likelihood of new evidence. The evidence must be normalized across all possible underlying states.",
+    "why": "Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26.",
+    "definition": "Bayes’ rule combines a prior probability with the likelihood of new evidence.",
+    "example": "Default prior 10%; warning occurs in 80% of defaults and 20% of non-defaults. P(default | warning) = 0.08 / (0.08 + 0.18) = 30.77%.",
+    "trap": "Do not reverse conditional probabilities.",
+    "mnemonic": "Updating probabilities with evidence → Do not reverse conditional probabilities.",
+    "recall": "Without looking: explain updating probabilities with evidence and one mistake to avoid.",
+    "recallAnswer": "Bayes’ rule combines a prior probability with the likelihood of new evidence. The evidence must be normalized across all possible underlying states. Watch for: Do not reverse conditional probabilities.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 139,
+      "endPdfPage": 158,
+      "section": "Probability Trees and Conditional Expectations"
+    },
+    "questions": [
+      {
+        "id": "v1-m4-c1-q1",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "A warning appears in 80% of defaults and 20% of non-defaults. Prior default probability is 10%. After a warning, default probability is closest to:",
+        "choices": [
+          "80.00%",
+          "30.77%",
+          "8.00%"
+        ],
+        "answer": 1,
+        "explanation": "Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26.",
+        "distractors": [
+          "Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26.",
+          "This applies the principle correctly.",
+          "Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-recall",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "Without looking: explain updating probabilities with evidence and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Bayes’ rule combines a prior probability with the likelihood of new evidence. The evidence must be normalized across all possible underlying states. Watch for: Do not reverse conditional probabilities.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-formula",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "Reconstruct the relationship for bayes update. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "P(A|B) = P(B|A)P(A) / P(B)\nA: event of interest; B: evidence; |: conditional on",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-calc1",
+        "conceptId": "v1-m4-c1",
+        "moduleId": "v1-m4",
+        "topicId": "v1",
+        "prompt": "Default prior is 7.00%. A warning occurs in 70% of defaults and 15% of non-defaults. P(default | warning) is closest to:",
+        "choices": [
+          "70.00%",
+          "4.90%",
+          "25.99%"
+        ],
+        "answer": 2,
+        "explanation": "Joint probability = 0.07×.70. Total warning probability = 0.07×.70 + 0.93×.15. Divide joint by total to get 25.99%. The likelihood and joint probability are not the posterior.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.07×.70. Total warning probability = 0.07×.70 + 0.93×.15. Divide joint by total to get 25.99%. The likelihood and joint probability are not the posterior.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.07×.70. Total warning probability = 0.07×.70 + 0.93×.15. Divide joint by total to get 25.99%. The likelihood and joint probability are not the posterior.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-calc2",
+        "conceptId": "v1-m4-c1",
+        "moduleId": "v1-m4",
+        "topicId": "v1",
+        "prompt": "Default prior is 9.00%. A warning occurs in 70% of defaults and 15% of non-defaults. P(default | warning) is closest to:",
+        "choices": [
+          "6.30%",
+          "31.58%",
+          "70.00%"
+        ],
+        "answer": 1,
+        "explanation": "Joint probability = 0.09×.70. Total warning probability = 0.09×.70 + 0.91×.15. Divide joint by total to get 31.58%. The likelihood and joint probability are not the posterior.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.09×.70. Total warning probability = 0.09×.70 + 0.91×.15. Divide joint by total to get 31.58%. The likelihood and joint probability are not the posterior.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.09×.70. Total warning probability = 0.09×.70 + 0.91×.15. Divide joint by total to get 31.58%. The likelihood and joint probability are not the posterior."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-calc3",
+        "conceptId": "v1-m4-c1",
+        "moduleId": "v1-m4",
+        "topicId": "v1",
+        "prompt": "Default prior is 11.00%. A warning occurs in 70% of defaults and 15% of non-defaults. P(default | warning) is closest to:",
+        "choices": [
+          "36.58%",
+          "70.00%",
+          "7.70%"
+        ],
+        "answer": 0,
+        "explanation": "Joint probability = 0.11×.70. Total warning probability = 0.11×.70 + 0.89×.15. Divide joint by total to get 36.58%. The likelihood and joint probability are not the posterior.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.11×.70. Total warning probability = 0.11×.70 + 0.89×.15. Divide joint by total to get 36.58%. The likelihood and joint probability are not the posterior.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.11×.70. Total warning probability = 0.11×.70 + 0.89×.15. Divide joint by total to get 36.58%. The likelihood and joint probability are not the posterior."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-calc4",
+        "conceptId": "v1-m4-c1",
+        "moduleId": "v1-m4",
+        "topicId": "v1",
+        "prompt": "Default prior is 13.00%. A warning occurs in 70% of defaults and 15% of non-defaults. P(default | warning) is closest to:",
+        "choices": [
+          "70.00%",
+          "9.10%",
+          "41.08%"
+        ],
+        "answer": 2,
+        "explanation": "Joint probability = 0.13×.70. Total warning probability = 0.13×.70 + 0.87×.15. Divide joint by total to get 41.08%. The likelihood and joint probability are not the posterior.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.13×.70. Total warning probability = 0.13×.70 + 0.87×.15. Divide joint by total to get 41.08%. The likelihood and joint probability are not the posterior.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.13×.70. Total warning probability = 0.13×.70 + 0.87×.15. Divide joint by total to get 41.08%. The likelihood and joint probability are not the posterior.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-calc5",
+        "conceptId": "v1-m4-c1",
+        "moduleId": "v1-m4",
+        "topicId": "v1",
+        "prompt": "Default prior is 15.00%. A warning occurs in 70% of defaults and 15% of non-defaults. P(default | warning) is closest to:",
+        "choices": [
+          "10.50%",
+          "45.16%",
+          "70.00%"
+        ],
+        "answer": 1,
+        "explanation": "Joint probability = 0.15×.70. Total warning probability = 0.15×.70 + 0.85×.15. Divide joint by total to get 45.16%. The likelihood and joint probability are not the posterior.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.15×.70. Total warning probability = 0.15×.70 + 0.85×.15. Divide joint by total to get 45.16%. The likelihood and joint probability are not the posterior.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Joint probability = 0.15×.70. Total warning probability = 0.15×.70 + 0.85×.15. Divide joint by total to get 45.16%. The likelihood and joint probability are not the posterior."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-depth1",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "Which statement most accurately describes updating probabilities with evidence?",
+        "choices": [
+          "Bayes’ rule combines a prior probability with the likelihood of new evidence.",
+          "Do not reverse conditional probabilities.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Bayes’ rule combines a prior probability with the likelihood of new evidence. The evidence must be normalized across all possible underlying states. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-depth2",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "A candidate applies this rule: “Do not reverse conditional probabilities.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Bayes’ rule combines a prior probability with the likelihood of new evidence."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Bayes’ rule combines a prior probability with the likelihood of new evidence. The evidence must be normalized across all possible underlying states.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-depth3",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "Consider this case: Default prior 10%; warning occurs in 80% of defaults and 20% of non-defaults. P(default | warning) = 0.08 / (0.08 + 0.18) = 30.77%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Do not reverse conditional probabilities.",
+          "Apply updating probabilities with evidence while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26. Watch for: Do not reverse conditional probabilities.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      },
+      {
+        "id": "v1-m4-c1-depth4",
+        "conceptId": "v1-m4-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m4",
+        "prompt": "Why does updating probabilities with evidence matter to an analyst or candidate?",
+        "choices": [
+          "Joint default-and-warning probability is 0.10 × 0.80 = 0.08.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Joint default-and-warning probability is 0.10 × 0.80 = 0.08. Total warning probability is 0.08 + 0.90 × 0.20 = 0.26. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 139,
+          "endPdfPage": 158,
+          "section": "Probability Trees and Conditional Expectations"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Bayes update",
+      "expression": "P(A|B) = P(B|A)P(A) / P(B)",
+      "variables": "A: event of interest; B: evidence; |: conditional on",
+      "intuition": "Update an initial belief using observed evidence.",
+      "when": "Update an initial belief using observed evidence.",
+      "example": "0.08 / 0.26 = 30.77%.",
+      "mistake": "The likelihood P(B|A) is not the posterior P(A|B).",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m5-c1",
+    "moduleId": "v1-m5",
+    "topicId": "v1",
+    "name": "Portfolio risk and covariance",
+    "objective": "Explain and apply portfolio risk and covariance.",
+    "explanation": "Expected portfolio return is the weighted average of expected asset returns. Risk also depends on covariance: imperfectly correlated assets can reduce volatility when combined.",
+    "why": "Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances.",
+    "definition": "Expected portfolio return is the weighted average of expected asset returns.",
+    "example": "Two equally weighted assets each have 20% volatility and zero correlation. Portfolio variance = 0.25×0.04 + 0.25×0.04 = 0.02; volatility = 14.14%.",
+    "trap": "Average volatility is generally not portfolio volatility.",
+    "mnemonic": "Portfolio risk and covariance → Average volatility is generally not portfolio volatility.",
+    "recall": "Without looking: explain portfolio risk and covariance and one mistake to avoid.",
+    "recallAnswer": "Expected portfolio return is the weighted average of expected asset returns. Risk also depends on covariance: imperfectly correlated assets can reduce volatility when combined. Watch for: Average volatility is generally not portfolio volatility.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 159,
+      "endPdfPage": 182,
+      "section": "Portfolio Mathematics"
+    },
+    "questions": [
+      {
+        "id": "v1-m5-c1-q1",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Two assets have 20% volatility, zero correlation and equal weights. Portfolio volatility is closest to:",
+        "choices": [
+          "20%",
+          "10%",
+          "14.14%"
+        ],
+        "answer": 2,
+        "explanation": "Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances.",
+        "distractors": [
+          "Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances.",
+          "Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-recall",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Without looking: explain portfolio risk and covariance and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Expected portfolio return is the weighted average of expected asset returns. Risk also depends on covariance: imperfectly correlated assets can reduce volatility when combined. Watch for: Average volatility is generally not portfolio volatility.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-formula",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Reconstruct the relationship for two-asset portfolio variance. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "σ_p² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂σ₁σ₂ρ₁₂\nw: weights; σ: volatility; ρ: correlation",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-calc1",
+        "conceptId": "v1-m5-c1",
+        "moduleId": "v1-m5",
+        "topicId": "v1",
+        "prompt": "Two equally weighted assets each have volatility 12.00% and correlation 0.1. Portfolio volatility is closest to:",
+        "choices": [
+          "12.00%",
+          "6.00%",
+          "8.90%"
+        ],
+        "answer": 2,
+        "explanation": "Variance = .25σ² + .25σ² + .5σ²ρ = 0.007920. Square root gives 8.90%. Neither average volatility nor half one asset’s volatility captures covariance.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.007920. Square root gives 8.90%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.007920. Square root gives 8.90%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-calc2",
+        "conceptId": "v1-m5-c1",
+        "moduleId": "v1-m5",
+        "topicId": "v1",
+        "prompt": "Two equally weighted assets each have volatility 14.00% and correlation 0.2. Portfolio volatility is closest to:",
+        "choices": [
+          "7.00%",
+          "10.84%",
+          "14.00%"
+        ],
+        "answer": 1,
+        "explanation": "Variance = .25σ² + .25σ² + .5σ²ρ = 0.011760. Square root gives 10.84%. Neither average volatility nor half one asset’s volatility captures covariance.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.011760. Square root gives 10.84%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.011760. Square root gives 10.84%. Neither average volatility nor half one asset’s volatility captures covariance."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-calc3",
+        "conceptId": "v1-m5-c1",
+        "moduleId": "v1-m5",
+        "topicId": "v1",
+        "prompt": "Two equally weighted assets each have volatility 16.00% and correlation 0.3. Portfolio volatility is closest to:",
+        "choices": [
+          "12.90%",
+          "16.00%",
+          "8.00%"
+        ],
+        "answer": 0,
+        "explanation": "Variance = .25σ² + .25σ² + .5σ²ρ = 0.016640. Square root gives 12.90%. Neither average volatility nor half one asset’s volatility captures covariance.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.016640. Square root gives 12.90%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.016640. Square root gives 12.90%. Neither average volatility nor half one asset’s volatility captures covariance."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-calc4",
+        "conceptId": "v1-m5-c1",
+        "moduleId": "v1-m5",
+        "topicId": "v1",
+        "prompt": "Two equally weighted assets each have volatility 18.00% and correlation 0.4. Portfolio volatility is closest to:",
+        "choices": [
+          "18.00%",
+          "9.00%",
+          "15.06%"
+        ],
+        "answer": 2,
+        "explanation": "Variance = .25σ² + .25σ² + .5σ²ρ = 0.022680. Square root gives 15.06%. Neither average volatility nor half one asset’s volatility captures covariance.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.022680. Square root gives 15.06%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.022680. Square root gives 15.06%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-calc5",
+        "conceptId": "v1-m5-c1",
+        "moduleId": "v1-m5",
+        "topicId": "v1",
+        "prompt": "Two equally weighted assets each have volatility 20.00% and correlation 0.5. Portfolio volatility is closest to:",
+        "choices": [
+          "10.00%",
+          "17.32%",
+          "20.00%"
+        ],
+        "answer": 1,
+        "explanation": "Variance = .25σ² + .25σ² + .5σ²ρ = 0.030000. Square root gives 17.32%. Neither average volatility nor half one asset’s volatility captures covariance.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.030000. Square root gives 17.32%. Neither average volatility nor half one asset’s volatility captures covariance.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Variance = .25σ² + .25σ² + .5σ²ρ = 0.030000. Square root gives 17.32%. Neither average volatility nor half one asset’s volatility captures covariance."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-depth1",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Which statement most accurately describes portfolio risk and covariance?",
+        "choices": [
+          "Average volatility is generally not portfolio volatility.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Expected portfolio return is the weighted average of expected asset returns."
+        ],
+        "answer": 2,
+        "explanation": "Expected portfolio return is the weighted average of expected asset returns. Risk also depends on covariance: imperfectly correlated assets can reduce volatility when combined. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-depth2",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "A candidate applies this rule: “Average volatility is generally not portfolio volatility.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Expected portfolio return is the weighted average of expected asset returns.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Expected portfolio return is the weighted average of expected asset returns. Risk also depends on covariance: imperfectly correlated assets can reduce volatility when combined.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-depth3",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Consider this case: Two equally weighted assets each have 20% volatility and zero correlation. Portfolio variance = 0.25×0.04 + 0.25×0.04 = 0.02; volatility = 14.14%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply portfolio risk and covariance while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Average volatility is generally not portfolio volatility."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances. Watch for: Average volatility is generally not portfolio volatility.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      },
+      {
+        "id": "v1-m5-c1-depth4",
+        "conceptId": "v1-m5-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m5",
+        "prompt": "Why does portfolio risk and covariance matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Take the square root of weighted variances plus twice weighted covariance."
+        ],
+        "answer": 2,
+        "explanation": "Take the square root of weighted variances plus twice weighted covariance. Zero correlation removes covariance, not the individual variances. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 159,
+          "endPdfPage": 182,
+          "section": "Portfolio Mathematics"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Two-asset portfolio variance",
+      "expression": "σ_p² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂σ₁σ₂ρ₁₂",
+      "variables": "w: weights; σ: volatility; ρ: correlation",
+      "intuition": "Combine individual risk and co-movement.",
+      "when": "Combine individual risk and co-movement.",
+      "example": "Equal weights, 20% volatility and zero correlation give σ_p = √0.02.",
+      "mistake": "Square weights and take the final square root.",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m6-c1",
+    "moduleId": "v1-m6",
+    "topicId": "v1",
+    "name": "Simulation versus bootstrap",
+    "objective": "Explain and apply simulation versus bootstrap.",
+    "explanation": "Monte Carlo draws simulated inputs from specified distributions. Bootstrap samples repeatedly with replacement from observed data. Neither method repairs a poor model or unrepresentative history.",
+    "why": "Replacement allows the same observation to appear more than once in a resample. A census uses every population member.",
+    "definition": "Monte Carlo draws simulated inputs from specified distributions.",
+    "example": "An analyst repeatedly samples 60 monthly observations from the same historical dataset, allowing repeats. This is bootstrap resampling.",
+    "trap": "Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+    "mnemonic": "Simulation versus bootstrap → Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+    "recall": "Without looking: explain simulation versus bootstrap and one mistake to avoid.",
+    "recallAnswer": "Monte Carlo draws simulated inputs from specified distributions. Bootstrap samples repeatedly with replacement from observed data. Neither method repairs a poor model or unrepresentative history. Watch for: Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 183,
+      "endPdfPage": 200,
+      "section": "Simulation Methods"
+    },
+    "questions": [
+      {
+        "id": "v1-m6-c1-q1",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "An analyst resamples historical returns with replacement to estimate uncertainty. This is:",
+        "choices": [
+          "Bootstrap resampling",
+          "A census",
+          "Simple random sampling without replacement"
+        ],
+        "answer": 0,
+        "explanation": "Replacement allows the same observation to appear more than once in a resample. A census uses every population member.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Replacement allows the same observation to appear more than once in a resample. A census uses every population member.",
+          "Replacement allows the same observation to appear more than once in a resample. A census uses every population member."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      },
+      {
+        "id": "v1-m6-c1-recall",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "Without looking: explain simulation versus bootstrap and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Monte Carlo draws simulated inputs from specified distributions. Bootstrap samples repeatedly with replacement from observed data. Neither method repairs a poor model or unrepresentative history. Watch for: Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      },
+      {
+        "id": "v1-m6-c1-depth1",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "Which statement most accurately describes simulation versus bootstrap?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Monte Carlo draws simulated inputs from specified distributions.",
+          "Bootstrap draws from the observed sample, not necessarily a chosen normal distribution."
+        ],
+        "answer": 1,
+        "explanation": "Monte Carlo draws simulated inputs from specified distributions. Bootstrap samples repeatedly with replacement from observed data. Neither method repairs a poor model or unrepresentative history. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      },
+      {
+        "id": "v1-m6-c1-depth2",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "A candidate applies this rule: “Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.” What is the best correction?",
+        "choices": [
+          "Monte Carlo draws simulated inputs from specified distributions.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Monte Carlo draws simulated inputs from specified distributions. Bootstrap samples repeatedly with replacement from observed data. Neither method repairs a poor model or unrepresentative history.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      },
+      {
+        "id": "v1-m6-c1-depth3",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "Consider this case: An analyst repeatedly samples 60 monthly observations from the same historical dataset, allowing repeats. This is bootstrap resampling. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+          "Apply simulation versus bootstrap while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Replacement allows the same observation to appear more than once in a resample. A census uses every population member. Watch for: Bootstrap draws from the observed sample, not necessarily a chosen normal distribution.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      },
+      {
+        "id": "v1-m6-c1-depth4",
+        "conceptId": "v1-m6-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m6",
+        "prompt": "Why does simulation versus bootstrap matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Replacement allows the same observation to appear more than once in a resample.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Replacement allows the same observation to appear more than once in a resample. A census uses every population member. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 183,
+          "endPdfPage": 200,
+          "section": "Simulation Methods"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v1-m7-c1",
+    "moduleId": "v1-m7",
+    "topicId": "v1",
+    "name": "Precision of a sample mean",
+    "objective": "Explain and apply precision of a sample mean.",
+    "explanation": "The standard error measures variation of the sample mean across repeated samples. Under independent sampling with finite variance, it decreases with the square root of sample size.",
+    "why": "Standard error is σ/√n. Multiplying n by four doubles the denominator.",
+    "definition": "The standard error measures variation of the sample mean across repeated samples.",
+    "example": "If population standard deviation is 12 and n = 36, standard error is 2. With n = 144, it is 1.",
+    "trap": "Four times the sample size halves standard error; doubling does not.",
+    "mnemonic": "Precision of a sample mean → Four times the sample size halves standard error; doubling does not.",
+    "recall": "Without looking: explain precision of a sample mean and one mistake to avoid.",
+    "recallAnswer": "The standard error measures variation of the sample mean across repeated samples. Under independent sampling with finite variance, it decreases with the square root of sample size. Watch for: Four times the sample size halves standard error; doubling does not.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 201,
+      "endPdfPage": 222,
+      "section": "Estimation and Inference"
+    },
+    "questions": [
+      {
+        "id": "v1-m7-c1-q1",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "To halve the standard error of a mean, all else equal, sample size should be:",
+        "choices": [
+          "Doubled",
+          "Quadrupled",
+          "Halved"
+        ],
+        "answer": 1,
+        "explanation": "Standard error is σ/√n. Multiplying n by four doubles the denominator.",
+        "distractors": [
+          "Standard error is σ/√n. Multiplying n by four doubles the denominator.",
+          "This applies the principle correctly.",
+          "Standard error is σ/√n. Multiplying n by four doubles the denominator."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-recall",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "Without looking: explain precision of a sample mean and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The standard error measures variation of the sample mean across repeated samples. Under independent sampling with finite variance, it decreases with the square root of sample size. Watch for: Four times the sample size halves standard error; doubling does not.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-formula",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "Reconstruct the relationship for standard error of the mean. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "SE = σ / √n\nσ: population standard deviation (or estimate s); n: independent observations",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-calc1",
+        "conceptId": "v1-m7-c1",
+        "moduleId": "v1-m7",
+        "topicId": "v1",
+        "prompt": "Independent observations have standard deviation 15 and sample size 36. Standard error of the mean is closest to:",
+        "choices": [
+          "0.42",
+          "15.00",
+          "2.50"
+        ],
+        "answer": 2,
+        "explanation": "SE = σ/√n = 15/√36 = 2.50. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 15/√36 = 2.50. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 15/√36 = 2.50. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-calc2",
+        "conceptId": "v1-m7-c1",
+        "moduleId": "v1-m7",
+        "topicId": "v1",
+        "prompt": "Independent observations have standard deviation 18 and sample size 49. Standard error of the mean is closest to:",
+        "choices": [
+          "18.00",
+          "2.57",
+          "0.37"
+        ],
+        "answer": 1,
+        "explanation": "SE = σ/√n = 18/√49 = 2.57. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 18/√49 = 2.57. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 18/√49 = 2.57. Dividing by n understates the error; σ is dispersion of observations, not the sample mean."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-calc3",
+        "conceptId": "v1-m7-c1",
+        "moduleId": "v1-m7",
+        "topicId": "v1",
+        "prompt": "Independent observations have standard deviation 21 and sample size 64. Standard error of the mean is closest to:",
+        "choices": [
+          "2.62",
+          "0.33",
+          "21.00"
+        ],
+        "answer": 0,
+        "explanation": "SE = σ/√n = 21/√64 = 2.62. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 21/√64 = 2.62. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 21/√64 = 2.62. Dividing by n understates the error; σ is dispersion of observations, not the sample mean."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-calc4",
+        "conceptId": "v1-m7-c1",
+        "moduleId": "v1-m7",
+        "topicId": "v1",
+        "prompt": "Independent observations have standard deviation 24 and sample size 81. Standard error of the mean is closest to:",
+        "choices": [
+          "0.30",
+          "24.00",
+          "2.67"
+        ],
+        "answer": 2,
+        "explanation": "SE = σ/√n = 24/√81 = 2.67. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 24/√81 = 2.67. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 24/√81 = 2.67. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-calc5",
+        "conceptId": "v1-m7-c1",
+        "moduleId": "v1-m7",
+        "topicId": "v1",
+        "prompt": "Independent observations have standard deviation 27 and sample size 100. Standard error of the mean is closest to:",
+        "choices": [
+          "27.00",
+          "2.70",
+          "0.27"
+        ],
+        "answer": 1,
+        "explanation": "SE = σ/√n = 27/√100 = 2.70. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 27/√100 = 2.70. Dividing by n understates the error; σ is dispersion of observations, not the sample mean.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. SE = σ/√n = 27/√100 = 2.70. Dividing by n understates the error; σ is dispersion of observations, not the sample mean."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-depth1",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "Which statement most accurately describes precision of a sample mean?",
+        "choices": [
+          "The standard error measures variation of the sample mean across repeated samples.",
+          "Four times the sample size halves standard error; doubling does not.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "The standard error measures variation of the sample mean across repeated samples. Under independent sampling with finite variance, it decreases with the square root of sample size. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-depth2",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "A candidate applies this rule: “Four times the sample size halves standard error; doubling does not.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The standard error measures variation of the sample mean across repeated samples."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. The standard error measures variation of the sample mean across repeated samples. Under independent sampling with finite variance, it decreases with the square root of sample size.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-depth3",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "Consider this case: If population standard deviation is 12 and n = 36, standard error is 2. With n = 144, it is 1. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Four times the sample size halves standard error; doubling does not.",
+          "Apply precision of a sample mean while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Standard error is σ/√n. Multiplying n by four doubles the denominator. Watch for: Four times the sample size halves standard error; doubling does not.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      },
+      {
+        "id": "v1-m7-c1-depth4",
+        "conceptId": "v1-m7-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m7",
+        "prompt": "Why does precision of a sample mean matter to an analyst or candidate?",
+        "choices": [
+          "Standard error is σ/√n.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Standard error is σ/√n. Multiplying n by four doubles the denominator. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 201,
+          "endPdfPage": 222,
+          "section": "Estimation and Inference"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Standard error of the mean",
+      "expression": "SE = σ / √n",
+      "variables": "σ: population standard deviation (or estimate s); n: independent observations",
+      "intuition": "Quantify precision of the sample mean.",
+      "when": "Quantify precision of the sample mean.",
+      "example": "12 / √36 = 2.",
+      "mistake": "Do not confuse standard error with dispersion of individual observations.",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m8-c1",
+    "moduleId": "v1-m8",
+    "topicId": "v1",
+    "name": "Type I error and test power",
+    "objective": "Explain and apply type i error and test power.",
+    "explanation": "A Type I error rejects a true null hypothesis. A Type II error fails to reject a false null. Power is the probability of rejecting a false null, equal to one minus the Type II error probability.",
+    "why": "Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability.",
+    "definition": "A Type I error rejects a true null hypothesis.",
+    "example": "A test with Type II error probability 25% has 75% power.",
+    "trap": "Failure to reject is not proof that the null is true.",
+    "mnemonic": "Type I error and test power → Failure to reject is not proof that the null is true.",
+    "recall": "Without looking: explain type i error and test power and one mistake to avoid.",
+    "recallAnswer": "A Type I error rejects a true null hypothesis. A Type II error fails to reject a false null. Power is the probability of rejecting a false null, equal to one minus the Type II error probability. Watch for: Failure to reject is not proof that the null is true.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 223,
+      "endPdfPage": 250,
+      "section": "Hypothesis Testing"
+    },
+    "questions": [
+      {
+        "id": "v1-m8-c1-q1",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "A test has a 25% probability of failing to reject a false null. Its power is:",
+        "choices": [
+          "25%",
+          "75%",
+          "95%"
+        ],
+        "answer": 1,
+        "explanation": "Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability.",
+        "distractors": [
+          "Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability.",
+          "This applies the principle correctly.",
+          "Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      },
+      {
+        "id": "v1-m8-c1-recall",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "Without looking: explain type i error and test power and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A Type I error rejects a true null hypothesis. A Type II error fails to reject a false null. Power is the probability of rejecting a false null, equal to one minus the Type II error probability. Watch for: Failure to reject is not proof that the null is true.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      },
+      {
+        "id": "v1-m8-c1-depth1",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "Which statement most accurately describes type i error and test power?",
+        "choices": [
+          "Failure to reject is not proof that the null is true.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A Type I error rejects a true null hypothesis."
+        ],
+        "answer": 2,
+        "explanation": "A Type I error rejects a true null hypothesis. A Type II error fails to reject a false null. Power is the probability of rejecting a false null, equal to one minus the Type II error probability. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      },
+      {
+        "id": "v1-m8-c1-depth2",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "A candidate applies this rule: “Failure to reject is not proof that the null is true.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A Type I error rejects a true null hypothesis.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A Type I error rejects a true null hypothesis. A Type II error fails to reject a false null. Power is the probability of rejecting a false null, equal to one minus the Type II error probability.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      },
+      {
+        "id": "v1-m8-c1-depth3",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "Consider this case: A test with Type II error probability 25% has 75% power. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply type i error and test power while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Failure to reject is not proof that the null is true."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability. Watch for: Failure to reject is not proof that the null is true.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      },
+      {
+        "id": "v1-m8-c1-depth4",
+        "conceptId": "v1-m8-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m8",
+        "prompt": "Why does type i error and test power matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Power is 1 − β = 75%."
+        ],
+        "answer": 2,
+        "explanation": "Power is 1 − β = 75%. A significance level such as 5% concerns Type I error, not this probability. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 223,
+          "endPdfPage": 250,
+          "section": "Hypothesis Testing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v1-m9-c1",
+    "moduleId": "v1-m9",
+    "topicId": "v1",
+    "name": "Independence in contingency tables",
+    "objective": "Explain and apply independence in contingency tables.",
+    "explanation": "A chi-square test compares observed category counts with expected counts under independence. Expected counts use row total times column total divided by the grand total.",
+    "why": "40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count.",
+    "definition": "A chi-square test compares observed category counts with expected counts under independence.",
+    "example": "A row has 40 observations, a column has 30, and the table has 100. The expected count at their intersection is 12.",
+    "trap": "Use counts, not the category labels as numeric measurements.",
+    "mnemonic": "Independence in contingency tables → Use counts, not the category labels as numeric measurements.",
+    "recall": "Without looking: explain independence in contingency tables and one mistake to avoid.",
+    "recallAnswer": "A chi-square test compares observed category counts with expected counts under independence. Expected counts use row total times column total divided by the grand total. Watch for: Use counts, not the category labels as numeric measurements.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 251,
+      "endPdfPage": 270,
+      "section": "Parametric and Non-Parametric Tests of Independence"
+    },
+    "questions": [
+      {
+        "id": "v1-m9-c1-q1",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "In a table of 100 observations, row total is 40 and column total is 30. Expected count under independence is:",
+        "choices": [
+          "70",
+          "12",
+          "0.12"
+        ],
+        "answer": 1,
+        "explanation": "40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count.",
+        "distractors": [
+          "40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count.",
+          "This applies the principle correctly.",
+          "40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      },
+      {
+        "id": "v1-m9-c1-recall",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "Without looking: explain independence in contingency tables and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A chi-square test compares observed category counts with expected counts under independence. Expected counts use row total times column total divided by the grand total. Watch for: Use counts, not the category labels as numeric measurements.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      },
+      {
+        "id": "v1-m9-c1-depth1",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "Which statement most accurately describes independence in contingency tables?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A chi-square test compares observed category counts with expected counts under independence.",
+          "Use counts, not the category labels as numeric measurements."
+        ],
+        "answer": 1,
+        "explanation": "A chi-square test compares observed category counts with expected counts under independence. Expected counts use row total times column total divided by the grand total. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      },
+      {
+        "id": "v1-m9-c1-depth2",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "A candidate applies this rule: “Use counts, not the category labels as numeric measurements.” What is the best correction?",
+        "choices": [
+          "A chi-square test compares observed category counts with expected counts under independence.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. A chi-square test compares observed category counts with expected counts under independence. Expected counts use row total times column total divided by the grand total.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      },
+      {
+        "id": "v1-m9-c1-depth3",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "Consider this case: A row has 40 observations, a column has 30, and the table has 100. The expected count at their intersection is 12. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Use counts, not the category labels as numeric measurements.",
+          "Apply independence in contingency tables while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. 40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count. Watch for: Use counts, not the category labels as numeric measurements.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      },
+      {
+        "id": "v1-m9-c1-depth4",
+        "conceptId": "v1-m9-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m9",
+        "prompt": "Why does independence in contingency tables matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "40 × 30 / 100 = 12 expected observations.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "40 × 30 / 100 = 12 expected observations. 0.12 is the joint proportion, not the count. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 251,
+          "endPdfPage": 270,
+          "section": "Parametric and Non-Parametric Tests of Independence"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v1-m10-c1",
+    "moduleId": "v1-m10",
+    "topicId": "v1",
+    "name": "Interpreting a regression slope",
+    "objective": "Explain and apply interpreting a regression slope.",
+    "explanation": "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable. The intercept predicts Y at X = 0. Association alone is not causation.",
+    "why": "Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6.",
+    "definition": "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable.",
+    "example": "If predicted Y = 2 + 1.5X, at X = 4 the predicted outcome is 8.",
+    "trap": "Keep units consistent; a slope is not automatically an elasticity.",
+    "mnemonic": "Interpreting a regression slope → Keep units consistent; a slope is not automatically an elasticity.",
+    "recall": "Without looking: explain interpreting a regression slope and one mistake to avoid.",
+    "recallAnswer": "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable. The intercept predicts Y at X = 0. Association alone is not causation. Watch for: Keep units consistent; a slope is not automatically an elasticity.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 271,
+      "endPdfPage": 334,
+      "section": "Simple Linear Regression"
+    },
+    "questions": [
+      {
+        "id": "v1-m10-c1-q1",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "A fitted model is Ŷ = 2 + 1.5X. At X = 4, predicted Y is:",
+        "choices": [
+          "6",
+          "8",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6.",
+        "distractors": [
+          "Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6.",
+          "This applies the principle correctly.",
+          "Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-recall",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "Without looking: explain interpreting a regression slope and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable. The intercept predicts Y at X = 0. Association alone is not causation. Watch for: Keep units consistent; a slope is not automatically an elasticity.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-formula",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "Reconstruct the relationship for simple linear prediction. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Ŷ = b₀ + b₁X\nŶ: prediction; b₀: intercept; b₁: slope; X: explanatory input",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-calc1",
+        "conceptId": "v1-m10-c1",
+        "moduleId": "v1-m10",
+        "topicId": "v1",
+        "prompt": "Estimated regression is Ŷ = 2 + 1.0X. For X = 5, the predicted outcome is:",
+        "choices": [
+          "5.00",
+          "15.00",
+          "7.00"
+        ],
+        "answer": 2,
+        "explanation": "Add the intercept to slope times X: 2+1.0×5=7.00. Do not omit or multiply the intercept.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 2+1.0×5=7.00. Do not omit or multiply the intercept.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 2+1.0×5=7.00. Do not omit or multiply the intercept.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-calc2",
+        "conceptId": "v1-m10-c1",
+        "moduleId": "v1-m10",
+        "topicId": "v1",
+        "prompt": "Estimated regression is Ŷ = 3 + 1.2X. For X = 6, the predicted outcome is:",
+        "choices": [
+          "25.20",
+          "10.20",
+          "7.20"
+        ],
+        "answer": 1,
+        "explanation": "Add the intercept to slope times X: 3+1.2×6=10.20. Do not omit or multiply the intercept.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 3+1.2×6=10.20. Do not omit or multiply the intercept.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 3+1.2×6=10.20. Do not omit or multiply the intercept."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-calc3",
+        "conceptId": "v1-m10-c1",
+        "moduleId": "v1-m10",
+        "topicId": "v1",
+        "prompt": "Estimated regression is Ŷ = 4 + 1.4X. For X = 7, the predicted outcome is:",
+        "choices": [
+          "13.80",
+          "9.80",
+          "37.80"
+        ],
+        "answer": 0,
+        "explanation": "Add the intercept to slope times X: 4+1.4×7=13.80. Do not omit or multiply the intercept.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 4+1.4×7=13.80. Do not omit or multiply the intercept.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 4+1.4×7=13.80. Do not omit or multiply the intercept."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-calc4",
+        "conceptId": "v1-m10-c1",
+        "moduleId": "v1-m10",
+        "topicId": "v1",
+        "prompt": "Estimated regression is Ŷ = 5 + 1.6X. For X = 8, the predicted outcome is:",
+        "choices": [
+          "12.80",
+          "52.80",
+          "17.80"
+        ],
+        "answer": 2,
+        "explanation": "Add the intercept to slope times X: 5+1.6×8=17.80. Do not omit or multiply the intercept.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 5+1.6×8=17.80. Do not omit or multiply the intercept.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 5+1.6×8=17.80. Do not omit or multiply the intercept.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-calc5",
+        "conceptId": "v1-m10-c1",
+        "moduleId": "v1-m10",
+        "topicId": "v1",
+        "prompt": "Estimated regression is Ŷ = 6 + 1.8X. For X = 9, the predicted outcome is:",
+        "choices": [
+          "70.20",
+          "22.20",
+          "16.20"
+        ],
+        "answer": 1,
+        "explanation": "Add the intercept to slope times X: 6+1.8×9=22.20. Do not omit or multiply the intercept.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 6+1.8×9=22.20. Do not omit or multiply the intercept.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add the intercept to slope times X: 6+1.8×9=22.20. Do not omit or multiply the intercept."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-depth1",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "Which statement most accurately describes interpreting a regression slope?",
+        "choices": [
+          "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable.",
+          "Keep units consistent; a slope is not automatically an elasticity.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable. The intercept predicts Y at X = 0. Association alone is not causation. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-depth2",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "A candidate applies this rule: “Keep units consistent; a slope is not automatically an elasticity.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. In simple linear regression, the slope estimates the change in the dependent variable associated with a one-unit increase in the explanatory variable. The intercept predicts Y at X = 0. Association alone is not causation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-depth3",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "Consider this case: If predicted Y = 2 + 1.5X, at X = 4 the predicted outcome is 8. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Keep units consistent; a slope is not automatically an elasticity.",
+          "Apply interpreting a regression slope while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6. Watch for: Keep units consistent; a slope is not automatically an elasticity.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      },
+      {
+        "id": "v1-m10-c1-depth4",
+        "conceptId": "v1-m10-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m10",
+        "prompt": "Why does interpreting a regression slope matter to an analyst or candidate?",
+        "choices": [
+          "Substitute X = 4: 2 + 1.5 × 4 = 8.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Substitute X = 4: 2 + 1.5 × 4 = 8. Omitting the intercept produces 6. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 271,
+          "endPdfPage": 334,
+          "section": "Simple Linear Regression"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Simple linear prediction",
+      "expression": "Ŷ = b₀ + b₁X",
+      "variables": "Ŷ: prediction; b₀: intercept; b₁: slope; X: explanatory input",
+      "intuition": "Predict using an estimated linear model.",
+      "when": "Predict using an estimated linear model.",
+      "example": "2 + 1.5 × 4 = 8.",
+      "mistake": "Prediction outside the estimation range is risky.",
+      "related": []
+    }
+  },
+  {
+    "id": "v1-m11-c1",
+    "moduleId": "v1-m11",
+    "topicId": "v1",
+    "name": "Learning from labeled data",
+    "objective": "Explain and apply learning from labeled data.",
+    "explanation": "Supervised learning fits a relationship using labeled outcomes. Unsupervised learning searches for structure without supplied outcome labels. Training success must be checked on unseen data to detect overfitting.",
+    "why": "The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting.",
+    "definition": "Supervised learning fits a relationship using labeled outcomes.",
+    "example": "A model trained on loans labeled default/no default is supervised; clustering firms without labels is unsupervised.",
+    "trap": "High training accuracy is not evidence of reliable out-of-sample performance.",
+    "mnemonic": "Learning from labeled data → High training accuracy is not evidence of reliable out-of-sample performance.",
+    "recall": "Without looking: explain learning from labeled data and one mistake to avoid.",
+    "recallAnswer": "Supervised learning fits a relationship using labeled outcomes. Unsupervised learning searches for structure without supplied outcome labels. Training success must be checked on unseen data to detect overfitting. Watch for: High training accuracy is not evidence of reliable out-of-sample performance.",
+    "source": {
+      "file": "cfa-program2026L1V1.pdf",
+      "pdfPage": 335,
+      "endPdfPage": 348,
+      "section": "Introduction to Big Data Techniques"
+    },
+    "questions": [
+      {
+        "id": "v1-m11-c1-q1",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "A model is trained using borrowers with known default outcomes. The learning method is:",
+        "choices": [
+          "Unsupervised clustering",
+          "Supervised learning",
+          "A guarantee of causal inference"
+        ],
+        "answer": 1,
+        "explanation": "The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting.",
+        "distractors": [
+          "The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting.",
+          "This applies the principle correctly.",
+          "The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      },
+      {
+        "id": "v1-m11-c1-recall",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "Without looking: explain learning from labeled data and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Supervised learning fits a relationship using labeled outcomes. Unsupervised learning searches for structure without supplied outcome labels. Training success must be checked on unseen data to detect overfitting. Watch for: High training accuracy is not evidence of reliable out-of-sample performance.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      },
+      {
+        "id": "v1-m11-c1-depth1",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "Which statement most accurately describes learning from labeled data?",
+        "choices": [
+          "High training accuracy is not evidence of reliable out-of-sample performance.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Supervised learning fits a relationship using labeled outcomes."
+        ],
+        "answer": 2,
+        "explanation": "Supervised learning fits a relationship using labeled outcomes. Unsupervised learning searches for structure without supplied outcome labels. Training success must be checked on unseen data to detect overfitting. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      },
+      {
+        "id": "v1-m11-c1-depth2",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "A candidate applies this rule: “High training accuracy is not evidence of reliable out-of-sample performance.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Supervised learning fits a relationship using labeled outcomes.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Supervised learning fits a relationship using labeled outcomes. Unsupervised learning searches for structure without supplied outcome labels. Training success must be checked on unseen data to detect overfitting.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      },
+      {
+        "id": "v1-m11-c1-depth3",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "Consider this case: A model trained on loans labeled default/no default is supervised; clustering firms without labels is unsupervised. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply learning from labeled data while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "High training accuracy is not evidence of reliable out-of-sample performance."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting. Watch for: High training accuracy is not evidence of reliable out-of-sample performance.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      },
+      {
+        "id": "v1-m11-c1-depth4",
+        "conceptId": "v1-m11-c1",
+        "topicId": "v1",
+        "moduleId": "v1-m11",
+        "prompt": "Why does learning from labeled data matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "The observed default labels make this supervised learning."
+        ],
+        "answer": 2,
+        "explanation": "The observed default labels make this supervised learning. Labels do not establish causality or eliminate overfitting. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V1.pdf",
+          "pdfPage": 335,
+          "endPdfPage": 348,
+          "section": "Introduction to Big Data Techniques"
+        }
+      }
+    ]
+  }
+]

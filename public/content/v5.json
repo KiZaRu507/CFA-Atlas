@@ -1,0 +1,1582 @@
+[
+  {
+    "id": "v5-m1-c1",
+    "moduleId": "v5-m1",
+    "topicId": "v5",
+    "name": "Market versus limit orders",
+    "objective": "Explain and apply market versus limit orders.",
+    "explanation": "A market order prioritizes execution at available prices. A limit order specifies a maximum purchase price or minimum sale price, controlling price while risking nonexecution.",
+    "why": "The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed.",
+    "definition": "A market order prioritizes execution at available prices.",
+    "example": "A buy limit of 50 cannot execute at 51, but it can execute at 49 if liquidity is available.",
+    "trap": "A limit is not a guarantee of execution.",
+    "mnemonic": "Market versus limit orders → A limit is not a guarantee of execution.",
+    "recall": "Without looking: explain market versus limit orders and one mistake to avoid.",
+    "recallAnswer": "A market order prioritizes execution at available prices. A limit order specifies a maximum purchase price or minimum sale price, controlling price while risking nonexecution. Watch for: A limit is not a guarantee of execution.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 13,
+      "endPdfPage": 90,
+      "section": "Market Organization and Structure"
+    },
+    "questions": [
+      {
+        "id": "v5-m1-c1-q1",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "An investor will buy only at 50 or below. Which order best expresses this?",
+        "choices": [
+          "A buy limit at 50",
+          "An unrestricted market buy",
+          "A guaranteed execution at 50"
+        ],
+        "answer": 0,
+        "explanation": "The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed.",
+          "The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      },
+      {
+        "id": "v5-m1-c1-recall",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "Without looking: explain market versus limit orders and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A market order prioritizes execution at available prices. A limit order specifies a maximum purchase price or minimum sale price, controlling price while risking nonexecution. Watch for: A limit is not a guarantee of execution.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      },
+      {
+        "id": "v5-m1-c1-depth1",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "Which statement most accurately describes market versus limit orders?",
+        "choices": [
+          "A market order prioritizes execution at available prices.",
+          "A limit is not a guarantee of execution.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A market order prioritizes execution at available prices. A limit order specifies a maximum purchase price or minimum sale price, controlling price while risking nonexecution. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      },
+      {
+        "id": "v5-m1-c1-depth2",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "A candidate applies this rule: “A limit is not a guarantee of execution.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A market order prioritizes execution at available prices."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A market order prioritizes execution at available prices. A limit order specifies a maximum purchase price or minimum sale price, controlling price while risking nonexecution.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      },
+      {
+        "id": "v5-m1-c1-depth3",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "Consider this case: A buy limit of 50 cannot execute at 51, but it can execute at 49 if liquidity is available. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "A limit is not a guarantee of execution.",
+          "Apply market versus limit orders while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed. Watch for: A limit is not a guarantee of execution.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      },
+      {
+        "id": "v5-m1-c1-depth4",
+        "conceptId": "v5-m1-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m1",
+        "prompt": "Why does market versus limit orders matter to an analyst or candidate?",
+        "choices": [
+          "The buy limit caps the acceptable price.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The buy limit caps the acceptable price. Market orders do not impose that cap, and execution is not guaranteed. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 13,
+          "endPdfPage": 90,
+          "section": "Market Organization and Structure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m2-c1",
+    "moduleId": "v5-m2",
+    "topicId": "v5",
+    "name": "Index weighting",
+    "objective": "Explain and apply index weighting.",
+    "explanation": "Price-weighted indexes emphasize higher share prices. Market-capitalization-weighted indexes emphasize larger market values. Equal weighting periodically restores equal proportions.",
+    "why": "Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria.",
+    "definition": "Price-weighted indexes emphasize higher share prices.",
+    "example": "A share at 100 has twice the price-weighted influence of a share at 50 before divisor adjustments, regardless of shares outstanding.",
+    "trap": "A high share price does not necessarily mean a large company.",
+    "mnemonic": "Index weighting → A high share price does not necessarily mean a large company.",
+    "recall": "Without looking: explain index weighting and one mistake to avoid.",
+    "recallAnswer": "Price-weighted indexes emphasize higher share prices. Market-capitalization-weighted indexes emphasize larger market values. Equal weighting periodically restores equal proportions. Watch for: A high share price does not necessarily mean a large company.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 91,
+      "endPdfPage": 132,
+      "section": "Security Market Indexes"
+    },
+    "questions": [
+      {
+        "id": "v5-m2-c1-q1",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "Which stock has the greatest influence in a simple price-weighted index?",
+        "choices": [
+          "The highest share price",
+          "Always the largest market capitalization",
+          "Always the highest trading volume"
+        ],
+        "answer": 0,
+        "explanation": "Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria.",
+          "Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      },
+      {
+        "id": "v5-m2-c1-recall",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "Without looking: explain index weighting and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Price-weighted indexes emphasize higher share prices. Market-capitalization-weighted indexes emphasize larger market values. Equal weighting periodically restores equal proportions. Watch for: A high share price does not necessarily mean a large company.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      },
+      {
+        "id": "v5-m2-c1-depth1",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "Which statement most accurately describes index weighting?",
+        "choices": [
+          "A high share price does not necessarily mean a large company.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Price-weighted indexes emphasize higher share prices."
+        ],
+        "answer": 2,
+        "explanation": "Price-weighted indexes emphasize higher share prices. Market-capitalization-weighted indexes emphasize larger market values. Equal weighting periodically restores equal proportions. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      },
+      {
+        "id": "v5-m2-c1-depth2",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "A candidate applies this rule: “A high share price does not necessarily mean a large company.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Price-weighted indexes emphasize higher share prices.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Price-weighted indexes emphasize higher share prices. Market-capitalization-weighted indexes emphasize larger market values. Equal weighting periodically restores equal proportions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      },
+      {
+        "id": "v5-m2-c1-depth3",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "Consider this case: A share at 100 has twice the price-weighted influence of a share at 50 before divisor adjustments, regardless of shares outstanding. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply index weighting while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A high share price does not necessarily mean a large company."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria. Watch for: A high share price does not necessarily mean a large company.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      },
+      {
+        "id": "v5-m2-c1-depth4",
+        "conceptId": "v5-m2-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m2",
+        "prompt": "Why does index weighting matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Price weighting uses prices in the numerator."
+        ],
+        "answer": 2,
+        "explanation": "Price weighting uses prices in the numerator. Market capitalization and volume are different weighting criteria. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 91,
+          "endPdfPage": 132,
+          "section": "Security Market Indexes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m3-c1",
+    "moduleId": "v5-m3",
+    "topicId": "v5",
+    "name": "Forms of market efficiency",
+    "objective": "Explain and apply forms of market efficiency.",
+    "explanation": "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information. Stronger forms include weaker forms.",
+    "why": "Public statements are included in semi-strong efficiency. Private information belongs to the stronger form.",
+    "definition": "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information.",
+    "example": "If public earnings news is rapidly reflected in prices, trading on the already public announcement does not reliably earn abnormal risk-adjusted profit.",
+    "trap": "Efficient does not mean every observed price is permanently correct.",
+    "mnemonic": "Forms of market efficiency → Efficient does not mean every observed price is permanently correct.",
+    "recall": "Without looking: explain forms of market efficiency and one mistake to avoid.",
+    "recallAnswer": "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information. Stronger forms include weaker forms. Watch for: Efficient does not mean every observed price is permanently correct.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 133,
+      "endPdfPage": 168,
+      "section": "Market Efficiency"
+    },
+    "questions": [
+      {
+        "id": "v5-m3-c1-q1",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "Semi-strong efficiency most directly challenges persistent abnormal returns from:",
+        "choices": [
+          "Already public financial statement information",
+          "Information unavailable to anyone",
+          "Every possible private-information advantage"
+        ],
+        "answer": 0,
+        "explanation": "Public statements are included in semi-strong efficiency. Private information belongs to the stronger form.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Public statements are included in semi-strong efficiency. Private information belongs to the stronger form.",
+          "Public statements are included in semi-strong efficiency. Private information belongs to the stronger form."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      },
+      {
+        "id": "v5-m3-c1-recall",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "Without looking: explain forms of market efficiency and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information. Stronger forms include weaker forms. Watch for: Efficient does not mean every observed price is permanently correct.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      },
+      {
+        "id": "v5-m3-c1-depth1",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "Which statement most accurately describes forms of market efficiency?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information.",
+          "Efficient does not mean every observed price is permanently correct."
+        ],
+        "answer": 1,
+        "explanation": "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information. Stronger forms include weaker forms. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      },
+      {
+        "id": "v5-m3-c1-depth2",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "A candidate applies this rule: “Efficient does not mean every observed price is permanently correct.” What is the best correction?",
+        "choices": [
+          "Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Weak-form efficiency incorporates past market data; semi-strong form incorporates public information; strong form also incorporates private information. Stronger forms include weaker forms.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      },
+      {
+        "id": "v5-m3-c1-depth3",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "Consider this case: If public earnings news is rapidly reflected in prices, trading on the already public announcement does not reliably earn abnormal risk-adjusted profit. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Efficient does not mean every observed price is permanently correct.",
+          "Apply forms of market efficiency while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Public statements are included in semi-strong efficiency. Private information belongs to the stronger form. Watch for: Efficient does not mean every observed price is permanently correct.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      },
+      {
+        "id": "v5-m3-c1-depth4",
+        "conceptId": "v5-m3-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m3",
+        "prompt": "Why does forms of market efficiency matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Public statements are included in semi-strong efficiency.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Public statements are included in semi-strong efficiency. Private information belongs to the stronger form. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 133,
+          "endPdfPage": 168,
+          "section": "Market Efficiency"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m4-c1",
+    "moduleId": "v5-m4",
+    "topicId": "v5",
+    "name": "Residual equity claims",
+    "objective": "Explain and apply residual equity claims.",
+    "explanation": "Ordinary shareholders generally have residual claims after creditors and preferred claims. Preferred shares typically have specified dividend and liquidation preferences but are not identical to debt.",
+    "why": "Common equity is residual. Prior claims can exhaust realizable assets.",
+    "definition": "Ordinary shareholders generally have residual claims after creditors and preferred claims.",
+    "example": "If liquidation assets barely cover creditors, common shareholders may receive nothing even when historical book equity was positive.",
+    "trap": "Book equity is not a guaranteed liquidation payout.",
+    "mnemonic": "Residual equity claims → Book equity is not a guaranteed liquidation payout.",
+    "recall": "Without looking: explain residual equity claims and one mistake to avoid.",
+    "recallAnswer": "Ordinary shareholders generally have residual claims after creditors and preferred claims. Preferred shares typically have specified dividend and liquidation preferences but are not identical to debt. Watch for: Book equity is not a guaranteed liquidation payout.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 169,
+      "endPdfPage": 206,
+      "section": "Overview of Equity Securities"
+    },
+    "questions": [
+      {
+        "id": "v5-m4-c1-q1",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "In liquidation, common shareholders generally receive:",
+        "choices": [
+          "Payment before secured lenders",
+          "The residual after higher-priority claims",
+          "A guaranteed book-value payment"
+        ],
+        "answer": 1,
+        "explanation": "Common equity is residual. Prior claims can exhaust realizable assets.",
+        "distractors": [
+          "Common equity is residual. Prior claims can exhaust realizable assets.",
+          "This applies the principle correctly.",
+          "Common equity is residual. Prior claims can exhaust realizable assets."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      },
+      {
+        "id": "v5-m4-c1-recall",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "Without looking: explain residual equity claims and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Ordinary shareholders generally have residual claims after creditors and preferred claims. Preferred shares typically have specified dividend and liquidation preferences but are not identical to debt. Watch for: Book equity is not a guaranteed liquidation payout.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      },
+      {
+        "id": "v5-m4-c1-depth1",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "Which statement most accurately describes residual equity claims?",
+        "choices": [
+          "Ordinary shareholders generally have residual claims after creditors and preferred claims.",
+          "Book equity is not a guaranteed liquidation payout.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Ordinary shareholders generally have residual claims after creditors and preferred claims. Preferred shares typically have specified dividend and liquidation preferences but are not identical to debt. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      },
+      {
+        "id": "v5-m4-c1-depth2",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "A candidate applies this rule: “Book equity is not a guaranteed liquidation payout.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Ordinary shareholders generally have residual claims after creditors and preferred claims."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Ordinary shareholders generally have residual claims after creditors and preferred claims. Preferred shares typically have specified dividend and liquidation preferences but are not identical to debt.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      },
+      {
+        "id": "v5-m4-c1-depth3",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "Consider this case: If liquidation assets barely cover creditors, common shareholders may receive nothing even when historical book equity was positive. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Book equity is not a guaranteed liquidation payout.",
+          "Apply residual equity claims while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Common equity is residual. Prior claims can exhaust realizable assets. Watch for: Book equity is not a guaranteed liquidation payout.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      },
+      {
+        "id": "v5-m4-c1-depth4",
+        "conceptId": "v5-m4-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m4",
+        "prompt": "Why does residual equity claims matter to an analyst or candidate?",
+        "choices": [
+          "Common equity is residual.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Common equity is residual. Prior claims can exhaust realizable assets. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 169,
+          "endPdfPage": 206,
+          "section": "Overview of Equity Securities"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m5-c1",
+    "moduleId": "v5-m5",
+    "topicId": "v5",
+    "name": "Revenue drivers and pricing power",
+    "objective": "Explain and apply revenue drivers and pricing power.",
+    "explanation": "Revenue can be decomposed into volume, realized price and mix. Pricing power means sustaining favorable prices without an offsetting loss of demand or competitive position.",
+    "why": "Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point.",
+    "definition": "Revenue can be decomposed into volume, realized price and mix.",
+    "example": "Volume rises 10% and average price rises 5%: revenue increases 1.10 × 1.05 − 1 = 15.5%.",
+    "trap": "Price and volume changes compound rather than simply add.",
+    "mnemonic": "Revenue drivers and pricing power → Price and volume changes compound rather than simply add.",
+    "recall": "Without looking: explain revenue drivers and pricing power and one mistake to avoid.",
+    "recallAnswer": "Revenue can be decomposed into volume, realized price and mix. Pricing power means sustaining favorable prices without an offsetting loss of demand or competitive position. Watch for: Price and volume changes compound rather than simply add.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 207,
+      "endPdfPage": 254,
+      "section": "Company Analysis: Past and Present"
+    },
+    "questions": [
+      {
+        "id": "v5-m5-c1-q1",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "Volume rises 10% and average price 5%, with no other changes. Revenue growth is:",
+        "choices": [
+          "15.0%",
+          "15.5%",
+          "5.0%"
+        ],
+        "answer": 1,
+        "explanation": "Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point.",
+        "distractors": [
+          "Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point.",
+          "This applies the principle correctly.",
+          "Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      },
+      {
+        "id": "v5-m5-c1-recall",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "Without looking: explain revenue drivers and pricing power and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Revenue can be decomposed into volume, realized price and mix. Pricing power means sustaining favorable prices without an offsetting loss of demand or competitive position. Watch for: Price and volume changes compound rather than simply add.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      },
+      {
+        "id": "v5-m5-c1-depth1",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "Which statement most accurately describes revenue drivers and pricing power?",
+        "choices": [
+          "Price and volume changes compound rather than simply add.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Revenue can be decomposed into volume, realized price and mix."
+        ],
+        "answer": 2,
+        "explanation": "Revenue can be decomposed into volume, realized price and mix. Pricing power means sustaining favorable prices without an offsetting loss of demand or competitive position. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      },
+      {
+        "id": "v5-m5-c1-depth2",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "A candidate applies this rule: “Price and volume changes compound rather than simply add.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Revenue can be decomposed into volume, realized price and mix.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Revenue can be decomposed into volume, realized price and mix. Pricing power means sustaining favorable prices without an offsetting loss of demand or competitive position.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      },
+      {
+        "id": "v5-m5-c1-depth3",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "Consider this case: Volume rises 10% and average price rises 5%: revenue increases 1.10 × 1.05 − 1 = 15.5%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply revenue drivers and pricing power while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Price and volume changes compound rather than simply add."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point. Watch for: Price and volume changes compound rather than simply add.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      },
+      {
+        "id": "v5-m5-c1-depth4",
+        "conceptId": "v5-m5-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m5",
+        "prompt": "Why does revenue drivers and pricing power matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Multiply the factors: 1.10 × 1.05 = 1.155."
+        ],
+        "answer": 2,
+        "explanation": "Multiply the factors: 1.10 × 1.05 = 1.155. The interaction contributes another 0.5 percentage point. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 207,
+          "endPdfPage": 254,
+          "section": "Company Analysis: Past and Present"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m6-c1",
+    "moduleId": "v5-m6",
+    "topicId": "v5",
+    "name": "Industry forces and profitability",
+    "objective": "Explain and apply industry forces and profitability.",
+    "explanation": "Industry structure affects how value is split among firms, customers, suppliers and potential entrants. Strong buyer power can pressure margins even when an industry grows quickly.",
+    "why": "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position.",
+    "definition": "Industry structure affects how value is split among firms, customers, suppliers and potential entrants.",
+    "example": "A supplier dependent on one giant retailer may have little ability to raise prices.",
+    "trap": "Industry growth and industry profitability are different questions.",
+    "mnemonic": "Industry forces and profitability → Industry growth and industry profitability are different questions.",
+    "recall": "Without looking: explain industry forces and profitability and one mistake to avoid.",
+    "recallAnswer": "Industry structure affects how value is split among firms, customers, suppliers and potential entrants. Strong buyer power can pressure margins even when an industry grows quickly. Watch for: Industry growth and industry profitability are different questions.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 255,
+      "endPdfPage": 294,
+      "section": "Industry and Competitive Analysis"
+    },
+    "questions": [
+      {
+        "id": "v5-m6-c1-q1",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "A manufacturer sells nearly all output to one large buyer with many alternative suppliers. The most direct pressure is:",
+        "choices": [
+          "Strong buyer bargaining power",
+          "Guaranteed supplier pricing power",
+          "No competitive pressure"
+        ],
+        "answer": 0,
+        "explanation": "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position.",
+          "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      },
+      {
+        "id": "v5-m6-c1-recall",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "Without looking: explain industry forces and profitability and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Industry structure affects how value is split among firms, customers, suppliers and potential entrants. Strong buyer power can pressure margins even when an industry grows quickly. Watch for: Industry growth and industry profitability are different questions.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      },
+      {
+        "id": "v5-m6-c1-depth1",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "Which statement most accurately describes industry forces and profitability?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Industry structure affects how value is split among firms, customers, suppliers and potential entrants.",
+          "Industry growth and industry profitability are different questions."
+        ],
+        "answer": 1,
+        "explanation": "Industry structure affects how value is split among firms, customers, suppliers and potential entrants. Strong buyer power can pressure margins even when an industry grows quickly. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      },
+      {
+        "id": "v5-m6-c1-depth2",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "A candidate applies this rule: “Industry growth and industry profitability are different questions.” What is the best correction?",
+        "choices": [
+          "Industry structure affects how value is split among firms, customers, suppliers and potential entrants.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Industry structure affects how value is split among firms, customers, suppliers and potential entrants. Strong buyer power can pressure margins even when an industry grows quickly.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      },
+      {
+        "id": "v5-m6-c1-depth3",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "Consider this case: A supplier dependent on one giant retailer may have little ability to raise prices. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Industry growth and industry profitability are different questions.",
+          "Apply industry forces and profitability while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position. Watch for: Industry growth and industry profitability are different questions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      },
+      {
+        "id": "v5-m6-c1-depth4",
+        "conceptId": "v5-m6-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m6",
+        "prompt": "Why does industry forces and profitability matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "The buyer can switch sources and negotiate aggressively, reducing the manufacturer’s bargaining position. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 255,
+          "endPdfPage": 294,
+          "section": "Industry and Competitive Analysis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m7-c1",
+    "moduleId": "v5-m7",
+    "topicId": "v5",
+    "name": "Forecasts as explicit assumptions",
+    "objective": "Explain and apply forecasts as explicit assumptions.",
+    "explanation": "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios. A scenario changes a coherent set of assumptions rather than pretending the base case is certain.",
+    "why": "Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction.",
+    "definition": "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios.",
+    "example": "A recession case combines lower volume with weaker pricing and slower customer collections.",
+    "trap": "Do not vary revenue alone if costs and working capital also respond.",
+    "mnemonic": "Forecasts as explicit assumptions → Do not vary revenue alone if costs and working capital also respond.",
+    "recall": "Without looking: explain forecasts as explicit assumptions and one mistake to avoid.",
+    "recallAnswer": "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios. A scenario changes a coherent set of assumptions rather than pretending the base case is certain. Watch for: Do not vary revenue alone if costs and working capital also respond.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 295,
+      "endPdfPage": 344,
+      "section": "Company Analysis: Forecasting"
+    },
+    "questions": [
+      {
+        "id": "v5-m7-c1-q1",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "Which forecast best handles an uncertain downturn?",
+        "choices": [
+          "One precise forecast with no assumptions",
+          "Coherent scenarios linking demand, margins and cash needs",
+          "Assuming historical growth must repeat"
+        ],
+        "answer": 1,
+        "explanation": "Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction.",
+        "distractors": [
+          "Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction.",
+          "This applies the principle correctly.",
+          "Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      },
+      {
+        "id": "v5-m7-c1-recall",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "Without looking: explain forecasts as explicit assumptions and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios. A scenario changes a coherent set of assumptions rather than pretending the base case is certain. Watch for: Do not vary revenue alone if costs and working capital also respond.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      },
+      {
+        "id": "v5-m7-c1-depth1",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "Which statement most accurately describes forecasts as explicit assumptions?",
+        "choices": [
+          "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios.",
+          "Do not vary revenue alone if costs and working capital also respond.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios. A scenario changes a coherent set of assumptions rather than pretending the base case is certain. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      },
+      {
+        "id": "v5-m7-c1-depth2",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "A candidate applies this rule: “Do not vary revenue alone if costs and working capital also respond.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Forecasts should connect operating drivers to financial outcomes and test alternative scenarios."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Forecasts should connect operating drivers to financial outcomes and test alternative scenarios. A scenario changes a coherent set of assumptions rather than pretending the base case is certain.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      },
+      {
+        "id": "v5-m7-c1-depth3",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "Consider this case: A recession case combines lower volume with weaker pricing and slower customer collections. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Do not vary revenue alone if costs and working capital also respond.",
+          "Apply forecasts as explicit assumptions while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction. Watch for: Do not vary revenue alone if costs and working capital also respond.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      },
+      {
+        "id": "v5-m7-c1-depth4",
+        "conceptId": "v5-m7-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m7",
+        "prompt": "Why does forecasts as explicit assumptions matter to an analyst or candidate?",
+        "choices": [
+          "Scenarios expose sensitivity to economic mechanisms.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Scenarios expose sensitivity to economic mechanisms. Precision without justified assumptions is not reliable prediction. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 295,
+          "endPdfPage": 344,
+          "section": "Company Analysis: Forecasting"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v5-m8-c1",
+    "moduleId": "v5-m8",
+    "topicId": "v5",
+    "name": "Constant-growth dividend valuation",
+    "objective": "Explain and apply constant-growth dividend valuation.",
+    "explanation": "The Gordon model discounts a perpetual dividend stream growing at a constant rate. Required return must exceed growth, and the numerator is next period’s dividend.",
+    "why": "Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30.",
+    "definition": "The Gordon model discounts a perpetual dividend stream growing at a constant rate.",
+    "example": "Next dividend 3, required return 10%, growth 4%: value = 3/.06 = 50.",
+    "trap": "Do not use the just-paid dividend without growing it once.",
+    "mnemonic": "Constant-growth dividend valuation → Do not use the just-paid dividend without growing it once.",
+    "recall": "Without looking: explain constant-growth dividend valuation and one mistake to avoid.",
+    "recallAnswer": "The Gordon model discounts a perpetual dividend stream growing at a constant rate. Required return must exceed growth, and the numerator is next period’s dividend. Watch for: Do not use the just-paid dividend without growing it once.",
+    "source": {
+      "file": "cfa-program2026L1V5.pdf",
+      "pdfPage": 345,
+      "endPdfPage": 398,
+      "section": "Equity Valuation: Concepts and Basic Tools"
+    },
+    "questions": [
+      {
+        "id": "v5-m8-c1-q1",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Next year’s dividend is 3, required return 10% and perpetual growth 4%. Value is:",
+        "choices": [
+          "30",
+          "50",
+          "75"
+        ],
+        "answer": 1,
+        "explanation": "Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30.",
+        "distractors": [
+          "Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30.",
+          "This applies the principle correctly.",
+          "Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-recall",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Without looking: explain constant-growth dividend valuation and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The Gordon model discounts a perpetual dividend stream growing at a constant rate. Required return must exceed growth, and the numerator is next period’s dividend. Watch for: Do not use the just-paid dividend without growing it once.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-formula",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Reconstruct the relationship for gordon growth value. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "V₀ = D₁ / (r − g), with r > g\nD₁: next dividend; r: equity required return; g: perpetual growth",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-calc1",
+        "conceptId": "v5-m8-c1",
+        "moduleId": "v5-m8",
+        "topicId": "v5",
+        "prompt": "Next dividend is 2.50, required return 10%, and constant perpetual growth 2.70%. Gordon value is closest to:",
+        "choices": [
+          "25.00",
+          "35.17",
+          "34.25"
+        ],
+        "answer": 2,
+        "explanation": "Next dividend is already D1. V = 2.50/(.10−0.027)=34.25. Do not ignore growth or grow D1 again.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 2.50/(.10−0.027)=34.25. Do not ignore growth or grow D1 again.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 2.50/(.10−0.027)=34.25. Do not ignore growth or grow D1 again.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-calc2",
+        "conceptId": "v5-m8-c1",
+        "moduleId": "v5-m8",
+        "topicId": "v5",
+        "prompt": "Next dividend is 3.00, required return 10%, and constant perpetual growth 2.90%. Gordon value is closest to:",
+        "choices": [
+          "43.48",
+          "42.25",
+          "30.00"
+        ],
+        "answer": 1,
+        "explanation": "Next dividend is already D1. V = 3.00/(.10−0.029)=42.25. Do not ignore growth or grow D1 again.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 3.00/(.10−0.029)=42.25. Do not ignore growth or grow D1 again.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 3.00/(.10−0.029)=42.25. Do not ignore growth or grow D1 again."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-calc3",
+        "conceptId": "v5-m8-c1",
+        "moduleId": "v5-m8",
+        "topicId": "v5",
+        "prompt": "Next dividend is 3.50, required return 10%, and constant perpetual growth 3.10%. Gordon value is closest to:",
+        "choices": [
+          "50.72",
+          "35.00",
+          "52.30"
+        ],
+        "answer": 0,
+        "explanation": "Next dividend is already D1. V = 3.50/(.10−0.031)=50.72. Do not ignore growth or grow D1 again.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 3.50/(.10−0.031)=50.72. Do not ignore growth or grow D1 again.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 3.50/(.10−0.031)=50.72. Do not ignore growth or grow D1 again."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-calc4",
+        "conceptId": "v5-m8-c1",
+        "moduleId": "v5-m8",
+        "topicId": "v5",
+        "prompt": "Next dividend is 4.00, required return 10%, and constant perpetual growth 3.30%. Gordon value is closest to:",
+        "choices": [
+          "40.00",
+          "61.67",
+          "59.70"
+        ],
+        "answer": 2,
+        "explanation": "Next dividend is already D1. V = 4.00/(.10−0.033)=59.70. Do not ignore growth or grow D1 again.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 4.00/(.10−0.033)=59.70. Do not ignore growth or grow D1 again.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 4.00/(.10−0.033)=59.70. Do not ignore growth or grow D1 again.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-calc5",
+        "conceptId": "v5-m8-c1",
+        "moduleId": "v5-m8",
+        "topicId": "v5",
+        "prompt": "Next dividend is 4.50, required return 10%, and constant perpetual growth 3.50%. Gordon value is closest to:",
+        "choices": [
+          "71.65",
+          "69.23",
+          "45.00"
+        ],
+        "answer": 1,
+        "explanation": "Next dividend is already D1. V = 4.50/(.10−0.035)=69.23. Do not ignore growth or grow D1 again.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 4.50/(.10−0.035)=69.23. Do not ignore growth or grow D1 again.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Next dividend is already D1. V = 4.50/(.10−0.035)=69.23. Do not ignore growth or grow D1 again."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-depth1",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Which statement most accurately describes constant-growth dividend valuation?",
+        "choices": [
+          "Do not use the just-paid dividend without growing it once.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "The Gordon model discounts a perpetual dividend stream growing at a constant rate."
+        ],
+        "answer": 2,
+        "explanation": "The Gordon model discounts a perpetual dividend stream growing at a constant rate. Required return must exceed growth, and the numerator is next period’s dividend. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-depth2",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "A candidate applies this rule: “Do not use the just-paid dividend without growing it once.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The Gordon model discounts a perpetual dividend stream growing at a constant rate.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. The Gordon model discounts a perpetual dividend stream growing at a constant rate. Required return must exceed growth, and the numerator is next period’s dividend.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-depth3",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Consider this case: Next dividend 3, required return 10%, growth 4%: value = 3/.06 = 50. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply constant-growth dividend valuation while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Do not use the just-paid dividend without growing it once."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30. Watch for: Do not use the just-paid dividend without growing it once.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      },
+      {
+        "id": "v5-m8-c1-depth4",
+        "conceptId": "v5-m8-c1",
+        "topicId": "v5",
+        "moduleId": "v5-m8",
+        "prompt": "Why does constant-growth dividend valuation matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Use D1/(r−g) = 3/(.10−.04) = 50."
+        ],
+        "answer": 2,
+        "explanation": "Use D1/(r−g) = 3/(.10−.04) = 50. Ignoring growth gives 30. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V5.pdf",
+          "pdfPage": 345,
+          "endPdfPage": 398,
+          "section": "Equity Valuation: Concepts and Basic Tools"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Gordon growth value",
+      "expression": "V₀ = D₁ / (r − g), with r > g",
+      "variables": "D₁: next dividend; r: equity required return; g: perpetual growth",
+      "intuition": "Value a stable perpetual dividend stream.",
+      "when": "Value a stable perpetual dividend stream.",
+      "example": "3 / (.10 − .04) = 50.",
+      "mistake": "The model is invalid with g ≥ r.",
+      "related": []
+    }
+  }
+]

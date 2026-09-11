@@ -1,0 +1,20 @@
+CFA ATLAS — RUN ON YOUR PC
+
+1. Install Node.js 24 LTS (or Node 22.18+).
+2. Extract this ZIP.
+3. Open a terminal inside the cfa-atlas folder containing package.json.
+4. Run:
+   npm install
+   npm run dev
+5. Open http://localhost:4173
+
+Keep the terminal open while studying. Ctrl+C stops the app.
+No API key or paid service required.
+Use Settings to export your progress before moving PCs/browsers.
+
+READ README.md for architecture, usage, backup and troubleshooting.
+READ docs/CONTENT-COVERAGE.md for the exact curriculum limitations.
+READ docs/QA-REPORT.md for the tests actually performed.
+
+The app maps all 93 supplied learning modules. Its 99 teaching cards
+and 620 MCQs are an expanded authored bank, not a replacement for every official worked example or LOS.

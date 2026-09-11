@@ -1,0 +1,1405 @@
+[
+  {
+    "id": "v8-m1-c1",
+    "moduleId": "v8-m1",
+    "topicId": "v8",
+    "name": "Fund, direct and co-investment",
+    "objective": "Explain and apply fund, direct and co-investment.",
+    "explanation": "Fund investing delegates selection to a manager and often adds fees. Direct investing gives control but requires expertise and capital. Co-investment provides participation alongside a fund, with its own due-diligence demands.",
+    "why": "The separate alongside investment is a co-investment and can increase concentration.",
+    "definition": "Fund investing delegates selection to a manager and often adds fees.",
+    "example": "An investor buys a stake in one private company alongside its fund manager: a co-investment rather than another diversified fund commitment.",
+    "trap": "Lower fees do not eliminate concentration or execution risk.",
+    "mnemonic": "Fund, direct and co-investment → Lower fees do not eliminate concentration or execution risk.",
+    "recall": "Without looking: explain fund, direct and co-investment and one mistake to avoid.",
+    "recallAnswer": "Fund investing delegates selection to a manager and often adds fees. Direct investing gives control but requires expertise and capital. Co-investment provides participation alongside a fund, with its own due-diligence demands. Watch for: Lower fees do not eliminate concentration or execution risk.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 11,
+      "endPdfPage": 40,
+      "section": "Alternative Investment Features, Methods, and Structures"
+    },
+    "questions": [
+      {
+        "id": "v8-m1-c1-q1",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "An LP invests separately alongside its fund in a single acquisition. This is:",
+        "choices": [
+          "A co-investment",
+          "A publicly traded index automatically",
+          "A guaranteed diversified exposure"
+        ],
+        "answer": 0,
+        "explanation": "The separate alongside investment is a co-investment and can increase concentration.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The separate alongside investment is a co-investment and can increase concentration.",
+          "The separate alongside investment is a co-investment and can increase concentration."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      },
+      {
+        "id": "v8-m1-c1-recall",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "Without looking: explain fund, direct and co-investment and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Fund investing delegates selection to a manager and often adds fees. Direct investing gives control but requires expertise and capital. Co-investment provides participation alongside a fund, with its own due-diligence demands. Watch for: Lower fees do not eliminate concentration or execution risk.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      },
+      {
+        "id": "v8-m1-c1-depth1",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "Which statement most accurately describes fund, direct and co-investment?",
+        "choices": [
+          "Fund investing delegates selection to a manager and often adds fees.",
+          "Lower fees do not eliminate concentration or execution risk.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Fund investing delegates selection to a manager and often adds fees. Direct investing gives control but requires expertise and capital. Co-investment provides participation alongside a fund, with its own due-diligence demands. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      },
+      {
+        "id": "v8-m1-c1-depth2",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "A candidate applies this rule: “Lower fees do not eliminate concentration or execution risk.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Fund investing delegates selection to a manager and often adds fees."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Fund investing delegates selection to a manager and often adds fees. Direct investing gives control but requires expertise and capital. Co-investment provides participation alongside a fund, with its own due-diligence demands.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      },
+      {
+        "id": "v8-m1-c1-depth3",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "Consider this case: An investor buys a stake in one private company alongside its fund manager: a co-investment rather than another diversified fund commitment. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Lower fees do not eliminate concentration or execution risk.",
+          "Apply fund, direct and co-investment while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The separate alongside investment is a co-investment and can increase concentration. Watch for: Lower fees do not eliminate concentration or execution risk.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      },
+      {
+        "id": "v8-m1-c1-depth4",
+        "conceptId": "v8-m1-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m1",
+        "prompt": "Why does fund, direct and co-investment matter to an analyst or candidate?",
+        "choices": [
+          "The separate alongside investment is a co-investment and can increase concentration.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The separate alongside investment is a co-investment and can increase concentration. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 40,
+          "section": "Alternative Investment Features, Methods, and Structures"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v8-m2-c1",
+    "moduleId": "v8-m2",
+    "topicId": "v8",
+    "name": "Fees and the high-water mark",
+    "objective": "Explain and apply fees and the high-water mark.",
+    "explanation": "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules. A high-water mark generally prevents charging incentive fees on the recovery of prior losses.",
+    "why": "The prior peak has not been exceeded. Management fees can still apply under the contract.",
+    "definition": "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules.",
+    "example": "Prior high-water mark 100; value fell to 90 then recovers to 98. No new high-water-mark profit has been created.",
+    "trap": "Fee order and the fee base must be read, not assumed.",
+    "mnemonic": "Fees and the high-water mark → Fee order and the fee base must be read, not assumed.",
+    "recall": "Without looking: explain fees and the high-water mark and one mistake to avoid.",
+    "recallAnswer": "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules. A high-water mark generally prevents charging incentive fees on the recovery of prior losses. Watch for: Fee order and the fee base must be read, not assumed.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 41,
+      "endPdfPage": 72,
+      "section": "Alternative Investment Performance and Returns"
+    },
+    "questions": [
+      {
+        "id": "v8-m2-c1-q1",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "With a high-water mark of 100, a fund recovers from 90 to 98. Ignoring other terms, incentive fees on this recovery are:",
+        "choices": [
+          "Charged on the full 8",
+          "Not earned because value remains below 100",
+          "Charged on 98"
+        ],
+        "answer": 1,
+        "explanation": "The prior peak has not been exceeded. Management fees can still apply under the contract.",
+        "distractors": [
+          "The prior peak has not been exceeded. Management fees can still apply under the contract.",
+          "This applies the principle correctly.",
+          "The prior peak has not been exceeded. Management fees can still apply under the contract."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      },
+      {
+        "id": "v8-m2-c1-recall",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "Without looking: explain fees and the high-water mark and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules. A high-water mark generally prevents charging incentive fees on the recovery of prior losses. Watch for: Fee order and the fee base must be read, not assumed.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      },
+      {
+        "id": "v8-m2-c1-depth1",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "Which statement most accurately describes fees and the high-water mark?",
+        "choices": [
+          "Fee order and the fee base must be read, not assumed.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules."
+        ],
+        "answer": 2,
+        "explanation": "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules. A high-water mark generally prevents charging incentive fees on the recovery of prior losses. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      },
+      {
+        "id": "v8-m2-c1-depth2",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "A candidate applies this rule: “Fee order and the fee base must be read, not assumed.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Alternative-fund returns must reflect the specified management fee, incentive fee and hurdle rules. A high-water mark generally prevents charging incentive fees on the recovery of prior losses.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      },
+      {
+        "id": "v8-m2-c1-depth3",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "Consider this case: Prior high-water mark 100; value fell to 90 then recovers to 98. No new high-water-mark profit has been created. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply fees and the high-water mark while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Fee order and the fee base must be read, not assumed."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. The prior peak has not been exceeded. Management fees can still apply under the contract. Watch for: Fee order and the fee base must be read, not assumed.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      },
+      {
+        "id": "v8-m2-c1-depth4",
+        "conceptId": "v8-m2-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m2",
+        "prompt": "Why does fees and the high-water mark matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "The prior peak has not been exceeded."
+        ],
+        "answer": 2,
+        "explanation": "The prior peak has not been exceeded. Management fees can still apply under the contract. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 41,
+          "endPdfPage": 72,
+          "section": "Alternative Investment Performance and Returns"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v8-m3-c1",
+    "moduleId": "v8-m3",
+    "topicId": "v8",
+    "name": "Private capital and illiquidity",
+    "objective": "Explain and apply private capital and illiquidity.",
+    "explanation": "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility. Early fees and investment spending can produce negative early returns before realizations, often described as a J-curve.",
+    "why": "Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed.",
+    "definition": "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility.",
+    "example": "An early-stage fund calls capital and incurs costs years before selling portfolio companies.",
+    "trap": "An early negative return does not alone reveal final fund quality.",
+    "mnemonic": "Private capital and illiquidity → An early negative return does not alone reveal final fund quality.",
+    "recall": "Without looking: explain private capital and illiquidity and one mistake to avoid.",
+    "recallAnswer": "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility. Early fees and investment spending can produce negative early returns before realizations, often described as a J-curve. Watch for: An early negative return does not alone reveal final fund quality.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 73,
+      "endPdfPage": 100,
+      "section": "Investments in Private Capital: Equity and Debt"
+    },
+    "questions": [
+      {
+        "id": "v8-m3-c1-q1",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "The J-curve most commonly refers to:",
+        "choices": [
+          "Early negative returns followed by potential later gains",
+          "Guaranteed positive returns from day one",
+          "Daily liquidity at net asset value"
+        ],
+        "answer": 0,
+        "explanation": "Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed.",
+          "Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      },
+      {
+        "id": "v8-m3-c1-recall",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "Without looking: explain private capital and illiquidity and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility. Early fees and investment spending can produce negative early returns before realizations, often described as a J-curve. Watch for: An early negative return does not alone reveal final fund quality.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      },
+      {
+        "id": "v8-m3-c1-depth1",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "Which statement most accurately describes private capital and illiquidity?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility.",
+          "An early negative return does not alone reveal final fund quality."
+        ],
+        "answer": 1,
+        "explanation": "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility. Early fees and investment spending can produce negative early returns before realizations, often described as a J-curve. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      },
+      {
+        "id": "v8-m3-c1-depth2",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "A candidate applies this rule: “An early negative return does not alone reveal final fund quality.” What is the best correction?",
+        "choices": [
+          "Private equity and private debt commonly commit capital for extended periods with limited exit flexibility.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Private equity and private debt commonly commit capital for extended periods with limited exit flexibility. Early fees and investment spending can produce negative early returns before realizations, often described as a J-curve.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      },
+      {
+        "id": "v8-m3-c1-depth3",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "Consider this case: An early-stage fund calls capital and incurs costs years before selling portfolio companies. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "An early negative return does not alone reveal final fund quality.",
+          "Apply private capital and illiquidity while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed. Watch for: An early negative return does not alone reveal final fund quality.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      },
+      {
+        "id": "v8-m3-c1-depth4",
+        "conceptId": "v8-m3-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m3",
+        "prompt": "Why does private capital and illiquidity matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Fees and early deployment precede mature realizations.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Fees and early deployment precede mature realizations. Later recovery is possible, not guaranteed. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 73,
+          "endPdfPage": 100,
+          "section": "Investments in Private Capital: Equity and Debt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v8-m4-c1",
+    "moduleId": "v8-m4",
+    "topicId": "v8",
+    "name": "Real estate income and capitalization",
+    "objective": "Explain and apply real estate income and capitalization.",
+    "explanation": "Income-producing property can be valued by capitalizing stabilized net operating income. A higher capitalization rate implies a lower value for the same NOI. Financing cash flows are distinct from property NOI.",
+    "why": "Value = NOI/cap rate = 120,000/.06 = 2,000,000.",
+    "definition": "Income-producing property can be valued by capitalizing stabilized net operating income.",
+    "example": "Stabilized NOI 120,000 and cap rate 6% imply value 2,000,000.",
+    "trap": "Do not subtract debt interest when using property-level NOI for direct capitalization.",
+    "mnemonic": "Real estate income and capitalization → Do not subtract debt interest when using property-level NOI for direct capitalization.",
+    "recall": "Without looking: explain real estate income and capitalization and one mistake to avoid.",
+    "recallAnswer": "Income-producing property can be valued by capitalizing stabilized net operating income. A higher capitalization rate implies a lower value for the same NOI. Financing cash flows are distinct from property NOI. Watch for: Do not subtract debt interest when using property-level NOI for direct capitalization.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 101,
+      "endPdfPage": 128,
+      "section": "Real Estate and Infrastructure"
+    },
+    "questions": [
+      {
+        "id": "v8-m4-c1-q1",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "NOI is 120,000 and cap rate 6%. Direct capitalization value is:",
+        "choices": [
+          "720,000",
+          "2,000,000",
+          "7,200"
+        ],
+        "answer": 1,
+        "explanation": "Value = NOI/cap rate = 120,000/.06 = 2,000,000.",
+        "distractors": [
+          "Value = NOI/cap rate = 120,000/.06 = 2,000,000.",
+          "This applies the principle correctly.",
+          "Value = NOI/cap rate = 120,000/.06 = 2,000,000."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-recall",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "Without looking: explain real estate income and capitalization and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Income-producing property can be valued by capitalizing stabilized net operating income. A higher capitalization rate implies a lower value for the same NOI. Financing cash flows are distinct from property NOI. Watch for: Do not subtract debt interest when using property-level NOI for direct capitalization.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-formula",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "Reconstruct the relationship for direct capitalization. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Value = Stabilized NOI / Cap rate\nNOI: net operating income before financing; cap rate: required capitalization rate",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-calc1",
+        "conceptId": "v8-m4-c1",
+        "moduleId": "v8-m4",
+        "topicId": "v8",
+        "prompt": "Stabilized property NOI is 130,000 before financing and cap rate 5.20%. Direct-cap value is closest to:",
+        "choices": [
+          "6,760.00",
+          "123,574.14",
+          "2,500,000.00"
+        ],
+        "answer": 2,
+        "explanation": "Value = NOI/cap rate = 130000/0.052=2,500,000.00. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 130000/0.052=2,500,000.00. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 130000/0.052=2,500,000.00. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-calc2",
+        "conceptId": "v8-m4-c1",
+        "moduleId": "v8-m4",
+        "topicId": "v8",
+        "prompt": "Stabilized property NOI is 140,000 before financing and cap rate 5.40%. Direct-cap value is closest to:",
+        "choices": [
+          "132,827.32",
+          "2,592,592.59",
+          "7,560.00"
+        ],
+        "answer": 1,
+        "explanation": "Value = NOI/cap rate = 140000/0.054=2,592,592.59. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 140000/0.054=2,592,592.59. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 140000/0.054=2,592,592.59. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-calc3",
+        "conceptId": "v8-m4-c1",
+        "moduleId": "v8-m4",
+        "topicId": "v8",
+        "prompt": "Stabilized property NOI is 150,000 before financing and cap rate 5.60%. Direct-cap value is closest to:",
+        "choices": [
+          "2,678,571.43",
+          "8,400.00",
+          "142,045.45"
+        ],
+        "answer": 0,
+        "explanation": "Value = NOI/cap rate = 150000/0.056=2,678,571.43. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 150000/0.056=2,678,571.43. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 150000/0.056=2,678,571.43. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-calc4",
+        "conceptId": "v8-m4-c1",
+        "moduleId": "v8-m4",
+        "topicId": "v8",
+        "prompt": "Stabilized property NOI is 160,000 before financing and cap rate 5.80%. Direct-cap value is closest to:",
+        "choices": [
+          "9,280.00",
+          "151,228.73",
+          "2,758,620.69"
+        ],
+        "answer": 2,
+        "explanation": "Value = NOI/cap rate = 160000/0.058=2,758,620.69. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 160000/0.058=2,758,620.69. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 160000/0.058=2,758,620.69. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-calc5",
+        "conceptId": "v8-m4-c1",
+        "moduleId": "v8-m4",
+        "topicId": "v8",
+        "prompt": "Stabilized property NOI is 170,000 before financing and cap rate 6.00%. Direct-cap value is closest to:",
+        "choices": [
+          "160,377.36",
+          "2,833,333.33",
+          "10,200.00"
+        ],
+        "answer": 1,
+        "explanation": "Value = NOI/cap rate = 170000/0.060=2,833,333.33. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 170000/0.060=2,833,333.33. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Value = NOI/cap rate = 170000/0.060=2,833,333.33. Multiplying by cap rate or discounting only one year does not capitalize the ongoing income stream."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-depth1",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "Which statement most accurately describes real estate income and capitalization?",
+        "choices": [
+          "Income-producing property can be valued by capitalizing stabilized net operating income.",
+          "Do not subtract debt interest when using property-level NOI for direct capitalization.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Income-producing property can be valued by capitalizing stabilized net operating income. A higher capitalization rate implies a lower value for the same NOI. Financing cash flows are distinct from property NOI. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-depth2",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "A candidate applies this rule: “Do not subtract debt interest when using property-level NOI for direct capitalization.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Income-producing property can be valued by capitalizing stabilized net operating income."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Income-producing property can be valued by capitalizing stabilized net operating income. A higher capitalization rate implies a lower value for the same NOI. Financing cash flows are distinct from property NOI.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-depth3",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "Consider this case: Stabilized NOI 120,000 and cap rate 6% imply value 2,000,000. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Do not subtract debt interest when using property-level NOI for direct capitalization.",
+          "Apply real estate income and capitalization while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Value = NOI/cap rate = 120,000/.06 = 2,000,000. Watch for: Do not subtract debt interest when using property-level NOI for direct capitalization.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      },
+      {
+        "id": "v8-m4-c1-depth4",
+        "conceptId": "v8-m4-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m4",
+        "prompt": "Why does real estate income and capitalization matter to an analyst or candidate?",
+        "choices": [
+          "Value = NOI/cap rate = 120,000/.06 = 2,000,000.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Value = NOI/cap rate = 120,000/.06 = 2,000,000. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 101,
+          "endPdfPage": 128,
+          "section": "Real Estate and Infrastructure"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Direct capitalization",
+      "expression": "Value = Stabilized NOI / Cap rate",
+      "variables": "NOI: net operating income before financing; cap rate: required capitalization rate",
+      "intuition": "Estimate income-property value under stable-income assumptions.",
+      "when": "Estimate income-property value under stable-income assumptions.",
+      "example": "120,000/.06 = 2,000,000.",
+      "mistake": "Capital expenditure and lease assumptions require careful treatment.",
+      "related": []
+    }
+  },
+  {
+    "id": "v8-m5-c1",
+    "moduleId": "v8-m5",
+    "topicId": "v8",
+    "name": "Commodity futures roll return",
+    "objective": "Explain and apply commodity futures roll return.",
+    "explanation": "A rolling futures strategy replaces expiring contracts. With an upward-sloping curve and otherwise stable conditions, buying the more expensive later contract creates a negative roll effect. Spot, roll and collateral components are distinct.",
+    "why": "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions.",
+    "definition": "A rolling futures strategy replaces expiring contracts.",
+    "example": "An investor sells the near contract at 100 and buys the next at 104. If the curve is unchanged as contracts age, convergence can hurt returns.",
+    "trap": "A positive spot-price change need not imply positive futures total return.",
+    "mnemonic": "Commodity futures roll return → A positive spot-price change need not imply positive futures total return.",
+    "recall": "Without looking: explain commodity futures roll return and one mistake to avoid.",
+    "recallAnswer": "A rolling futures strategy replaces expiring contracts. With an upward-sloping curve and otherwise stable conditions, buying the more expensive later contract creates a negative roll effect. Spot, roll and collateral components are distinct. Watch for: A positive spot-price change need not imply positive futures total return.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 129,
+      "endPdfPage": 154,
+      "section": "Natural Resources"
+    },
+    "questions": [
+      {
+        "id": "v8-m5-c1-q1",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "Under a stable upward-sloping futures curve, a long rolling strategy tends to experience:",
+        "choices": [
+          "Negative roll return",
+          "Guaranteed positive roll return",
+          "No effect from replacing contracts"
+        ],
+        "answer": 0,
+        "explanation": "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions.",
+          "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      },
+      {
+        "id": "v8-m5-c1-recall",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "Without looking: explain commodity futures roll return and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A rolling futures strategy replaces expiring contracts. With an upward-sloping curve and otherwise stable conditions, buying the more expensive later contract creates a negative roll effect. Spot, roll and collateral components are distinct. Watch for: A positive spot-price change need not imply positive futures total return.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      },
+      {
+        "id": "v8-m5-c1-depth1",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "Which statement most accurately describes commodity futures roll return?",
+        "choices": [
+          "A positive spot-price change need not imply positive futures total return.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A rolling futures strategy replaces expiring contracts."
+        ],
+        "answer": 2,
+        "explanation": "A rolling futures strategy replaces expiring contracts. With an upward-sloping curve and otherwise stable conditions, buying the more expensive later contract creates a negative roll effect. Spot, roll and collateral components are distinct. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      },
+      {
+        "id": "v8-m5-c1-depth2",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "A candidate applies this rule: “A positive spot-price change need not imply positive futures total return.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A rolling futures strategy replaces expiring contracts.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A rolling futures strategy replaces expiring contracts. With an upward-sloping curve and otherwise stable conditions, buying the more expensive later contract creates a negative roll effect. Spot, roll and collateral components are distinct.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      },
+      {
+        "id": "v8-m5-c1-depth3",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "Consider this case: An investor sells the near contract at 100 and buys the next at 104. If the curve is unchanged as contracts age, convergence can hurt returns. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply commodity futures roll return while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A positive spot-price change need not imply positive futures total return."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions. Watch for: A positive spot-price change need not imply positive futures total return.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      },
+      {
+        "id": "v8-m5-c1-depth4",
+        "conceptId": "v8-m5-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m5",
+        "prompt": "Why does commodity futures roll return matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions."
+        ],
+        "answer": 2,
+        "explanation": "Buying dearer deferred exposure that converges downward produces negative roll effects under the stated conditions. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 129,
+          "endPdfPage": 154,
+          "section": "Natural Resources"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v8-m6-c1",
+    "moduleId": "v8-m6",
+    "topicId": "v8",
+    "name": "Hedge-fund strategy risk",
+    "objective": "Explain and apply hedge-fund strategy risk.",
+    "explanation": "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy. Market-neutral targets do not eliminate liquidity, leverage, model or counterparty risk.",
+    "why": "Low beta addresses measured market exposure, not all sources of loss.",
+    "definition": "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy.",
+    "example": "A long-short fund can suffer when a crowded short rises sharply even with low estimated market beta.",
+    "trap": "The label hedge fund does not mean the portfolio is hedged against every risk.",
+    "mnemonic": "Hedge-fund strategy risk → The label hedge fund does not mean the portfolio is hedged against every risk.",
+    "recall": "Without looking: explain hedge-fund strategy risk and one mistake to avoid.",
+    "recallAnswer": "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy. Market-neutral targets do not eliminate liquidity, leverage, model or counterparty risk. Watch for: The label hedge fund does not mean the portfolio is hedged against every risk.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 155,
+      "endPdfPage": 186,
+      "section": "Hedge Funds"
+    },
+    "questions": [
+      {
+        "id": "v8-m6-c1-q1",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "A fund with near-zero equity beta can still face:",
+        "choices": [
+          "No meaningful risk",
+          "Liquidity and leverage risk",
+          "Only risk-free interest income"
+        ],
+        "answer": 1,
+        "explanation": "Low beta addresses measured market exposure, not all sources of loss.",
+        "distractors": [
+          "Low beta addresses measured market exposure, not all sources of loss.",
+          "This applies the principle correctly.",
+          "Low beta addresses measured market exposure, not all sources of loss."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      },
+      {
+        "id": "v8-m6-c1-recall",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "Without looking: explain hedge-fund strategy risk and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy. Market-neutral targets do not eliminate liquidity, leverage, model or counterparty risk. Watch for: The label hedge fund does not mean the portfolio is hedged against every risk.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      },
+      {
+        "id": "v8-m6-c1-depth1",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "Which statement most accurately describes hedge-fund strategy risk?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy.",
+          "The label hedge fund does not mean the portfolio is hedged against every risk."
+        ],
+        "answer": 1,
+        "explanation": "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy. Market-neutral targets do not eliminate liquidity, leverage, model or counterparty risk. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      },
+      {
+        "id": "v8-m6-c1-depth2",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "A candidate applies this rule: “The label hedge fund does not mean the portfolio is hedged against every risk.” What is the best correction?",
+        "choices": [
+          "Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Hedge funds can use short positions, leverage and derivatives, but their risks differ substantially by strategy. Market-neutral targets do not eliminate liquidity, leverage, model or counterparty risk.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      },
+      {
+        "id": "v8-m6-c1-depth3",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "Consider this case: A long-short fund can suffer when a crowded short rises sharply even with low estimated market beta. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "The label hedge fund does not mean the portfolio is hedged against every risk.",
+          "Apply hedge-fund strategy risk while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Low beta addresses measured market exposure, not all sources of loss. Watch for: The label hedge fund does not mean the portfolio is hedged against every risk.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      },
+      {
+        "id": "v8-m6-c1-depth4",
+        "conceptId": "v8-m6-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m6",
+        "prompt": "Why does hedge-fund strategy risk matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Low beta addresses measured market exposure, not all sources of loss.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Low beta addresses measured market exposure, not all sources of loss. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 155,
+          "endPdfPage": 186,
+          "section": "Hedge Funds"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v8-m7-c1",
+    "moduleId": "v8-m7",
+    "topicId": "v8",
+    "name": "Digital-asset ownership and custody",
+    "objective": "Explain and apply digital-asset ownership and custody.",
+    "explanation": "Distributed ledgers record transactions across a network. Digital-asset investing adds custody, key management, technology, market and regulatory risks. A token’s rights depend on its design and legal terms.",
+    "why": "Ledger integrity does not solve key management or guarantee value or redemption rights.",
+    "definition": "Distributed ledgers record transactions across a network.",
+    "example": "Losing a private key can make directly held assets inaccessible even when the ledger itself works correctly.",
+    "trap": "A distributed ledger does not guarantee the economic value of a token.",
+    "mnemonic": "Digital-asset ownership and custody → A distributed ledger does not guarantee the economic value of a token.",
+    "recall": "Without looking: explain digital-asset ownership and custody and one mistake to avoid.",
+    "recallAnswer": "Distributed ledgers record transactions across a network. Digital-asset investing adds custody, key management, technology, market and regulatory risks. A token’s rights depend on its design and legal terms. Watch for: A distributed ledger does not guarantee the economic value of a token.",
+    "source": {
+      "file": "cfa-program2026L1V8.pdf",
+      "pdfPage": 187,
+      "endPdfPage": 220,
+      "section": "Introduction to Digital Assets"
+    },
+    "questions": [
+      {
+        "id": "v8-m7-c1-q1",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "Which risk remains even when a public ledger records all transfers correctly?",
+        "choices": [
+          "Private-key loss and custody failure",
+          "Guaranteed redemption at face value",
+          "Automatic protection from price volatility"
+        ],
+        "answer": 0,
+        "explanation": "Ledger integrity does not solve key management or guarantee value or redemption rights.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Ledger integrity does not solve key management or guarantee value or redemption rights.",
+          "Ledger integrity does not solve key management or guarantee value or redemption rights."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      },
+      {
+        "id": "v8-m7-c1-recall",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "Without looking: explain digital-asset ownership and custody and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Distributed ledgers record transactions across a network. Digital-asset investing adds custody, key management, technology, market and regulatory risks. A token’s rights depend on its design and legal terms. Watch for: A distributed ledger does not guarantee the economic value of a token.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      },
+      {
+        "id": "v8-m7-c1-depth1",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "Which statement most accurately describes digital-asset ownership and custody?",
+        "choices": [
+          "Distributed ledgers record transactions across a network.",
+          "A distributed ledger does not guarantee the economic value of a token.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Distributed ledgers record transactions across a network. Digital-asset investing adds custody, key management, technology, market and regulatory risks. A token’s rights depend on its design and legal terms. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      },
+      {
+        "id": "v8-m7-c1-depth2",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "A candidate applies this rule: “A distributed ledger does not guarantee the economic value of a token.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Distributed ledgers record transactions across a network."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Distributed ledgers record transactions across a network. Digital-asset investing adds custody, key management, technology, market and regulatory risks. A token’s rights depend on its design and legal terms.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      },
+      {
+        "id": "v8-m7-c1-depth3",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "Consider this case: Losing a private key can make directly held assets inaccessible even when the ledger itself works correctly. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "A distributed ledger does not guarantee the economic value of a token.",
+          "Apply digital-asset ownership and custody while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Ledger integrity does not solve key management or guarantee value or redemption rights. Watch for: A distributed ledger does not guarantee the economic value of a token.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      },
+      {
+        "id": "v8-m7-c1-depth4",
+        "conceptId": "v8-m7-c1",
+        "topicId": "v8",
+        "moduleId": "v8-m7",
+        "prompt": "Why does digital-asset ownership and custody matter to an analyst or candidate?",
+        "choices": [
+          "Ledger integrity does not solve key management or guarantee value or redemption rights.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Ledger integrity does not solve key management or guarantee value or redemption rights. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V8.pdf",
+          "pdfPage": 187,
+          "endPdfPage": 220,
+          "section": "Introduction to Digital Assets"
+        }
+      }
+    ]
+  }
+]

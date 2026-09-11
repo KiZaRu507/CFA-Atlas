@@ -1,0 +1,1733 @@
+[
+  {
+    "id": "v3-m1-c1",
+    "moduleId": "v3-m1",
+    "topicId": "v3",
+    "name": "Limited liability and ownership",
+    "objective": "Explain and apply limited liability and ownership.",
+    "explanation": "A corporation is legally distinct from its owners. Shareholder losses are generally limited to the investment, while ownership transfer and access to capital differ between private and public corporations.",
+    "why": "The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure.",
+    "definition": "A corporation is legally distinct from its owners.",
+    "example": "A fully paid shareholder can lose the entire share investment without ordinarily owing the company’s unpaid trade debts personally.",
+    "trap": "Limited liability does not protect the value of the investment.",
+    "mnemonic": "Limited liability and ownership → Limited liability does not protect the value of the investment.",
+    "recall": "Without looking: explain limited liability and ownership and one mistake to avoid.",
+    "recallAnswer": "A corporation is legally distinct from its owners. Shareholder losses are generally limited to the investment, while ownership transfer and access to capital differ between private and public corporations. Watch for: Limited liability does not protect the value of the investment.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 11,
+      "endPdfPage": 44,
+      "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+    },
+    "questions": [
+      {
+        "id": "v3-m1-c1-q1",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "A shareholder has fully paid for ordinary shares in a corporation that fails. Limited liability generally means:",
+        "choices": [
+          "The original investment is guaranteed",
+          "Personal liability is limited to the investment",
+          "Creditors have no claims on corporate assets"
+        ],
+        "answer": 1,
+        "explanation": "The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure.",
+        "distractors": [
+          "The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure.",
+          "This applies the principle correctly.",
+          "The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      },
+      {
+        "id": "v3-m1-c1-recall",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "Without looking: explain limited liability and ownership and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A corporation is legally distinct from its owners. Shareholder losses are generally limited to the investment, while ownership transfer and access to capital differ between private and public corporations. Watch for: Limited liability does not protect the value of the investment.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      },
+      {
+        "id": "v3-m1-c1-depth1",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "Which statement most accurately describes limited liability and ownership?",
+        "choices": [
+          "A corporation is legally distinct from its owners.",
+          "Limited liability does not protect the value of the investment.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A corporation is legally distinct from its owners. Shareholder losses are generally limited to the investment, while ownership transfer and access to capital differ between private and public corporations. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      },
+      {
+        "id": "v3-m1-c1-depth2",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "A candidate applies this rule: “Limited liability does not protect the value of the investment.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A corporation is legally distinct from its owners."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A corporation is legally distinct from its owners. Shareholder losses are generally limited to the investment, while ownership transfer and access to capital differ between private and public corporations.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      },
+      {
+        "id": "v3-m1-c1-depth3",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "Consider this case: A fully paid shareholder can lose the entire share investment without ordinarily owing the company’s unpaid trade debts personally. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Limited liability does not protect the value of the investment.",
+          "Apply limited liability and ownership while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure. Watch for: Limited liability does not protect the value of the investment.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      },
+      {
+        "id": "v3-m1-c1-depth4",
+        "conceptId": "v3-m1-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m1",
+        "prompt": "Why does limited liability and ownership matter to an analyst or candidate?",
+        "choices": [
+          "The share investment may be lost.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The share investment may be lost. Creditors retain claims on corporate assets; limited liability separates ordinary shareholder personal exposure. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 44,
+          "section": "Organizational Forms, Corporate Issuer Features, and Ownership"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v3-m2-c1",
+    "moduleId": "v3-m2",
+    "topicId": "v3",
+    "name": "Debt holders versus equity holders",
+    "objective": "Explain and apply debt holders versus equity holders.",
+    "explanation": "Lenders have contractual claims, while shareholders hold residual claims. Shareholders may favor risky projects with upside even when the additional downside harms lenders.",
+    "why": "Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility.",
+    "definition": "Lenders have contractual claims, while shareholders hold residual claims.",
+    "example": "An already highly leveraged firm substitutes a volatile project for a stable one. Equity may benefit from upside while debt absorbs greater default risk.",
+    "trap": "A project favored by shareholders need not improve creditor value.",
+    "mnemonic": "Debt holders versus equity holders → A project favored by shareholders need not improve creditor value.",
+    "recall": "Without looking: explain debt holders versus equity holders and one mistake to avoid.",
+    "recallAnswer": "Lenders have contractual claims, while shareholders hold residual claims. Shareholders may favor risky projects with upside even when the additional downside harms lenders. Watch for: A project favored by shareholders need not improve creditor value.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 45,
+      "endPdfPage": 74,
+      "section": "Investors and Other Stakeholders"
+    },
+    "questions": [
+      {
+        "id": "v3-m2-c1-q1",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "Increasing asset risk after borrowing most directly creates a conflict between:",
+        "choices": [
+          "Lenders and shareholders",
+          "Two customers buying the same product",
+          "The firm and all parties equally"
+        ],
+        "answer": 0,
+        "explanation": "Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility.",
+          "Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      },
+      {
+        "id": "v3-m2-c1-recall",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "Without looking: explain debt holders versus equity holders and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Lenders have contractual claims, while shareholders hold residual claims. Shareholders may favor risky projects with upside even when the additional downside harms lenders. Watch for: A project favored by shareholders need not improve creditor value.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      },
+      {
+        "id": "v3-m2-c1-depth1",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "Which statement most accurately describes debt holders versus equity holders?",
+        "choices": [
+          "A project favored by shareholders need not improve creditor value.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Lenders have contractual claims, while shareholders hold residual claims."
+        ],
+        "answer": 2,
+        "explanation": "Lenders have contractual claims, while shareholders hold residual claims. Shareholders may favor risky projects with upside even when the additional downside harms lenders. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      },
+      {
+        "id": "v3-m2-c1-depth2",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "A candidate applies this rule: “A project favored by shareholders need not improve creditor value.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Lenders have contractual claims, while shareholders hold residual claims.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Lenders have contractual claims, while shareholders hold residual claims. Shareholders may favor risky projects with upside even when the additional downside harms lenders.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      },
+      {
+        "id": "v3-m2-c1-depth3",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "Consider this case: An already highly leveraged firm substitutes a volatile project for a stable one. Equity may benefit from upside while debt absorbs greater default risk. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply debt holders versus equity holders while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A project favored by shareholders need not improve creditor value."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility. Watch for: A project favored by shareholders need not improve creditor value.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      },
+      {
+        "id": "v3-m2-c1-depth4",
+        "conceptId": "v3-m2-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m2",
+        "prompt": "Why does debt holders versus equity holders matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Fixed debt claims capture limited upside but bear larger default losses."
+        ],
+        "answer": 2,
+        "explanation": "Fixed debt claims capture limited upside but bear larger default losses. Residual equity can gain from increased volatility. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 45,
+          "endPdfPage": 74,
+          "section": "Investors and Other Stakeholders"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v3-m3-c1",
+    "moduleId": "v3-m3",
+    "topicId": "v3",
+    "name": "Principal–agent conflicts",
+    "objective": "Explain and apply principal–agent conflicts.",
+    "explanation": "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests. Monitoring, board oversight and aligned incentives can reduce the conflict.",
+    "why": "Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth.",
+    "definition": "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests.",
+    "example": "A chief executive buys a larger aircraft for personal convenience despite negligible business benefit.",
+    "trap": "An incentive based on one metric can create a new distortion.",
+    "mnemonic": "Principal–agent conflicts → An incentive based on one metric can create a new distortion.",
+    "recall": "Without looking: explain principal–agent conflicts and one mistake to avoid.",
+    "recallAnswer": "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests. Monitoring, board oversight and aligned incentives can reduce the conflict. Watch for: An incentive based on one metric can create a new distortion.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 75,
+      "endPdfPage": 104,
+      "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+    },
+    "questions": [
+      {
+        "id": "v3-m3-c1-q1",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "Which action most directly addresses executive self-dealing?",
+        "choices": [
+          "Eliminating independent oversight",
+          "Independent board review of related-party decisions",
+          "Rewarding revenue regardless of profitability"
+        ],
+        "answer": 1,
+        "explanation": "Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth.",
+        "distractors": [
+          "Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth.",
+          "This applies the principle correctly.",
+          "Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      },
+      {
+        "id": "v3-m3-c1-recall",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "Without looking: explain principal–agent conflicts and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests. Monitoring, board oversight and aligned incentives can reduce the conflict. Watch for: An incentive based on one metric can create a new distortion.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      },
+      {
+        "id": "v3-m3-c1-depth1",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "Which statement most accurately describes principal–agent conflicts?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests.",
+          "An incentive based on one metric can create a new distortion."
+        ],
+        "answer": 1,
+        "explanation": "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests. Monitoring, board oversight and aligned incentives can reduce the conflict. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      },
+      {
+        "id": "v3-m3-c1-depth2",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "A candidate applies this rule: “An incentive based on one metric can create a new distortion.” What is the best correction?",
+        "choices": [
+          "An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. An agency conflict arises when someone with delegated decision authority pursues personal interests that diverge from the principal’s interests. Monitoring, board oversight and aligned incentives can reduce the conflict.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      },
+      {
+        "id": "v3-m3-c1-depth3",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "Consider this case: A chief executive buys a larger aircraft for personal convenience despite negligible business benefit. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "An incentive based on one metric can create a new distortion.",
+          "Apply principal–agent conflicts while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth. Watch for: An incentive based on one metric can create a new distortion.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      },
+      {
+        "id": "v3-m3-c1-depth4",
+        "conceptId": "v3-m3-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m3",
+        "prompt": "Why does principal–agent conflicts matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Independent scrutiny can limit actions benefiting managers at shareholders’ expense.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Independent scrutiny can limit actions benefiting managers at shareholders’ expense. Revenue-only rewards can encourage value-destroying growth. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 75,
+          "endPdfPage": 104,
+          "section": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v3-m4-c1",
+    "moduleId": "v3-m4",
+    "topicId": "v3",
+    "name": "Cash conversion cycle",
+    "objective": "Explain and apply cash conversion cycle.",
+    "explanation": "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers. It combines inventory days and receivable days, then subtracts payable days.",
+    "why": "50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle.",
+    "definition": "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers.",
+    "example": "Inventory days 50 + receivable days 30 − payable days 40 = 40 days of cash tied up.",
+    "trap": "Payables reduce the cycle; they are not added.",
+    "mnemonic": "Cash conversion cycle → Payables reduce the cycle; they are not added.",
+    "recall": "Without looking: explain cash conversion cycle and one mistake to avoid.",
+    "recallAnswer": "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers. It combines inventory days and receivable days, then subtracts payable days. Watch for: Payables reduce the cycle; they are not added.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 105,
+      "endPdfPage": 142,
+      "section": "Working Capital and Liquidity"
+    },
+    "questions": [
+      {
+        "id": "v3-m4-c1-q1",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Inventory days are 50, receivable days 30 and payable days 40. Cash conversion cycle is:",
+        "choices": [
+          "120 days",
+          "60 days",
+          "40 days"
+        ],
+        "answer": 2,
+        "explanation": "50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle.",
+        "distractors": [
+          "50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle.",
+          "50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-recall",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Without looking: explain cash conversion cycle and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers. It combines inventory days and receivable days, then subtracts payable days. Watch for: Payables reduce the cycle; they are not added.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-formula",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Reconstruct the relationship for cash conversion cycle. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "CCC = DIO + DSO − DPO\nDIO: inventory days; DSO: receivable days; DPO: payable days",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-calc1",
+        "conceptId": "v3-m4-c1",
+        "moduleId": "v3-m4",
+        "topicId": "v3",
+        "prompt": "Inventory days are 43, receivable days 21 and payable days 27. Cash conversion cycle is:",
+        "choices": [
+          "91 days",
+          "64 days",
+          "37 days"
+        ],
+        "answer": 2,
+        "explanation": "CCC = DIO + DSO − DPO = 43+21−27 = 37. Supplier financing reduces the time for which cash is tied up.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 43+21−27 = 37. Supplier financing reduces the time for which cash is tied up.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 43+21−27 = 37. Supplier financing reduces the time for which cash is tied up.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-calc2",
+        "conceptId": "v3-m4-c1",
+        "moduleId": "v3-m4",
+        "topicId": "v3",
+        "prompt": "Inventory days are 46, receivable days 22 and payable days 29. Cash conversion cycle is:",
+        "choices": [
+          "68 days",
+          "39 days",
+          "97 days"
+        ],
+        "answer": 1,
+        "explanation": "CCC = DIO + DSO − DPO = 46+22−29 = 39. Supplier financing reduces the time for which cash is tied up.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 46+22−29 = 39. Supplier financing reduces the time for which cash is tied up.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 46+22−29 = 39. Supplier financing reduces the time for which cash is tied up."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-calc3",
+        "conceptId": "v3-m4-c1",
+        "moduleId": "v3-m4",
+        "topicId": "v3",
+        "prompt": "Inventory days are 49, receivable days 23 and payable days 31. Cash conversion cycle is:",
+        "choices": [
+          "41 days",
+          "103 days",
+          "72 days"
+        ],
+        "answer": 0,
+        "explanation": "CCC = DIO + DSO − DPO = 49+23−31 = 41. Supplier financing reduces the time for which cash is tied up.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 49+23−31 = 41. Supplier financing reduces the time for which cash is tied up.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 49+23−31 = 41. Supplier financing reduces the time for which cash is tied up."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-calc4",
+        "conceptId": "v3-m4-c1",
+        "moduleId": "v3-m4",
+        "topicId": "v3",
+        "prompt": "Inventory days are 52, receivable days 24 and payable days 33. Cash conversion cycle is:",
+        "choices": [
+          "109 days",
+          "76 days",
+          "43 days"
+        ],
+        "answer": 2,
+        "explanation": "CCC = DIO + DSO − DPO = 52+24−33 = 43. Supplier financing reduces the time for which cash is tied up.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 52+24−33 = 43. Supplier financing reduces the time for which cash is tied up.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 52+24−33 = 43. Supplier financing reduces the time for which cash is tied up.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-calc5",
+        "conceptId": "v3-m4-c1",
+        "moduleId": "v3-m4",
+        "topicId": "v3",
+        "prompt": "Inventory days are 55, receivable days 25 and payable days 35. Cash conversion cycle is:",
+        "choices": [
+          "80 days",
+          "45 days",
+          "115 days"
+        ],
+        "answer": 1,
+        "explanation": "CCC = DIO + DSO − DPO = 55+25−35 = 45. Supplier financing reduces the time for which cash is tied up.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 55+25−35 = 45. Supplier financing reduces the time for which cash is tied up.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. CCC = DIO + DSO − DPO = 55+25−35 = 45. Supplier financing reduces the time for which cash is tied up."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-depth1",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Which statement most accurately describes cash conversion cycle?",
+        "choices": [
+          "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers.",
+          "Payables reduce the cycle; they are not added.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers. It combines inventory days and receivable days, then subtracts payable days. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-depth2",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "A candidate applies this rule: “Payables reduce the cycle; they are not added.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. The cash conversion cycle estimates the time between paying suppliers and collecting cash from customers. It combines inventory days and receivable days, then subtracts payable days.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-depth3",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Consider this case: Inventory days 50 + receivable days 30 − payable days 40 = 40 days of cash tied up. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Payables reduce the cycle; they are not added.",
+          "Apply cash conversion cycle while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. 50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle. Watch for: Payables reduce the cycle; they are not added.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      },
+      {
+        "id": "v3-m4-c1-depth4",
+        "conceptId": "v3-m4-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m4",
+        "prompt": "Why does cash conversion cycle matter to an analyst or candidate?",
+        "choices": [
+          "50 + 30 − 40 = 40 days.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "50 + 30 − 40 = 40 days. Supplier credit finances part of the operating cycle. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 105,
+          "endPdfPage": 142,
+          "section": "Working Capital and Liquidity"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Cash conversion cycle",
+      "expression": "CCC = DIO + DSO − DPO",
+      "variables": "DIO: inventory days; DSO: receivable days; DPO: payable days",
+      "intuition": "Measure how long operations tie up cash.",
+      "when": "Measure how long operations tie up cash.",
+      "example": "50 + 30 − 40 = 40 days.",
+      "mistake": "A shorter cycle is not always worth damaging supplier or customer relationships.",
+      "related": []
+    }
+  },
+  {
+    "id": "v3-m5-c1",
+    "moduleId": "v3-m5",
+    "topicId": "v3",
+    "name": "Net present value and relevant cash flows",
+    "objective": "Explain and apply net present value and relevant cash flows.",
+    "explanation": "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment. Sunk costs are excluded; opportunity costs and effects on existing business matter.",
+    "why": "Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV.",
+    "definition": "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment.",
+    "example": "Pay 100 now to receive 121 in two years at 10%: NPV = 121/1.1² − 100 = 0.",
+    "trap": "Past research spending is sunk, not a new incremental project outflow.",
+    "mnemonic": "Net present value and relevant cash flows → Past research spending is sunk, not a new incremental project outflow.",
+    "recall": "Without looking: explain net present value and relevant cash flows and one mistake to avoid.",
+    "recallAnswer": "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment. Sunk costs are excluded; opportunity costs and effects on existing business matter. Watch for: Past research spending is sunk, not a new incremental project outflow.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 143,
+      "endPdfPage": 180,
+      "section": "Capital Investments and Capital Allocation"
+    },
+    "questions": [
+      {
+        "id": "v3-m5-c1-q1",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "A project needs 100 now and returns 121 in two years. Required return is 10%. NPV is:",
+        "choices": [
+          "21",
+          "0",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV.",
+        "distractors": [
+          "Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV.",
+          "This applies the principle correctly.",
+          "Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-recall",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "Without looking: explain net present value and relevant cash flows and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment. Sunk costs are excluded; opportunity costs and effects on existing business matter. Watch for: Past research spending is sunk, not a new incremental project outflow.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-formula",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "Reconstruct the relationship for net present value. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "NPV = Σ[CF_t / (1 + r)^t]\nCF_t: incremental after-tax cash flow including time zero; r: required return",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-calc1",
+        "conceptId": "v3-m5-c1",
+        "moduleId": "v3-m5",
+        "topicId": "v3",
+        "prompt": "Invest 100 today for a single 135 cash inflow in two years. Required annual return is 8%. NPV is closest to:",
+        "choices": [
+          "35.00",
+          "25.00",
+          "15.74"
+        ],
+        "answer": 2,
+        "explanation": "NPV = −100+135/1.08² = 15.74. Undiscounted profit and one-period discounting both overstate value.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+135/1.08² = 15.74. Undiscounted profit and one-period discounting both overstate value.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+135/1.08² = 15.74. Undiscounted profit and one-period discounting both overstate value.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-calc2",
+        "conceptId": "v3-m5-c1",
+        "moduleId": "v3-m5",
+        "topicId": "v3",
+        "prompt": "Invest 100 today for a single 145 cash inflow in two years. Required annual return is 8%. NPV is closest to:",
+        "choices": [
+          "34.26",
+          "24.31",
+          "45.00"
+        ],
+        "answer": 1,
+        "explanation": "NPV = −100+145/1.08² = 24.31. Undiscounted profit and one-period discounting both overstate value.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+145/1.08² = 24.31. Undiscounted profit and one-period discounting both overstate value.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+145/1.08² = 24.31. Undiscounted profit and one-period discounting both overstate value."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-calc3",
+        "conceptId": "v3-m5-c1",
+        "moduleId": "v3-m5",
+        "topicId": "v3",
+        "prompt": "Invest 100 today for a single 155 cash inflow in two years. Required annual return is 8%. NPV is closest to:",
+        "choices": [
+          "32.89",
+          "55.00",
+          "43.52"
+        ],
+        "answer": 0,
+        "explanation": "NPV = −100+155/1.08² = 32.89. Undiscounted profit and one-period discounting both overstate value.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+155/1.08² = 32.89. Undiscounted profit and one-period discounting both overstate value.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+155/1.08² = 32.89. Undiscounted profit and one-period discounting both overstate value."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-calc4",
+        "conceptId": "v3-m5-c1",
+        "moduleId": "v3-m5",
+        "topicId": "v3",
+        "prompt": "Invest 100 today for a single 165 cash inflow in two years. Required annual return is 8%. NPV is closest to:",
+        "choices": [
+          "65.00",
+          "52.78",
+          "41.46"
+        ],
+        "answer": 2,
+        "explanation": "NPV = −100+165/1.08² = 41.46. Undiscounted profit and one-period discounting both overstate value.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+165/1.08² = 41.46. Undiscounted profit and one-period discounting both overstate value.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+165/1.08² = 41.46. Undiscounted profit and one-period discounting both overstate value.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-calc5",
+        "conceptId": "v3-m5-c1",
+        "moduleId": "v3-m5",
+        "topicId": "v3",
+        "prompt": "Invest 100 today for a single 175 cash inflow in two years. Required annual return is 8%. NPV is closest to:",
+        "choices": [
+          "62.04",
+          "50.03",
+          "75.00"
+        ],
+        "answer": 1,
+        "explanation": "NPV = −100+175/1.08² = 50.03. Undiscounted profit and one-period discounting both overstate value.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+175/1.08² = 50.03. Undiscounted profit and one-period discounting both overstate value.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. NPV = −100+175/1.08² = 50.03. Undiscounted profit and one-period discounting both overstate value."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-depth1",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "Which statement most accurately describes net present value and relevant cash flows?",
+        "choices": [
+          "Past research spending is sunk, not a new incremental project outflow.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment."
+        ],
+        "answer": 2,
+        "explanation": "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment. Sunk costs are excluded; opportunity costs and effects on existing business matter. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-depth2",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "A candidate applies this rule: “Past research spending is sunk, not a new incremental project outflow.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. NPV discounts incremental after-tax cash flows at an appropriate required return and subtracts the investment. Sunk costs are excluded; opportunity costs and effects on existing business matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-depth3",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "Consider this case: Pay 100 now to receive 121 in two years at 10%: NPV = 121/1.1² − 100 = 0. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply net present value and relevant cash flows while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Past research spending is sunk, not a new incremental project outflow."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV. Watch for: Past research spending is sunk, not a new incremental project outflow.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      },
+      {
+        "id": "v3-m5-c1-depth4",
+        "conceptId": "v3-m5-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m5",
+        "prompt": "Why does net present value and relevant cash flows matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Discount 121 for two periods to 100, then subtract 100."
+        ],
+        "answer": 2,
+        "explanation": "Discount 121 for two periods to 100, then subtract 100. Undiscounted profit is not NPV. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 143,
+          "endPdfPage": 180,
+          "section": "Capital Investments and Capital Allocation"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Net present value",
+      "expression": "NPV = Σ[CF_t / (1 + r)^t]",
+      "variables": "CF_t: incremental after-tax cash flow including time zero; r: required return",
+      "intuition": "Evaluate value added by an investment.",
+      "when": "Evaluate value added by an investment.",
+      "example": "−100 + 121/1.10² = 0.",
+      "mistake": "Exclude sunk costs and avoid double-counting financing costs.",
+      "related": []
+    }
+  },
+  {
+    "id": "v3-m6-c1",
+    "moduleId": "v3-m6",
+    "topicId": "v3",
+    "name": "Weighted-average cost of capital",
+    "objective": "Explain and apply weighted-average cost of capital.",
+    "explanation": "WACC combines required debt and equity returns using appropriate capital weights, usually market values. Deductible interest reduces the after-tax debt cost when the tax shield is usable.",
+    "why": "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield.",
+    "definition": "WACC combines required debt and equity returns using appropriate capital weights, usually market values.",
+    "example": "Debt weight 40%, debt cost 5%, tax 25%, equity weight 60%, equity cost 10%: WACC = 7.5%.",
+    "trap": "Apply the tax adjustment to debt, not equity.",
+    "mnemonic": "Weighted-average cost of capital → Apply the tax adjustment to debt, not equity.",
+    "recall": "Without looking: explain weighted-average cost of capital and one mistake to avoid.",
+    "recallAnswer": "WACC combines required debt and equity returns using appropriate capital weights, usually market values. Deductible interest reduces the after-tax debt cost when the tax shield is usable. Watch for: Apply the tax adjustment to debt, not equity.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 181,
+      "endPdfPage": 220,
+      "section": "Capital Structure"
+    },
+    "questions": [
+      {
+        "id": "v3-m6-c1-q1",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Using 40% debt at 5%, 60% equity at 10% and tax 25%, WACC is:",
+        "choices": [
+          "8.0%",
+          "6.0%",
+          "7.5%"
+        ],
+        "answer": 2,
+        "explanation": "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield.",
+        "distractors": [
+          "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield.",
+          "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-recall",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Without looking: explain weighted-average cost of capital and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "WACC combines required debt and equity returns using appropriate capital weights, usually market values. Deductible interest reduces the after-tax debt cost when the tax shield is usable. Watch for: Apply the tax adjustment to debt, not equity.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-formula",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Reconstruct the relationship for wacc. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "WACC = w_d r_d(1 − T) + w_e r_e\nw: market-value weights; r: required costs; T: applicable tax rate",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-calc1",
+        "conceptId": "v3-m6-c1",
+        "moduleId": "v3-m6",
+        "topicId": "v3",
+        "prompt": "Debt weight is 30.00% at 5%; equity weight 70.00% at 10%. Tax is 25% and interest is deductible. WACC is closest to:",
+        "choices": [
+          "8.50%",
+          "6.38%",
+          "8.12%"
+        ],
+        "answer": 2,
+        "explanation": "WACC = 0.30×5%×.75 + 0.70×10% = 8.12%. Only the debt cost receives the interest tax adjustment.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.30×5%×.75 + 0.70×10% = 8.12%. Only the debt cost receives the interest tax adjustment.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.30×5%×.75 + 0.70×10% = 8.12%. Only the debt cost receives the interest tax adjustment.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-calc2",
+        "conceptId": "v3-m6-c1",
+        "moduleId": "v3-m6",
+        "topicId": "v3",
+        "prompt": "Debt weight is 35.00% at 5%; equity weight 65.00% at 10%. Tax is 25% and interest is deductible. WACC is closest to:",
+        "choices": [
+          "6.19%",
+          "7.81%",
+          "8.25%"
+        ],
+        "answer": 1,
+        "explanation": "WACC = 0.35×5%×.75 + 0.65×10% = 7.81%. Only the debt cost receives the interest tax adjustment.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.35×5%×.75 + 0.65×10% = 7.81%. Only the debt cost receives the interest tax adjustment.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.35×5%×.75 + 0.65×10% = 7.81%. Only the debt cost receives the interest tax adjustment."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-calc3",
+        "conceptId": "v3-m6-c1",
+        "moduleId": "v3-m6",
+        "topicId": "v3",
+        "prompt": "Debt weight is 40.00% at 5%; equity weight 60.00% at 10%. Tax is 25% and interest is deductible. WACC is closest to:",
+        "choices": [
+          "7.50%",
+          "8.00%",
+          "6.00%"
+        ],
+        "answer": 0,
+        "explanation": "WACC = 0.40×5%×.75 + 0.60×10% = 7.50%. Only the debt cost receives the interest tax adjustment.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.40×5%×.75 + 0.60×10% = 7.50%. Only the debt cost receives the interest tax adjustment.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.40×5%×.75 + 0.60×10% = 7.50%. Only the debt cost receives the interest tax adjustment."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-calc4",
+        "conceptId": "v3-m6-c1",
+        "moduleId": "v3-m6",
+        "topicId": "v3",
+        "prompt": "Debt weight is 45.00% at 5%; equity weight 55.00% at 10%. Tax is 25% and interest is deductible. WACC is closest to:",
+        "choices": [
+          "7.75%",
+          "5.81%",
+          "7.19%"
+        ],
+        "answer": 2,
+        "explanation": "WACC = 0.45×5%×.75 + 0.55×10% = 7.19%. Only the debt cost receives the interest tax adjustment.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.45×5%×.75 + 0.55×10% = 7.19%. Only the debt cost receives the interest tax adjustment.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.45×5%×.75 + 0.55×10% = 7.19%. Only the debt cost receives the interest tax adjustment.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-calc5",
+        "conceptId": "v3-m6-c1",
+        "moduleId": "v3-m6",
+        "topicId": "v3",
+        "prompt": "Debt weight is 50.00% at 5%; equity weight 50.00% at 10%. Tax is 25% and interest is deductible. WACC is closest to:",
+        "choices": [
+          "5.63%",
+          "6.88%",
+          "7.50%"
+        ],
+        "answer": 1,
+        "explanation": "WACC = 0.50×5%×.75 + 0.50×10% = 6.88%. Only the debt cost receives the interest tax adjustment.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.50×5%×.75 + 0.50×10% = 6.88%. Only the debt cost receives the interest tax adjustment.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. WACC = 0.50×5%×.75 + 0.50×10% = 6.88%. Only the debt cost receives the interest tax adjustment."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-depth1",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Which statement most accurately describes weighted-average cost of capital?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "WACC combines required debt and equity returns using appropriate capital weights, usually market values.",
+          "Apply the tax adjustment to debt, not equity."
+        ],
+        "answer": 1,
+        "explanation": "WACC combines required debt and equity returns using appropriate capital weights, usually market values. Deductible interest reduces the after-tax debt cost when the tax shield is usable. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-depth2",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "A candidate applies this rule: “Apply the tax adjustment to debt, not equity.” What is the best correction?",
+        "choices": [
+          "WACC combines required debt and equity returns using appropriate capital weights, usually market values.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. WACC combines required debt and equity returns using appropriate capital weights, usually market values. Deductible interest reduces the after-tax debt cost when the tax shield is usable.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-depth3",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Consider this case: Debt weight 40%, debt cost 5%, tax 25%, equity weight 60%, equity cost 10%: WACC = 7.5%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Apply the tax adjustment to debt, not equity.",
+          "Apply weighted-average cost of capital while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. 0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield. Watch for: Apply the tax adjustment to debt, not equity.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      },
+      {
+        "id": "v3-m6-c1-depth4",
+        "conceptId": "v3-m6-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m6",
+        "prompt": "Why does weighted-average cost of capital matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "0.4 × 5% × 0.75 + 0.6 × 10% = 7.5%. 8% ignores the tax shield. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 181,
+          "endPdfPage": 220,
+          "section": "Capital Structure"
+        }
+      }
+    ],
+    "formula": {
+      "name": "WACC",
+      "expression": "WACC = w_d r_d(1 − T) + w_e r_e",
+      "variables": "w: market-value weights; r: required costs; T: applicable tax rate",
+      "intuition": "Discount appropriately matched operating cash flows.",
+      "when": "Discount appropriately matched operating cash flows.",
+      "example": "0.4×0.05×0.75 + 0.6×0.10 = 0.075.",
+      "mistake": "Do not use one corporate WACC for projects with materially different risk.",
+      "related": []
+    }
+  },
+  {
+    "id": "v3-m7-c1",
+    "moduleId": "v3-m7",
+    "topicId": "v3",
+    "name": "Business-model economics",
+    "objective": "Explain and apply business-model economics.",
+    "explanation": "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit. Similar products can operate with very different revenue models.",
+    "why": "The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue.",
+    "definition": "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit.",
+    "example": "A software subscription earns recurring fees; a perpetual license relies more heavily on upfront sales.",
+    "trap": "Revenue growth alone does not establish a viable unit margin.",
+    "mnemonic": "Business-model economics → Revenue growth alone does not establish a viable unit margin.",
+    "recall": "Without looking: explain business-model economics and one mistake to avoid.",
+    "recallAnswer": "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit. Similar products can operate with very different revenue models. Watch for: Revenue growth alone does not establish a viable unit margin.",
+    "source": {
+      "file": "cfa-program2026L1V3.pdf",
+      "pdfPage": 221,
+      "endPdfPage": 250,
+      "section": "Business Models"
+    },
+    "questions": [
+      {
+        "id": "v3-m7-c1-q1",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "A subscription firm grows customers but loses more on each additional customer. Which question matters most?",
+        "choices": [
+          "Whether the logo is distinctive",
+          "Whether lifetime contribution can cover acquisition and service costs",
+          "Whether subscription revenue is automatically profitable"
+        ],
+        "answer": 1,
+        "explanation": "The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue.",
+        "distractors": [
+          "The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue.",
+          "This applies the principle correctly.",
+          "The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      },
+      {
+        "id": "v3-m7-c1-recall",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "Without looking: explain business-model economics and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit. Similar products can operate with very different revenue models. Watch for: Revenue growth alone does not establish a viable unit margin.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      },
+      {
+        "id": "v3-m7-c1-depth1",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "Which statement most accurately describes business-model economics?",
+        "choices": [
+          "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit.",
+          "Revenue growth alone does not establish a viable unit margin.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit. Similar products can operate with very different revenue models. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      },
+      {
+        "id": "v3-m7-c1-depth2",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "A candidate applies this rule: “Revenue growth alone does not establish a viable unit margin.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A business model describes customers, the value offered, how it is delivered, and how revenue and costs produce profit. Similar products can operate with very different revenue models.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      },
+      {
+        "id": "v3-m7-c1-depth3",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "Consider this case: A software subscription earns recurring fees; a perpetual license relies more heavily on upfront sales. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Revenue growth alone does not establish a viable unit margin.",
+          "Apply business-model economics while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue. Watch for: Revenue growth alone does not establish a viable unit margin.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      },
+      {
+        "id": "v3-m7-c1-depth4",
+        "conceptId": "v3-m7-c1",
+        "topicId": "v3",
+        "moduleId": "v3-m7",
+        "prompt": "Why does business-model economics matter to an analyst or candidate?",
+        "choices": [
+          "The model must connect customer economics to costs and cash generation.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The model must connect customer economics to costs and cash generation. Recurring revenue is not the same as profitable revenue. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V3.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 250,
+          "section": "Business Models"
+        }
+      }
+    ]
+  }
+]

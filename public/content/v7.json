@@ -1,0 +1,2293 @@
+[
+  {
+    "id": "v7-m1-c1",
+    "moduleId": "v7-m1",
+    "topicId": "v7",
+    "name": "Exchange-traded versus OTC contracts",
+    "objective": "Explain and apply exchange-traded versus otc contracts.",
+    "explanation": "Exchange-traded derivatives are standardized and commonly centrally cleared. OTC contracts allow customization. Central clearing changes counterparty exposure and collateral requirements but does not remove market risk.",
+    "why": "Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free.",
+    "definition": "Exchange-traded derivatives are standardized and commonly centrally cleared.",
+    "example": "A firm needing an unusual settlement date may prefer an OTC forward to a standardized futures contract.",
+    "trap": "Clearing does not insure against adverse market moves.",
+    "mnemonic": "Exchange-traded versus OTC contracts → Clearing does not insure against adverse market moves.",
+    "recall": "Without looking: explain exchange-traded versus otc contracts and one mistake to avoid.",
+    "recallAnswer": "Exchange-traded derivatives are standardized and commonly centrally cleared. OTC contracts allow customization. Central clearing changes counterparty exposure and collateral requirements but does not remove market risk. Watch for: Clearing does not insure against adverse market moves.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 11,
+      "endPdfPage": 30,
+      "section": "Derivative Instrument and Derivative Market Features"
+    },
+    "questions": [
+      {
+        "id": "v7-m1-c1-q1",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "A firm needs a highly customized currency settlement date. Which instrument most directly accommodates it?",
+        "choices": [
+          "A tailored OTC forward",
+          "Only a standardized listed future",
+          "A risk-free speculative position"
+        ],
+        "answer": 0,
+        "explanation": "Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free.",
+          "Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      },
+      {
+        "id": "v7-m1-c1-recall",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "Without looking: explain exchange-traded versus otc contracts and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Exchange-traded derivatives are standardized and commonly centrally cleared. OTC contracts allow customization. Central clearing changes counterparty exposure and collateral requirements but does not remove market risk. Watch for: Clearing does not insure against adverse market moves.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      },
+      {
+        "id": "v7-m1-c1-depth1",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "Which statement most accurately describes exchange-traded versus otc contracts?",
+        "choices": [
+          "Exchange-traded derivatives are standardized and commonly centrally cleared.",
+          "Clearing does not insure against adverse market moves.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Exchange-traded derivatives are standardized and commonly centrally cleared. OTC contracts allow customization. Central clearing changes counterparty exposure and collateral requirements but does not remove market risk. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      },
+      {
+        "id": "v7-m1-c1-depth2",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "A candidate applies this rule: “Clearing does not insure against adverse market moves.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Exchange-traded derivatives are standardized and commonly centrally cleared."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Exchange-traded derivatives are standardized and commonly centrally cleared. OTC contracts allow customization. Central clearing changes counterparty exposure and collateral requirements but does not remove market risk.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      },
+      {
+        "id": "v7-m1-c1-depth3",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "Consider this case: A firm needing an unusual settlement date may prefer an OTC forward to a standardized futures contract. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Clearing does not insure against adverse market moves.",
+          "Apply exchange-traded versus otc contracts while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free. Watch for: Clearing does not insure against adverse market moves.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      },
+      {
+        "id": "v7-m1-c1-depth4",
+        "conceptId": "v7-m1-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m1",
+        "prompt": "Why does exchange-traded versus otc contracts matter to an analyst or candidate?",
+        "choices": [
+          "Bilateral customization is a key OTC feature.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Bilateral customization is a key OTC feature. Customization does not mean the position is risk-free. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 11,
+          "endPdfPage": 30,
+          "section": "Derivative Instrument and Derivative Market Features"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m2-c1",
+    "moduleId": "v7-m2",
+    "topicId": "v7",
+    "name": "Option payoff versus profit",
+    "objective": "Explain and apply option payoff versus profit.",
+    "explanation": "An option holder has a right, not an obligation. A call pays the excess of asset price over strike at expiry when positive. Profit also subtracts the premium paid, ignoring financing in a simple expiry calculation.",
+    "why": "max(60−50,0) − 4 = 6. Ten is the payoff before premium.",
+    "definition": "An option holder has a right, not an obligation.",
+    "example": "Buy a call for 4 with strike 50. At expiry stock is 60: payoff 10, profit 6.",
+    "trap": "Payoff excludes premium; profit includes it.",
+    "mnemonic": "Option payoff versus profit → Payoff excludes premium; profit includes it.",
+    "recall": "Without looking: explain option payoff versus profit and one mistake to avoid.",
+    "recallAnswer": "An option holder has a right, not an obligation. A call pays the excess of asset price over strike at expiry when positive. Profit also subtracts the premium paid, ignoring financing in a simple expiry calculation. Watch for: Payoff excludes premium; profit includes it.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 31,
+      "endPdfPage": 60,
+      "section": "Forward Commitment and Contingent Claim Features and Instruments"
+    },
+    "questions": [
+      {
+        "id": "v7-m2-c1-q1",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "A call costs 4, strike is 50 and expiry price is 60. Buyer profit ignoring financing is:",
+        "choices": [
+          "10",
+          "6",
+          "−4"
+        ],
+        "answer": 1,
+        "explanation": "max(60−50,0) − 4 = 6. Ten is the payoff before premium.",
+        "distractors": [
+          "max(60−50,0) − 4 = 6. Ten is the payoff before premium.",
+          "This applies the principle correctly.",
+          "max(60−50,0) − 4 = 6. Ten is the payoff before premium."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-recall",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "Without looking: explain option payoff versus profit and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "An option holder has a right, not an obligation. A call pays the excess of asset price over strike at expiry when positive. Profit also subtracts the premium paid, ignoring financing in a simple expiry calculation. Watch for: Payoff excludes premium; profit includes it.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-formula",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "Reconstruct the relationship for long call expiry profit. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Profit = max(S_T − K, 0) − c₀\nS_T: expiry asset price; K: strike; c₀: premium (financing ignored)",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-calc1",
+        "conceptId": "v7-m2-c1",
+        "moduleId": "v7-m2",
+        "topicId": "v7",
+        "prompt": "Long call strike 55, premium 4.50, expiry stock price 63. Profit ignoring financing is:",
+        "choices": [
+          "8.00",
+          "12.50",
+          "3.50"
+        ],
+        "answer": 2,
+        "explanation": "Exercise payoff = max(63−55,0). Subtract premium 4.50: profit 3.50. Premium is a cost, not additional income.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(63−55,0). Subtract premium 4.50: profit 3.50. Premium is a cost, not additional income.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(63−55,0). Subtract premium 4.50: profit 3.50. Premium is a cost, not additional income.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-calc2",
+        "conceptId": "v7-m2-c1",
+        "moduleId": "v7-m2",
+        "topicId": "v7",
+        "prompt": "Long call strike 55, premium 5.00, expiry stock price 66. Profit ignoring financing is:",
+        "choices": [
+          "16.00",
+          "6.00",
+          "11.00"
+        ],
+        "answer": 1,
+        "explanation": "Exercise payoff = max(66−55,0). Subtract premium 5.00: profit 6.00. Premium is a cost, not additional income.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(66−55,0). Subtract premium 5.00: profit 6.00. Premium is a cost, not additional income.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(66−55,0). Subtract premium 5.00: profit 6.00. Premium is a cost, not additional income."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-calc3",
+        "conceptId": "v7-m2-c1",
+        "moduleId": "v7-m2",
+        "topicId": "v7",
+        "prompt": "Long call strike 55, premium 5.50, expiry stock price 69. Profit ignoring financing is:",
+        "choices": [
+          "8.50",
+          "14.00",
+          "19.50"
+        ],
+        "answer": 0,
+        "explanation": "Exercise payoff = max(69−55,0). Subtract premium 5.50: profit 8.50. Premium is a cost, not additional income.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(69−55,0). Subtract premium 5.50: profit 8.50. Premium is a cost, not additional income.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(69−55,0). Subtract premium 5.50: profit 8.50. Premium is a cost, not additional income."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-calc4",
+        "conceptId": "v7-m2-c1",
+        "moduleId": "v7-m2",
+        "topicId": "v7",
+        "prompt": "Long call strike 55, premium 6.00, expiry stock price 72. Profit ignoring financing is:",
+        "choices": [
+          "17.00",
+          "23.00",
+          "11.00"
+        ],
+        "answer": 2,
+        "explanation": "Exercise payoff = max(72−55,0). Subtract premium 6.00: profit 11.00. Premium is a cost, not additional income.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(72−55,0). Subtract premium 6.00: profit 11.00. Premium is a cost, not additional income.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(72−55,0). Subtract premium 6.00: profit 11.00. Premium is a cost, not additional income.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-calc5",
+        "conceptId": "v7-m2-c1",
+        "moduleId": "v7-m2",
+        "topicId": "v7",
+        "prompt": "Long call strike 55, premium 6.50, expiry stock price 75. Profit ignoring financing is:",
+        "choices": [
+          "26.50",
+          "13.50",
+          "20.00"
+        ],
+        "answer": 1,
+        "explanation": "Exercise payoff = max(75−55,0). Subtract premium 6.50: profit 13.50. Premium is a cost, not additional income.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(75−55,0). Subtract premium 6.50: profit 13.50. Premium is a cost, not additional income.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Exercise payoff = max(75−55,0). Subtract premium 6.50: profit 13.50. Premium is a cost, not additional income."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-depth1",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "Which statement most accurately describes option payoff versus profit?",
+        "choices": [
+          "Payoff excludes premium; profit includes it.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "An option holder has a right, not an obligation."
+        ],
+        "answer": 2,
+        "explanation": "An option holder has a right, not an obligation. A call pays the excess of asset price over strike at expiry when positive. Profit also subtracts the premium paid, ignoring financing in a simple expiry calculation. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-depth2",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "A candidate applies this rule: “Payoff excludes premium; profit includes it.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "An option holder has a right, not an obligation.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. An option holder has a right, not an obligation. A call pays the excess of asset price over strike at expiry when positive. Profit also subtracts the premium paid, ignoring financing in a simple expiry calculation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-depth3",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "Consider this case: Buy a call for 4 with strike 50. At expiry stock is 60: payoff 10, profit 6. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply option payoff versus profit while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Payoff excludes premium; profit includes it."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. max(60−50,0) − 4 = 6. Ten is the payoff before premium. Watch for: Payoff excludes premium; profit includes it.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      },
+      {
+        "id": "v7-m2-c1-depth4",
+        "conceptId": "v7-m2-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m2",
+        "prompt": "Why does option payoff versus profit matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "max(60−50,0) − 4 = 6."
+        ],
+        "answer": 2,
+        "explanation": "max(60−50,0) − 4 = 6. Ten is the payoff before premium. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 31,
+          "endPdfPage": 60,
+          "section": "Forward Commitment and Contingent Claim Features and Instruments"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Long call expiry profit",
+      "expression": "Profit = max(S_T − K, 0) − c₀",
+      "variables": "S_T: expiry asset price; K: strike; c₀: premium (financing ignored)",
+      "intuition": "Separate exercise payoff from total purchase economics.",
+      "when": "Separate exercise payoff from total purchase economics.",
+      "example": "max(60−50,0)−4 = 6.",
+      "mistake": "A positive payoff can coexist with a loss after premium.",
+      "related": []
+    }
+  },
+  {
+    "id": "v7-m3-c1",
+    "moduleId": "v7-m3",
+    "topicId": "v7",
+    "name": "Hedging versus eliminating all risk",
+    "objective": "Explain and apply hedging versus eliminating all risk.",
+    "explanation": "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks. The hedge direction should follow the underlying economic exposure.",
+    "why": "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk.",
+    "definition": "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks.",
+    "example": "A wheat producer expecting to sell harvest can short wheat futures to offset falling wheat prices.",
+    "trap": "A hedge against one risk may create another.",
+    "mnemonic": "Hedging versus eliminating all risk → A hedge against one risk may create another.",
+    "recall": "Without looking: explain hedging versus eliminating all risk and one mistake to avoid.",
+    "recallAnswer": "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks. The hedge direction should follow the underlying economic exposure. Watch for: A hedge against one risk may create another.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 61,
+      "endPdfPage": 84,
+      "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+    },
+    "questions": [
+      {
+        "id": "v7-m3-c1-q1",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "A producer will sell wheat later and fears a price decline. A conventional hedge is:",
+        "choices": [
+          "Long wheat futures",
+          "Short wheat futures",
+          "Buy more unhedged wheat"
+        ],
+        "answer": 1,
+        "explanation": "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk.",
+        "distractors": [
+          "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk.",
+          "This applies the principle correctly.",
+          "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      },
+      {
+        "id": "v7-m3-c1-recall",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "Without looking: explain hedging versus eliminating all risk and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks. The hedge direction should follow the underlying economic exposure. Watch for: A hedge against one risk may create another.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      },
+      {
+        "id": "v7-m3-c1-depth1",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "Which statement most accurately describes hedging versus eliminating all risk?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks.",
+          "A hedge against one risk may create another."
+        ],
+        "answer": 1,
+        "explanation": "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks. The hedge direction should follow the underlying economic exposure. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      },
+      {
+        "id": "v7-m3-c1-depth2",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "A candidate applies this rule: “A hedge against one risk may create another.” What is the best correction?",
+        "choices": [
+          "A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. A hedge offsets a specified exposure but can leave basis, liquidity, counterparty or operational risks. The hedge direction should follow the underlying economic exposure.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      },
+      {
+        "id": "v7-m3-c1-depth3",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "Consider this case: A wheat producer expecting to sell harvest can short wheat futures to offset falling wheat prices. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A hedge against one risk may create another.",
+          "Apply hedging versus eliminating all risk while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk. Watch for: A hedge against one risk may create another.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      },
+      {
+        "id": "v7-m3-c1-depth4",
+        "conceptId": "v7-m3-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m3",
+        "prompt": "Why does hedging versus eliminating all risk matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "A short futures position gains as futures prices fall, offsetting lower revenue on the physical sale, subject to basis risk. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 61,
+          "endPdfPage": 84,
+          "section": "Derivative Benefits, Risks, and Issuer and Investor Uses"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m4-c1",
+    "moduleId": "v7-m4",
+    "topicId": "v7",
+    "name": "Cash-and-carry pricing",
+    "objective": "Explain and apply cash-and-carry pricing.",
+    "explanation": "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying. The forward price is a delivery price, not simply the investor’s forecast.",
+    "why": "Buy the asset and finance it for one year: repayment is 105.",
+    "definition": "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying.",
+    "example": "For a non-income asset costing 100, no storage cost and a one-year 5% financing rate, forward price is 105.",
+    "trap": "Separate financing costs from expected price appreciation.",
+    "mnemonic": "Cash-and-carry pricing → Separate financing costs from expected price appreciation.",
+    "recall": "Without looking: explain cash-and-carry pricing and one mistake to avoid.",
+    "recallAnswer": "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying. The forward price is a delivery price, not simply the investor’s forecast. Watch for: Separate financing costs from expected price appreciation.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 85,
+      "endPdfPage": 106,
+      "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+    },
+    "questions": [
+      {
+        "id": "v7-m4-c1-q1",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "A non-income asset costs 100. Annual financing is 5%, with no other carry. One-year no-arbitrage forward price is:",
+        "choices": [
+          "95",
+          "100",
+          "105"
+        ],
+        "answer": 2,
+        "explanation": "Buy the asset and finance it for one year: repayment is 105.",
+        "distractors": [
+          "Buy the asset and finance it for one year: repayment is 105.",
+          "Buy the asset and finance it for one year: repayment is 105.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-recall",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "Without looking: explain cash-and-carry pricing and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying. The forward price is a delivery price, not simply the investor’s forecast. Watch for: Separate financing costs from expected price appreciation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-formula",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "Reconstruct the relationship for forward price with no income. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "F₀(T) = S₀(1 + r)^T\nS₀: spot; r: annual effective financing rate; T: years",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-calc1",
+        "conceptId": "v7-m4-c1",
+        "moduleId": "v7-m4",
+        "topicId": "v7",
+        "prompt": "Non-income asset spot 110, one-year financing 4.50%, no storage or other benefits. Fair one-year forward price is:",
+        "choices": [
+          "105.26",
+          "110.00",
+          "114.95"
+        ],
+        "answer": 2,
+        "explanation": "Finance the spot purchase for one year: 110×(1+0.045)=114.95. Forward carry compounds the purchase cost.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 110×(1+0.045)=114.95. Forward carry compounds the purchase cost.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 110×(1+0.045)=114.95. Forward carry compounds the purchase cost.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-calc2",
+        "conceptId": "v7-m4-c1",
+        "moduleId": "v7-m4",
+        "topicId": "v7",
+        "prompt": "Non-income asset spot 120, one-year financing 5.00%, no storage or other benefits. Fair one-year forward price is:",
+        "choices": [
+          "120.00",
+          "126.00",
+          "114.29"
+        ],
+        "answer": 1,
+        "explanation": "Finance the spot purchase for one year: 120×(1+0.050)=126.00. Forward carry compounds the purchase cost.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 120×(1+0.050)=126.00. Forward carry compounds the purchase cost.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 120×(1+0.050)=126.00. Forward carry compounds the purchase cost."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-calc3",
+        "conceptId": "v7-m4-c1",
+        "moduleId": "v7-m4",
+        "topicId": "v7",
+        "prompt": "Non-income asset spot 130, one-year financing 5.50%, no storage or other benefits. Fair one-year forward price is:",
+        "choices": [
+          "137.15",
+          "123.22",
+          "130.00"
+        ],
+        "answer": 0,
+        "explanation": "Finance the spot purchase for one year: 130×(1+0.055)=137.15. Forward carry compounds the purchase cost.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 130×(1+0.055)=137.15. Forward carry compounds the purchase cost.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 130×(1+0.055)=137.15. Forward carry compounds the purchase cost."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-calc4",
+        "conceptId": "v7-m4-c1",
+        "moduleId": "v7-m4",
+        "topicId": "v7",
+        "prompt": "Non-income asset spot 140, one-year financing 6.00%, no storage or other benefits. Fair one-year forward price is:",
+        "choices": [
+          "132.08",
+          "140.00",
+          "148.40"
+        ],
+        "answer": 2,
+        "explanation": "Finance the spot purchase for one year: 140×(1+0.060)=148.40. Forward carry compounds the purchase cost.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 140×(1+0.060)=148.40. Forward carry compounds the purchase cost.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 140×(1+0.060)=148.40. Forward carry compounds the purchase cost.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-calc5",
+        "conceptId": "v7-m4-c1",
+        "moduleId": "v7-m4",
+        "topicId": "v7",
+        "prompt": "Non-income asset spot 150, one-year financing 6.50%, no storage or other benefits. Fair one-year forward price is:",
+        "choices": [
+          "150.00",
+          "159.75",
+          "140.85"
+        ],
+        "answer": 1,
+        "explanation": "Finance the spot purchase for one year: 150×(1+0.065)=159.75. Forward carry compounds the purchase cost.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 150×(1+0.065)=159.75. Forward carry compounds the purchase cost.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Finance the spot purchase for one year: 150×(1+0.065)=159.75. Forward carry compounds the purchase cost."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-depth1",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "Which statement most accurately describes cash-and-carry pricing?",
+        "choices": [
+          "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying.",
+          "Separate financing costs from expected price appreciation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying. The forward price is a delivery price, not simply the investor’s forecast. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-depth2",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "A candidate applies this rule: “Separate financing costs from expected price appreciation.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. No-arbitrage forward pricing links spot cost, financing, storage and benefits of holding the underlying. The forward price is a delivery price, not simply the investor’s forecast.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-depth3",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "Consider this case: For a non-income asset costing 100, no storage cost and a one-year 5% financing rate, forward price is 105. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Separate financing costs from expected price appreciation.",
+          "Apply cash-and-carry pricing while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Buy the asset and finance it for one year: repayment is 105. Watch for: Separate financing costs from expected price appreciation.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      },
+      {
+        "id": "v7-m4-c1-depth4",
+        "conceptId": "v7-m4-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m4",
+        "prompt": "Why does cash-and-carry pricing matter to an analyst or candidate?",
+        "choices": [
+          "Buy the asset and finance it for one year: repayment is 105.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Buy the asset and finance it for one year: repayment is 105. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 85,
+          "endPdfPage": 106,
+          "section": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Forward price with no income",
+      "expression": "F₀(T) = S₀(1 + r)^T",
+      "variables": "S₀: spot; r: annual effective financing rate; T: years",
+      "intuition": "Price delivery of a non-income asset without other carry costs.",
+      "when": "Price delivery of a non-income asset without other carry costs.",
+      "example": "100 × 1.05 = 105.",
+      "mistake": "Income and storage require appropriate carry adjustments.",
+      "related": []
+    }
+  },
+  {
+    "id": "v7-m5-c1",
+    "moduleId": "v7-m5",
+    "topicId": "v7",
+    "name": "Forward price versus forward value",
+    "objective": "Explain and apply forward price versus forward value.",
+    "explanation": "A forward’s delivery price is fixed at initiation. Its value subsequently changes with spot and financing conditions. An at-market forward normally begins at zero value before fees or special terms.",
+    "why": "The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist.",
+    "definition": "A forward’s delivery price is fixed at initiation.",
+    "example": "An old long forward delivery price of 100 becomes valuable if an otherwise identical new forward price rises to 110.",
+    "trap": "The contract delivery price does not reset just because market value changes.",
+    "mnemonic": "Forward price versus forward value → The contract delivery price does not reset just because market value changes.",
+    "recall": "Without looking: explain forward price versus forward value and one mistake to avoid.",
+    "recallAnswer": "A forward’s delivery price is fixed at initiation. Its value subsequently changes with spot and financing conditions. An at-market forward normally begins at zero value before fees or special terms. Watch for: The contract delivery price does not reset just because market value changes.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 107,
+      "endPdfPage": 136,
+      "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+    },
+    "questions": [
+      {
+        "id": "v7-m5-c1-q1",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "The current fair forward price rises above the delivery price of an existing long forward. The existing long generally has:",
+        "choices": [
+          "Positive value",
+          "A higher contractual delivery price automatically",
+          "Always zero value until expiry"
+        ],
+        "answer": 0,
+        "explanation": "The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist.",
+          "The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      },
+      {
+        "id": "v7-m5-c1-recall",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "Without looking: explain forward price versus forward value and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A forward’s delivery price is fixed at initiation. Its value subsequently changes with spot and financing conditions. An at-market forward normally begins at zero value before fees or special terms. Watch for: The contract delivery price does not reset just because market value changes.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      },
+      {
+        "id": "v7-m5-c1-depth1",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "Which statement most accurately describes forward price versus forward value?",
+        "choices": [
+          "The contract delivery price does not reset just because market value changes.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A forward’s delivery price is fixed at initiation."
+        ],
+        "answer": 2,
+        "explanation": "A forward’s delivery price is fixed at initiation. Its value subsequently changes with spot and financing conditions. An at-market forward normally begins at zero value before fees or special terms. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      },
+      {
+        "id": "v7-m5-c1-depth2",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "A candidate applies this rule: “The contract delivery price does not reset just because market value changes.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A forward’s delivery price is fixed at initiation.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A forward’s delivery price is fixed at initiation. Its value subsequently changes with spot and financing conditions. An at-market forward normally begins at zero value before fees or special terms.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      },
+      {
+        "id": "v7-m5-c1-depth3",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "Consider this case: An old long forward delivery price of 100 becomes valuable if an otherwise identical new forward price rises to 110. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply forward price versus forward value while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "The contract delivery price does not reset just because market value changes."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist. Watch for: The contract delivery price does not reset just because market value changes.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      },
+      {
+        "id": "v7-m5-c1-depth4",
+        "conceptId": "v7-m5-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m5",
+        "prompt": "Why does forward price versus forward value matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "The holder has locked in a cheaper delivery price."
+        ],
+        "answer": 2,
+        "explanation": "The holder has locked in a cheaper delivery price. Positive value and unchanged contract price can coexist. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 107,
+          "endPdfPage": 136,
+          "section": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m6-c1",
+    "moduleId": "v7-m6",
+    "topicId": "v7",
+    "name": "Daily settlement and financing",
+    "objective": "Explain and apply daily settlement and financing.",
+    "explanation": "Futures gains and losses are settled daily. Forward settlement generally occurs at the contracted date. The correlation between futures price changes and interest rates can affect their relative pricing.",
+    "why": "Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk.",
+    "definition": "Futures gains and losses are settled daily.",
+    "example": "If futures gains arrive when rates are high, those gains can be reinvested favorably compared with waiting to receive them at maturity.",
+    "trap": "Equal final asset exposure does not imply identical cash-flow timing.",
+    "mnemonic": "Daily settlement and financing → Equal final asset exposure does not imply identical cash-flow timing.",
+    "recall": "Without looking: explain daily settlement and financing and one mistake to avoid.",
+    "recallAnswer": "Futures gains and losses are settled daily. Forward settlement generally occurs at the contracted date. The correlation between futures price changes and interest rates can affect their relative pricing. Watch for: Equal final asset exposure does not imply identical cash-flow timing.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 137,
+      "endPdfPage": 156,
+      "section": "Pricing and Valuation of Futures Contracts"
+    },
+    "questions": [
+      {
+        "id": "v7-m6-c1-q1",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "What most directly distinguishes ordinary futures from otherwise similar forwards?",
+        "choices": [
+          "Daily marking to market and settlement",
+          "No market risk",
+          "An option holder’s right to walk away"
+        ],
+        "answer": 0,
+        "explanation": "Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk.",
+          "Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      },
+      {
+        "id": "v7-m6-c1-recall",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "Without looking: explain daily settlement and financing and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Futures gains and losses are settled daily. Forward settlement generally occurs at the contracted date. The correlation between futures price changes and interest rates can affect their relative pricing. Watch for: Equal final asset exposure does not imply identical cash-flow timing.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      },
+      {
+        "id": "v7-m6-c1-depth1",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "Which statement most accurately describes daily settlement and financing?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Futures gains and losses are settled daily.",
+          "Equal final asset exposure does not imply identical cash-flow timing."
+        ],
+        "answer": 1,
+        "explanation": "Futures gains and losses are settled daily. Forward settlement generally occurs at the contracted date. The correlation between futures price changes and interest rates can affect their relative pricing. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      },
+      {
+        "id": "v7-m6-c1-depth2",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "A candidate applies this rule: “Equal final asset exposure does not imply identical cash-flow timing.” What is the best correction?",
+        "choices": [
+          "Futures gains and losses are settled daily.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Futures gains and losses are settled daily. Forward settlement generally occurs at the contracted date. The correlation between futures price changes and interest rates can affect their relative pricing.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      },
+      {
+        "id": "v7-m6-c1-depth3",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "Consider this case: If futures gains arrive when rates are high, those gains can be reinvested favorably compared with waiting to receive them at maturity. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Equal final asset exposure does not imply identical cash-flow timing.",
+          "Apply daily settlement and financing while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk. Watch for: Equal final asset exposure does not imply identical cash-flow timing.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      },
+      {
+        "id": "v7-m6-c1-depth4",
+        "conceptId": "v7-m6-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m6",
+        "prompt": "Why does daily settlement and financing matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Daily settlement creates interim cash flows and liquidity needs.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Daily settlement creates interim cash flows and liquidity needs. Futures remain binding commitments with market risk. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 137,
+          "endPdfPage": 156,
+          "section": "Pricing and Valuation of Futures Contracts"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m7-c1",
+    "moduleId": "v7-m7",
+    "topicId": "v7",
+    "name": "Swap rate versus swap value",
+    "objective": "Explain and apply swap rate versus swap value.",
+    "explanation": "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value. A plain at-market swap starts near zero value, but its value changes as curves move.",
+    "why": "The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed.",
+    "definition": "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value.",
+    "example": "A fixed-rate receiver benefits, all else equal, when market fixed swap rates fall below the contracted fixed rate.",
+    "trap": "A zero initial value does not mean zero future risk.",
+    "mnemonic": "Swap rate versus swap value → A zero initial value does not mean zero future risk.",
+    "recall": "Without looking: explain swap rate versus swap value and one mistake to avoid.",
+    "recallAnswer": "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value. A plain at-market swap starts near zero value, but its value changes as curves move. Watch for: A zero initial value does not mean zero future risk.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 157,
+      "endPdfPage": 178,
+      "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+    },
+    "questions": [
+      {
+        "id": "v7-m7-c1-q1",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "After initiation, market fixed swap rates fall. A receiver of the old higher fixed rate generally:",
+        "choices": [
+          "Gains value",
+          "Loses value solely because fixed receipts are higher",
+          "Must reset its contracted rate"
+        ],
+        "answer": 0,
+        "explanation": "The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed.",
+          "The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      },
+      {
+        "id": "v7-m7-c1-recall",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "Without looking: explain swap rate versus swap value and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value. A plain at-market swap starts near zero value, but its value changes as curves move. Watch for: A zero initial value does not mean zero future risk.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      },
+      {
+        "id": "v7-m7-c1-depth1",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "Which statement most accurately describes swap rate versus swap value?",
+        "choices": [
+          "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value.",
+          "A zero initial value does not mean zero future risk.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value. A plain at-market swap starts near zero value, but its value changes as curves move. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      },
+      {
+        "id": "v7-m7-c1-depth2",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "A candidate applies this rule: “A zero initial value does not mean zero future risk.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. The fixed rate agreed on a swap is its price term; the present value of remaining net cash flows is its current value. A plain at-market swap starts near zero value, but its value changes as curves move.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      },
+      {
+        "id": "v7-m7-c1-depth3",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "Consider this case: A fixed-rate receiver benefits, all else equal, when market fixed swap rates fall below the contracted fixed rate. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "A zero initial value does not mean zero future risk.",
+          "Apply swap rate versus swap value while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed. Watch for: A zero initial value does not mean zero future risk.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      },
+      {
+        "id": "v7-m7-c1-depth4",
+        "conceptId": "v7-m7-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m7",
+        "prompt": "Why does swap rate versus swap value matter to an analyst or candidate?",
+        "choices": [
+          "The received fixed leg is more attractive relative to current market terms.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "The received fixed leg is more attractive relative to current market terms. The contract rate remains fixed. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 157,
+          "endPdfPage": 178,
+          "section": "Pricing and Valuation of Interest Rates and Other Swaps"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m8-c1",
+    "moduleId": "v7-m8",
+    "topicId": "v7",
+    "name": "Moneyness and time value",
+    "objective": "Explain and apply moneyness and time value.",
+    "explanation": "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price. Option premium can include time value beyond immediate exercise value.",
+    "why": "Subtract exercise value from premium: 8 − max(55−50,0) = 3.",
+    "definition": "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price.",
+    "example": "Call premium 8, stock 55 and strike 50: exercise value 5 and time value 3.",
+    "trap": "In the money does not guarantee a profitable trade after premium.",
+    "mnemonic": "Moneyness and time value → In the money does not guarantee a profitable trade after premium.",
+    "recall": "Without looking: explain moneyness and time value and one mistake to avoid.",
+    "recallAnswer": "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price. Option premium can include time value beyond immediate exercise value. Watch for: In the money does not guarantee a profitable trade after premium.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 179,
+      "endPdfPage": 204,
+      "section": "Pricing and Valuation of Options"
+    },
+    "questions": [
+      {
+        "id": "v7-m8-c1-q1",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "A call trades at 8 when the stock is 55 and strike 50. Time value is:",
+        "choices": [
+          "8",
+          "5",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Subtract exercise value from premium: 8 − max(55−50,0) = 3.",
+        "distractors": [
+          "Subtract exercise value from premium: 8 − max(55−50,0) = 3.",
+          "Subtract exercise value from premium: 8 − max(55−50,0) = 3.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      },
+      {
+        "id": "v7-m8-c1-recall",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "Without looking: explain moneyness and time value and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price. Option premium can include time value beyond immediate exercise value. Watch for: In the money does not guarantee a profitable trade after premium.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      },
+      {
+        "id": "v7-m8-c1-depth1",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "Which statement most accurately describes moneyness and time value?",
+        "choices": [
+          "In the money does not guarantee a profitable trade after premium.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price."
+        ],
+        "answer": 2,
+        "explanation": "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price. Option premium can include time value beyond immediate exercise value. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      },
+      {
+        "id": "v7-m8-c1-depth2",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "A candidate applies this rule: “In the money does not guarantee a profitable trade after premium.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A call is in the money when asset price exceeds strike; a put is in the money when strike exceeds asset price. Option premium can include time value beyond immediate exercise value.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      },
+      {
+        "id": "v7-m8-c1-depth3",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "Consider this case: Call premium 8, stock 55 and strike 50: exercise value 5 and time value 3. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply moneyness and time value while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "In the money does not guarantee a profitable trade after premium."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Subtract exercise value from premium: 8 − max(55−50,0) = 3. Watch for: In the money does not guarantee a profitable trade after premium.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      },
+      {
+        "id": "v7-m8-c1-depth4",
+        "conceptId": "v7-m8-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m8",
+        "prompt": "Why does moneyness and time value matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Subtract exercise value from premium: 8 − max(55−50,0) = 3."
+        ],
+        "answer": 2,
+        "explanation": "Subtract exercise value from premium: 8 − max(55−50,0) = 3. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 179,
+          "endPdfPage": 204,
+          "section": "Pricing and Valuation of Options"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v7-m9-c1",
+    "moduleId": "v7-m9",
+    "topicId": "v7",
+    "name": "Put–call parity",
+    "objective": "Explain and apply put–call parity.",
+    "explanation": "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock.",
+    "why": "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3.",
+    "definition": "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock..",
+    "example": "If stock 100, present value of strike 95 and call 8, put = 8 + 95 − 100 = 3.",
+    "trap": "Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+    "mnemonic": "Put–call parity → Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+    "recall": "Without looking: explain put–call parity and one mistake to avoid.",
+    "recallAnswer": "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock. Watch for: Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 205,
+      "endPdfPage": 226,
+      "section": "Option Replication Using Put–Call Parity"
+    },
+    "questions": [
+      {
+        "id": "v7-m9-c1-q1",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Stock is 100, PV of strike 95 and European call 8. Under simple no-dividend put–call parity, put value is:",
+        "choices": [
+          "13",
+          "3",
+          "−3"
+        ],
+        "answer": 1,
+        "explanation": "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3.",
+        "distractors": [
+          "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3.",
+          "This applies the principle correctly.",
+          "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-recall",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Without looking: explain put–call parity and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock. Watch for: Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-formula",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Reconstruct the relationship for european put–call parity. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "c₀ + PV(K) = p₀ + S₀\nc₀: call; p₀: put; K: common strike; S₀: non-dividend stock",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-calc1",
+        "conceptId": "v7-m9-c1",
+        "moduleId": "v7-m9",
+        "topicId": "v7",
+        "prompt": "For matched European options on a non-dividend stock, S = 100, PV(strike) = 94 and call = 11. Put value is:",
+        "choices": [
+          "17.00",
+          "-5.00",
+          "5.00"
+        ],
+        "answer": 2,
+        "explanation": "c+PV(K)=p+S. Therefore p=11+94−100=5. Reversing the cash/stock side breaks replication.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=11+94−100=5. Reversing the cash/stock side breaks replication.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=11+94−100=5. Reversing the cash/stock side breaks replication.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-calc2",
+        "conceptId": "v7-m9-c1",
+        "moduleId": "v7-m9",
+        "topicId": "v7",
+        "prompt": "For matched European options on a non-dividend stock, S = 100, PV(strike) = 95 and call = 12. Put value is:",
+        "choices": [
+          "-7.00",
+          "7.00",
+          "17.00"
+        ],
+        "answer": 1,
+        "explanation": "c+PV(K)=p+S. Therefore p=12+95−100=7. Reversing the cash/stock side breaks replication.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=12+95−100=7. Reversing the cash/stock side breaks replication.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=12+95−100=7. Reversing the cash/stock side breaks replication."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-calc3",
+        "conceptId": "v7-m9-c1",
+        "moduleId": "v7-m9",
+        "topicId": "v7",
+        "prompt": "For matched European options on a non-dividend stock, S = 100, PV(strike) = 96 and call = 13. Put value is:",
+        "choices": [
+          "9.00",
+          "17.00",
+          "-9.00"
+        ],
+        "answer": 0,
+        "explanation": "c+PV(K)=p+S. Therefore p=13+96−100=9. Reversing the cash/stock side breaks replication.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=13+96−100=9. Reversing the cash/stock side breaks replication.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=13+96−100=9. Reversing the cash/stock side breaks replication."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-calc4",
+        "conceptId": "v7-m9-c1",
+        "moduleId": "v7-m9",
+        "topicId": "v7",
+        "prompt": "For matched European options on a non-dividend stock, S = 100, PV(strike) = 97 and call = 14. Put value is:",
+        "choices": [
+          "17.00",
+          "-11.00",
+          "11.00"
+        ],
+        "answer": 2,
+        "explanation": "c+PV(K)=p+S. Therefore p=14+97−100=11. Reversing the cash/stock side breaks replication.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=14+97−100=11. Reversing the cash/stock side breaks replication.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=14+97−100=11. Reversing the cash/stock side breaks replication.",
+          "Correct."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-calc5",
+        "conceptId": "v7-m9-c1",
+        "moduleId": "v7-m9",
+        "topicId": "v7",
+        "prompt": "For matched European options on a non-dividend stock, S = 100, PV(strike) = 98 and call = 15. Put value is:",
+        "choices": [
+          "-13.00",
+          "13.00",
+          "17.00"
+        ],
+        "answer": 1,
+        "explanation": "c+PV(K)=p+S. Therefore p=15+98−100=13. Reversing the cash/stock side breaks replication.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=15+98−100=13. Reversing the cash/stock side breaks replication.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. c+PV(K)=p+S. Therefore p=15+98−100=13. Reversing the cash/stock side breaks replication."
+        ],
+        "difficulty": 3,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-depth1",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Which statement most accurately describes put–call parity?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock.",
+          "Match strike, expiry, exercise style and underlying cash-flow assumptions."
+        ],
+        "answer": 1,
+        "explanation": "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-depth2",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "A candidate applies this rule: “Match strike, expiry, exercise style and underlying cash-flow assumptions.” What is the best correction?",
+        "choices": [
+          "European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. European puts and calls with the same strike, expiry and non-dividend-paying underlying satisfy a replication relationship: a call plus discounted strike equals a put plus stock.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-depth3",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Consider this case: If stock 100, present value of strike 95 and call 8, put = 8 + 95 − 100 = 3. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+          "Apply put–call parity while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. c + PV(K) = p + S, so p = 8 + 95 − 100 = 3. Watch for: Match strike, expiry, exercise style and underlying cash-flow assumptions.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      },
+      {
+        "id": "v7-m9-c1-depth4",
+        "conceptId": "v7-m9-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m9",
+        "prompt": "Why does put–call parity matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "c + PV(K) = p + S, so p = 8 + 95 − 100 = 3. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 205,
+          "endPdfPage": 226,
+          "section": "Option Replication Using Put–Call Parity"
+        }
+      }
+    ],
+    "formula": {
+      "name": "European put–call parity",
+      "expression": "c₀ + PV(K) = p₀ + S₀",
+      "variables": "c₀: call; p₀: put; K: common strike; S₀: non-dividend stock",
+      "intuition": "Replicate equal-expiry European option payoffs.",
+      "when": "Replicate equal-expiry European option payoffs.",
+      "example": "8 + 95 − 100 = 3 for the put.",
+      "mistake": "Do not apply unchanged to American options or dividend-paying stocks.",
+      "related": []
+    }
+  },
+  {
+    "id": "v7-m10-c1",
+    "moduleId": "v7-m10",
+    "topicId": "v7",
+    "name": "Risk-neutral binomial valuation",
+    "objective": "Explain and apply risk-neutral binomial valuation.",
+    "explanation": "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate. The risk-neutral probability is a pricing weight, not a forecast of actual frequency.",
+    "why": "(1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability.",
+    "definition": "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate.",
+    "example": "Stock 100 moves to 120 or 80, gross risk-free return 1.05. q = (1.05−.8)/(1.2−.8) = .625. A strike-100 call is worth .625×20/1.05 = 11.90.",
+    "trap": "Use pricing probability and risk-free discounting together.",
+    "mnemonic": "Risk-neutral binomial valuation → Use pricing probability and risk-free discounting together.",
+    "recall": "Without looking: explain risk-neutral binomial valuation and one mistake to avoid.",
+    "recallAnswer": "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate. The risk-neutral probability is a pricing weight, not a forecast of actual frequency. Watch for: Use pricing probability and risk-free discounting together.",
+    "source": {
+      "file": "cfa-program2026L1V7.pdf",
+      "pdfPage": 227,
+      "endPdfPage": 246,
+      "section": "Valuing a Derivative Using a One-Period Binomial Model"
+    },
+    "questions": [
+      {
+        "id": "v7-m10-c1-q1",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "With up factor 1.2, down .8 and gross risk-free return 1.05, risk-neutral up probability is:",
+        "choices": [
+          "50%",
+          "62.5%",
+          "25%"
+        ],
+        "answer": 1,
+        "explanation": "(1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability.",
+        "distractors": [
+          "(1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability.",
+          "This applies the principle correctly.",
+          "(1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-recall",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "Without looking: explain risk-neutral binomial valuation and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate. The risk-neutral probability is a pricing weight, not a forecast of actual frequency. Watch for: Use pricing probability and risk-free discounting together.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-formula",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "Reconstruct the relationship for risk-neutral up probability. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "q = (1 + r − d) / (u − d)\nr: one-period risk-free return; u,d: price multipliers",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-depth1",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "Which statement most accurately describes risk-neutral binomial valuation?",
+        "choices": [
+          "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate.",
+          "Use pricing probability and risk-free discounting together.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate. The risk-neutral probability is a pricing weight, not a forecast of actual frequency. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-depth2",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "A candidate applies this rule: “Use pricing probability and risk-free discounting together.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. A one-period binomial model prices a replicable payoff by discounting its risk-neutral expected payoff at the risk-free rate. The risk-neutral probability is a pricing weight, not a forecast of actual frequency.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-depth3",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "Consider this case: Stock 100 moves to 120 or 80, gross risk-free return 1.05. q = (1.05−.8)/(1.2−.8) = .625. A strike-100 call is worth .625×20/1.05 = 11.90. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use pricing probability and risk-free discounting together.",
+          "Apply risk-neutral binomial valuation while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. (1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability. Watch for: Use pricing probability and risk-free discounting together.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      },
+      {
+        "id": "v7-m10-c1-depth4",
+        "conceptId": "v7-m10-c1",
+        "topicId": "v7",
+        "moduleId": "v7-m10",
+        "prompt": "Why does risk-neutral binomial valuation matter to an analyst or candidate?",
+        "choices": [
+          "(1.05−.8)/(1.2−.8)=.625.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "(1.05−.8)/(1.2−.8)=.625. Equal-sized moves do not imply a 50% pricing probability. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V7.pdf",
+          "pdfPage": 227,
+          "endPdfPage": 246,
+          "section": "Valuing a Derivative Using a One-Period Binomial Model"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Risk-neutral up probability",
+      "expression": "q = (1 + r − d) / (u − d)",
+      "variables": "r: one-period risk-free return; u,d: price multipliers",
+      "intuition": "Price a one-period replicable payoff when d < 1+r < u.",
+      "when": "Price a one-period replicable payoff when d < 1+r < u.",
+      "example": "(1.05−.8)/(.4) = .625.",
+      "mistake": "q is not the investor’s real-world forecast.",
+      "related": []
+    }
+  }
+]

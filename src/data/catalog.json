@@ -1,0 +1,1638 @@
+[
+  {
+    "id": "v1-m1-c1",
+    "name": "Compounding versus averaging",
+    "moduleId": "v1-m1",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m1-c1-q1",
+      "v1-m1-c1-recall",
+      "v1-m1-c1-formula",
+      "v1-m1-c1-calc1",
+      "v1-m1-c1-calc2",
+      "v1-m1-c1-calc3",
+      "v1-m1-c1-calc4",
+      "v1-m1-c1-calc5",
+      "v1-m1-c1-depth1",
+      "v1-m1-c1-depth2",
+      "v1-m1-c1-depth3",
+      "v1-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m2-c1",
+    "name": "Discounting future cash",
+    "moduleId": "v1-m2",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m2-c1-q1",
+      "v1-m2-c1-recall",
+      "v1-m2-c1-formula",
+      "v1-m2-c1-calc1",
+      "v1-m2-c1-calc2",
+      "v1-m2-c1-calc3",
+      "v1-m2-c1-calc4",
+      "v1-m2-c1-calc5",
+      "v1-m2-c1-depth1",
+      "v1-m2-c1-depth2",
+      "v1-m2-c1-depth3",
+      "v1-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m3-c1",
+    "name": "Correlation and causation",
+    "moduleId": "v1-m3",
+    "topicId": "v1",
+    "formula": false,
+    "questionIds": [
+      "v1-m3-c1-q1",
+      "v1-m3-c1-recall",
+      "v1-m3-c1-depth1",
+      "v1-m3-c1-depth2",
+      "v1-m3-c1-depth3",
+      "v1-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m4-c1",
+    "name": "Updating probabilities with evidence",
+    "moduleId": "v1-m4",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m4-c1-q1",
+      "v1-m4-c1-recall",
+      "v1-m4-c1-formula",
+      "v1-m4-c1-calc1",
+      "v1-m4-c1-calc2",
+      "v1-m4-c1-calc3",
+      "v1-m4-c1-calc4",
+      "v1-m4-c1-calc5",
+      "v1-m4-c1-depth1",
+      "v1-m4-c1-depth2",
+      "v1-m4-c1-depth3",
+      "v1-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m5-c1",
+    "name": "Portfolio risk and covariance",
+    "moduleId": "v1-m5",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m5-c1-q1",
+      "v1-m5-c1-recall",
+      "v1-m5-c1-formula",
+      "v1-m5-c1-calc1",
+      "v1-m5-c1-calc2",
+      "v1-m5-c1-calc3",
+      "v1-m5-c1-calc4",
+      "v1-m5-c1-calc5",
+      "v1-m5-c1-depth1",
+      "v1-m5-c1-depth2",
+      "v1-m5-c1-depth3",
+      "v1-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m6-c1",
+    "name": "Simulation versus bootstrap",
+    "moduleId": "v1-m6",
+    "topicId": "v1",
+    "formula": false,
+    "questionIds": [
+      "v1-m6-c1-q1",
+      "v1-m6-c1-recall",
+      "v1-m6-c1-depth1",
+      "v1-m6-c1-depth2",
+      "v1-m6-c1-depth3",
+      "v1-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m7-c1",
+    "name": "Precision of a sample mean",
+    "moduleId": "v1-m7",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m7-c1-q1",
+      "v1-m7-c1-recall",
+      "v1-m7-c1-formula",
+      "v1-m7-c1-calc1",
+      "v1-m7-c1-calc2",
+      "v1-m7-c1-calc3",
+      "v1-m7-c1-calc4",
+      "v1-m7-c1-calc5",
+      "v1-m7-c1-depth1",
+      "v1-m7-c1-depth2",
+      "v1-m7-c1-depth3",
+      "v1-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m8-c1",
+    "name": "Type I error and test power",
+    "moduleId": "v1-m8",
+    "topicId": "v1",
+    "formula": false,
+    "questionIds": [
+      "v1-m8-c1-q1",
+      "v1-m8-c1-recall",
+      "v1-m8-c1-depth1",
+      "v1-m8-c1-depth2",
+      "v1-m8-c1-depth3",
+      "v1-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m9-c1",
+    "name": "Independence in contingency tables",
+    "moduleId": "v1-m9",
+    "topicId": "v1",
+    "formula": false,
+    "questionIds": [
+      "v1-m9-c1-q1",
+      "v1-m9-c1-recall",
+      "v1-m9-c1-depth1",
+      "v1-m9-c1-depth2",
+      "v1-m9-c1-depth3",
+      "v1-m9-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m10-c1",
+    "name": "Interpreting a regression slope",
+    "moduleId": "v1-m10",
+    "topicId": "v1",
+    "formula": true,
+    "questionIds": [
+      "v1-m10-c1-q1",
+      "v1-m10-c1-recall",
+      "v1-m10-c1-formula",
+      "v1-m10-c1-calc1",
+      "v1-m10-c1-calc2",
+      "v1-m10-c1-calc3",
+      "v1-m10-c1-calc4",
+      "v1-m10-c1-calc5",
+      "v1-m10-c1-depth1",
+      "v1-m10-c1-depth2",
+      "v1-m10-c1-depth3",
+      "v1-m10-c1-depth4"
+    ]
+  },
+  {
+    "id": "v1-m11-c1",
+    "name": "Learning from labeled data",
+    "moduleId": "v1-m11",
+    "topicId": "v1",
+    "formula": false,
+    "questionIds": [
+      "v1-m11-c1-q1",
+      "v1-m11-c1-recall",
+      "v1-m11-c1-depth1",
+      "v1-m11-c1-depth2",
+      "v1-m11-c1-depth3",
+      "v1-m11-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m1-c1",
+    "name": "Shutdown versus breakeven",
+    "moduleId": "v2-m1",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m1-c1-q1",
+      "v2-m1-c1-recall",
+      "v2-m1-c1-depth1",
+      "v2-m1-c1-depth2",
+      "v2-m1-c1-depth3",
+      "v2-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m2-c1",
+    "name": "Business-cycle indicators",
+    "moduleId": "v2-m2",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m2-c1-q1",
+      "v2-m2-c1-recall",
+      "v2-m2-c1-depth1",
+      "v2-m2-c1-depth2",
+      "v2-m2-c1-depth3",
+      "v2-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m3-c1",
+    "name": "Fiscal stimulus and implementation lags",
+    "moduleId": "v2-m3",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m3-c1-q1",
+      "v2-m3-c1-recall",
+      "v2-m3-c1-depth1",
+      "v2-m3-c1-depth2",
+      "v2-m3-c1-depth3",
+      "v2-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m4-c1",
+    "name": "Monetary transmission",
+    "moduleId": "v2-m4",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m4-c1-q1",
+      "v2-m4-c1-recall",
+      "v2-m4-c1-depth1",
+      "v2-m4-c1-depth2",
+      "v2-m4-c1-depth3",
+      "v2-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m5-c1",
+    "name": "Geopolitical transmission into investments",
+    "moduleId": "v2-m5",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m5-c1-q1",
+      "v2-m5-c1-recall",
+      "v2-m5-c1-depth1",
+      "v2-m5-c1-depth2",
+      "v2-m5-c1-depth3",
+      "v2-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m6-c1",
+    "name": "Tariffs and quotas",
+    "moduleId": "v2-m6",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m6-c1-q1",
+      "v2-m6-c1-recall",
+      "v2-m6-c1-depth1",
+      "v2-m6-c1-depth2",
+      "v2-m6-c1-depth3",
+      "v2-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m7-c1",
+    "name": "Exchange-rate quotation",
+    "moduleId": "v2-m7",
+    "topicId": "v2",
+    "formula": false,
+    "questionIds": [
+      "v2-m7-c1-q1",
+      "v2-m7-c1-recall",
+      "v2-m7-c1-depth1",
+      "v2-m7-c1-depth2",
+      "v2-m7-c1-depth3",
+      "v2-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v2-m8-c1",
+    "name": "Covered interest parity",
+    "moduleId": "v2-m8",
+    "topicId": "v2",
+    "formula": true,
+    "questionIds": [
+      "v2-m8-c1-q1",
+      "v2-m8-c1-recall",
+      "v2-m8-c1-formula",
+      "v2-m8-c1-calc1",
+      "v2-m8-c1-calc2",
+      "v2-m8-c1-calc3",
+      "v2-m8-c1-calc4",
+      "v2-m8-c1-calc5",
+      "v2-m8-c1-depth1",
+      "v2-m8-c1-depth2",
+      "v2-m8-c1-depth3",
+      "v2-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m1-c1",
+    "name": "Limited liability and ownership",
+    "moduleId": "v3-m1",
+    "topicId": "v3",
+    "formula": false,
+    "questionIds": [
+      "v3-m1-c1-q1",
+      "v3-m1-c1-recall",
+      "v3-m1-c1-depth1",
+      "v3-m1-c1-depth2",
+      "v3-m1-c1-depth3",
+      "v3-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m2-c1",
+    "name": "Debt holders versus equity holders",
+    "moduleId": "v3-m2",
+    "topicId": "v3",
+    "formula": false,
+    "questionIds": [
+      "v3-m2-c1-q1",
+      "v3-m2-c1-recall",
+      "v3-m2-c1-depth1",
+      "v3-m2-c1-depth2",
+      "v3-m2-c1-depth3",
+      "v3-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m3-c1",
+    "name": "Principal–agent conflicts",
+    "moduleId": "v3-m3",
+    "topicId": "v3",
+    "formula": false,
+    "questionIds": [
+      "v3-m3-c1-q1",
+      "v3-m3-c1-recall",
+      "v3-m3-c1-depth1",
+      "v3-m3-c1-depth2",
+      "v3-m3-c1-depth3",
+      "v3-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m4-c1",
+    "name": "Cash conversion cycle",
+    "moduleId": "v3-m4",
+    "topicId": "v3",
+    "formula": true,
+    "questionIds": [
+      "v3-m4-c1-q1",
+      "v3-m4-c1-recall",
+      "v3-m4-c1-formula",
+      "v3-m4-c1-calc1",
+      "v3-m4-c1-calc2",
+      "v3-m4-c1-calc3",
+      "v3-m4-c1-calc4",
+      "v3-m4-c1-calc5",
+      "v3-m4-c1-depth1",
+      "v3-m4-c1-depth2",
+      "v3-m4-c1-depth3",
+      "v3-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m5-c1",
+    "name": "Net present value and relevant cash flows",
+    "moduleId": "v3-m5",
+    "topicId": "v3",
+    "formula": true,
+    "questionIds": [
+      "v3-m5-c1-q1",
+      "v3-m5-c1-recall",
+      "v3-m5-c1-formula",
+      "v3-m5-c1-calc1",
+      "v3-m5-c1-calc2",
+      "v3-m5-c1-calc3",
+      "v3-m5-c1-calc4",
+      "v3-m5-c1-calc5",
+      "v3-m5-c1-depth1",
+      "v3-m5-c1-depth2",
+      "v3-m5-c1-depth3",
+      "v3-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m6-c1",
+    "name": "Weighted-average cost of capital",
+    "moduleId": "v3-m6",
+    "topicId": "v3",
+    "formula": true,
+    "questionIds": [
+      "v3-m6-c1-q1",
+      "v3-m6-c1-recall",
+      "v3-m6-c1-formula",
+      "v3-m6-c1-calc1",
+      "v3-m6-c1-calc2",
+      "v3-m6-c1-calc3",
+      "v3-m6-c1-calc4",
+      "v3-m6-c1-calc5",
+      "v3-m6-c1-depth1",
+      "v3-m6-c1-depth2",
+      "v3-m6-c1-depth3",
+      "v3-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v3-m7-c1",
+    "name": "Business-model economics",
+    "moduleId": "v3-m7",
+    "topicId": "v3",
+    "formula": false,
+    "questionIds": [
+      "v3-m7-c1-q1",
+      "v3-m7-c1-recall",
+      "v3-m7-c1-depth1",
+      "v3-m7-c1-depth2",
+      "v3-m7-c1-depth3",
+      "v3-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m1-c1",
+    "name": "Analysis starts with a purpose",
+    "moduleId": "v4-m1",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m1-c1-q1",
+      "v4-m1-c1-recall",
+      "v4-m1-c1-depth1",
+      "v4-m1-c1-depth2",
+      "v4-m1-c1-depth3",
+      "v4-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m2-c1",
+    "name": "Basic versus diluted EPS",
+    "moduleId": "v4-m2",
+    "topicId": "v4",
+    "formula": true,
+    "questionIds": [
+      "v4-m2-c1-q1",
+      "v4-m2-c1-recall",
+      "v4-m2-c1-formula",
+      "v4-m2-c1-calc1",
+      "v4-m2-c1-calc2",
+      "v4-m2-c1-calc3",
+      "v4-m2-c1-calc4",
+      "v4-m2-c1-calc5",
+      "v4-m2-c1-depth1",
+      "v4-m2-c1-depth2",
+      "v4-m2-c1-depth3",
+      "v4-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m3-c1",
+    "name": "Goodwill versus identifiable assets",
+    "moduleId": "v4-m3",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m3-c1-q1",
+      "v4-m3-c1-recall",
+      "v4-m3-c1-depth1",
+      "v4-m3-c1-depth2",
+      "v4-m3-c1-depth3",
+      "v4-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m4-c1",
+    "name": "Indirect operating cash flow",
+    "moduleId": "v4-m4",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m4-c1-q1",
+      "v4-m4-c1-recall",
+      "v4-m4-c1-depth1",
+      "v4-m4-c1-depth2",
+      "v4-m4-c1-depth3",
+      "v4-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m5-c1",
+    "name": "Free cash flow to the firm",
+    "moduleId": "v4-m5",
+    "topicId": "v4",
+    "formula": true,
+    "questionIds": [
+      "v4-m5-c1-q1",
+      "v4-m5-c1-recall",
+      "v4-m5-c1-formula",
+      "v4-m5-c1-calc1",
+      "v4-m5-c1-calc2",
+      "v4-m5-c1-calc3",
+      "v4-m5-c1-calc4",
+      "v4-m5-c1-calc5",
+      "v4-m5-c1-depth1",
+      "v4-m5-c1-depth2",
+      "v4-m5-c1-depth3",
+      "v4-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m6-c1",
+    "name": "Inventory methods in rising prices",
+    "moduleId": "v4-m6",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m6-c1-q1",
+      "v4-m6-c1-recall",
+      "v4-m6-c1-depth1",
+      "v4-m6-c1-depth2",
+      "v4-m6-c1-depth3",
+      "v4-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m7-c1",
+    "name": "Capitalizing versus expensing",
+    "moduleId": "v4-m7",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m7-c1-q1",
+      "v4-m7-c1-recall",
+      "v4-m7-c1-depth1",
+      "v4-m7-c1-depth2",
+      "v4-m7-c1-depth3",
+      "v4-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m8-c1",
+    "name": "Defined contribution versus defined benefit",
+    "moduleId": "v4-m8",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m8-c1-q1",
+      "v4-m8-c1-recall",
+      "v4-m8-c1-depth1",
+      "v4-m8-c1-depth2",
+      "v4-m8-c1-depth3",
+      "v4-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m9-c1",
+    "name": "Temporary differences and deferred tax",
+    "moduleId": "v4-m9",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m9-c1-q1",
+      "v4-m9-c1-recall",
+      "v4-m9-c1-depth1",
+      "v4-m9-c1-depth2",
+      "v4-m9-c1-depth3",
+      "v4-m9-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m10-c1",
+    "name": "Reporting quality versus earnings quality",
+    "moduleId": "v4-m10",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m10-c1-q1",
+      "v4-m10-c1-recall",
+      "v4-m10-c1-depth1",
+      "v4-m10-c1-depth2",
+      "v4-m10-c1-depth3",
+      "v4-m10-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m11-c1",
+    "name": "DuPont decomposition",
+    "moduleId": "v4-m11",
+    "topicId": "v4",
+    "formula": true,
+    "questionIds": [
+      "v4-m11-c1-q1",
+      "v4-m11-c1-recall",
+      "v4-m11-c1-formula",
+      "v4-m11-c1-calc1",
+      "v4-m11-c1-calc2",
+      "v4-m11-c1-calc3",
+      "v4-m11-c1-calc4",
+      "v4-m11-c1-calc5",
+      "v4-m11-c1-depth1",
+      "v4-m11-c1-depth2",
+      "v4-m11-c1-depth3",
+      "v4-m11-c1-depth4"
+    ]
+  },
+  {
+    "id": "v4-m12-c1",
+    "name": "Integrated forecasting",
+    "moduleId": "v4-m12",
+    "topicId": "v4",
+    "formula": false,
+    "questionIds": [
+      "v4-m12-c1-q1",
+      "v4-m12-c1-recall",
+      "v4-m12-c1-depth1",
+      "v4-m12-c1-depth2",
+      "v4-m12-c1-depth3",
+      "v4-m12-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m1-c1",
+    "name": "Market versus limit orders",
+    "moduleId": "v5-m1",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m1-c1-q1",
+      "v5-m1-c1-recall",
+      "v5-m1-c1-depth1",
+      "v5-m1-c1-depth2",
+      "v5-m1-c1-depth3",
+      "v5-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m2-c1",
+    "name": "Index weighting",
+    "moduleId": "v5-m2",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m2-c1-q1",
+      "v5-m2-c1-recall",
+      "v5-m2-c1-depth1",
+      "v5-m2-c1-depth2",
+      "v5-m2-c1-depth3",
+      "v5-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m3-c1",
+    "name": "Forms of market efficiency",
+    "moduleId": "v5-m3",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m3-c1-q1",
+      "v5-m3-c1-recall",
+      "v5-m3-c1-depth1",
+      "v5-m3-c1-depth2",
+      "v5-m3-c1-depth3",
+      "v5-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m4-c1",
+    "name": "Residual equity claims",
+    "moduleId": "v5-m4",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m4-c1-q1",
+      "v5-m4-c1-recall",
+      "v5-m4-c1-depth1",
+      "v5-m4-c1-depth2",
+      "v5-m4-c1-depth3",
+      "v5-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m5-c1",
+    "name": "Revenue drivers and pricing power",
+    "moduleId": "v5-m5",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m5-c1-q1",
+      "v5-m5-c1-recall",
+      "v5-m5-c1-depth1",
+      "v5-m5-c1-depth2",
+      "v5-m5-c1-depth3",
+      "v5-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m6-c1",
+    "name": "Industry forces and profitability",
+    "moduleId": "v5-m6",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m6-c1-q1",
+      "v5-m6-c1-recall",
+      "v5-m6-c1-depth1",
+      "v5-m6-c1-depth2",
+      "v5-m6-c1-depth3",
+      "v5-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m7-c1",
+    "name": "Forecasts as explicit assumptions",
+    "moduleId": "v5-m7",
+    "topicId": "v5",
+    "formula": false,
+    "questionIds": [
+      "v5-m7-c1-q1",
+      "v5-m7-c1-recall",
+      "v5-m7-c1-depth1",
+      "v5-m7-c1-depth2",
+      "v5-m7-c1-depth3",
+      "v5-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v5-m8-c1",
+    "name": "Constant-growth dividend valuation",
+    "moduleId": "v5-m8",
+    "topicId": "v5",
+    "formula": true,
+    "questionIds": [
+      "v5-m8-c1-q1",
+      "v5-m8-c1-recall",
+      "v5-m8-c1-formula",
+      "v5-m8-c1-calc1",
+      "v5-m8-c1-calc2",
+      "v5-m8-c1-calc3",
+      "v5-m8-c1-calc4",
+      "v5-m8-c1-calc5",
+      "v5-m8-c1-depth1",
+      "v5-m8-c1-depth2",
+      "v5-m8-c1-depth3",
+      "v5-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m1-c1",
+    "name": "Covenants in an indenture",
+    "moduleId": "v6-m1",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m1-c1-q1",
+      "v6-m1-c1-recall",
+      "v6-m1-c1-depth1",
+      "v6-m1-c1-depth2",
+      "v6-m1-c1-depth3",
+      "v6-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m2-c1",
+    "name": "Embedded options and cash flows",
+    "moduleId": "v6-m2",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m2-c1-q1",
+      "v6-m2-c1-recall",
+      "v6-m2-c1-depth1",
+      "v6-m2-c1-depth2",
+      "v6-m2-c1-depth3",
+      "v6-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m3-c1",
+    "name": "Primary versus secondary bond markets",
+    "moduleId": "v6-m3",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m3-c1-q1",
+      "v6-m3-c1-recall",
+      "v6-m3-c1-depth1",
+      "v6-m3-c1-depth2",
+      "v6-m3-c1-depth3",
+      "v6-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m4-c1",
+    "name": "Repo financing",
+    "moduleId": "v6-m4",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m4-c1-q1",
+      "v6-m4-c1-recall",
+      "v6-m4-c1-depth1",
+      "v6-m4-c1-depth2",
+      "v6-m4-c1-depth3",
+      "v6-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m5-c1",
+    "name": "Government debt is not uniform",
+    "moduleId": "v6-m5",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m5-c1-q1",
+      "v6-m5-c1-recall",
+      "v6-m5-c1-depth1",
+      "v6-m5-c1-depth2",
+      "v6-m5-c1-depth3",
+      "v6-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m6-c1",
+    "name": "Bond price and yield",
+    "moduleId": "v6-m6",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m6-c1-q1",
+      "v6-m6-c1-recall",
+      "v6-m6-c1-formula",
+      "v6-m6-c1-calc1",
+      "v6-m6-c1-calc2",
+      "v6-m6-c1-calc3",
+      "v6-m6-c1-calc4",
+      "v6-m6-c1-calc5",
+      "v6-m6-c1-depth1",
+      "v6-m6-c1-depth2",
+      "v6-m6-c1-depth3",
+      "v6-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m7-c1",
+    "name": "Yield spreads and embedded options",
+    "moduleId": "v6-m7",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m7-c1-q1",
+      "v6-m7-c1-recall",
+      "v6-m7-c1-depth1",
+      "v6-m7-c1-depth2",
+      "v6-m7-c1-depth3",
+      "v6-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m8-c1",
+    "name": "Floating-rate quoted and required margins",
+    "moduleId": "v6-m8",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m8-c1-q1",
+      "v6-m8-c1-recall",
+      "v6-m8-c1-depth1",
+      "v6-m8-c1-depth2",
+      "v6-m8-c1-depth3",
+      "v6-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m9-c1",
+    "name": "Spot rates and forward rates",
+    "moduleId": "v6-m9",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m9-c1-q1",
+      "v6-m9-c1-recall",
+      "v6-m9-c1-formula",
+      "v6-m9-c1-calc1",
+      "v6-m9-c1-calc2",
+      "v6-m9-c1-calc3",
+      "v6-m9-c1-calc4",
+      "v6-m9-c1-calc5",
+      "v6-m9-c1-depth1",
+      "v6-m9-c1-depth2",
+      "v6-m9-c1-depth3",
+      "v6-m9-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m10-c1",
+    "name": "Investment horizon and duration",
+    "moduleId": "v6-m10",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m10-c1-q1",
+      "v6-m10-c1-recall",
+      "v6-m10-c1-depth1",
+      "v6-m10-c1-depth2",
+      "v6-m10-c1-depth3",
+      "v6-m10-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m11-c1",
+    "name": "Modified duration",
+    "moduleId": "v6-m11",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m11-c1-q1",
+      "v6-m11-c1-recall",
+      "v6-m11-c1-formula",
+      "v6-m11-c1-calc1",
+      "v6-m11-c1-calc2",
+      "v6-m11-c1-calc3",
+      "v6-m11-c1-calc4",
+      "v6-m11-c1-calc5",
+      "v6-m11-c1-depth1",
+      "v6-m11-c1-depth2",
+      "v6-m11-c1-depth3",
+      "v6-m11-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m12-c1",
+    "name": "Convexity correction",
+    "moduleId": "v6-m12",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m12-c1-q1",
+      "v6-m12-c1-recall",
+      "v6-m12-c1-formula",
+      "v6-m12-c1-calc1",
+      "v6-m12-c1-calc2",
+      "v6-m12-c1-calc3",
+      "v6-m12-c1-calc4",
+      "v6-m12-c1-calc5",
+      "v6-m12-c1-depth1",
+      "v6-m12-c1-depth2",
+      "v6-m12-c1-depth3",
+      "v6-m12-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m13-c1",
+    "name": "Effective versus key rate duration",
+    "moduleId": "v6-m13",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m13-c1-q1",
+      "v6-m13-c1-recall",
+      "v6-m13-c1-depth1",
+      "v6-m13-c1-depth2",
+      "v6-m13-c1-depth3",
+      "v6-m13-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m14-c1",
+    "name": "Expected credit loss",
+    "moduleId": "v6-m14",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m14-c1-q1",
+      "v6-m14-c1-recall",
+      "v6-m14-c1-formula",
+      "v6-m14-c1-calc1",
+      "v6-m14-c1-calc2",
+      "v6-m14-c1-calc3",
+      "v6-m14-c1-calc4",
+      "v6-m14-c1-calc5",
+      "v6-m14-c1-depth1",
+      "v6-m14-c1-depth2",
+      "v6-m14-c1-depth3",
+      "v6-m14-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m15-c1",
+    "name": "Sovereign ability and willingness to pay",
+    "moduleId": "v6-m15",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m15-c1-q1",
+      "v6-m15-c1-recall",
+      "v6-m15-c1-depth1",
+      "v6-m15-c1-depth2",
+      "v6-m15-c1-depth3",
+      "v6-m15-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m16-c1",
+    "name": "Debt priority and coverage",
+    "moduleId": "v6-m16",
+    "topicId": "v6",
+    "formula": true,
+    "questionIds": [
+      "v6-m16-c1-q1",
+      "v6-m16-c1-recall",
+      "v6-m16-c1-formula",
+      "v6-m16-c1-calc1",
+      "v6-m16-c1-calc2",
+      "v6-m16-c1-calc3",
+      "v6-m16-c1-calc4",
+      "v6-m16-c1-calc5",
+      "v6-m16-c1-depth1",
+      "v6-m16-c1-depth2",
+      "v6-m16-c1-depth3",
+      "v6-m16-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m17-c1",
+    "name": "Securitization participants",
+    "moduleId": "v6-m17",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m17-c1-q1",
+      "v6-m17-c1-recall",
+      "v6-m17-c1-depth1",
+      "v6-m17-c1-depth2",
+      "v6-m17-c1-depth3",
+      "v6-m17-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m18-c1",
+    "name": "Credit enhancement and subordination",
+    "moduleId": "v6-m18",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m18-c1-q1",
+      "v6-m18-c1-recall",
+      "v6-m18-c1-depth1",
+      "v6-m18-c1-depth2",
+      "v6-m18-c1-depth3",
+      "v6-m18-c1-depth4"
+    ]
+  },
+  {
+    "id": "v6-m19-c1",
+    "name": "Mortgage prepayment risk",
+    "moduleId": "v6-m19",
+    "topicId": "v6",
+    "formula": false,
+    "questionIds": [
+      "v6-m19-c1-q1",
+      "v6-m19-c1-recall",
+      "v6-m19-c1-depth1",
+      "v6-m19-c1-depth2",
+      "v6-m19-c1-depth3",
+      "v6-m19-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m1-c1",
+    "name": "Exchange-traded versus OTC contracts",
+    "moduleId": "v7-m1",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m1-c1-q1",
+      "v7-m1-c1-recall",
+      "v7-m1-c1-depth1",
+      "v7-m1-c1-depth2",
+      "v7-m1-c1-depth3",
+      "v7-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m2-c1",
+    "name": "Option payoff versus profit",
+    "moduleId": "v7-m2",
+    "topicId": "v7",
+    "formula": true,
+    "questionIds": [
+      "v7-m2-c1-q1",
+      "v7-m2-c1-recall",
+      "v7-m2-c1-formula",
+      "v7-m2-c1-calc1",
+      "v7-m2-c1-calc2",
+      "v7-m2-c1-calc3",
+      "v7-m2-c1-calc4",
+      "v7-m2-c1-calc5",
+      "v7-m2-c1-depth1",
+      "v7-m2-c1-depth2",
+      "v7-m2-c1-depth3",
+      "v7-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m3-c1",
+    "name": "Hedging versus eliminating all risk",
+    "moduleId": "v7-m3",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m3-c1-q1",
+      "v7-m3-c1-recall",
+      "v7-m3-c1-depth1",
+      "v7-m3-c1-depth2",
+      "v7-m3-c1-depth3",
+      "v7-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m4-c1",
+    "name": "Cash-and-carry pricing",
+    "moduleId": "v7-m4",
+    "topicId": "v7",
+    "formula": true,
+    "questionIds": [
+      "v7-m4-c1-q1",
+      "v7-m4-c1-recall",
+      "v7-m4-c1-formula",
+      "v7-m4-c1-calc1",
+      "v7-m4-c1-calc2",
+      "v7-m4-c1-calc3",
+      "v7-m4-c1-calc4",
+      "v7-m4-c1-calc5",
+      "v7-m4-c1-depth1",
+      "v7-m4-c1-depth2",
+      "v7-m4-c1-depth3",
+      "v7-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m5-c1",
+    "name": "Forward price versus forward value",
+    "moduleId": "v7-m5",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m5-c1-q1",
+      "v7-m5-c1-recall",
+      "v7-m5-c1-depth1",
+      "v7-m5-c1-depth2",
+      "v7-m5-c1-depth3",
+      "v7-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m6-c1",
+    "name": "Daily settlement and financing",
+    "moduleId": "v7-m6",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m6-c1-q1",
+      "v7-m6-c1-recall",
+      "v7-m6-c1-depth1",
+      "v7-m6-c1-depth2",
+      "v7-m6-c1-depth3",
+      "v7-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m7-c1",
+    "name": "Swap rate versus swap value",
+    "moduleId": "v7-m7",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m7-c1-q1",
+      "v7-m7-c1-recall",
+      "v7-m7-c1-depth1",
+      "v7-m7-c1-depth2",
+      "v7-m7-c1-depth3",
+      "v7-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m8-c1",
+    "name": "Moneyness and time value",
+    "moduleId": "v7-m8",
+    "topicId": "v7",
+    "formula": false,
+    "questionIds": [
+      "v7-m8-c1-q1",
+      "v7-m8-c1-recall",
+      "v7-m8-c1-depth1",
+      "v7-m8-c1-depth2",
+      "v7-m8-c1-depth3",
+      "v7-m8-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m9-c1",
+    "name": "Put–call parity",
+    "moduleId": "v7-m9",
+    "topicId": "v7",
+    "formula": true,
+    "questionIds": [
+      "v7-m9-c1-q1",
+      "v7-m9-c1-recall",
+      "v7-m9-c1-formula",
+      "v7-m9-c1-calc1",
+      "v7-m9-c1-calc2",
+      "v7-m9-c1-calc3",
+      "v7-m9-c1-calc4",
+      "v7-m9-c1-calc5",
+      "v7-m9-c1-depth1",
+      "v7-m9-c1-depth2",
+      "v7-m9-c1-depth3",
+      "v7-m9-c1-depth4"
+    ]
+  },
+  {
+    "id": "v7-m10-c1",
+    "name": "Risk-neutral binomial valuation",
+    "moduleId": "v7-m10",
+    "topicId": "v7",
+    "formula": true,
+    "questionIds": [
+      "v7-m10-c1-q1",
+      "v7-m10-c1-recall",
+      "v7-m10-c1-formula",
+      "v7-m10-c1-depth1",
+      "v7-m10-c1-depth2",
+      "v7-m10-c1-depth3",
+      "v7-m10-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m1-c1",
+    "name": "Fund, direct and co-investment",
+    "moduleId": "v8-m1",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m1-c1-q1",
+      "v8-m1-c1-recall",
+      "v8-m1-c1-depth1",
+      "v8-m1-c1-depth2",
+      "v8-m1-c1-depth3",
+      "v8-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m2-c1",
+    "name": "Fees and the high-water mark",
+    "moduleId": "v8-m2",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m2-c1-q1",
+      "v8-m2-c1-recall",
+      "v8-m2-c1-depth1",
+      "v8-m2-c1-depth2",
+      "v8-m2-c1-depth3",
+      "v8-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m3-c1",
+    "name": "Private capital and illiquidity",
+    "moduleId": "v8-m3",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m3-c1-q1",
+      "v8-m3-c1-recall",
+      "v8-m3-c1-depth1",
+      "v8-m3-c1-depth2",
+      "v8-m3-c1-depth3",
+      "v8-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m4-c1",
+    "name": "Real estate income and capitalization",
+    "moduleId": "v8-m4",
+    "topicId": "v8",
+    "formula": true,
+    "questionIds": [
+      "v8-m4-c1-q1",
+      "v8-m4-c1-recall",
+      "v8-m4-c1-formula",
+      "v8-m4-c1-calc1",
+      "v8-m4-c1-calc2",
+      "v8-m4-c1-calc3",
+      "v8-m4-c1-calc4",
+      "v8-m4-c1-calc5",
+      "v8-m4-c1-depth1",
+      "v8-m4-c1-depth2",
+      "v8-m4-c1-depth3",
+      "v8-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m5-c1",
+    "name": "Commodity futures roll return",
+    "moduleId": "v8-m5",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m5-c1-q1",
+      "v8-m5-c1-recall",
+      "v8-m5-c1-depth1",
+      "v8-m5-c1-depth2",
+      "v8-m5-c1-depth3",
+      "v8-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m6-c1",
+    "name": "Hedge-fund strategy risk",
+    "moduleId": "v8-m6",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m6-c1-q1",
+      "v8-m6-c1-recall",
+      "v8-m6-c1-depth1",
+      "v8-m6-c1-depth2",
+      "v8-m6-c1-depth3",
+      "v8-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v8-m7-c1",
+    "name": "Digital-asset ownership and custody",
+    "moduleId": "v8-m7",
+    "topicId": "v8",
+    "formula": false,
+    "questionIds": [
+      "v8-m7-c1-q1",
+      "v8-m7-c1-recall",
+      "v8-m7-c1-depth1",
+      "v8-m7-c1-depth2",
+      "v8-m7-c1-depth3",
+      "v8-m7-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m1-c1",
+    "name": "Diversification and the efficient frontier",
+    "moduleId": "v9-m1",
+    "topicId": "v9",
+    "formula": false,
+    "questionIds": [
+      "v9-m1-c1-q1",
+      "v9-m1-c1-recall",
+      "v9-m1-c1-depth1",
+      "v9-m1-c1-depth2",
+      "v9-m1-c1-depth3",
+      "v9-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m2-c1",
+    "name": "CAPM and systematic risk",
+    "moduleId": "v9-m2",
+    "topicId": "v9",
+    "formula": true,
+    "questionIds": [
+      "v9-m2-c1-q1",
+      "v9-m2-c1-recall",
+      "v9-m2-c1-formula",
+      "v9-m2-c1-calc1",
+      "v9-m2-c1-calc2",
+      "v9-m2-c1-calc3",
+      "v9-m2-c1-calc4",
+      "v9-m2-c1-calc5",
+      "v9-m2-c1-depth1",
+      "v9-m2-c1-depth2",
+      "v9-m2-c1-depth3",
+      "v9-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m3-c1",
+    "name": "Portfolio management as a process",
+    "moduleId": "v9-m3",
+    "topicId": "v9",
+    "formula": false,
+    "questionIds": [
+      "v9-m3-c1-q1",
+      "v9-m3-c1-recall",
+      "v9-m3-c1-depth1",
+      "v9-m3-c1-depth2",
+      "v9-m3-c1-depth3",
+      "v9-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m4-c1",
+    "name": "Investment policy statement",
+    "moduleId": "v9-m4",
+    "topicId": "v9",
+    "formula": false,
+    "questionIds": [
+      "v9-m4-c1-q1",
+      "v9-m4-c1-recall",
+      "v9-m4-c1-depth1",
+      "v9-m4-c1-depth2",
+      "v9-m4-c1-depth3",
+      "v9-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m5-c1",
+    "name": "Cognitive and emotional biases",
+    "moduleId": "v9-m5",
+    "topicId": "v9",
+    "formula": false,
+    "questionIds": [
+      "v9-m5-c1-q1",
+      "v9-m5-c1-recall",
+      "v9-m5-c1-depth1",
+      "v9-m5-c1-depth2",
+      "v9-m5-c1-depth3",
+      "v9-m5-c1-depth4"
+    ]
+  },
+  {
+    "id": "v9-m6-c1",
+    "name": "Risk governance and risk budgets",
+    "moduleId": "v9-m6",
+    "topicId": "v9",
+    "formula": false,
+    "questionIds": [
+      "v9-m6-c1-q1",
+      "v9-m6-c1-recall",
+      "v9-m6-c1-depth1",
+      "v9-m6-c1-depth2",
+      "v9-m6-c1-depth3",
+      "v9-m6-c1-depth4"
+    ]
+  },
+  {
+    "id": "v10-m1-c1",
+    "name": "Ethics beyond minimum legal compliance",
+    "moduleId": "v10-m1",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m1-c1-q1",
+      "v10-m1-c1-recall",
+      "v10-m1-c1-depth1",
+      "v10-m1-c1-depth2",
+      "v10-m1-c1-depth3",
+      "v10-m1-c1-depth4"
+    ]
+  },
+  {
+    "id": "v10-m2-c1",
+    "name": "Applying the stricter requirement",
+    "moduleId": "v10-m2",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m2-c1-q1",
+      "v10-m2-c1-recall",
+      "v10-m2-c1-depth1",
+      "v10-m2-c1-depth2",
+      "v10-m2-c1-depth3",
+      "v10-m2-c1-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c1",
+    "name": "Material nonpublic information",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c1-q1",
+      "v10-m3-c1-recall",
+      "v10-m3-c1-depth1",
+      "v10-m3-c1-depth2",
+      "v10-m3-c1-depth3",
+      "v10-m3-c1-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c2",
+    "name": "Mosaic research",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c2-q1",
+      "v10-m3-c2-recall",
+      "v10-m3-c2-depth1",
+      "v10-m3-c2-depth2",
+      "v10-m3-c2-depth3",
+      "v10-m3-c2-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c3",
+    "name": "Fair dealing with clients",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c3-q1",
+      "v10-m3-c3-recall",
+      "v10-m3-c3-depth1",
+      "v10-m3-c3-depth2",
+      "v10-m3-c3-depth3",
+      "v10-m3-c3-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c4",
+    "name": "Suitability in portfolio context",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c4-q1",
+      "v10-m3-c4-recall",
+      "v10-m3-c4-depth1",
+      "v10-m3-c4-depth2",
+      "v10-m3-c4-depth3",
+      "v10-m3-c4-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c5",
+    "name": "Research independence and gifts",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c5-q1",
+      "v10-m3-c5-recall",
+      "v10-m3-c5-depth1",
+      "v10-m3-c5-depth2",
+      "v10-m3-c5-depth3",
+      "v10-m3-c5-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c6",
+    "name": "Priority of transactions",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c6-q1",
+      "v10-m3-c6-recall",
+      "v10-m3-c6-depth1",
+      "v10-m3-c6-depth2",
+      "v10-m3-c6-depth3",
+      "v10-m3-c6-depth4"
+    ]
+  },
+  {
+    "id": "v10-m3-c7",
+    "name": "Diligence and reasonable basis",
+    "moduleId": "v10-m3",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m3-c7-q1",
+      "v10-m3-c7-recall",
+      "v10-m3-c7-depth1",
+      "v10-m3-c7-depth2",
+      "v10-m3-c7-depth3",
+      "v10-m3-c7-depth4"
+    ]
+  },
+  {
+    "id": "v10-m4-c1",
+    "name": "GIPS compliance and verification",
+    "moduleId": "v10-m4",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m4-c1-q1",
+      "v10-m4-c1-recall",
+      "v10-m4-c1-depth1",
+      "v10-m4-c1-depth2",
+      "v10-m4-c1-depth3",
+      "v10-m4-c1-depth4"
+    ]
+  },
+  {
+    "id": "v10-m5-c1",
+    "name": "Handling a discovered violation",
+    "moduleId": "v10-m5",
+    "topicId": "v10",
+    "formula": false,
+    "questionIds": [
+      "v10-m5-c1-q1",
+      "v10-m5-c1-recall",
+      "v10-m5-c1-depth1",
+      "v10-m5-c1-depth2",
+      "v10-m5-c1-depth3",
+      "v10-m5-c1-depth4"
+    ]
+  }
+]

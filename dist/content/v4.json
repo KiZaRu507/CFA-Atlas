@@ -1,0 +1,2618 @@
+[
+  {
+    "id": "v4-m1-c1",
+    "moduleId": "v4-m1",
+    "topicId": "v4",
+    "name": "Analysis starts with a purpose",
+    "objective": "Explain and apply analysis starts with a purpose.",
+    "explanation": "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up. Notes and audit reports qualify the headline numbers.",
+    "why": "A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness.",
+    "definition": "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up.",
+    "example": "Before calculating debt ratios, a lender defines the credit horizon and repayment question.",
+    "trap": "Do not let readily available ratios decide the analytical objective.",
+    "mnemonic": "Analysis starts with a purpose → Do not let readily available ratios decide the analytical objective.",
+    "recall": "Without looking: explain analysis starts with a purpose and one mistake to avoid.",
+    "recallAnswer": "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up. Notes and audit reports qualify the headline numbers. Watch for: Do not let readily available ratios decide the analytical objective.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 15,
+      "endPdfPage": 48,
+      "section": "Introduction to Financial Statement Analysis"
+    },
+    "questions": [
+      {
+        "id": "v4-m1-c1-q1",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "Before choosing ratios for a credit report, an analyst should first:",
+        "choices": [
+          "Define the purpose and context of the analysis",
+          "Average every available ratio",
+          "Assume a clean audit guarantees investment quality"
+        ],
+        "answer": 0,
+        "explanation": "A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness.",
+          "A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      },
+      {
+        "id": "v4-m1-c1-recall",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "Without looking: explain analysis starts with a purpose and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up. Notes and audit reports qualify the headline numbers. Watch for: Do not let readily available ratios decide the analytical objective.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      },
+      {
+        "id": "v4-m1-c1-depth1",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "Which statement most accurately describes analysis starts with a purpose?",
+        "choices": [
+          "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up.",
+          "Do not let readily available ratios decide the analytical objective.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up. Notes and audit reports qualify the headline numbers. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      },
+      {
+        "id": "v4-m1-c1-depth2",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "A candidate applies this rule: “Do not let readily available ratios decide the analytical objective.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Financial statement analysis begins by defining the decision and required output, then collecting and processing information, interpreting it, communicating conclusions and following up. Notes and audit reports qualify the headline numbers.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      },
+      {
+        "id": "v4-m1-c1-depth3",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "Consider this case: Before calculating debt ratios, a lender defines the credit horizon and repayment question. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Do not let readily available ratios decide the analytical objective.",
+          "Apply analysis starts with a purpose while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness. Watch for: Do not let readily available ratios decide the analytical objective.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      },
+      {
+        "id": "v4-m1-c1-depth4",
+        "conceptId": "v4-m1-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m1",
+        "prompt": "Why does analysis starts with a purpose matter to an analyst or candidate?",
+        "choices": [
+          "A clear purpose determines the relevant evidence and methods.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "A clear purpose determines the relevant evidence and methods. An audit concerns financial reporting, not investment attractiveness. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 15,
+          "endPdfPage": 48,
+          "section": "Introduction to Financial Statement Analysis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m2-c1",
+    "moduleId": "v4-m2",
+    "topicId": "v4",
+    "name": "Basic versus diluted EPS",
+    "objective": "Explain and apply basic versus diluted eps.",
+    "explanation": "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares. Diluted EPS considers potentially dilutive securities; antidilutive instruments are excluded.",
+    "why": "Subtract preferred dividends before dividing: (120 − 20)/50 = 2.",
+    "definition": "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares.",
+    "example": "Net income 120, preferred dividends 20 and weighted shares 50 give basic EPS of 2.",
+    "trap": "Use weighted-average shares, not simply year-end shares.",
+    "mnemonic": "Basic versus diluted EPS → Use weighted-average shares, not simply year-end shares.",
+    "recall": "Without looking: explain basic versus diluted eps and one mistake to avoid.",
+    "recallAnswer": "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares. Diluted EPS considers potentially dilutive securities; antidilutive instruments are excluded. Watch for: Use weighted-average shares, not simply year-end shares.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 49,
+      "endPdfPage": 102,
+      "section": "Analyzing Income Statements"
+    },
+    "questions": [
+      {
+        "id": "v4-m2-c1-q1",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Net income is 120, preferred dividends 20 and weighted-average common shares 50. Basic EPS is:",
+        "choices": [
+          "2.40",
+          "2.00",
+          "2.80"
+        ],
+        "answer": 1,
+        "explanation": "Subtract preferred dividends before dividing: (120 − 20)/50 = 2.",
+        "distractors": [
+          "Subtract preferred dividends before dividing: (120 − 20)/50 = 2.",
+          "This applies the principle correctly.",
+          "Subtract preferred dividends before dividing: (120 − 20)/50 = 2."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-recall",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Without looking: explain basic versus diluted eps and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares. Diluted EPS considers potentially dilutive securities; antidilutive instruments are excluded. Watch for: Use weighted-average shares, not simply year-end shares.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-formula",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Reconstruct the relationship for basic earnings per share. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "EPS = (NI − preferred dividends) / weighted-average common shares\nNI: net income; denominator: time-weighted ordinary shares",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-calc1",
+        "conceptId": "v4-m2-c1",
+        "moduleId": "v4-m2",
+        "topicId": "v4",
+        "prompt": "Net income is 170, preferred dividends 17, weighted-average common shares 55. Basic EPS is:",
+        "choices": [
+          "3.09",
+          "3.40",
+          "2.78"
+        ],
+        "answer": 2,
+        "explanation": "Earnings available to common shareholders are 170−17. Divide by 55 to get 2.78. Preferred dividends are subtracted, not ignored or added.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 170−17. Divide by 55 to get 2.78. Preferred dividends are subtracted, not ignored or added.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 170−17. Divide by 55 to get 2.78. Preferred dividends are subtracted, not ignored or added.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-calc2",
+        "conceptId": "v4-m2-c1",
+        "moduleId": "v4-m2",
+        "topicId": "v4",
+        "prompt": "Net income is 190, preferred dividends 19, weighted-average common shares 60. Basic EPS is:",
+        "choices": [
+          "3.48",
+          "2.85",
+          "3.17"
+        ],
+        "answer": 1,
+        "explanation": "Earnings available to common shareholders are 190−19. Divide by 60 to get 2.85. Preferred dividends are subtracted, not ignored or added.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 190−19. Divide by 60 to get 2.85. Preferred dividends are subtracted, not ignored or added.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 190−19. Divide by 60 to get 2.85. Preferred dividends are subtracted, not ignored or added."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-calc3",
+        "conceptId": "v4-m2-c1",
+        "moduleId": "v4-m2",
+        "topicId": "v4",
+        "prompt": "Net income is 210, preferred dividends 21, weighted-average common shares 65. Basic EPS is:",
+        "choices": [
+          "2.91",
+          "3.23",
+          "3.55"
+        ],
+        "answer": 0,
+        "explanation": "Earnings available to common shareholders are 210−21. Divide by 65 to get 2.91. Preferred dividends are subtracted, not ignored or added.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 210−21. Divide by 65 to get 2.91. Preferred dividends are subtracted, not ignored or added.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 210−21. Divide by 65 to get 2.91. Preferred dividends are subtracted, not ignored or added."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-calc4",
+        "conceptId": "v4-m2-c1",
+        "moduleId": "v4-m2",
+        "topicId": "v4",
+        "prompt": "Net income is 230, preferred dividends 23, weighted-average common shares 70. Basic EPS is:",
+        "choices": [
+          "3.29",
+          "3.61",
+          "2.96"
+        ],
+        "answer": 2,
+        "explanation": "Earnings available to common shareholders are 230−23. Divide by 70 to get 2.96. Preferred dividends are subtracted, not ignored or added.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 230−23. Divide by 70 to get 2.96. Preferred dividends are subtracted, not ignored or added.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 230−23. Divide by 70 to get 2.96. Preferred dividends are subtracted, not ignored or added.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-calc5",
+        "conceptId": "v4-m2-c1",
+        "moduleId": "v4-m2",
+        "topicId": "v4",
+        "prompt": "Net income is 250, preferred dividends 25, weighted-average common shares 75. Basic EPS is:",
+        "choices": [
+          "3.67",
+          "3.00",
+          "3.33"
+        ],
+        "answer": 1,
+        "explanation": "Earnings available to common shareholders are 250−25. Divide by 75 to get 3.00. Preferred dividends are subtracted, not ignored or added.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 250−25. Divide by 75 to get 3.00. Preferred dividends are subtracted, not ignored or added.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Earnings available to common shareholders are 250−25. Divide by 75 to get 3.00. Preferred dividends are subtracted, not ignored or added."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-depth1",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Which statement most accurately describes basic versus diluted eps?",
+        "choices": [
+          "Use weighted-average shares, not simply year-end shares.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares."
+        ],
+        "answer": 2,
+        "explanation": "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares. Diluted EPS considers potentially dilutive securities; antidilutive instruments are excluded. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-depth2",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "A candidate applies this rule: “Use weighted-average shares, not simply year-end shares.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. Basic EPS divides earnings available to ordinary shareholders by weighted-average ordinary shares. Diluted EPS considers potentially dilutive securities; antidilutive instruments are excluded.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-depth3",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Consider this case: Net income 120, preferred dividends 20 and weighted shares 50 give basic EPS of 2. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply basic versus diluted eps while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Use weighted-average shares, not simply year-end shares."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Subtract preferred dividends before dividing: (120 − 20)/50 = 2. Watch for: Use weighted-average shares, not simply year-end shares.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      },
+      {
+        "id": "v4-m2-c1-depth4",
+        "conceptId": "v4-m2-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m2",
+        "prompt": "Why does basic versus diluted eps matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Subtract preferred dividends before dividing: (120 − 20)/50 = 2."
+        ],
+        "answer": 2,
+        "explanation": "Subtract preferred dividends before dividing: (120 − 20)/50 = 2. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 49,
+          "endPdfPage": 102,
+          "section": "Analyzing Income Statements"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Basic earnings per share",
+      "expression": "EPS = (NI − preferred dividends) / weighted-average common shares",
+      "variables": "NI: net income; denominator: time-weighted ordinary shares",
+      "intuition": "Measure earnings attributable to each ordinary share.",
+      "when": "Measure earnings attributable to each ordinary share.",
+      "example": "(120 − 20)/50 = 2.",
+      "mistake": "Exclude antidilutive instruments from diluted EPS.",
+      "related": []
+    }
+  },
+  {
+    "id": "v4-m3-c1",
+    "moduleId": "v4-m3",
+    "topicId": "v4",
+    "name": "Goodwill versus identifiable assets",
+    "objective": "Explain and apply goodwill versus identifiable assets.",
+    "explanation": "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired. It is not the same as an internally developed reputation.",
+    "why": "Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets.",
+    "definition": "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired.",
+    "example": "In a simple 100% acquisition, pay 150 for identifiable net assets with fair value 120: goodwill is 30.",
+    "trap": "A strong internally created brand is not automatically recognized as goodwill.",
+    "mnemonic": "Goodwill versus identifiable assets → A strong internally created brand is not automatically recognized as goodwill.",
+    "recall": "Without looking: explain goodwill versus identifiable assets and one mistake to avoid.",
+    "recallAnswer": "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired. It is not the same as an internally developed reputation. Watch for: A strong internally created brand is not automatically recognized as goodwill.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 103,
+      "endPdfPage": 134,
+      "section": "Analyzing Balance Sheets"
+    },
+    "questions": [
+      {
+        "id": "v4-m3-c1-q1",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "In a simple cash acquisition of all shares, price is 150 and fair value of identifiable net assets is 120. Goodwill is:",
+        "choices": [
+          "270",
+          "120",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets.",
+        "distractors": [
+          "Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets.",
+          "Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      },
+      {
+        "id": "v4-m3-c1-recall",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "Without looking: explain goodwill versus identifiable assets and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired. It is not the same as an internally developed reputation. Watch for: A strong internally created brand is not automatically recognized as goodwill.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      },
+      {
+        "id": "v4-m3-c1-depth1",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "Which statement most accurately describes goodwill versus identifiable assets?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired.",
+          "A strong internally created brand is not automatically recognized as goodwill."
+        ],
+        "answer": 1,
+        "explanation": "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired. It is not the same as an internally developed reputation. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      },
+      {
+        "id": "v4-m3-c1-depth2",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "A candidate applies this rule: “A strong internally created brand is not automatically recognized as goodwill.” What is the best correction?",
+        "choices": [
+          "Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Acquisition goodwill arises when the consideration and other relevant acquisition components exceed the fair value of identifiable net assets acquired. It is not the same as an internally developed reputation.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      },
+      {
+        "id": "v4-m3-c1-depth3",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "Consider this case: In a simple 100% acquisition, pay 150 for identifiable net assets with fair value 120: goodwill is 30. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A strong internally created brand is not automatically recognized as goodwill.",
+          "Apply goodwill versus identifiable assets while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets. Watch for: A strong internally created brand is not automatically recognized as goodwill.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      },
+      {
+        "id": "v4-m3-c1-depth4",
+        "conceptId": "v4-m3-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m3",
+        "prompt": "Why does goodwill versus identifiable assets matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Goodwill is the 30 residual in this simplified transaction.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Goodwill is the 30 residual in this simplified transaction. It is separate from identifiable net assets. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 103,
+          "endPdfPage": 134,
+          "section": "Analyzing Balance Sheets"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m4-c1",
+    "moduleId": "v4-m4",
+    "topicId": "v4",
+    "name": "Indirect operating cash flow",
+    "objective": "Explain and apply indirect operating cash flow.",
+    "explanation": "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes. An increase in receivables consumes cash relative to accrual revenue.",
+    "why": "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52.",
+    "definition": "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes.",
+    "example": "Net income 50 + depreciation 10 − receivables increase 8 = CFO 52, with no other adjustments.",
+    "trap": "Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+    "mnemonic": "Indirect operating cash flow → Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+    "recall": "Without looking: explain indirect operating cash flow and one mistake to avoid.",
+    "recallAnswer": "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes. An increase in receivables consumes cash relative to accrual revenue. Watch for: Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 135,
+      "endPdfPage": 166,
+      "section": "Analyzing Statements of Cash Flows I"
+    },
+    "questions": [
+      {
+        "id": "v4-m4-c1-q1",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "Net income 50, depreciation 10 and accounts receivable increase 8 are the only adjustments. CFO is:",
+        "choices": [
+          "68",
+          "52",
+          "32"
+        ],
+        "answer": 1,
+        "explanation": "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52.",
+        "distractors": [
+          "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52.",
+          "This applies the principle correctly.",
+          "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      },
+      {
+        "id": "v4-m4-c1-recall",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "Without looking: explain indirect operating cash flow and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes. An increase in receivables consumes cash relative to accrual revenue. Watch for: Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      },
+      {
+        "id": "v4-m4-c1-depth1",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "Which statement most accurately describes indirect operating cash flow?",
+        "choices": [
+          "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes.",
+          "Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes. An increase in receivables consumes cash relative to accrual revenue. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      },
+      {
+        "id": "v4-m4-c1-depth2",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "A candidate applies this rule: “Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. The indirect method reconciles net income to operating cash flow by adjusting for noncash expenses, nonoperating items and operating working-capital changes. An increase in receivables consumes cash relative to accrual revenue.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      },
+      {
+        "id": "v4-m4-c1-depth3",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "Consider this case: Net income 50 + depreciation 10 − receivables increase 8 = CFO 52, with no other adjustments. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+          "Apply indirect operating cash flow while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52. Watch for: Increasing operating liabilities generally adds cash; increasing operating assets generally uses cash.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      },
+      {
+        "id": "v4-m4-c1-depth4",
+        "conceptId": "v4-m4-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m4",
+        "prompt": "Why does indirect operating cash flow matter to an analyst or candidate?",
+        "choices": [
+          "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Add back noncash depreciation and subtract the uncollected receivable increase: 50 + 10 − 8 = 52. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 135,
+          "endPdfPage": 166,
+          "section": "Analyzing Statements of Cash Flows I"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m5-c1",
+    "moduleId": "v4-m5",
+    "topicId": "v4",
+    "name": "Free cash flow to the firm",
+    "objective": "Explain and apply free cash flow to the firm.",
+    "explanation": "FCFF is cash available to both debt and equity providers after operating needs and capital investment. Starting from CFO, add after-tax interest when interest was deducted in CFO, then subtract capital expenditure.",
+    "why": "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57.",
+    "definition": "FCFF is cash available to both debt and equity providers after operating needs and capital investment.",
+    "example": "CFO 90, interest paid and included in CFO 10, tax rate 30%, capex 40: FCFF = 90 + 7 − 40 = 57.",
+    "trap": "The CFO-based formula depends on where interest is classified.",
+    "mnemonic": "Free cash flow to the firm → The CFO-based formula depends on where interest is classified.",
+    "recall": "Without looking: explain free cash flow to the firm and one mistake to avoid.",
+    "recallAnswer": "FCFF is cash available to both debt and equity providers after operating needs and capital investment. Starting from CFO, add after-tax interest when interest was deducted in CFO, then subtract capital expenditure. Watch for: The CFO-based formula depends on where interest is classified.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 167,
+      "endPdfPage": 184,
+      "section": "Analyzing Statements of Cash Flows II"
+    },
+    "questions": [
+      {
+        "id": "v4-m5-c1-q1",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "CFO is 90 after interest of 10. Tax is 30%, capex 40. FCFF is:",
+        "choices": [
+          "50",
+          "60",
+          "57"
+        ],
+        "answer": 2,
+        "explanation": "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57.",
+        "distractors": [
+          "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57.",
+          "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-recall",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "Without looking: explain free cash flow to the firm and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "FCFF is cash available to both debt and equity providers after operating needs and capital investment. Starting from CFO, add after-tax interest when interest was deducted in CFO, then subtract capital expenditure. Watch for: The CFO-based formula depends on where interest is classified.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-formula",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "Reconstruct the relationship for fcff from cfo. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "FCFF = CFO + Interest(1 − T) − Capex\nCFO: operating cash after interest; T: tax rate; Capex: capital expenditure",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-calc1",
+        "conceptId": "v4-m5-c1",
+        "moduleId": "v4-m5",
+        "topicId": "v4",
+        "prompt": "CFO of 110 includes deduction of interest 11. Capex is 43, tax 30%. FCFF is closest to:",
+        "choices": [
+          "67.00",
+          "78.00",
+          "74.70"
+        ],
+        "answer": 2,
+        "explanation": "Add after-tax interest, then deduct investment: 110+11×.70−43=74.70. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 110+11×.70−43=74.70. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 110+11×.70−43=74.70. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-calc2",
+        "conceptId": "v4-m5-c1",
+        "moduleId": "v4-m5",
+        "topicId": "v4",
+        "prompt": "CFO of 120 includes deduction of interest 12. Capex is 46, tax 30%. FCFF is closest to:",
+        "choices": [
+          "86.00",
+          "82.40",
+          "74.00"
+        ],
+        "answer": 1,
+        "explanation": "Add after-tax interest, then deduct investment: 120+12×.70−46=82.40. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 120+12×.70−46=82.40. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 120+12×.70−46=82.40. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-calc3",
+        "conceptId": "v4-m5-c1",
+        "moduleId": "v4-m5",
+        "topicId": "v4",
+        "prompt": "CFO of 130 includes deduction of interest 13. Capex is 49, tax 30%. FCFF is closest to:",
+        "choices": [
+          "90.10",
+          "81.00",
+          "94.00"
+        ],
+        "answer": 0,
+        "explanation": "Add after-tax interest, then deduct investment: 130+13×.70−49=90.10. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 130+13×.70−49=90.10. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 130+13×.70−49=90.10. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-calc4",
+        "conceptId": "v4-m5-c1",
+        "moduleId": "v4-m5",
+        "topicId": "v4",
+        "prompt": "CFO of 140 includes deduction of interest 14. Capex is 52, tax 30%. FCFF is closest to:",
+        "choices": [
+          "88.00",
+          "102.00",
+          "97.80"
+        ],
+        "answer": 2,
+        "explanation": "Add after-tax interest, then deduct investment: 140+14×.70−52=97.80. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 140+14×.70−52=97.80. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 140+14×.70−52=97.80. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-calc5",
+        "conceptId": "v4-m5-c1",
+        "moduleId": "v4-m5",
+        "topicId": "v4",
+        "prompt": "CFO of 150 includes deduction of interest 15. Capex is 55, tax 30%. FCFF is closest to:",
+        "choices": [
+          "110.00",
+          "105.50",
+          "95.00"
+        ],
+        "answer": 1,
+        "explanation": "Add after-tax interest, then deduct investment: 150+15×.70−55=105.50. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 150+15×.70−55=105.50. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. Add after-tax interest, then deduct investment: 150+15×.70−55=105.50. Omitting the interest adjustment understates FCFF; adding pretax interest overstates it."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-depth1",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "Which statement most accurately describes free cash flow to the firm?",
+        "choices": [
+          "The CFO-based formula depends on where interest is classified.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "FCFF is cash available to both debt and equity providers after operating needs and capital investment."
+        ],
+        "answer": 2,
+        "explanation": "FCFF is cash available to both debt and equity providers after operating needs and capital investment. Starting from CFO, add after-tax interest when interest was deducted in CFO, then subtract capital expenditure. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-depth2",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "A candidate applies this rule: “The CFO-based formula depends on where interest is classified.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "FCFF is cash available to both debt and equity providers after operating needs and capital investment.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. FCFF is cash available to both debt and equity providers after operating needs and capital investment. Starting from CFO, add after-tax interest when interest was deducted in CFO, then subtract capital expenditure.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-depth3",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "Consider this case: CFO 90, interest paid and included in CFO 10, tax rate 30%, capex 40: FCFF = 90 + 7 − 40 = 57. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply free cash flow to the firm while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "The CFO-based formula depends on where interest is classified."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57. Watch for: The CFO-based formula depends on where interest is classified.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      },
+      {
+        "id": "v4-m5-c1-depth4",
+        "conceptId": "v4-m5-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m5",
+        "prompt": "Why does free cash flow to the firm matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57."
+        ],
+        "answer": 2,
+        "explanation": "Restore the after-tax interest cash flow to all providers: 90 + 10(1 − .30) − 40 = 57. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 167,
+          "endPdfPage": 184,
+          "section": "Analyzing Statements of Cash Flows II"
+        }
+      }
+    ],
+    "formula": {
+      "name": "FCFF from CFO",
+      "expression": "FCFF = CFO + Interest(1 − T) − Capex",
+      "variables": "CFO: operating cash after interest; T: tax rate; Capex: capital expenditure",
+      "intuition": "Estimate cash available to debt and equity when interest is included in CFO.",
+      "when": "Estimate cash available to debt and equity when interest is included in CFO.",
+      "example": "90 + 10×0.70 − 40 = 57.",
+      "mistake": "If CFO excludes interest, do not add it back again.",
+      "related": []
+    }
+  },
+  {
+    "id": "v4-m6-c1",
+    "moduleId": "v4-m6",
+    "topicId": "v4",
+    "name": "Inventory methods in rising prices",
+    "objective": "Explain and apply inventory methods in rising prices.",
+    "explanation": "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO. The supplied curriculum distinguishes IFRS, which prohibits LIFO, from US GAAP.",
+    "why": "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12.",
+    "definition": "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO.",
+    "example": "Buy one unit at 10 and one at 14; sell one. FIFO COGS is 10 and remaining inventory is 14.",
+    "trap": "State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+    "mnemonic": "Inventory methods in rising prices → State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+    "recall": "Without looking: explain inventory methods in rising prices and one mistake to avoid.",
+    "recallAnswer": "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO. The supplied curriculum distinguishes IFRS, which prohibits LIFO, from US GAAP. Watch for: State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 185,
+      "endPdfPage": 220,
+      "section": "Analysis of Inventories"
+    },
+    "questions": [
+      {
+        "id": "v4-m6-c1-q1",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "A firm buys units at 10 then 14 and sells one. FIFO ending inventory per remaining unit is:",
+        "choices": [
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12.",
+        "distractors": [
+          "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12.",
+          "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12.",
+          "This applies the principle correctly."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      },
+      {
+        "id": "v4-m6-c1-recall",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "Without looking: explain inventory methods in rising prices and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO. The supplied curriculum distinguishes IFRS, which prohibits LIFO, from US GAAP. Watch for: State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      },
+      {
+        "id": "v4-m6-c1-depth1",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "Which statement most accurately describes inventory methods in rising prices?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO.",
+          "State price and inventory-quantity assumptions; LIFO liquidation changes the comparison."
+        ],
+        "answer": 1,
+        "explanation": "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO. The supplied curriculum distinguishes IFRS, which prohibits LIFO, from US GAAP. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      },
+      {
+        "id": "v4-m6-c1-depth2",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "A candidate applies this rule: “State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.” What is the best correction?",
+        "choices": [
+          "With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. With rising input costs and stable or growing inventory quantities, FIFO generally reports lower cost of goods sold and higher ending inventory than LIFO. The supplied curriculum distinguishes IFRS, which prohibits LIFO, from US GAAP.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      },
+      {
+        "id": "v4-m6-c1-depth3",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "Consider this case: Buy one unit at 10 and one at 14; sell one. FIFO COGS is 10 and remaining inventory is 14. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+          "Apply inventory methods in rising prices while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12. Watch for: State price and inventory-quantity assumptions; LIFO liquidation changes the comparison.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      },
+      {
+        "id": "v4-m6-c1-depth4",
+        "conceptId": "v4-m6-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m6",
+        "prompt": "Why does inventory methods in rising prices matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "FIFO assigns the earliest cost to the sale, leaving the newest unit at 14. An average method would produce 12. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 185,
+          "endPdfPage": 220,
+          "section": "Analysis of Inventories"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m7-c1",
+    "moduleId": "v4-m7",
+    "topicId": "v4",
+    "name": "Capitalizing versus expensing",
+    "objective": "Explain and apply capitalizing versus expensing.",
+    "explanation": "Capitalizing an eligible cost creates an asset and allocates expense over future periods. Immediate expensing lowers current profit more, with no future depreciation of that cost. Total cash paid is not changed by the accounting choice.",
+    "why": "Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged.",
+    "definition": "Capitalizing an eligible cost creates an asset and allocates expense over future periods.",
+    "example": "A 100 asset with a five-year life and no residual value produces 20 annual straight-line depreciation, rather than 100 immediate expense.",
+    "trap": "Capitalization does not create cash.",
+    "mnemonic": "Capitalizing versus expensing → Capitalization does not create cash.",
+    "recall": "Without looking: explain capitalizing versus expensing and one mistake to avoid.",
+    "recallAnswer": "Capitalizing an eligible cost creates an asset and allocates expense over future periods. Immediate expensing lowers current profit more, with no future depreciation of that cost. Total cash paid is not changed by the accounting choice. Watch for: Capitalization does not create cash.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 221,
+      "endPdfPage": 252,
+      "section": "Analysis of Long-Term Assets"
+    },
+    "questions": [
+      {
+        "id": "v4-m7-c1-q1",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "Compared with immediate expensing, capitalizing a cost generally causes initial-period:",
+        "choices": [
+          "Higher assets and higher profit",
+          "Lower assets and higher profit",
+          "Higher total cash receipts"
+        ],
+        "answer": 0,
+        "explanation": "Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged.",
+        "distractors": [
+          "This applies the principle correctly.",
+          "Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged.",
+          "Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      },
+      {
+        "id": "v4-m7-c1-recall",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "Without looking: explain capitalizing versus expensing and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Capitalizing an eligible cost creates an asset and allocates expense over future periods. Immediate expensing lowers current profit more, with no future depreciation of that cost. Total cash paid is not changed by the accounting choice. Watch for: Capitalization does not create cash.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      },
+      {
+        "id": "v4-m7-c1-depth1",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "Which statement most accurately describes capitalizing versus expensing?",
+        "choices": [
+          "Capitalizing an eligible cost creates an asset and allocates expense over future periods.",
+          "Capitalization does not create cash.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Capitalizing an eligible cost creates an asset and allocates expense over future periods. Immediate expensing lowers current profit more, with no future depreciation of that cost. Total cash paid is not changed by the accounting choice. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      },
+      {
+        "id": "v4-m7-c1-depth2",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "A candidate applies this rule: “Capitalization does not create cash.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Capitalizing an eligible cost creates an asset and allocates expense over future periods."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Capitalizing an eligible cost creates an asset and allocates expense over future periods. Immediate expensing lowers current profit more, with no future depreciation of that cost. Total cash paid is not changed by the accounting choice.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      },
+      {
+        "id": "v4-m7-c1-depth3",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "Consider this case: A 100 asset with a five-year life and no residual value produces 20 annual straight-line depreciation, rather than 100 immediate expense. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Capitalization does not create cash.",
+          "Apply capitalizing versus expensing while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged. Watch for: Capitalization does not create cash.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      },
+      {
+        "id": "v4-m7-c1-depth4",
+        "conceptId": "v4-m7-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m7",
+        "prompt": "Why does capitalizing versus expensing matter to an analyst or candidate?",
+        "choices": [
+          "Some expense is deferred through the asset, raising current profit and assets.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Some expense is deferred through the asset, raising current profit and assets. The payment itself is unchanged. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 221,
+          "endPdfPage": 252,
+          "section": "Analysis of Long-Term Assets"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m8-c1",
+    "moduleId": "v4-m8",
+    "topicId": "v4",
+    "name": "Defined contribution versus defined benefit",
+    "objective": "Explain and apply defined contribution versus defined benefit.",
+    "explanation": "A defined contribution plan specifies employer contributions. A defined benefit plan promises a benefit, exposing the employer to actuarial and investment assumptions in measuring its obligation and funded status.",
+    "why": "Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation.",
+    "definition": "A defined contribution plan specifies employer contributions.",
+    "example": "Plan assets 90 and defined benefit obligation 110 give a funded deficit of 20.",
+    "trap": "A contribution payment is not the same as the total pension obligation.",
+    "mnemonic": "Defined contribution versus defined benefit → A contribution payment is not the same as the total pension obligation.",
+    "recall": "Without looking: explain defined contribution versus defined benefit and one mistake to avoid.",
+    "recallAnswer": "A defined contribution plan specifies employer contributions. A defined benefit plan promises a benefit, exposing the employer to actuarial and investment assumptions in measuring its obligation and funded status. Watch for: A contribution payment is not the same as the total pension obligation.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 253,
+      "endPdfPage": 288,
+      "section": "Topics in Long-Term Liabilities and Equity"
+    },
+    "questions": [
+      {
+        "id": "v4-m8-c1-q1",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "A defined benefit plan has assets 90 and obligation 110. Funded status is:",
+        "choices": [
+          "20 surplus",
+          "20 deficit",
+          "200 obligation"
+        ],
+        "answer": 1,
+        "explanation": "Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation.",
+        "distractors": [
+          "Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation.",
+          "This applies the principle correctly.",
+          "Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      },
+      {
+        "id": "v4-m8-c1-recall",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "Without looking: explain defined contribution versus defined benefit and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A defined contribution plan specifies employer contributions. A defined benefit plan promises a benefit, exposing the employer to actuarial and investment assumptions in measuring its obligation and funded status. Watch for: A contribution payment is not the same as the total pension obligation.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      },
+      {
+        "id": "v4-m8-c1-depth1",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "Which statement most accurately describes defined contribution versus defined benefit?",
+        "choices": [
+          "A contribution payment is not the same as the total pension obligation.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A defined contribution plan specifies employer contributions."
+        ],
+        "answer": 2,
+        "explanation": "A defined contribution plan specifies employer contributions. A defined benefit plan promises a benefit, exposing the employer to actuarial and investment assumptions in measuring its obligation and funded status. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      },
+      {
+        "id": "v4-m8-c1-depth2",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "A candidate applies this rule: “A contribution payment is not the same as the total pension obligation.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "A defined contribution plan specifies employer contributions.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. A defined contribution plan specifies employer contributions. A defined benefit plan promises a benefit, exposing the employer to actuarial and investment assumptions in measuring its obligation and funded status.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      },
+      {
+        "id": "v4-m8-c1-depth3",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "Consider this case: Plan assets 90 and defined benefit obligation 110 give a funded deficit of 20. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply defined contribution versus defined benefit while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A contribution payment is not the same as the total pension obligation."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation. Watch for: A contribution payment is not the same as the total pension obligation.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      },
+      {
+        "id": "v4-m8-c1-depth4",
+        "conceptId": "v4-m8-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m8",
+        "prompt": "Why does defined contribution versus defined benefit matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Funded status = assets − obligation = −20."
+        ],
+        "answer": 2,
+        "explanation": "Funded status = assets − obligation = −20. The deficit differs from both annual contributions and the gross obligation. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 253,
+          "endPdfPage": 288,
+          "section": "Topics in Long-Term Liabilities and Equity"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m9-c1",
+    "moduleId": "v4-m9",
+    "topicId": "v4",
+    "name": "Temporary differences and deferred tax",
+    "objective": "Explain and apply temporary differences and deferred tax.",
+    "explanation": "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts. A deferred tax liability represents tax expected to become payable when a taxable difference reverses.",
+    "why": "The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount.",
+    "definition": "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts.",
+    "example": "Equipment carrying amount 100, tax base 70 and tax rate 30% give a taxable temporary difference of 30 and DTL of 9.",
+    "trap": "Permanent differences do not create deferred taxes.",
+    "mnemonic": "Temporary differences and deferred tax → Permanent differences do not create deferred taxes.",
+    "recall": "Without looking: explain temporary differences and deferred tax and one mistake to avoid.",
+    "recallAnswer": "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts. A deferred tax liability represents tax expected to become payable when a taxable difference reverses. Watch for: Permanent differences do not create deferred taxes.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 289,
+      "endPdfPage": 322,
+      "section": "Analysis of Income Taxes"
+    },
+    "questions": [
+      {
+        "id": "v4-m9-c1-q1",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "An asset has carrying amount 100 and tax base 70. At 30% tax, the resulting deferred tax liability is:",
+        "choices": [
+          "30",
+          "9",
+          "21"
+        ],
+        "answer": 1,
+        "explanation": "The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount.",
+        "distractors": [
+          "The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount.",
+          "This applies the principle correctly.",
+          "The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      },
+      {
+        "id": "v4-m9-c1-recall",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "Without looking: explain temporary differences and deferred tax and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts. A deferred tax liability represents tax expected to become payable when a taxable difference reverses. Watch for: Permanent differences do not create deferred taxes.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      },
+      {
+        "id": "v4-m9-c1-depth1",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "Which statement most accurately describes temporary differences and deferred tax?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts.",
+          "Permanent differences do not create deferred taxes."
+        ],
+        "answer": 1,
+        "explanation": "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts. A deferred tax liability represents tax expected to become payable when a taxable difference reverses. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      },
+      {
+        "id": "v4-m9-c1-depth2",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "A candidate applies this rule: “Permanent differences do not create deferred taxes.” What is the best correction?",
+        "choices": [
+          "Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. Temporary differences between accounting carrying amounts and tax bases can cause future taxable or deductible amounts. A deferred tax liability represents tax expected to become payable when a taxable difference reverses.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      },
+      {
+        "id": "v4-m9-c1-depth3",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "Consider this case: Equipment carrying amount 100, tax base 70 and tax rate 30% give a taxable temporary difference of 30 and DTL of 9. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Permanent differences do not create deferred taxes.",
+          "Apply temporary differences and deferred tax while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount. Watch for: Permanent differences do not create deferred taxes.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      },
+      {
+        "id": "v4-m9-c1-depth4",
+        "conceptId": "v4-m9-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m9",
+        "prompt": "Why does temporary differences and deferred tax matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "The taxable temporary difference is 30; multiply by 30% to get 9.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "The taxable temporary difference is 30; multiply by 30% to get 9. Do not multiply the entire carrying amount. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 289,
+          "endPdfPage": 322,
+          "section": "Analysis of Income Taxes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m10-c1",
+    "moduleId": "v4-m10",
+    "topicId": "v4",
+    "name": "Reporting quality versus earnings quality",
+    "objective": "Explain and apply reporting quality versus earnings quality.",
+    "explanation": "Reporting quality concerns faithful, useful financial information. Earnings quality concerns sustainability and adequacy of performance. Truthfully reported weak earnings can have high reporting quality but poor earnings quality.",
+    "why": "Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud.",
+    "definition": "Reporting quality concerns faithful, useful financial information.",
+    "example": "A company transparently reports a large one-off gain while recurring operations deteriorate. Disclosure can be sound even when reported profit is not sustainable.",
+    "trap": "An unqualified audit does not establish sustainable earnings.",
+    "mnemonic": "Reporting quality versus earnings quality → An unqualified audit does not establish sustainable earnings.",
+    "recall": "Without looking: explain reporting quality versus earnings quality and one mistake to avoid.",
+    "recallAnswer": "Reporting quality concerns faithful, useful financial information. Earnings quality concerns sustainability and adequacy of performance. Truthfully reported weak earnings can have high reporting quality but poor earnings quality. Watch for: An unqualified audit does not establish sustainable earnings.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 323,
+      "endPdfPage": 392,
+      "section": "Financial Reporting Quality"
+    },
+    "questions": [
+      {
+        "id": "v4-m10-c1-q1",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "Transparent reporting of a large nonrecurring gain most directly requires an analyst to question:",
+        "choices": [
+          "Automatically the honesty of the accounts",
+          "The sustainability of earnings",
+          "Whether cash exists in any form"
+        ],
+        "answer": 1,
+        "explanation": "Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud.",
+        "distractors": [
+          "Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud.",
+          "This applies the principle correctly.",
+          "Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      },
+      {
+        "id": "v4-m10-c1-recall",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "Without looking: explain reporting quality versus earnings quality and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "Reporting quality concerns faithful, useful financial information. Earnings quality concerns sustainability and adequacy of performance. Truthfully reported weak earnings can have high reporting quality but poor earnings quality. Watch for: An unqualified audit does not establish sustainable earnings.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      },
+      {
+        "id": "v4-m10-c1-depth1",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "Which statement most accurately describes reporting quality versus earnings quality?",
+        "choices": [
+          "Reporting quality concerns faithful, useful financial information.",
+          "An unqualified audit does not establish sustainable earnings.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions."
+        ],
+        "answer": 0,
+        "explanation": "Reporting quality concerns faithful, useful financial information. Earnings quality concerns sustainability and adequacy of performance. Truthfully reported weak earnings can have high reporting quality but poor earnings quality. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      },
+      {
+        "id": "v4-m10-c1-depth2",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "A candidate applies this rule: “An unqualified audit does not establish sustainable earnings.” What is the best correction?",
+        "choices": [
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "Reporting quality concerns faithful, useful financial information."
+        ],
+        "answer": 2,
+        "explanation": "The quoted statement is the trap. Reporting quality concerns faithful, useful financial information. Earnings quality concerns sustainability and adequacy of performance. Truthfully reported weak earnings can have high reporting quality but poor earnings quality.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      },
+      {
+        "id": "v4-m10-c1-depth3",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "Consider this case: A company transparently reports a large one-off gain while recurring operations deteriorate. Disclosure can be sound even when reported profit is not sustainable. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "An unqualified audit does not establish sustainable earnings.",
+          "Apply reporting quality versus earnings quality while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details."
+        ],
+        "answer": 1,
+        "explanation": "The case applies the concept directly. Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud. Watch for: An unqualified audit does not establish sustainable earnings.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      },
+      {
+        "id": "v4-m10-c1-depth4",
+        "conceptId": "v4-m10-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m10",
+        "prompt": "Why does reporting quality versus earnings quality matter to an analyst or candidate?",
+        "choices": [
+          "Separate faithful reporting from recurring economic performance.",
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly."
+        ],
+        "answer": 0,
+        "explanation": "Separate faithful reporting from recurring economic performance. A disclosed gain is not automatically fraud. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 323,
+          "endPdfPage": 392,
+          "section": "Financial Reporting Quality"
+        }
+      }
+    ]
+  },
+  {
+    "id": "v4-m11-c1",
+    "moduleId": "v4-m11",
+    "topicId": "v4",
+    "name": "DuPont decomposition",
+    "objective": "Explain and apply dupont decomposition.",
+    "explanation": "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage. A higher ROE can reflect more leverage rather than better operations.",
+    "why": "Multiply all three components: .10 × 1.2 × 2 = .24.",
+    "definition": "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage.",
+    "example": "Margin 10%, turnover 1.2 and equity multiplier 2 produce ROE 24%.",
+    "trap": "A higher ROE is not always a lower-risk improvement.",
+    "mnemonic": "DuPont decomposition → A higher ROE is not always a lower-risk improvement.",
+    "recall": "Without looking: explain dupont decomposition and one mistake to avoid.",
+    "recallAnswer": "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage. A higher ROE can reflect more leverage rather than better operations. Watch for: A higher ROE is not always a lower-risk improvement.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 393,
+      "endPdfPage": 458,
+      "section": "Financial Analysis Techniques"
+    },
+    "questions": [
+      {
+        "id": "v4-m11-c1-q1",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Net margin 10%, asset turnover 1.2 and equity multiplier 2 imply ROE of:",
+        "choices": [
+          "12%",
+          "24%",
+          "20%"
+        ],
+        "answer": 1,
+        "explanation": "Multiply all three components: .10 × 1.2 × 2 = .24.",
+        "distractors": [
+          "Multiply all three components: .10 × 1.2 × 2 = .24.",
+          "This applies the principle correctly.",
+          "Multiply all three components: .10 × 1.2 × 2 = .24."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-recall",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Without looking: explain dupont decomposition and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage. A higher ROE can reflect more leverage rather than better operations. Watch for: A higher ROE is not always a lower-risk improvement.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-formula",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Reconstruct the relationship for three-part dupont roe. Write it from memory, then reveal and compare.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "ROE = (NI / Sales) × (Sales / Avg assets) × (Avg assets / Avg equity)\nNI: net income; use consistent average balance-sheet quantities",
+        "distractors": [],
+        "difficulty": 2,
+        "type": "formula",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-calc1",
+        "conceptId": "v4-m11-c1",
+        "moduleId": "v4-m11",
+        "topicId": "v4",
+        "prompt": "Net margin is 6.00%, asset turnover 1.2 and equity multiplier 1.7. DuPont ROE is:",
+        "choices": [
+          "7.20%",
+          "10.20%",
+          "12.24%"
+        ],
+        "answer": 2,
+        "explanation": "ROE = margin × turnover × leverage = 0.06×1.2×1.7 = 12.24%. Each distractor drops one component.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.06×1.2×1.7 = 12.24%. Each distractor drops one component.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.06×1.2×1.7 = 12.24%. Each distractor drops one component.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-calc2",
+        "conceptId": "v4-m11-c1",
+        "moduleId": "v4-m11",
+        "topicId": "v4",
+        "prompt": "Net margin is 7.00%, asset turnover 1.2 and equity multiplier 1.9. DuPont ROE is:",
+        "choices": [
+          "13.30%",
+          "15.96%",
+          "8.40%"
+        ],
+        "answer": 1,
+        "explanation": "ROE = margin × turnover × leverage = 0.07×1.2×1.9 = 15.96%. Each distractor drops one component.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.07×1.2×1.9 = 15.96%. Each distractor drops one component.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.07×1.2×1.9 = 15.96%. Each distractor drops one component."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-calc3",
+        "conceptId": "v4-m11-c1",
+        "moduleId": "v4-m11",
+        "topicId": "v4",
+        "prompt": "Net margin is 8.00%, asset turnover 1.2 and equity multiplier 2.1. DuPont ROE is:",
+        "choices": [
+          "20.16%",
+          "9.60%",
+          "16.80%"
+        ],
+        "answer": 0,
+        "explanation": "ROE = margin × turnover × leverage = 0.08×1.2×2.1 = 20.16%. Each distractor drops one component.",
+        "distractors": [
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.08×1.2×2.1 = 20.16%. Each distractor drops one component.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.08×1.2×2.1 = 20.16%. Each distractor drops one component."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-calc4",
+        "conceptId": "v4-m11-c1",
+        "moduleId": "v4-m11",
+        "topicId": "v4",
+        "prompt": "Net margin is 9.00%, asset turnover 1.2 and equity multiplier 2.3. DuPont ROE is:",
+        "choices": [
+          "10.80%",
+          "20.70%",
+          "24.84%"
+        ],
+        "answer": 2,
+        "explanation": "ROE = margin × turnover × leverage = 0.09×1.2×2.3 = 24.84%. Each distractor drops one component.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.09×1.2×2.3 = 24.84%. Each distractor drops one component.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.09×1.2×2.3 = 24.84%. Each distractor drops one component.",
+          "Correct."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-calc5",
+        "conceptId": "v4-m11-c1",
+        "moduleId": "v4-m11",
+        "topicId": "v4",
+        "prompt": "Net margin is 10.00%, asset turnover 1.2 and equity multiplier 2.5. DuPont ROE is:",
+        "choices": [
+          "25.00%",
+          "30.00%",
+          "12.00%"
+        ],
+        "answer": 1,
+        "explanation": "ROE = margin × turnover × leverage = 0.10×1.2×2.5 = 30.00%. Each distractor drops one component.",
+        "distractors": [
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.10×1.2×2.5 = 30.00%. Each distractor drops one component.",
+          "Correct.",
+          "This result follows a common sign, denominator, timing or compounding error. ROE = margin × turnover × leverage = 0.10×1.2×2.5 = 30.00%. Each distractor drops one component."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-depth1",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Which statement most accurately describes dupont decomposition?",
+        "choices": [
+          "A higher ROE is not always a lower-risk improvement.",
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage."
+        ],
+        "answer": 2,
+        "explanation": "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage. A higher ROE can reflect more leverage rather than better operations. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-depth2",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "A candidate applies this rule: “A higher ROE is not always a lower-risk improvement.” What is the best correction?",
+        "choices": [
+          "No correction is needed because exam questions do not test the underlying distinction.",
+          "The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage.",
+          "The rule is acceptable whenever the final number appears reasonable."
+        ],
+        "answer": 1,
+        "explanation": "The quoted statement is the trap. The three-part DuPont identity separates return on equity into net profit margin, total asset turnover and financial leverage. A higher ROE can reflect more leverage rather than better operations.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-depth3",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Consider this case: Margin 10%, turnover 1.2 and equity multiplier 2 produce ROE 24%. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Apply dupont decomposition while checking the stated timing, units, assumptions, and direction.",
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "A higher ROE is not always a lower-risk improvement."
+        ],
+        "answer": 0,
+        "explanation": "The case applies the concept directly. Multiply all three components: .10 × 1.2 × 2 = .24. Watch for: A higher ROE is not always a lower-risk improvement.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      },
+      {
+        "id": "v4-m11-c1-depth4",
+        "conceptId": "v4-m11-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m11",
+        "prompt": "Why does dupont decomposition matter to an analyst or candidate?",
+        "choices": [
+          "It matters only because terminology must be memorized; it does not affect a decision.",
+          "It guarantees the investment outcome once calculated correctly.",
+          "Multiply all three components: .10 × 1.2 × 2 = .24."
+        ],
+        "answer": 2,
+        "explanation": "Multiply all three components: .10 × 1.2 × 2 = .24. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 393,
+          "endPdfPage": 458,
+          "section": "Financial Analysis Techniques"
+        }
+      }
+    ],
+    "formula": {
+      "name": "Three-part DuPont ROE",
+      "expression": "ROE = (NI / Sales) × (Sales / Avg assets) × (Avg assets / Avg equity)",
+      "variables": "NI: net income; use consistent average balance-sheet quantities",
+      "intuition": "Diagnose whether profitability, efficiency or leverage drives ROE.",
+      "when": "Diagnose whether profitability, efficiency or leverage drives ROE.",
+      "example": "10% × 1.2 × 2 = 24%.",
+      "mistake": "Do not interpret leverage-driven ROE as pure operating improvement.",
+      "related": []
+    }
+  },
+  {
+    "id": "v4-m12-c1",
+    "moduleId": "v4-m12",
+    "topicId": "v4",
+    "name": "Integrated forecasting",
+    "objective": "Explain and apply integrated forecasting.",
+    "explanation": "A financial model links operating assumptions to income, working capital, investment and financing. Sales growth can require additional cash investment even when profits increase.",
+    "why": "Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use.",
+    "definition": "A financial model links operating assumptions to income, working capital, investment and financing.",
+    "example": "At a constant receivables/sales ratio of 20%, sales rising from 500 to 600 increase receivables from 100 to 120, tying up 20 cash.",
+    "trap": "Growth in accounting profit is not identical to growth in free cash flow.",
+    "mnemonic": "Integrated forecasting → Growth in accounting profit is not identical to growth in free cash flow.",
+    "recall": "Without looking: explain integrated forecasting and one mistake to avoid.",
+    "recallAnswer": "A financial model links operating assumptions to income, working capital, investment and financing. Sales growth can require additional cash investment even when profits increase. Watch for: Growth in accounting profit is not identical to growth in free cash flow.",
+    "source": {
+      "file": "cfa-program2026L1V4.pdf",
+      "pdfPage": 459,
+      "endPdfPage": 516,
+      "section": "Introduction to Financial Statement Modeling"
+    },
+    "questions": [
+      {
+        "id": "v4-m12-c1-q1",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "Sales rise from 500 to 600 while receivables stay at 20% of sales. The receivables change uses cash of:",
+        "choices": [
+          "120",
+          "20",
+          "100"
+        ],
+        "answer": 1,
+        "explanation": "Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use.",
+        "distractors": [
+          "Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use.",
+          "This applies the principle correctly.",
+          "Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use."
+        ],
+        "difficulty": 2,
+        "type": "calculation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      },
+      {
+        "id": "v4-m12-c1-recall",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "Without looking: explain integrated forecasting and one mistake to avoid.",
+        "choices": [],
+        "answer": 0,
+        "explanation": "A financial model links operating assumptions to income, working capital, investment and financing. Sales growth can require additional cash investment even when profits increase. Watch for: Growth in accounting profit is not identical to growth in free cash flow.",
+        "distractors": [],
+        "difficulty": 1,
+        "type": "recall",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      },
+      {
+        "id": "v4-m12-c1-depth1",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "Which statement most accurately describes integrated forecasting?",
+        "choices": [
+          "It is a fixed rule that produces the same conclusion regardless of facts, timing, or assumptions.",
+          "A financial model links operating assumptions to income, working capital, investment and financing.",
+          "Growth in accounting profit is not identical to growth in free cash flow."
+        ],
+        "answer": 1,
+        "explanation": "A financial model links operating assumptions to income, working capital, investment and financing. Sales growth can require additional cash investment even when profits increase. The other choices either state the common trap or remove conditions that matter.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 1,
+        "type": "conceptual",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      },
+      {
+        "id": "v4-m12-c1-depth2",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "A candidate applies this rule: “Growth in accounting profit is not identical to growth in free cash flow.” What is the best correction?",
+        "choices": [
+          "A financial model links operating assumptions to income, working capital, investment and financing.",
+          "The rule is acceptable whenever the final number appears reasonable.",
+          "No correction is needed because exam questions do not test the underlying distinction."
+        ],
+        "answer": 0,
+        "explanation": "The quoted statement is the trap. A financial model links operating assumptions to income, working capital, investment and financing. Sales growth can require additional cash investment even when profits increase.",
+        "distractors": [
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "error-repair",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      },
+      {
+        "id": "v4-m12-c1-depth3",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "Consider this case: At a constant receivables/sales ratio of 20%, sales rising from 500 to 600 increase receivables from 100 to 120, tying up 20 cash. Which approach best protects the analysis from the main error?",
+        "choices": [
+          "Use the shortcut that treats this as unconditional and ignore conflicting details.",
+          "Growth in accounting profit is not identical to growth in free cash flow.",
+          "Apply integrated forecasting while checking the stated timing, units, assumptions, and direction."
+        ],
+        "answer": 2,
+        "explanation": "The case applies the concept directly. Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use. Watch for: Growth in accounting profit is not identical to growth in free cash flow.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use."
+        ],
+        "difficulty": 2,
+        "type": "application",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      },
+      {
+        "id": "v4-m12-c1-depth4",
+        "conceptId": "v4-m12-c1",
+        "topicId": "v4",
+        "moduleId": "v4-m12",
+        "prompt": "Why does integrated forecasting matter to an analyst or candidate?",
+        "choices": [
+          "It guarantees the investment outcome once calculated correctly.",
+          "Receivables rise from 100 to 120.",
+          "It matters only because terminology must be memorized; it does not affect a decision."
+        ],
+        "answer": 1,
+        "explanation": "Receivables rise from 100 to 120. Only the increase of 20 is the new working-capital use. It informs analysis but does not guarantee an outcome.",
+        "distractors": [
+          "This statement reflects an overgeneralization, reversal, or the documented trap.",
+          "This is the best answer because it matches the concept and its decision use.",
+          "This statement reflects an overgeneralization, reversal, or the documented trap."
+        ],
+        "difficulty": 2,
+        "type": "interpretation",
+        "source": {
+          "file": "cfa-program2026L1V4.pdf",
+          "pdfPage": 459,
+          "endPdfPage": 516,
+          "section": "Introduction to Financial Statement Modeling"
+        }
+      }
+    ]
+  }
+]
