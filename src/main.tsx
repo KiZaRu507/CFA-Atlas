@@ -13,6 +13,7 @@ import {
   Download,
   Flame,
   GraduationCap,
+  GitBranch,
   LayoutDashboard,
   Library,
   Menu,
@@ -40,6 +41,14 @@ import type {
 } from "./types";
 import { topics, catalog, loadTopic, loadConcepts } from "./data/content";
 import { beginnerBrief } from "./data/beginner";
+import {
+  findObjective,
+  knowledgeMeta,
+  knowledgeStats,
+  learningObjectives,
+  modulesForTopic,
+  objectiveGuide,
+} from "./data/knowledge";
 import {
   calculatorChecklist,
   calculatorDrills,
@@ -403,6 +412,7 @@ function App() {
   const nav = [
     ["/", "Command center", LayoutDashboard],
     ["/learn", "Learn from zero", GraduationCap],
+    ["/knowledge", "Knowledge mind maps", GitBranch],
     ["/curriculum", "Curriculum map", BookOpen],
     ["/study", "Study arena", Target],
     ["/review", "Memory rescue", Brain],
@@ -541,6 +551,8 @@ function App() {
                 navigate("/analytics");
               }}
             />
+          ) : route.startsWith("/objective/") ? (
+            <ObjectiveLesson id={route.split("/")[2]} launch={launch} />
           ) : route.startsWith("/concept/") ? (
             <ConceptPage
               id={route.split("/")[2]}
@@ -569,6 +581,8 @@ function App() {
             <FormulaLibrary p={p} launch={launch} />
           ) : route === "/calculator" ? (
             <CalculatorLab />
+          ) : route === "/knowledge" ? (
+            <KnowledgeRepository />
           ) : route === "/learn" ? (
             <LearnAcademy p={p} />
           ) : route === "/review" || route === "/mistakes" ? (
@@ -1215,6 +1229,126 @@ function CalculatorLab() {
       </div>
       <section className="panel exam-checklist"><h2>Exam-day calculator checklist</h2>{calculatorChecklist.map((x) => <p key={x}><Check size={17} />{x}</p>)}</section>
       <p className="coverage-note">The trainer reproduces guided key sequences and expected displays; it is not a complete electronic emulator. Verify physical key labels on your own model and practice every drill on that calculator.</p>
+    </>
+  );
+}
+
+function KnowledgeRepository() {
+  const [selected, setSelected] = useState(topics[0].id);
+  const [search, setSearch] = useState("");
+  const topic = topics.find((item) => item.id === selected)!;
+  const grouped = modulesForTopic(selected);
+  const query = search.trim().toLowerCase();
+  const visible = grouped.filter((item) =>
+    `${item.title} ${item.objectives.map((objective) => objective.text).join(" ")}`
+      .toLowerCase()
+      .includes(query),
+  );
+  const stats = knowledgeStats(selected);
+  const byOfficial = topic.modules
+    .filter((item) => !item.supplement)
+    .map((official) => ({
+      official,
+      branches: visible.filter((item) => item.moduleId === official.id),
+    }))
+    .filter((item) => item.branches.length);
+  return (
+    <>
+      <Title eyebrow="THE COMPLETE LEARNING-OUTCOME CROSSWALK" title="Knowledge mind maps">
+        <span className="pill">{knowledgeMeta.learningObjectives} OUTCOMES</span>
+      </Title>
+      <section className="panel knowledge-hero">
+        <div>
+          <span className="eyebrow">CURRICULUM → MODULE → TEACHING UNIT → OUTCOME</span>
+          <h2>See the syllabus before you memorize it.</h2>
+          <p>This map joins the official 2026 curriculum structure to the more granular teaching sequence in your four study-note books. Every outcome opens a beginner route, relevant foundation cards, formulas where applicable, and module practice.</p>
+        </div>
+        <div className="knowledge-total"><b>{knowledgeMeta.studyModules}</b><span>teaching units</span><b>{knowledgeMeta.pages}</b><span>pages audited</span></div>
+      </section>
+      <div className="topic-tabs" role="tablist" aria-label="CFA topics">
+        {topics.map((item) => <button role="tab" aria-selected={selected === item.id} className={selected === item.id ? "active" : ""} onClick={() => setSelected(item.id)} key={item.id}><span>{item.volume}</span>{item.title}</button>)}
+      </div>
+      <div className="mindmap-toolbar">
+        <div><span className="eyebrow">TOPIC {topic.volume}</span><h2>{topic.title}</h2><p>{stats.officialModules} official modules · {stats.studyModules} teaching units · {stats.objectives} learning outcomes · {stats.cards} deep foundation lessons</p></div>
+        <label className="search"><Search size={18} /><input aria-label="Search this mind map" placeholder="Find an outcome or concept…" value={search} onChange={(event) => setSearch(event.target.value)} /></label>
+      </div>
+      <div className="mindmap" style={{ "--topic": topic.color } as React.CSSProperties}>
+        <div className="mind-root"><GitBranch /><b>{topic.title}</b><small>{stats.objectives} outcome nodes</small></div>
+        <div className="mind-trunk">
+          {byOfficial.map(({ official, branches }, moduleIndex) => <details className="mind-official" open={!query && moduleIndex < 2 || !!query} key={official.id}>
+            <summary><span>MODULE {official.number}</span><b>{official.title}</b><small>{branches.reduce((sum, item) => sum + item.objectives.length, 0)} outcomes</small></summary>
+            <div className="mind-branches">
+              {branches.map((studyModule) => <div className="mind-study" key={studyModule.id}>
+                <a href={`#/module/${official.id}`}><span>{studyModule.reading}.{studyModule.part}</span><b>{studyModule.title.toLowerCase()}</b><small>Book {studyModule.book} · PDF p. {studyModule.pdfPage}</small></a>
+                <div className="mind-leaves">
+                  {studyModule.objectives.map((objective) => <a href={`#/objective/${objective.id}`} key={objective.id}><span>{objective.code}</span><p>{objective.text}</p><ChevronRight size={15} /></a>)}
+                  {!studyModule.objectives.length && <a href={`#/module/${official.id}`}><span>GUIDE</span><p>Open this teaching unit through the official module lesson path.</p><ChevronRight size={15} /></a>}
+                </div>
+              </div>)}
+            </div>
+          </details>)}
+        </div>
+      </div>
+      {!byOfficial.length && <Empty title="No matching outcomes" body="Clear the search or try a broader term." />}
+      <p className="coverage-note">The study-note layer is used as a secondary teaching map. CFA Institute curriculum files remain authoritative. Outcome labels are source-indexed; explanations, examples, memory cues, and practice in CFA Atlas are original.</p>
+    </>
+  );
+}
+
+function ObjectiveLesson({ id, launch }: { id: string; launch: Launcher }) {
+  const found = findObjective(id);
+  const [concepts, setConcepts] = useState<Concept[]>([]);
+  const [error, setError] = useState("");
+  useEffect(() => {
+    if (!found) return;
+    setConcepts([]);
+    loadTopic(found.studyModule.topicId)
+      .then((items) => setConcepts(items.filter((item) => item.moduleId === found.studyModule.moduleId)))
+      .catch((reason) => setError(reason.message));
+  }, [id]);
+  if (!found) return <Empty title="Learning outcome not found" body="Return to the knowledge mind maps and choose another node." />;
+  const { objective, studyModule } = found;
+  const topic = topics.find((item) => item.id === studyModule.topicId)!;
+  const official = topic.modules.find((item) => item.id === studyModule.moduleId)!;
+  const brief = beginnerBrief(topic, official);
+  const guide = objectiveGuide(objective.text);
+  const formulas = concepts.flatMap((concept) => concept.formula ? [{ ...concept.formula, conceptId: concept.id }] : []);
+  const questionCount = concepts.reduce((sum, concept) => sum + concept.questions.filter((question) => question.choices.length > 0).length, 0);
+  return (
+    <>
+      <Title eyebrow={`${topic.title} / OUTCOME ${objective.code}`} title={studyModule.title.toLowerCase()}>
+        <Button secondary onClick={() => navigate("/knowledge")}>Back to mind map</Button>
+      </Title>
+      {error && <div className="alert">{error}</div>}
+      <div className="objective-layout">
+        <article className="panel objective-lesson">
+          <div className="section-head"><span className="pill">BEGINNER PATH</span><span className="muted">READ → SEE → RETRIEVE → APPLY</span></div>
+          <h2>What you must be able to do</h2>
+          <p className="objective-source-text">{objective.text}</p>
+          <div className="beginner-callout"><Sparkles /><div><b>Plain-English mission</b><p>{guide.mission}</p></div></div>
+          <h2>Build the mental picture first</h2>
+          <p className="lead">{brief.mentalModel}</p>
+          <div className="brief-columns">
+            <div><h3>Start with these foundations</h3>{brief.beforeYouStart.map((item) => <p key={item}><Check size={16} />{item}</p>)}</div>
+            <div><h3>Translate the vocabulary</h3>{brief.vocabulary.map((item) => <p key={item.term}><b>{item.term}</b><span>{item.plain}</span></p>)}</div>
+          </div>
+          <h2>Your five-pass learning method</h2>
+          <ol className="learning-passes">{guide.steps.map((step, index) => <li key={step}><span>{index + 1}</span><p>{step}</p></li>)}</ol>
+          <h2>Deep lessons for this outcome</h2>
+          <p className="muted">These authored foundation cards teach the parent module from first principles. Work them in order, then return for mixed retrieval.</p>
+          <div className="objective-cards">
+            {concepts.map((concept) => <a href={`#/concept/${concept.id}`} key={concept.id}><Brain size={19} /><div><b>{concept.name}</b><p>{concept.explanation}</p></div><ChevronRight size={17} /></a>)}
+          </div>
+          {!concepts.length && !error && <p>Loading the deep lessons…</p>}
+          <h2>Formula helper</h2>
+          {formulas.length ? formulas.map((formula) => <div className="objective-formula" key={formula.conceptId}><div><span className="eyebrow">{formula.name}</span><div className="formula-expression">{formula.expression}</div><p>{formula.variables}</p></div><div><b>When to use it</b><p>{formula.when}</p><b>Beginner intuition</b><p>{formula.intuition}</p><a href={`#/concept/${formula.conceptId}`}>Open worked example</a></div></div>) : <div className="conceptual-note"><Brain /><div><b>This outcome is mainly conceptual.</b><p>No formula is assigned to its current foundation cards. Build the classification or cause-and-effect rule, then practise applying it to a scenario.</p></div></div>}
+          <div className="actions"><Button disabled={!concepts.length} onClick={() => launch("Practice", concepts.map((item) => item.id))}>Practise this outcome’s module <ArrowRight size={16} /></Button><Button secondary onClick={() => navigate("/calculator")}>Open BA II Plus lab</Button></div>
+        </article>
+        <aside className="objective-side">
+          <div className="panel"><span className="eyebrow">SOURCE TRACE</span><h3>Study-note crosswalk</h3><p>Book {objective.book} · PDF p. {objective.pdfPage}<br />Teaching unit {studyModule.reading}.{studyModule.part}</p><h3>Official authority</h3><p>{topic.file}<br />PDF pp. {official.pdfPage}–{official.endPdfPage}<br />{official.title}</p><small>Use the official curriculum if wording or scope appears to conflict.</small></div>
+          <div className="panel"><span className="eyebrow">RETRIEVAL COVERAGE</span><dl><dt>Foundation lessons</dt><dd>{concepts.length}</dd><dt>Original MCQs</dt><dd>{questionCount}</dd><dt>Relevant formulas</dt><dd>{formulas.length}</dd></dl><a href={`#/module/${official.id}`}>Open the complete module pathway</a></div>
+        </aside>
+      </div>
     </>
   );
 }

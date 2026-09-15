@@ -1,12 +1,12 @@
 # CFA Atlas — a local-first 2026 Level I learning workspace
 
-A working React + TypeScript app with a complete curriculum map, an **expanded original learning bank**, confidence-aware spaced recall, quizzes, formulas, adaptive sessions, calculator training and portable local progress.
+A working React + TypeScript app with a complete curriculum map, a 365-outcome study-note crosswalk and ten interactive topic mind maps, an **expanded original learning bank**, confidence-aware spaced recall, quizzes, formulas, adaptive sessions, calculator training and portable local progress.
 
-**Platform functionality and curriculum completeness are different.** All ten topics and 93 learning modules are represented. The 99 teaching cards do not replace all source sections. Read `docs/CONTENT-COVERAGE.md` and the module-by-module audit before relying on coverage.
+**Platform functionality and curriculum completeness are different.** All ten topics, 93 official learning modules, 152 study-note teaching units and 365 extracted learning outcomes are represented. The 99 deep foundation cards do not yet give every outcome a unique full-length lesson or question set. Read `docs/CONTENT-COVERAGE.md` and the module-by-module audit before relying on coverage. No software can guarantee an exam pass.
 
 ## Run on your PC
 
-Prerequisite: **Node.js 22.18 or later**, or Node 24 LTS, with npm. (The app builds with Node ≥22.12; the test command uses built-in TypeScript stripping available in the recommended versions.) Tested here on Node 24.19.0 / npm 11.9.0. Windows, macOS or Linux should work; only the Linux environment was directly tested.
+If the PC has never been used for development, install only **Node.js 22 LTS or Node 24 LTS** from [nodejs.org](https://nodejs.org/) and a modern browser such as Chrome, Edge or Firefox. npm is included with Node.js. Git, Python, VS Code and a paid API are **not required** merely to run the downloaded ZIP. Restart the terminal after installing Node, then confirm `node --version` and `npm --version` work. (Python 3 is needed only by maintainers rebuilding source-derived data.) Tested here on Node 24.19.0 / npm 11.9.0.
 
 1. Extract the ZIP. Open a terminal **inside `cfa-atlas`**, the folder containing `package.json`.
 2. Install and start:
@@ -45,6 +45,8 @@ The optional demo is visibly labeled and separate from real persisted progress. 
 - Responsive desktop/mobile layouts; dark/light themes; keyboard-accessible native controls.
 - Onboarding and editable study profile, countdown and first-pass pacing estimate.
 - All ten topics, 93 learning modules, one reference supplement and source-section maps.
+- Four SchweserNotes books audited (1,174 pages): 152 teaching units and 365 distinct learning outcomes cross-mapped to the official curriculum.
+- Ten interactive topic mind maps with searchable Topic → official module → teaching unit → outcome branches; each outcome opens a beginner route, source trace, formula helper and targeted module practice.
 - A dedicated Learn from Zero academy with beginner topic primers and structured briefings for all 93 learning modules.
 - 99 foundation concept lessons, 26 formula cards, 620 MCQs, 99 recall prompts and 26 formula-reconstruction prompts (745 total retrieval records).
 - A visually faithful BA II Plus lab with the complete 44-key face, yellow second-function labels and 12 key-by-key drills covering setup, TVM, timing, cash flows, NPV/IRR, statistics, rate conversion, bond orientation and amortization.
@@ -71,6 +73,8 @@ src/data/content.ts          Lazy loading, one content chunk per topic
 public/content/v1..v10.json  Teaching, questions, formulas and references
 src/data/beginner.ts         Beginner topic/module teaching scaffolds
 src/data/calculator.ts       BA II Plus drills and official source links
+src/data/schweser-map.json   Metadata-only 4-book teaching-unit/outcome crosswalk
+src/data/knowledge.ts        Knowledge graph lookup and beginner learning method
 scripts/                    Reproducible authoring/extraction helpers and coverage audit
 tests/*.test.ts              26 engine, content, calculator and session regression tests
 tests/browser/              Responsive browser QA harness (development only)
@@ -79,7 +83,7 @@ docs/                       Coverage, validation and technical notes
 
 No backend is required: the browser is the application runtime and IndexedDB is its database. Source PDFs are not uploaded by the app or bundled in the ZIP. Source references tell you which file and PDF page range to open separately.
 
-The initial index is loaded with the UI. Detailed lessons and question answers are loaded lazily by topic. Mock exams and the formula library intentionally load all relevant topic chunks. The bank is designed for additional thousands of records; the UI currently keeps the full attempt history in memory, so very large histories will eventually benefit from indexed queries and aggregation.
+The initial index and compact knowledge crosswalk are loaded with the UI. Detailed lessons and question answers are loaded lazily by topic. Mock exams and the formula library intentionally load all relevant topic chunks. The bank is designed for additional thousands of records; the UI currently keeps the full attempt history in memory, so very large histories will eventually benefit from indexed queries and aggregation.
 
 ## Memory and mastery
 
@@ -119,6 +123,12 @@ npm run audit:content
 
 The extraction helper additionally expects `pdftotext -layout` outputs from your own PDFs in a folder supplied as its argument. It is an optional developer operation and is not required to install or run the app. Do not redistribute full copyrighted text alongside the app.
 
+The Schweser crosswalk can be regenerated from private text extractions with `python scripts/build_schweser_map.py PATH_TO_EXTRACTS`. It intentionally stores headings, outcome labels and page coordinates—not explanations, worked examples or proprietary question text. CFA Atlas teaching prose and practice are independently authored.
+
+## Optional GitHub Pages hosting
+
+Yes. The project includes `.github/workflows/pages.yml`. Create a GitHub repository, upload the project contents, open **Settings → Pages**, choose **GitHub Actions** as the source, and push to `main`. The workflow installs, tests, builds with the repository subpath and publishes `dist/`. GitHub Pages is public by default, so do not commit the original PDFs, exported progress backups or personal data. Browser progress remains local to that hosted address; export a JSON backup before changing the repository name or domain.
+
 After a direct content edit:
 
 ```sh
@@ -141,7 +151,7 @@ The BA II Plus lab was written against the official [Texas Instruments BA II Plu
 
 ## Known limitations / priorities
 
-1. The platform is functional, but content is a **starter bank**. Expand and review every LOS before using it as a sole study source. Most modules have only one selected concept.
+1. The platform and knowledge map are functional, but the deep content is still a **foundation bank**. All 365 outcomes are navigable and source-mapped; only 99 have dedicated full concept cards. Expand and independently review each outcome before using the app as a sole study source.
 2. Formula Forge and Quick Recall use self-assessment; no AI or symbolic equivalence grader is included. Formula application uses MCQs.
 3. Source references are module-level. Improve exact-page attribution and independent subject-matter review.
 4. Mock sizing/timing are documented product assumptions; sampling is constrained by bank composition. No official blueprint verification, enforced break, backward navigation or sophisticated exam review flags.

@@ -1,18 +1,19 @@
 # Validation report
 
-Validated during the build session on 10 September 2026.
+Validated during the build session, most recently updated on 15 September 2026.
 
 ## Automated checks
 
-**26 tests pass, zero failures.** `npm test` runs Node's test runner against:
+**29 tests pass, zero failures.** `npm test` runs Node's test runner against:
 - `tests/engine.test.ts` (18 tests): bounded strength, delayed mastery, format diversity, confidence, misconceptions, decay, scoring, repeat-XP limits, local-calendar streaks, readiness arithmetic, recommendations, review eligibility, backups and achievements.
 - `tests/content.test.ts` (3 tests): independent recomputation of representative numeric answers, topic/source coverage, and enough unique MCQs for a 180-question simulation.
 - `tests/learning-content.test.ts` (3 tests): every module produces a complete beginner briefing, calculator sequences align with expected displays, and every concept has four additional cognitive question formats.
+- `tests/knowledge.test.ts` (3 tests): 4-book/1,174-page crosswalk totals, coverage of every official module, 365 unique outcome IDs, source coordinates and valid curriculum destinations.
 - `tests/session.test.ts` (2 tests): unanswered items cannot create study progress, and session finalization cannot double count a submission.
 
 **Production build passed** with TypeScript strict checking and Vite 7.1.3. Lesson/question data is split into ten topic files loaded on demand.
 
-**Content audit passed with zero structural warnings:** 10 topics; 93 learning modules; 1 reference supplement; 1,689 indexed section headings; 99 foundation lessons; 620 MCQs; 99 recall prompts; 26 formula prompts; 745 total retrieval records. All cards/questions retain valid module-level source ranges. Structural checks do not certify exhaustive LOS-level coverage.
+**Content audit passed with zero structural warnings:** 10 topics; 93 official learning modules; 1 reference supplement; 1,689 official section headings; 4 study-note books; 152 teaching units; 365 unique learning outcomes; 99 foundation lessons; 620 MCQs; 99 recall prompts; 26 formula prompts; 745 total retrieval records. Every study-note branch resolves to a valid official curriculum destination. Structural checks do not certify expert accuracy or a dedicated full lesson for every outcome.
 
 ## Browser flows exercised
 
@@ -26,6 +27,8 @@ Validated during the build session on 10 September 2026.
 | Wrong high-confidence MCQ | Confidently Wrong flag and Memory Rescue priority observed |
 | Complete a one-question practice session | Result screen and completed-session record observed |
 | Learn-from-zero pathway | All 10 topic primers and representative module briefing rendered |
+| Knowledge mind maps | Passed: ten-topic selector, connected module/unit/outcome tree, search and clickable outcome route rendered; automated crosswalk integrity passed |
+| Outcome lesson route | Passed: beginner mission, mental model, vocabulary, five-pass method, inherited lessons, formula helper, source trace and targeted practice rendered |
 | BA II Plus guided drill | Reset sequence accepted key-by-key; completion explanation rendered |
 | BA II Plus reference layout | 44 keys, nine-row geometry, secondary labels and two-row equals key rendered; 390 px frame measured with no horizontal overflow |
 | Formula reconstruction | Typed answer → reveal → self-assessment → memory/XP update passed |
@@ -40,6 +43,7 @@ Validated during the build session on 10 September 2026.
 | Demo isolation | Clear demo banner and separate unsaved example activity |
 | Desktop layout | Visual screenshot inspected at approximately 1348px viewport |
 | Mobile layout | 390px test frame; actual content width 375px with scrollWidth 375px, no horizontal overflow |
+| Mobile knowledge graph and outcome lesson | Both rendered at 375px content width with scrollWidth 375px; drawer route and clickable outcome passed |
 | Mobile navigation and formula library | Drawer navigation worked; formula page also had no horizontal overflow |
 
 A download-event notification timed out in the test browser even though the JSON file downloaded successfully. The resulting file was directly inspected and reused for the successful browser import test. No production export error was observed.

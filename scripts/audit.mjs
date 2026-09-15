@@ -2,6 +2,7 @@ import fs from "node:fs";
 import assert from "node:assert/strict";
 const topics = JSON.parse(fs.readFileSync("src/data/curriculum.json"));
 const catalog = JSON.parse(fs.readFileSync("src/data/catalog.json"));
+const knowledge = JSON.parse(fs.readFileSync("src/data/schweser-map.json"));
 const concepts = topics.flatMap((t) =>
   JSON.parse(fs.readFileSync(`public/content/${t.id}.json`)),
 );
@@ -10,6 +11,12 @@ const ids = new Set();
 const warnings = [];
 const rows = [];
 assert.equal(topics.length, 10);
+assert.equal(knowledge.meta.books, 4);
+assert.equal(knowledge.meta.pages, 1174);
+assert.equal(knowledge.modules.length, 152);
+const objectiveIds = knowledge.modules.flatMap((m) => m.objectives.map((o) => o.id));
+assert.equal(objectiveIds.length, 365);
+assert.equal(new Set(objectiveIds).size, objectiveIds.length);
 assert.equal(
   topics.reduce((s, t) => s + t.pages, 0),
   3416,
@@ -66,6 +73,8 @@ for (const t of topics)
       formulaPrompts: cs
         .flatMap((c) => c.questions)
         .filter((q) => q.type === "formula").length,
+      studyNoteUnits: knowledge.modules.filter((x) => x.moduleId === m.id).length,
+      learningOutcomes: knowledge.modules.filter((x) => x.moduleId === m.id).reduce((sum, x) => sum + x.objectives.length, 0),
       source: t.file,
       pdfPages: `${m.pdfPage}-${m.endPdfPage}`,
       coverage: m.supplement
@@ -80,6 +89,10 @@ const totals = {
   supplements: rows.filter((r) => r.coverage.startsWith("Reference")).length,
   pdfPages: 3416,
   sourceSectionHeadings: rows.reduce((s, r) => s + r.sourceSections, 0),
+  studyNoteBooks: knowledge.meta.books,
+  studyNotePages: knowledge.meta.pages,
+  studyNoteUnits: knowledge.meta.studyModules,
+  learningOutcomes: knowledge.meta.learningObjectives,
   conceptCards: concepts.length,
   mcqs: qs.filter((q) => q.choices.length).length,
   recallPrompts: qs.filter((q) => q.type === "recall").length,

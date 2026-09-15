@@ -5,6 +5,10 @@
     "supplements": 1,
     "pdfPages": 3416,
     "sourceSectionHeadings": 1689,
+    "studyNoteBooks": 4,
+    "studyNotePages": 1174,
+    "studyNoteUnits": 152,
+    "learningOutcomes": 365,
     "conceptCards": 99,
     "mcqs": 620,
     "recallPrompts": 99,
@@ -24,6 +28,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "11-52",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -38,6 +44,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "53-94",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -52,6 +60,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "95-138",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -66,6 +76,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "139-158",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -80,6 +92,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "159-182",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -94,6 +108,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "183-200",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -108,6 +124,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "201-222",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -122,6 +140,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "223-250",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -136,6 +156,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "251-270",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -150,6 +172,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 6,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "271-334",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -164,6 +188,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "335-348",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -178,6 +204,8 @@
       "recallPrompts": 0,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 0,
+      "learningOutcomes": 0,
       "source": "cfa-program2026L1V1.pdf",
       "pdfPages": "349-358",
       "coverage": "Reference supplement"
@@ -192,6 +220,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "11-56",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -206,6 +236,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "57-86",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -220,6 +252,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "87-112",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -234,6 +268,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "113-148",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -248,6 +284,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 6,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "149-202",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -262,6 +300,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "203-222",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -276,6 +316,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "223-260",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -290,6 +332,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V2.pdf",
       "pdfPages": "261-280",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -304,6 +348,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "11-44",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -318,6 +364,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "45-74",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -332,6 +380,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "75-104",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -346,6 +396,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "105-142",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -360,6 +412,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "143-180",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -374,6 +428,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "181-220",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -388,6 +444,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V3.pdf",
       "pdfPages": "221-250",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -402,6 +460,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "15-48",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -416,6 +476,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 5,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "49-102",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -430,6 +492,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "103-134",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -444,6 +508,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "135-166",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -458,6 +524,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "167-184",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -472,6 +540,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "185-220",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -486,6 +556,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "221-252",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -500,6 +572,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "253-288",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -514,6 +588,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "289-322",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -528,6 +604,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 8,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "323-392",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -542,6 +620,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 5,
+      "learningOutcomes": 6,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "393-458",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -556,6 +636,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V4.pdf",
       "pdfPages": "459-516",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -570,6 +652,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 12,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "13-90",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -584,6 +668,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 11,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "91-132",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -598,6 +684,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 7,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "133-168",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -612,6 +700,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 8,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "169-206",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -626,6 +716,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "207-254",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -640,6 +732,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "255-294",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -654,6 +748,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "295-344",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -668,6 +764,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 3,
+      "learningOutcomes": 13,
       "source": "cfa-program2026L1V5.pdf",
       "pdfPages": "345-398",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -682,6 +780,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "13-32",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -696,6 +796,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "33-64",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -710,6 +812,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "65-88",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -724,6 +828,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "89-116",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -738,6 +844,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "117-136",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -752,6 +860,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "137-166",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -766,6 +876,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "167-196",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -780,6 +892,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "197-220",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -794,6 +908,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "221-248",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -808,6 +924,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "249-276",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -822,6 +940,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "277-306",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -836,6 +956,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "307-330",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -850,6 +972,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "331-354",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -864,6 +988,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "355-392",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -878,6 +1004,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 1,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "393-420",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -892,6 +1020,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "421-452",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -906,6 +1036,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "453-474",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -920,6 +1052,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "475-506",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -934,6 +1068,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V6.pdf",
       "pdfPages": "507-546",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -948,6 +1084,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "11-30",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -962,6 +1100,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "31-60",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -976,6 +1116,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "61-84",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -990,6 +1132,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "85-106",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1004,6 +1148,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "107-136",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1018,6 +1164,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "137-156",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1032,6 +1180,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "157-178",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1046,6 +1196,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "179-204",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1060,6 +1212,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "205-226",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1074,6 +1228,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V7.pdf",
       "pdfPages": "227-246",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1088,6 +1244,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "11-40",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1102,6 +1260,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "41-72",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1116,6 +1276,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "73-100",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1130,6 +1292,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "101-128",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1144,6 +1308,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "129-154",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1158,6 +1324,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "155-186",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1172,6 +1340,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 4,
       "source": "cfa-program2026L1V8.pdf",
       "pdfPages": "187-220",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1186,6 +1356,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 4,
+      "learningOutcomes": 7,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "13-70",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1200,6 +1372,8 @@
       "recallPrompts": 1,
       "formulas": 1,
       "formulaPrompts": 1,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 9,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "71-130",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1214,6 +1388,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 6,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "131-168",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1228,6 +1404,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 8,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "169-212",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1242,6 +1420,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 2,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "213-248",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1256,6 +1436,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 7,
       "source": "cfa-program2026L1V9.pdf",
       "pdfPages": "249-300",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1270,6 +1452,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 8,
       "source": "cfa-program2026L1V10.pdf",
       "pdfPages": "17-46",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1284,6 +1468,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V10.pdf",
       "pdfPages": "47-66",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1298,6 +1484,8 @@
       "recallPrompts": 7,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 9,
+      "learningOutcomes": 3,
       "source": "cfa-program2026L1V10.pdf",
       "pdfPages": "67-254",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1312,6 +1500,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 5,
       "source": "cfa-program2026L1V10.pdf",
       "pdfPages": "255-264",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"
@@ -1326,6 +1516,8 @@
       "recallPrompts": 1,
       "formulas": 0,
       "formulaPrompts": 0,
+      "studyNoteUnits": 1,
+      "learningOutcomes": 2,
       "source": "cfa-program2026L1V10.pdf",
       "pdfPages": "265-302",
       "coverage": "Beginner briefing plus foundation lesson; exhaustive LOS authoring remains in progress"

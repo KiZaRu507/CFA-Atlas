@@ -43,6 +43,24 @@ export interface CalculatorDrill {
   trap: string;
   level: "Foundation" | "Core CFA" | "Exam ready";
 }
+export interface LearningObjective {
+  id: string;
+  code: string;
+  text: string;
+  book: number;
+  pdfPage: number;
+}
+export interface StudyModule {
+  id: string;
+  reading: number;
+  part: number;
+  title: string;
+  topicId: string;
+  moduleId: string;
+  book: number;
+  pdfPage: number;
+  objectives: LearningObjective[];
+}
 export interface Formula {
   name: string;
   expression: string;
