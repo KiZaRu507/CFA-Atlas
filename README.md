@@ -1,6 +1,6 @@
 # CFA Atlas — a local-first 2026 Level I learning workspace
 
-A working React + TypeScript app with a complete curriculum map, a 365-outcome study-note crosswalk and ten interactive topic mind maps, an **expanded original learning bank**, confidence-aware spaced recall, quizzes, formulas, adaptive sessions, calculator training and portable local progress.
+A working React + TypeScript app with a complete curriculum map, a 365-outcome study-note crosswalk, ten interactive topic mind maps and ten subject-specific learning games, an **expanded original learning bank**, confidence-aware spaced recall, quizzes, formulas, adaptive sessions, calculator training and portable local progress.
 
 **Platform functionality and curriculum completeness are different.** All ten topics, 93 official learning modules, 152 study-note teaching units and 365 extracted learning outcomes are represented. The 99 deep foundation cards do not yet give every outcome a unique full-length lesson or question set. Read `docs/CONTENT-COVERAGE.md` and the module-by-module audit before relying on coverage. No software can guarantee an exam pass.
 
@@ -47,6 +47,9 @@ The optional demo is visibly labeled and separate from real persisted progress. 
 - All ten topics, 93 learning modules, one reference supplement and source-section maps.
 - Four SchweserNotes books audited (1,174 pages): 152 teaching units and 365 distinct learning outcomes cross-mapped to the official curriculum.
 - Ten interactive topic mind maps with searchable Topic → official module → teaching unit → outcome branches; each outcome opens a beginner route, source trace, formula helper and targeted module practice.
+- A Concept Arcade with ten distinct subject games: Compounding Time Machine, Market Shock Control Room, Capital Command, Statement Detective, Valuation Trading Desk, Bond Reactor, Payoff Architect, Due-Diligence Vault, Diversification Lab and Ethics Court.
+- Each game combines an interactive direction-and-formula simulation with an eight-round decision campaign, shields, combinations, scoring, immediate explanations and misconception repair. Campaigns can cover a whole topic or target any one of the 365 mapped outcomes.
+- Game moves are genuine learning records: confidence, correctness, difficulty, concept memory, XP, mistake categories and review timing all update through the same retention engine as formal practice.
 - A dedicated Learn from Zero academy with beginner topic primers and structured briefings for all 93 learning modules.
 - 99 foundation concept lessons, 26 formula cards, 620 MCQs, 99 recall prompts and 26 formula-reconstruction prompts (745 total retrieval records).
 - A visually faithful BA II Plus lab with the complete 44-key face, yellow second-function labels and 12 key-by-key drills covering setup, TVM, timing, cash flows, NPV/IRR, statistics, rate conversion, bond orientation and amortization.
@@ -75,6 +78,7 @@ src/data/beginner.ts         Beginner topic/module teaching scaffolds
 src/data/calculator.ts       BA II Plus drills and official source links
 src/data/schweser-map.json   Metadata-only 4-book teaching-unit/outcome crosswalk
 src/data/knowledge.ts        Knowledge graph lookup and beginner learning method
+src/data/games.ts            Ten topic-native simulations and game definitions
 scripts/                    Reproducible authoring/extraction helpers and coverage audit
 tests/*.test.ts              26 engine, content, calculator and session regression tests
 tests/browser/              Responsive browser QA harness (development only)
@@ -147,7 +151,7 @@ The BA II Plus lab was written against the official [Texas Instruments BA II Plu
 
 ## Tests
 
-`npm test` runs pure engine and validation tests without an external service. `npm run audit:content` checks all module/question references and writes CSV/JSON coverage matrices. Browser testing is documented in `docs/QA-REPORT.md`, including any limitations. The source ZIP has no test user history.
+`npm test` runs pure engine and validation tests without an external service. It includes game-domain, uniqueness and independently checked simulation-value tests. `npm run audit:content` checks all module/question references and writes CSV/JSON coverage matrices. Browser testing is documented in `docs/QA-REPORT.md`, including any limitations. The source ZIP has no test user history.
 
 ## Known limitations / priorities
 
@@ -161,6 +165,7 @@ The BA II Plus lab was written against the official [Texas Instruments BA II Plu
 8. The BA II Plus lab is a guided keystroke trainer, not a complete electronic emulator. Physical practice on the exact calculator model remains essential.
 9. Local browser data is not encrypted by the application. There is no cloud sync, installable PWA service worker or mobile native app.
 10. Tests run on Linux/Chrome; direct Windows installation and other browsers have not been executed here.
+11. The games use ten topic-level mechanics and the existing 620-question bank. A selected learning outcome currently draws from its parent module because the full bank is not yet tagged at all 365 individual outcome nodes. Future expansion should add bespoke puzzles and multiple stages to every outcome.
 
 Next priorities: LOS-level content expansion and expert verification; larger independent scenario bank; exact references; persistent/resumable mocks; empirically tuned scheduling and difficulty.
 

@@ -13,6 +13,7 @@ import {
   Download,
   Flame,
   GraduationCap,
+  Gamepad2,
   GitBranch,
   LayoutDashboard,
   Library,
@@ -49,6 +50,7 @@ import {
   modulesForTopic,
   objectiveGuide,
 } from "./data/knowledge";
+import { conceptGames, type Direction } from "./data/games";
 import {
   calculatorChecklist,
   calculatorDrills,
@@ -413,6 +415,7 @@ function App() {
     ["/", "Command center", LayoutDashboard],
     ["/learn", "Learn from zero", GraduationCap],
     ["/knowledge", "Knowledge mind maps", GitBranch],
+    ["/games", "Concept arcade", Gamepad2],
     ["/curriculum", "Curriculum map", BookOpen],
     ["/study", "Study arena", Target],
     ["/review", "Memory rescue", Brain],
@@ -583,6 +586,8 @@ function App() {
             <CalculatorLab />
           ) : route === "/knowledge" ? (
             <KnowledgeRepository />
+          ) : route === "/games" ? (
+            <GameArcade p={p} mutate={mutate} />
           ) : route === "/learn" ? (
             <LearnAcademy p={p} />
           ) : route === "/review" || route === "/mistakes" ? (
@@ -1229,6 +1234,151 @@ function CalculatorLab() {
       </div>
       <section className="panel exam-checklist"><h2>Exam-day calculator checklist</h2>{calculatorChecklist.map((x) => <p key={x}><Check size={17} />{x}</p>)}</section>
       <p className="coverage-note">The trainer reproduces guided key sequences and expected displays; it is not a complete electronic emulator. Verify physical key labels on your own model and practice every drill on that calculator.</p>
+    </>
+  );
+}
+
+function GameArcade({ p, mutate }: { p: Progress; mutate: Mutator }) {
+  const [selected, setSelected] = useState(conceptGames[0].topicId);
+  const [objectiveId, setObjectiveId] = useState("");
+  const [phase, setPhase] = useState<"brief" | "lab" | "play" | "done">("brief");
+  const [driver, setDriver] = useState(conceptGames[0].start);
+  const [prediction, setPrediction] = useState<Direction | null>(null);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [index, setIndex] = useState(0);
+  const [choice, setChoice] = useState<number | null>(null);
+  const [confidence, setConfidence] = useState<number | null>(null);
+  const [graded, setGraded] = useState(false);
+  const [results, setResults] = useState<boolean[]>([]);
+  const [points, setPoints] = useState(0);
+  const [combo, setCombo] = useState(0);
+  const [lives, setLives] = useState(3);
+  const [started, setStarted] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const game = conceptGames.find((item) => item.topicId === selected)!;
+  const topic = topics.find((item) => item.id === selected)!;
+  const objectives = learningObjectives.filter((item) => item.studyModule.topicId === selected);
+  const q = questions[index];
+  const output = game.calculate(driver);
+  const gameAttempts = p.attempts.filter((attempt) => attempt.mode === `Game: ${game.title}`);
+  const gameAccuracy = accuracy(gameAttempts);
+
+  function chooseGame(topicId: string) {
+    const next = conceptGames.find((item) => item.topicId === topicId)!;
+    setSelected(topicId);
+    setObjectiveId("");
+    setPhase("brief");
+    setDriver(next.start);
+    setPrediction(null);
+    setQuestions([]);
+  }
+
+  async function beginCampaign() {
+    setLoading(true);
+    try {
+      const selectedObjective = objectiveId ? findObjective(objectiveId) : undefined;
+      const allowedModules = selectedObjective ? [selectedObjective.studyModule.moduleId] : topic.modules.filter((module) => !module.supplement).map((module) => module.id);
+      const concepts = (await loadTopic(selected)).filter((concept) => allowedModules.includes(concept.moduleId));
+      const pool = concepts.flatMap((concept) => concept.questions.filter((question) => question.choices.length === 3));
+      const leastSeen = [...pool].sort((a, b) => p.attempts.filter((attempt) => attempt.questionId === a.id).length - p.attempts.filter((attempt) => attempt.questionId === b.id).length || Math.random() - .5);
+      const campaign: Question[] = [];
+      for (const concept of concepts) {
+        const next = leastSeen.find((question) => question.conceptId === concept.id && !campaign.includes(question));
+        if (next) campaign.push(next);
+        if (campaign.length === 8) break;
+      }
+      for (const question of leastSeen) {
+        if (campaign.length === 8) break;
+        if (!campaign.includes(question)) campaign.push(question);
+      }
+      setQuestions(campaign);
+      setIndex(0);
+      setChoice(null);
+      setConfidence(null);
+      setGraded(false);
+      setResults([]);
+      setPoints(prediction === game.prediction ? 100 : 0);
+      setCombo(0);
+      setLives(3);
+      setStarted(Date.now());
+      setPhase("play");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function commitMove() {
+    if (!q || choice === null || confidence === null || graded) return;
+    const correct = choice === q.answer;
+    const when = Date.now();
+    const updated = updateMemory(p.memory[q.conceptId], correct, confidence, q.difficulty, `game-${game.visual}`, when);
+    const nextCombo = correct ? combo + 1 : 0;
+    const movePoints = correct ? 100 + q.difficulty * 35 + nextCombo * 20 : 0;
+    mutate((old) => ({
+      ...old,
+      memory: { ...old.memory, [q.conceptId]: updated.memory },
+      attempts: [...old.attempts, {
+        id: newId(), questionId: q.id, conceptId: q.conceptId, topicId: q.topicId, at: when,
+        correct, confidence, difficulty: q.difficulty, format: `game-${game.visual}`,
+        seconds: Math.min(1800, Math.round((when - started) / 1000)), xp: updated.xp,
+        error: correct ? "" : confidence === 3 ? "Confident misconception" : confidence === 0 ? "Guess" : "Concept not understood",
+        mode: `Game: ${game.title}`,
+      }],
+    }));
+    setResults((items) => [...items, correct]);
+    setPoints((value) => value + movePoints);
+    setCombo(nextCombo);
+    if (!correct) setLives((value) => Math.max(0, value - 1));
+    setGraded(true);
+  }
+
+  function nextMove() {
+    if (index + 1 >= questions.length) {
+      const correct = results.filter(Boolean).length;
+      mutate((old) => ({ ...old, sessions: [...old.sessions, { id: newId(), mode: `Game: ${game.title}`, at: Date.now(), total: questions.length, correct, seconds: Math.round((Date.now() - started) / 1000) }] }));
+      setPhase("done");
+      return;
+    }
+    setIndex((value) => value + 1);
+    setChoice(null);
+    setConfidence(null);
+    setGraded(false);
+  }
+
+  const focus = q ? learningObjectives.find((item) => item.studyModule.moduleId === q.moduleId) : undefined;
+  if (phase === "play" && q) return (
+    <>
+      <Title eyebrow={`${topic.title} / LIVE CAMPAIGN`} title={game.title}><Button secondary onClick={() => setPhase("brief")}>Exit game</Button></Title>
+      <div className={`game-shell game-${game.visual}`}>
+        <div className="game-hud panel"><div><small>MISSION</small><b>{objectiveId ? "Targeted outcome" : "Topic campaign"}</b></div><div><small>ROUND</small><b>{index + 1}/{questions.length}</b></div><div><small>SHIELDS</small><b className="game-lives">{"◆".repeat(lives)}{"◇".repeat(3 - lives)}</b></div><div><small>COMBO</small><b>×{combo}</b></div><div><small>SCORE</small><b>{points}</b></div></div>
+        <div className="game-stage panel">
+          <div className="game-scene" aria-hidden="true"><span></span><span></span><span></span><div>{game.role}</div></div>
+          <div className="game-briefing"><span className="eyebrow">{game.mechanic}</span><h2>{q.prompt}</h2>{focus && <a href={`#/objective/${focus.objective.id}`}>Outcome focus {focus.objective.code}: open teaching</a>}</div>
+          <div className="game-moves">
+            {q.choices.map((answer, answerIndex) => <button disabled={graded} className={`${choice === answerIndex ? "selected " : ""}${graded ? answerIndex === q.answer ? "correct" : choice === answerIndex ? "wrong" : "" : ""}`} onClick={() => setChoice(answerIndex)} key={answer}><span>{["A", "B", "C"][answerIndex]}</span><p>{answer}</p></button>)}
+          </div>
+          {!graded && <div className="game-console"><fieldset className="confidence"><legend>Lock your confidence before committing the move</legend>{["Guess", "Low", "Medium", "High"].map((label, confidenceIndex) => <button className={confidence === confidenceIndex ? "selected" : ""} onClick={() => setConfidence(confidenceIndex)} key={label}>{label}</button>)}</fieldset><Button disabled={choice === null || confidence === null} onClick={commitMove}>Commit move <Zap size={16} /></Button></div>}
+          {graded && <div className={`game-debrief ${choice === q.answer ? "win" : "repair"}`}><span>{choice === q.answer ? "MOVE CLEARED" : confidence === 3 ? "CRITICAL MISCONCEPTION" : "REPAIR WINDOW"}</span><h3>{choice === q.answer ? `+${100 + q.difficulty * 35 + combo * 20} game points` : "The shield is lost; the knowledge is not."}</h3><p>{q.explanation}</p>{q.distractors[choice === q.answer ? 0 : choice || 0] && choice !== q.answer && <p><b>Why that move failed:</b> {q.distractors[choice!]}</p>}<div className="actions">{focus && <Button secondary onClick={() => navigate(`/objective/${focus.objective.id}`)}>Study the outcome</Button>}<Button onClick={nextMove}>{index + 1 === questions.length ? "Finish campaign" : "Next move"}<ArrowRight size={16} /></Button></div></div>}
+        </div>
+      </div>
+    </>
+  );
+
+  if (phase === "done") {
+    const correct = results.filter(Boolean).length;
+    const pct = Math.round(correct / (questions.length || 1) * 100);
+    return <><Title eyebrow="CAMPAIGN COMPLETE" title={game.title} /><section className="panel game-victory"><Trophy /><span className="eyebrow">{pct >= 80 ? "DESK MASTERED" : pct >= 60 ? "MISSION SURVIVED" : "REPAIR MISSION CREATED"}</span><h2>{correct}/{questions.length} moves cleared</h2><div className="victory-score">{points}<small>game points</small></div><p>{pct >= 80 ? "Strong decisions. The next challenge is delayed retrieval: return after the review interval, not immediately." : "The failed moves are now part of your learning history. Memory Rescue will bring weak concepts back."}</p><div className="actions"><Button onClick={() => { setPrediction(null); setDriver(game.start); setPhase("lab"); }}>Play again</Button><Button secondary onClick={() => navigate("/review")}>Open Memory Rescue</Button><Button secondary onClick={() => setPhase("brief")}>Choose another mission</Button></div></section></>;
+  }
+
+  return (
+    <>
+      <Title eyebrow="TEN SUBJECTS · TEN WAYS TO THINK" title="Concept arcade"><span className="pill">REAL LEARNING GAMES</span></Title>
+      <div className="game-tabs" role="tablist" aria-label="Choose a concept game">{conceptGames.map((item, i) => <button role="tab" aria-selected={selected === item.topicId} className={selected === item.topicId ? "active" : ""} onClick={() => chooseGame(item.topicId)} key={item.topicId}><span>{String(i + 1).padStart(2, "0")}</span><b>{item.title}</b><small>{topics.find((topic) => topic.id === item.topicId)?.title}</small></button>)}</div>
+      <div className={`game-launch game-${game.visual}`}>
+        <section className="panel game-profile"><div className="game-emblem"><Gamepad2 /></div><span className="eyebrow">YOU ARE THE {game.role.toUpperCase()}</span><h2>{game.title}</h2><p className="lead">{game.mission}</p><div className="mechanic-card"><b>How this game works</b><p>{game.mechanic}</p><span>Prediction lab → 8 decision rounds → instant repair → spaced review</span></div><dl><dt>Topic outcomes available</dt><dd>{objectives.length}</dd><dt>Previous game accuracy</dt><dd>{gameAttempts.length ? `${gameAccuracy}%` : "New"}</dd><dt>Recorded game moves</dt><dd>{gameAttempts.length}</dd></dl></section>
+        {phase === "brief" ? <section className="panel game-mission-select"><span className="eyebrow">SELECT A CAMPAIGN</span><h2>Play broadly or attack one outcome.</h2><button className={!objectiveId ? "mission-option active" : "mission-option"} onClick={() => setObjectiveId("")}><Shuffle /><div><b>Full topic campaign</b><p>Interleaved questions across the subject. Best for flexible exam recall.</p></div><Check /></button><label className={objectiveId ? "mission-option active objective-pick" : "mission-option objective-pick"}><Target /><div><b>Target one learning outcome</b><p>Choose any mapped outcome; the campaign uses its parent module’s concept bank.</p><select value={objectiveId} onChange={(event) => setObjectiveId(event.target.value)}><option value="">Choose an outcome…</option>{objectives.map(({ objective, studyModule }) => <option value={objective.id} key={objective.id}>{objective.code} · {studyModule.title.toLowerCase()}</option>)}</select></div></label><Button onClick={() => setPhase("lab")}>Enter prediction lab <ArrowRight size={16} /></Button></section> : <section className="panel prediction-lab"><span className="eyebrow">INTUITION BEFORE FORMULA</span><h2>Predict first. Then move the control.</h2><p>{game.predictionPrompt}</p><div className="prediction-buttons">{(["Rises", "Falls", "Depends"] as Direction[]).map((direction) => <button className={prediction === direction ? "selected" : ""} onClick={() => setPrediction(direction)} key={direction}>{direction}</button>)}</div>{prediction && <div className={prediction === game.prediction ? "prediction-result correct" : "prediction-result wrong"}><b>{prediction === game.prediction ? "Prediction correct." : `Not quite—the direction is ${game.prediction.toLowerCase()}.`}</b><p>{game.intuition}</p></div>}<label className="game-slider"><span>{game.driver}<b>{driver} {game.unit}</b></span><input aria-label={game.driver} type="range" min={game.min} max={game.max} step={game.step} value={driver} onChange={(event) => setDriver(Number(event.target.value))} /></label><div className="sim-output"><span>{output.label}</span><b>{output.value}</b><small>{output.note}</small></div><Button disabled={!prediction || loading} onClick={beginCampaign}>{loading ? "Loading campaign…" : "Launch decision rounds"}<Play size={16} /></Button></section>}
+      </div>
+      <p className="coverage-note">Games use original CFA Atlas questions and simplified teaching simulations. Simulation outputs state their assumptions and are not market forecasts. Correct game moves update the same confidence-sensitive mastery and review schedule as formal practice.</p>
     </>
   );
 }

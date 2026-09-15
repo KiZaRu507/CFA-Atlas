@@ -13,6 +13,7 @@ No online curriculum was used to replace the supplied PDFs. Original source PDFs
 - Ten-topic navigation, all module names and their physical PDF ranges.
 - A metadata-only Schweser crosswalk covering 4 books, 152 teaching units and 365 unique outcomes, with study-note book/PDF page traceability and an official-module destination for every branch.
 - A responsive interactive mind map for each of the ten topics. Outcome nodes open a beginner mission, five-pass learning method, module foundations, formula helper, original deep lesson links and targeted module practice.
+- Ten topic-native learning games. Every mapped outcome can be selected as a game mission; its current game rounds draw from the associated official module’s authored bank. Interactive simulations cover compounding, market shocks, NPV, operating margin, Gordon growth, bond price/yield, option payoff, fee drag, correlation and conflict risk.
 - Every learning module has at least one original teaching card, MCQ and active-recall prompt.
 - Every authored card and question has a source filename and module page range.
 - 99 original foundation lessons; 620 original three-option MCQs (base scenarios, numerical variants, recognition, misconception-repair, application, and interpretation); 99 self-assessed recall prompts; 26 formula cards with 26 formula reconstruction prompts.
@@ -46,3 +47,4 @@ The supplied book introductions do not specify an extractable official exam blue
 3. Add remaining formulas, precise source pages and expert review metadata.
 4. Introduce approved blueprint weights only when supplied or separately verified; support richer multi-session mock navigation.
 5. Validate question difficulty empirically; current 1–3 labels are editorial estimates.
+6. Expand each outcome into a bespoke multi-stage puzzle rather than drawing its decision rounds from the parent module bank.
